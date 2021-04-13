@@ -1,0 +1,136 @@
+{
+  "Name": "Read_pdf",
+  "CreationDate": "2021-4-12",
+  "Commands": [
+    {
+      "Command": "XRun",
+      "Target": "C:\\Users\\Administrator.TECHNE\\Desktop\\My Account - Add Payment Account - confirmation.pdf",
+      "Value": ""
+    },
+    {
+      "Command": "XDesktopAutomation",
+      "Target": "true",
+      "Value": ""
+    },
+    {
+      "Command": "comment",
+      "Target": "pause // 2000",
+      "Value": ""
+    },
+    {
+      "Command": "OCRExtract",
+      "Target": "accountInfo_dpi_120.png",
+      "Value": "accountInfo"
+    },
+    {
+      "Command": "comment",
+      "Target": "OCRExtract // rpa_demo_dpi_120.png",
+      "Value": "accountInfo"
+    },
+    {
+      "Command": "comment",
+      "Target": "OCRExtract // homeTools_dpi_120.png",
+      "Value": "accountInfo"
+    },
+    {
+      "Command": "executeScript_Sandbox",
+      "Target": "return ${accountInfo}.replace(/[\\t\\n\\r]/gm,'');",
+      "Value": "accountInfo"
+    },
+    {
+      "Command": "echo",
+      "Target": "${accountInfo}",
+      "Value": "blue"
+    },
+    {
+      "Command": "store",
+      "Target": "${accountInfo}",
+      "Value": "!csvLine"
+    },
+    {
+      "Command": "csvSave",
+      "Target": "myPDF",
+      "Value": ""
+    },
+    {
+      "Command": "comment",
+      "Target": "XRun // C:\\Program Files\\Mozilla Firefox\\firefox.exe",
+      "Value": ""
+    },
+    {
+      "Command": "pause",
+      "Target": "5000",
+      "Value": ""
+    },
+    {
+      "Command": "open",
+      "Target": "https://mail.google.com/mail/u/1/#inbox",
+      "Value": ""
+    },
+    {
+      "Command": "bringBrowserToForeground",
+      "Target": "",
+      "Value": ""
+    },
+    {
+      "Command": "XClickRelative",
+      "Target": "maximize1_dpi_120.png",
+      "Value": ""
+    },
+    {
+      "Command": "XClick",
+      "Target": "clickNewEmail_dpi_109.png",
+      "Value": ""
+    },
+    {
+      "Command": "XClickRelative",
+      "Target": "receiver_dpi_120.png",
+      "Value": ""
+    },
+    {
+      "Command": "comment",
+      "Target": "pause // 2000",
+      "Value": ""
+    },
+    {
+      "Command": "XType",
+      "Target": "makifkav44@gmail.com",
+      "Value": ""
+    },
+    {
+      "Command": "XClick",
+      "Target": "attach_dpi_120.png",
+      "Value": ""
+    },
+    {
+      "Command": "XClickRelative",
+      "Target": "upload_dpi_120.png",
+      "Value": ""
+    },
+    {
+      "Command": "XType",
+      "Target": "C:\\Users\\Administrator.TECHNE\\Desktop\\uivision\\datasources",
+      "Value": ""
+    },
+    {
+      "Command": "XType",
+      "Target": "${KEY_ENTER}",
+      "Value": ""
+    },
+    {
+      "Command": "XClick",
+      "Target": "ocr=myPDF",
+      "Value": "#doubleclick"
+    },
+    {
+      "Command": "XClick",
+      "Target": "sendButton_dpi_120.png",
+      "Value": ""
+    },
+    {
+      "Command": "visualVerify",
+      "Target": "messageSent_dpi_109.png",
+      "Value": ""
+    }
+  ]
+}

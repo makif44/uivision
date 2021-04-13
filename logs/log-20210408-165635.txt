@@ -1,0 +1,31 @@
+2021-04-08T16:56:35.084Z - UI.Vision RPA started
+2021-04-08T16:56:35.899Z - [status] Playing macro RPA_Demo/Read_pdf.json
+2021-04-08T16:56:35.962Z - [info] Executing:  | XRun | C:\Users\Administrator.TECHNE\Desktop\My Account - Add Payment Account - confirmation.pdf |  | 
+2021-04-08T16:56:36.334Z - [info] Executing:  | pause | 2000 |  | 
+2021-04-08T16:56:38.371Z - [info] Executing:  | OCRExtract | accountInfo_dpi_120.png | accountInfo | 
+2021-04-08T16:56:41.914Z - [info] OCR (eng) started (3.7 KB)
+2021-04-08T16:56:46.458Z - [info] OCR result received (4.5s from endpoint 1)
+2021-04-08T16:56:46.718Z - [info] Executing:  | executeScript_Sandbox | return ${accountInfo}.replace(/[\t\n\r]/gm,''); | accountInfo | 
+2021-04-08T16:56:46.744Z - [info] Executing:  | echo | ${accountInfo} | blue | 
+2021-04-08T16:56:46.755Z - [echo] Xcel Account Number:51-0013351023-6Name on Account:AYSE KAVUKCUOGULLARI
+2021-04-08T16:56:46.780Z - [info] Executing:  | store | ${accountInfo} | !csvLine | 
+2021-04-08T16:56:46.822Z - [info] Executing:  | csvSave | myPDF |  | 
+2021-04-08T16:56:48.804Z - [info] Executing:  | comment | XRun // C:\Program Files\Mozilla Firefox\firefox.exe |  | 
+2021-04-08T16:56:48.837Z - [info] Executing:  | pause | 5000 |  | 
+2021-04-08T16:56:53.882Z - [info] Executing:  | open | https://mail.google.com/mail/u/1/#inbox |  | 
+2021-04-08T16:56:57.411Z - [info] Executing:  | bringBrowserToForeground |  |  | 
+2021-04-08T16:56:57.577Z - [info] Executing:  | XClickRelative | maximize1_dpi_120.png |  | 
+2021-04-08T16:56:59.185Z - [info] Executing:  | XClick | clickNewEmail_dpi_109.png |  | 
+2021-04-08T16:57:00.563Z - [info] Executing:  | XClickRelative | receiver_dpi_120.png |  | 
+2021-04-08T16:57:04.179Z - [info] Executing:  | comment | pause // 2000 |  | 
+2021-04-08T16:57:04.262Z - [info] Executing:  | XType | makifkav44@gmail.com |  | 
+2021-04-08T16:57:04.736Z - [info] Executing:  | XClick | attach_dpi_120.png |  | 
+2021-04-08T16:57:05.809Z - [info] Executing:  | XClickRelative | upload_dpi_120.png |  | 
+2021-04-08T16:57:08.390Z - [info] Executing:  | XType | C:\Users\Administrator.TECHNE\Desktop\uivision\datasources |  | 
+2021-04-08T16:57:08.932Z - [info] Executing:  | XType | ${KEY_ENTER} |  | 
+2021-04-08T16:57:09.399Z - [info] Executing:  | XClick | ocr=myPDF | #doubleclick | 
+2021-04-08T16:57:11.026Z - [info] OCR (eng) started (424.5 KB)
+2021-04-08T16:57:16.741Z - [info] OCR result received (5.7s from endpoint 2)
+2021-04-08T16:57:17.255Z - [info] Executing:  | XClick | sendButton_dpi_120.png |  | 
+2021-04-08T16:57:18.649Z - [info] Executing:  | visualVerify | messageSent_dpi_109.png |  | 
+2021-04-08T16:57:21.359Z - [info] Macro completed (Runtime 45.41s)

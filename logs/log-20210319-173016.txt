@@ -1,0 +1,6 @@
+2021-03-19T15:30:16.714Z - UI.Vision RPA started
+2021-03-19T15:30:18.232Z - [error] No macro found with path 'Create'
+2021-03-19T15:30:38.715Z - [error] No macro found with path 'Create'
+2021-03-19T15:33:13.246Z - [error] Can't find macro with name "Create"
+2021-03-19T15:35:41.649Z - [error] Can't find macro with name "Create"
+2021-03-19T15:35:47.958Z - UI.Vision RPA closing

@@ -1,0 +1,253 @@
+2021-03-16T14:39:24.985Z - UI.Vision RPA started
+2021-03-16T14:41:03.632Z - [status] Playing macro Gmail
+2021-03-16T14:41:03.679Z - [info] Executing:  | XRun | C:\Program Files (x86)\Google\Chrome\Application\chrome.exe |  | 
+2021-03-16T14:41:05.928Z - [info] Executing:  | comment | pause // 5000 |  | 
+2021-03-16T14:41:07.960Z - [info] Executing:  | open | https://mail.google.com/mail/u/1/#inbox |  | 
+2021-03-16T14:41:13.145Z - [info] Executing:  | setWindowSize | 1800x900 |  | 
+2021-03-16T14:41:13.169Z - [warning] Only able to resize it to 1540@763, given 1800@900
+2021-03-16T14:41:15.199Z - [info] Executing:  | bringBrowserToForeground |  |  | 
+2021-03-16T14:41:17.252Z - [info] Executing:  | click | xpath=/html/body |  | 
+2021-03-16T14:41:19.336Z - [info] Executing:  | click | linkText=Snoozed |  | 
+2021-03-16T14:41:21.417Z - [info] Executing:  | verifyText | name=q | in:snoozed  | 
+2021-03-16T14:41:21.471Z - [error][ignored] text not matched, 
+	expected: "in:snoozed", 
+	actual: ""
+2021-03-16T14:41:23.498Z - [info] Executing:  | click | linkText=Sent |  | 
+2021-03-16T14:41:25.560Z - [info] Executing:  | verifyText | name=q | in:sent | 
+2021-03-16T14:41:25.594Z - [error][ignored] text not matched, 
+	expected: "in:sent", 
+	actual: ""
+2021-03-16T14:41:27.619Z - [info] Executing:  | click | linkText=Drafts |  | 
+2021-03-16T14:41:29.676Z - [info] Executing:  | verifyText | name=q | in:draft | 
+2021-03-16T14:41:29.714Z - [error][ignored] text not matched, 
+	expected: "in:draft", 
+	actual: ""
+2021-03-16T14:41:31.740Z - [info] Executing:  | click | linkText=Inbox |  | 
+2021-03-16T14:41:33.898Z - [info] Executing:  | click | xpath=(//div[@class='UI']//tr)[1] |  | 
+2021-03-16T14:41:35.957Z - [info] Executing:  | click | xpath=//*[@id=":4"]/div[4]/div/div/div/div/div |  | 
+2021-03-16T14:41:38.019Z - [info] Executing:  | XType | ${KEY_CTRL+KEY_F4} |  | 
+2021-03-16T14:41:40.427Z - [info] Executing:  | XType | ${KEY_CTRL+KEY_F4} |  | 
+2021-03-16T14:41:42.770Z - [info] Executing:  | comment | click // xpath=//*[@id=":e1"]/div[5]/div |  | 
+2021-03-16T14:41:44.865Z - [info] Macro completed (Runtime 41.19s)
+2021-03-16T14:41:57.470Z - [status] Playing macro Gmail
+2021-03-16T14:41:57.509Z - [info] Executing:  | XRun | C:\Program Files (x86)\Google\Chrome\Application\chrome.exe |  | 
+2021-03-16T14:41:58.054Z - [info] Executing:  | comment | pause // 5000 |  | 
+2021-03-16T14:41:58.382Z - [info] Executing:  | open | https://mail.google.com/mail/u/1/#inbox |  | 
+2021-03-16T14:42:01.846Z - [info] Executing:  | setWindowSize | 1800x900 |  | 
+2021-03-16T14:42:01.866Z - [warning] Only able to resize it to 1540@763, given 1800@900
+2021-03-16T14:42:02.185Z - [info] Executing:  | bringBrowserToForeground |  |  | 
+2021-03-16T14:42:02.517Z - [info] Executing:  | click | xpath=/html/body |  | 
+2021-03-16T14:42:03.454Z - [info] Executing:  | click | linkText=Snoozed |  | 
+2021-03-16T14:42:04.261Z - [info] Executing:  | verifyText | name=q | in:snoozed  | 
+2021-03-16T14:42:04.412Z - [error][ignored] text not matched, 
+	expected: "in:snoozed", 
+	actual: ""
+2021-03-16T14:42:04.745Z - [info] Executing:  | click | linkText=Sent |  | 
+2021-03-16T14:42:05.111Z - [info] Executing:  | verifyText | name=q | in:sent | 
+2021-03-16T14:42:05.146Z - [error][ignored] text not matched, 
+	expected: "in:sent", 
+	actual: ""
+2021-03-16T14:42:05.461Z - [info] Executing:  | click | linkText=Drafts |  | 
+2021-03-16T14:42:05.823Z - [info] Executing:  | verifyText | name=q | in:draft | 
+2021-03-16T14:42:05.858Z - [error][ignored] text not matched, 
+	expected: "in:draft", 
+	actual: ""
+2021-03-16T14:42:06.181Z - [info] Executing:  | click | linkText=Inbox |  | 
+2021-03-16T14:42:06.566Z - [info] Executing:  | click | xpath=(//div[@class='UI']//tr)[1] |  | 
+2021-03-16T14:42:06.927Z - [info] Executing:  | click | xpath=//*[@id=":4"]/div[4]/div/div/div/div/div |  | 
+2021-03-16T14:42:17.351Z - [error] timeout reached when looking for element 'xpath=//*[@id=":4"]/div[4]/div/div/div/div/div'
+2021-03-16T14:42:17.437Z - [info] Macro failed (Runtime 19.94s)
+2021-03-16T14:43:47.742Z - [status] Playing macro Gmail
+2021-03-16T14:43:47.789Z - [info] Executing:  | XRun | C:\Program Files (x86)\Google\Chrome\Application\chrome.exe |  | 
+2021-03-16T14:43:48.212Z - [info] Executing:  | comment | pause // 5000 |  | 
+2021-03-16T14:43:48.555Z - [info] Executing:  | open | https://mail.google.com/mail/u/1/#inbox |  | 
+2021-03-16T14:43:51.978Z - [info] Executing:  | setWindowSize | 1800x900 |  | 
+2021-03-16T14:43:52.004Z - [warning] Only able to resize it to 1540@763, given 1800@900
+2021-03-16T14:43:52.335Z - [info] Executing:  | bringBrowserToForeground |  |  | 
+2021-03-16T14:43:52.690Z - [info] Executing:  | click | xpath=/html/body |  | 
+2021-03-16T14:43:53.583Z - [info] Executing:  | clickAndWait | linkText=Snoozed |  | 
+2021-03-16T14:44:13.689Z - [error] 'clickAndWait' failed. No page load event detected after 10 seconds. Try 'click' instead. Error detail: still same ipc secret
+2021-03-16T14:44:13.732Z - [info] Macro failed (Runtime 25.95s)
+2021-03-16T14:44:54.072Z - [status] Playing macro Gmail
+2021-03-16T14:44:54.118Z - [info] Executing:  | XRun | C:\Program Files (x86)\Google\Chrome\Application\chrome.exe |  | 
+2021-03-16T14:44:54.525Z - [info] Executing:  | comment | pause // 5000 |  | 
+2021-03-16T14:44:54.864Z - [info] Executing:  | open | https://mail.google.com/mail/u/1/#inbox |  | 
+2021-03-16T14:45:06.978Z - [error] open' failed. No page load event detected after 10 seconds. Error detail: still same ipc secret
+2021-03-16T14:45:07.021Z - [info] Macro failed (Runtime 12.91s)
+2021-03-16T14:45:40.139Z - [status] Playing macro Gmail
+2021-03-16T14:45:40.181Z - [info] Executing:  | XRun | C:\Program Files (x86)\Google\Chrome\Application\chrome.exe |  | 
+2021-03-16T14:45:40.575Z - [info] Executing:  | comment | pause // 5000 |  | 
+2021-03-16T14:45:40.906Z - [info] Executing:  | open | https://mail.google.com/mail/u/1/#inbox |  | 
+2021-03-16T14:45:44.248Z - [info] Executing:  | setWindowSize | 1700x900 |  | 
+2021-03-16T14:45:44.267Z - [warning] Only able to resize it to 1540@763, given 1700@900
+2021-03-16T14:45:44.596Z - [info] Executing:  | bringBrowserToForeground |  |  | 
+2021-03-16T14:45:44.926Z - [info] Executing:  | click | xpath=/html/body |  | 
+2021-03-16T14:45:45.457Z - [info] Executing:  | click | linkText=Snoozed |  | 
+2021-03-16T14:45:46.131Z - [info] Executing:  | verifyText | name=q | in:snoozed  | 
+2021-03-16T14:45:46.622Z - [error][ignored] text not matched, 
+	expected: "in:snoozed", 
+	actual: ""
+2021-03-16T14:45:46.946Z - [info] Executing:  | click | linkText=Sent |  | 
+2021-03-16T14:45:47.588Z - [info] Executing:  | verifyText | name=q | in:sent | 
+2021-03-16T14:45:47.759Z - [error][ignored] text not matched, 
+	expected: "in:sent", 
+	actual: ""
+2021-03-16T14:45:48.087Z - [info] Executing:  | click | linkText=Drafts |  | 
+2021-03-16T14:45:48.647Z - [info] Executing:  | verifyText | name=q | in:draft | 
+2021-03-16T14:45:48.949Z - [error][ignored] text not matched, 
+	expected: "in:draft", 
+	actual: ""
+2021-03-16T14:45:49.272Z - [info] Executing:  | click | linkText=Inbox |  | 
+2021-03-16T14:45:49.738Z - [info] Executing:  | click | xpath=(//div[@class='UI']//tr)[1] |  | 
+2021-03-16T14:45:50.098Z - [info] Executing:  | click | xpath=//*[@id=":4"]/div[4]/div/div/div/div/div |  | 
+2021-03-16T14:45:50.559Z - [info] Executing:  | XType | ${KEY_CTRL+KEY_F4} |  | 
+2021-03-16T14:45:51.201Z - [info] Executing:  | XType | ${KEY_CTRL+KEY_F4} |  | 
+2021-03-16T14:45:51.843Z - [info] Executing:  | comment | click // xpath=//*[@id=":e1"]/div[5]/div |  | 
+2021-03-16T14:45:52.220Z - [info] Macro completed (Runtime 12.05s)
+2021-03-16T16:36:00.740Z - [status] Playing macro Gmail
+2021-03-16T16:36:00.770Z - [info] Executing:  | XRun | C:\Program Files (x86)\Google\Chrome\Application\chrome.exe |  | 
+2021-03-16T16:36:01.220Z - [info] Executing:  | comment | pause // 5000 |  | 
+2021-03-16T16:36:01.548Z - [info] Executing:  | open | https://mail.google.com/mail/u/1/#inbox |  | 
+2021-03-16T16:36:05.003Z - [info] Executing:  | setWindowSize | 1700x900 |  | 
+2021-03-16T16:36:05.039Z - [warning] Only able to resize it to 1536@722, given 1700@900
+2021-03-16T16:36:05.365Z - [info] Executing:  | bringBrowserToForeground |  |  | 
+2021-03-16T16:36:05.692Z - [info] Executing:  | click | xpath=/html/body |  | 
+2021-03-16T16:36:06.265Z - [info] Executing:  | click | linkText=Snoozed |  | 
+2021-03-16T16:36:07.207Z - [info] Executing:  | verifyText | name=q | in:snoozed  | 
+2021-03-16T16:36:07.569Z - [error][ignored] text not matched, 
+	expected: "in:snoozed", 
+	actual: ""
+2021-03-16T16:36:07.888Z - [info] Executing:  | click | linkText=Sent |  | 
+2021-03-16T16:36:08.352Z - [info] Executing:  | verifyText | name=q | in:sent | 
+2021-03-16T16:36:08.503Z - [error][ignored] text not matched, 
+	expected: "in:sent", 
+	actual: ""
+2021-03-16T16:36:08.832Z - [info] Executing:  | click | linkText=Drafts |  | 
+2021-03-16T16:36:09.255Z - [info] Executing:  | verifyText | name=q | in:draft | 
+2021-03-16T16:36:09.311Z - [error][ignored] text not matched, 
+	expected: "in:draft", 
+	actual: ""
+2021-03-16T16:36:09.626Z - [info] Executing:  | click | linkText=Inbox |  | 
+2021-03-16T16:36:10.116Z - [info] Executing:  | click | xpath=(//div[@class='UI']//tr)[1] |  | 
+2021-03-16T16:36:10.484Z - [info] Executing:  | click | xpath=//*[@id=":4"]/div[4]/div/div/div/div/div |  | 
+2021-03-16T16:36:10.953Z - [info] Executing:  | XType | ${KEY_CTRL+KEY_F4} |  | 
+2021-03-16T16:36:11.598Z - [info] Executing:  | XType | ${KEY_CTRL+KEY_F4} |  | 
+2021-03-16T16:36:12.238Z - [info] Executing:  | comment | click // xpath=//*[@id=":e1"]/div[5]/div |  | 
+2021-03-16T16:36:12.589Z - [info] Macro completed (Runtime 11.83s)
+2021-03-16T16:36:46.943Z - [status] Playing macro Gmail
+2021-03-16T16:36:46.979Z - [info] Executing:  | XRun | C:\Program Files (x86)\Google\Chrome\Application\chrome.exe |  | 
+2021-03-16T16:36:49.194Z - [info] Executing:  | comment | pause // 5000 |  | 
+2021-03-16T16:36:51.214Z - [info] Executing:  | open | https://mail.google.com/mail/u/1/#inbox |  | 
+2021-03-16T16:36:56.160Z - [info] Executing:  | setWindowSize | 1700x900 |  | 
+2021-03-16T16:36:56.186Z - [warning] Only able to resize it to 1536@722, given 1700@900
+2021-03-16T16:36:58.225Z - [info] Executing:  | bringBrowserToForeground |  |  | 
+2021-03-16T16:37:00.263Z - [info] Executing:  | click | xpath=/html/body |  | 
+2021-03-16T16:37:02.328Z - [info] Executing:  | click | linkText=Snoozed |  | 
+2021-03-16T16:37:04.394Z - [info] Executing:  | verifyText | name=q | in:snoozed  | 
+2021-03-16T16:37:04.424Z - [error][ignored] text not matched, 
+	expected: "in:snoozed", 
+	actual: ""
+2021-03-16T16:37:06.466Z - [info] Executing:  | click | linkText=Sent |  | 
+2021-03-16T16:37:08.528Z - [info] Executing:  | verifyText | name=q | in:sent | 
+2021-03-16T16:37:08.565Z - [error][ignored] text not matched, 
+	expected: "in:sent", 
+	actual: ""
+2021-03-16T16:37:10.591Z - [info] Executing:  | click | linkText=Drafts |  | 
+2021-03-16T16:37:12.717Z - [info] Executing:  | verifyText | name=q | in:draft | 
+2021-03-16T16:37:12.748Z - [error][ignored] text not matched, 
+	expected: "in:draft", 
+	actual: ""
+2021-03-16T16:37:14.775Z - [info] Executing:  | click | linkText=Inbox |  | 
+2021-03-16T16:37:16.910Z - [info] Executing:  | click | xpath=(//div[@class='UI']//tr)[1] |  | 
+2021-03-16T16:37:18.968Z - [info] Executing:  | click | xpath=//*[@id=":4"]/div[4]/div/div/div/div/div |  | 
+2021-03-16T16:37:21.035Z - [info] Executing:  | XType | ${KEY_CTRL+KEY_F4} |  | 
+2021-03-16T16:37:23.407Z - [info] Executing:  | XType | ${KEY_CTRL+KEY_F4} |  | 
+2021-03-16T16:37:25.777Z - [info] Executing:  | comment | click // xpath=//*[@id=":e1"]/div[5]/div |  | 
+2021-03-16T16:37:27.831Z - [info] Macro completed (Runtime 40.86s)
+2021-03-16T16:37:40.552Z - [status] Playing macro Gmail
+2021-03-16T16:37:40.582Z - [info] Executing:  | XRun | C:\Program Files (x86)\Google\Chrome\Application\chrome.exe |  | 
+2021-03-16T16:37:42.683Z - [info] Executing:  | comment | pause // 5000 |  | 
+2021-03-16T16:37:44.720Z - [info] Executing:  | open | https://mail.google.com/mail/u/1/#inbox |  | 
+2021-03-16T16:37:49.744Z - [info] Executing:  | setWindowSize | 1700x900 |  | 
+2021-03-16T16:37:49.772Z - [warning] Only able to resize it to 1536@722, given 1700@900
+2021-03-16T16:37:51.797Z - [info] Executing:  | bringBrowserToForeground |  |  | 
+2021-03-16T16:37:53.829Z - [info] Executing:  | click | xpath=/html/body |  | 
+2021-03-16T16:37:55.900Z - [info] Executing:  | click | linkText=Snoozed |  | 
+2021-03-16T16:37:57.954Z - [info] Executing:  | verifyText | name=q | in:snoozed  | 
+2021-03-16T16:37:57.985Z - [error][ignored] text not matched, 
+	expected: "in:snoozed", 
+	actual: ""
+2021-03-16T16:38:00.004Z - [info] Executing:  | click | linkText=Sent |  | 
+2021-03-16T16:38:02.055Z - [info] Executing:  | verifyText | name=q | in:sent | 
+2021-03-16T16:38:02.129Z - [error][ignored] text not matched, 
+	expected: "in:sent", 
+	actual: ""
+2021-03-16T16:38:04.144Z - [info] Executing:  | click | linkText=Drafts |  | 
+2021-03-16T16:38:06.190Z - [info] Executing:  | verifyText | name=q | in:draft | 
+2021-03-16T16:38:06.221Z - [error][ignored] text not matched, 
+	expected: "in:draft", 
+	actual: ""
+2021-03-16T16:38:08.238Z - [info] Executing:  | click | linkText=Inbox |  | 
+2021-03-16T16:38:10.381Z - [info] Executing:  | click | xpath=(//div[@class='UI']//tr)[1] |  | 
+2021-03-16T16:38:12.436Z - [info] Executing:  | click | xpath=//*[@id=":4"]/div[4]/div/div/div/div/div |  | 
+2021-03-16T16:38:14.500Z - [info] Executing:  | XType | ${KEY_CTRL+KEY_F4} |  | 
+2021-03-16T16:38:16.837Z - [info] Executing:  | XType | ${KEY_CTRL+KEY_F4} |  | 
+2021-03-16T16:38:19.209Z - [info] Executing:  | comment | click // xpath=//*[@id=":e1"]/div[5]/div |  | 
+2021-03-16T16:38:21.254Z - [info] Macro completed (Runtime 40.68s)
+2021-03-16T16:49:13.080Z - [status] Playing macro Gmail
+2021-03-16T16:49:13.114Z - [info] Executing:  | XRun | C:\Program Files (x86)\Google\Chrome\Application\chrome.exe |  | 
+2021-03-16T16:49:15.249Z - [info] Executing:  | comment | pause // 5000 |  | 
+2021-03-16T16:49:17.282Z - [info] Executing:  | open | https://mail.google.com/mail/u/1/#inbox |  | 
+2021-03-16T16:49:21.360Z - [info] Executing:  | comment | setWindowSize // 1700x900 |  | 
+2021-03-16T16:49:23.386Z - [info] Executing:  | bringBrowserToForeground |  |  | 
+2021-03-16T16:49:25.464Z - [info] Executing:  | click | xpath=/html/body |  | 
+2021-03-16T16:49:27.551Z - [info] Executing:  | click | linkText=Snoozed |  | 
+2021-03-16T16:49:29.686Z - [info] Executing:  | verifyText | name=q | in:snoozed  | 
+2021-03-16T16:49:29.728Z - [error][ignored] text not matched, 
+	expected: "in:snoozed", 
+	actual: ""
+2021-03-16T16:49:31.750Z - [info] Executing:  | click | linkText=Sent |  | 
+2021-03-16T16:49:33.868Z - [info] Executing:  | verifyText | name=q | in:sent | 
+2021-03-16T16:49:35.417Z - [error][ignored] text not matched, 
+	expected: "in:sent", 
+	actual: ""
+2021-03-16T16:49:37.466Z - [info] Executing:  | click | linkText=Drafts |  | 
+2021-03-16T16:49:39.588Z - [info] Executing:  | verifyText | name=q | in:draft | 
+2021-03-16T16:49:39.635Z - [error][ignored] text not matched, 
+	expected: "in:draft", 
+	actual: ""
+2021-03-16T16:49:41.665Z - [info] Executing:  | click | linkText=Inbox |  | 
+2021-03-16T16:49:43.871Z - [info] Executing:  | click | xpath=(//div[@class='UI']//tr)[1] |  | 
+2021-03-16T16:49:46.002Z - [info] Executing:  | click | xpath=//*[@id=":4"]/div[4]/div/div/div/div/div |  | 
+2021-03-16T16:49:48.185Z - [info] Executing:  | XType | ${KEY_CTRL+KEY_F4} |  | 
+2021-03-16T16:49:50.545Z - [info] Executing:  | XType | ${KEY_CTRL+KEY_F4} |  | 
+2021-03-16T16:49:52.901Z - [info] Executing:  | comment | click // xpath=//*[@id=":e1"]/div[5]/div |  | 
+2021-03-16T16:49:54.969Z - [info] Macro completed (Runtime 41.86s)
+2021-03-16T16:51:08.143Z - [status] Playing macro Gmail
+2021-03-16T16:51:08.177Z - [info] Executing:  | XRun | C:\Program Files (x86)\Google\Chrome\Application\chrome.exe |  | 
+2021-03-16T16:51:10.273Z - [info] Executing:  | comment | pause // 5000 |  | 
+2021-03-16T16:51:12.304Z - [info] Executing:  | open | https://mail.google.com/mail/u/1/#inbox |  | 
+2021-03-16T16:51:16.401Z - [info] Executing:  | comment | setWindowSize // 1700x900 |  | 
+2021-03-16T16:51:18.426Z - [info] Executing:  | bringBrowserToForeground |  |  | 
+2021-03-16T16:51:20.500Z - [info] Executing:  | click | xpath=/html/body |  | 
+2021-03-16T16:51:22.602Z - [info] Executing:  | click | linkText=Snoozed |  | 
+2021-03-16T16:51:24.671Z - [info] Executing:  | verifyText | xpath=//*[@id="aso_search_form_anchor"]/div | in:snoozed  | 
+2021-03-16T16:51:24.720Z - [error][ignored] text not matched, 
+	expected: "in:snoozed", 
+	actual: ""
+2021-03-16T16:51:26.740Z - [info] Executing:  | click | linkText=Sent |  | 
+2021-03-16T16:51:28.794Z - [info] Executing:  | verifyText | xpath=//*[@id="aso_search_form_anchor"]/div | in:sent | 
+2021-03-16T16:51:28.842Z - [error][ignored] text not matched, 
+	expected: "in:sent", 
+	actual: ""
+2021-03-16T16:51:30.867Z - [info] Executing:  | click | linkText=Drafts |  | 
+2021-03-16T16:51:32.945Z - [info] Executing:  | verifyText | xpath=//*[@id="aso_search_form_anchor"]/div | in:draft | 
+2021-03-16T16:51:32.984Z - [error][ignored] text not matched, 
+	expected: "in:draft", 
+	actual: ""
+2021-03-16T16:51:35.010Z - [info] Executing:  | click | linkText=Inbox |  | 
+2021-03-16T16:51:37.125Z - [info] Executing:  | click | xpath=(//div[@class='UI']//tr)[1] |  | 
+2021-03-16T16:51:39.235Z - [info] Executing:  | click | xpath=//*[@id=":4"]/div[4]/div/div/div/div/div |  | 
+2021-03-16T16:51:41.315Z - [info] Executing:  | XType | ${KEY_CTRL+KEY_F4} |  | 
+2021-03-16T16:51:43.676Z - [info] Executing:  | XType | ${KEY_CTRL+KEY_F4} |  | 
+2021-03-16T16:51:44.056Z - UI.Vision RPA closing

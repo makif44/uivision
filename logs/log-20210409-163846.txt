@@ -1,0 +1,24 @@
+2021-04-09T16:38:46.964Z - UI.Vision RPA started
+2021-04-09T16:38:49.795Z - [status] Playing macro RPA_Demo/Read_pdf.json
+2021-04-09T16:38:49.832Z - [info] Executing:  | XRun | C:\Users\Administrator.TECHNE\Desktop\My Account - Add Payment Account - confirmation.pdf |  | 
+2021-04-09T16:38:50.031Z - [info] Executing:  | pause | 2000 |  | 
+2021-04-09T16:38:52.089Z - [info] Executing:  | OCRExtract | accountInfo2_dpi_120.png | accountInfo | 
+2021-04-09T16:38:59.063Z - [info] OCR (eng) started (3.8 KB)
+2021-04-09T16:39:00.652Z - [info] OCR result received (1.6s from endpoint 3)
+2021-04-09T16:39:00.713Z - [info] Executing:  | executeScript_Sandbox | return ${accountInfo}.replace(/[\t\n\r]/gm,''); | accountInfo | 
+2021-04-09T16:39:00.777Z - [info] Executing:  | echo | ${accountInfo} | blue | 
+2021-04-09T16:39:00.786Z - [echo] Xcel Account Number:51-0013351023-6Name on AccountAYSE KAVUKCUOGULLARI
+2021-04-09T16:39:00.843Z - [info] Executing:  | store | ${accountInfo} | !csvLine | 
+2021-04-09T16:39:00.917Z - [info] Executing:  | csvSave | myPDF |  | 
+2021-04-09T16:39:01.086Z - [info] Executing:  | comment | XRun // C:\Program Files\Mozilla Firefox\firefox.exe |  | 
+2021-04-09T16:39:01.143Z - [info] Executing:  | pause | 5000 |  | 
+2021-04-09T16:39:06.195Z - [info] Executing:  | open | https://mail.google.com/mail/u/1/#inbox |  | 
+2021-04-09T16:39:08.867Z - [info] Executing:  | bringBrowserToForeground |  |  | 
+2021-04-09T16:39:08.930Z - [info] Executing:  | XClickRelative | maximize1_dpi_120.png |  | 
+2021-04-09T16:39:10.313Z - [info] Executing:  | XClick | clickNewEmail_dpi_109.png |  | 
+2021-04-09T16:39:11.735Z - [info] Executing:  | XClickRelative | receiver_dpi_120.png |  | 
+2021-04-09T16:39:17.067Z - [info] Executing:  | comment | pause // 2000 |  | 
+2021-04-09T16:39:17.115Z - [info] Executing:  | XType | makifkav44@gmail.com |  | 
+2021-04-09T16:39:17.538Z - [info] Executing:  | XClick | attach_dpi_120.png |  | 
+2021-04-09T16:39:28.623Z - [error] Image 'attach_dpi_120.png' (conf. = 0.8) not found
+2021-04-09T16:39:28.669Z - [info] Macro failed (Runtime 38.85s)

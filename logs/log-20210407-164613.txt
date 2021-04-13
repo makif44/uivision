@@ -1,0 +1,8 @@
+2021-04-07T16:46:13.099Z - UI.Vision RPA started
+2021-04-07T16:46:15.666Z - [status] Playing macro RPA_Demo/Read_pdf.json
+2021-04-07T16:46:15.731Z - [info] Executing:  | XRun | C:\Users\Administrator.TECHNE\Desktop\My Account - Add Payment Account - confirmation.pdf |  | 
+2021-04-07T16:46:15.915Z - [info] Executing:  | pause | 2000 |  | 
+2021-04-07T16:46:17.962Z - [info] Executing:  | OCRExtract | accountInfo_dpi_120.png | accountInfo | 
+2021-04-07T16:46:30.006Z - [error] Image 'accountInfo_dpi_120.png' (conf. = 0.8) not found
+2021-04-07T16:46:30.053Z - [info] Macro failed (Runtime 14.33s)
+2021-04-07T16:47:10.279Z - UI.Vision RPA closing

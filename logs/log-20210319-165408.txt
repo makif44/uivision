@@ -1,0 +1,88 @@
+2021-03-19T14:54:08.482Z - UI.Vision RPA started
+2021-03-19T14:57:22.408Z - [status] Playing macro C:\Users\makif\Desktop\uivision\macros\Create user accountsTECHRPA-4.json
+2021-03-19T14:57:22.454Z - [info] Executing:  | open | https://accounts.google.com/signup/v2/webcreateaccount?service=mail&continue=https%3A%2F%2Fmail.google.com%2Fmail&hl=en-GB&dsh=S-1089625264%3A1616102015659256&gmb=exp&biz=false&flowName=GlifWebSignIn&flowEntry=SignUp |  | 
+2021-03-19T14:57:27.175Z - [info] Executing:  | csvRead | user_info.csv |  | 
+2021-03-19T14:57:27.260Z - [info] Executing:  | while_v2 | ${!csvReadStatus} == "OK" |  | 
+2021-03-19T14:57:27.296Z - [info] Executing:  | echo | Inside subroutine: Status = ${!csvReadStatus}, Line = ${!csvReadLineNumber} | blue | 
+2021-03-19T14:57:27.303Z - [echo] Inside subroutine: Status = OK, Line = 1
+2021-03-19T14:57:27.341Z - [info] Executing:  | type | id=firstName | ${!col1} | 
+2021-03-19T14:57:27.458Z - [info] Executing:  | type | id=lastName | ${!col2} | 
+2021-03-19T14:57:27.556Z - [info] Executing:  | type | id=username | ${!col3} | 
+2021-03-19T14:57:27.784Z - [info] Executing:  | type | name=Passwd | ${!col4} | 
+2021-03-19T14:57:27.942Z - [info] Executing:  | type | name=ConfirmPasswd | ${!col4} | 
+2021-03-19T14:57:28.127Z - [info] Executing:  | echo | ${!csvReadLineNumber} | blue | 
+2021-03-19T14:57:28.134Z - [echo] 1
+2021-03-19T14:57:28.174Z - [info] Executing:  | executeScript_Sandbox | return Number(${!csvReadLineNumber})+1 | !csvReadLineNumber | 
+2021-03-19T14:57:28.224Z - [info] Executing:  | echo | ${!csvReadLineNumber} | blue | 
+2021-03-19T14:57:28.232Z - [echo] 2
+2021-03-19T14:57:28.280Z - [info] Executing:  | store | true | !errorIgnore | 
+2021-03-19T14:57:28.328Z - [info] Executing:  | csvRead | user_info.csv |  | 
+2021-03-19T14:57:28.426Z - [info] Executing:  | store | false | !errorIgnore | 
+2021-03-19T14:57:28.459Z - [info] Executing:  | click | xpath=//*[@id="accountDetailsNext"]/div/button/div[2] |  | 
+2021-03-19T14:57:28.598Z - [info] Executing:  | pause | 3000 |  | 
+2021-03-19T14:57:31.650Z - [info] Executing:  | open | https://accounts.google.com/signup/v2/webcreateaccount?service=mail&continue=https%3A%2F%2Fmail.google.com%2Fmail&hl=en-GB&dsh=S-1089625264%3A1616102015659256&gmb=exp&biz=false&flowName=GlifWebSignIn&flowEntry=SignUp |  | 
+2021-03-19T14:57:33.747Z - [info] Executing:  | end |  |  | 
+2021-03-19T14:57:33.777Z - [info] Executing:  | while_v2 | ${!csvReadStatus} == "OK" |  | 
+2021-03-19T14:57:33.816Z - [info] Executing:  | echo | Inside subroutine: Status = ${!csvReadStatus}, Line = ${!csvReadLineNumber} | blue | 
+2021-03-19T14:57:33.823Z - [echo] Inside subroutine: Status = OK, Line = 2
+2021-03-19T14:57:33.848Z - [info] Executing:  | type | id=firstName | ${!col1} | 
+2021-03-19T14:57:33.948Z - [info] Executing:  | type | id=lastName | ${!col2} | 
+2021-03-19T14:57:34.032Z - [info] Executing:  | type | id=username | ${!col3} | 
+2021-03-19T14:57:34.264Z - [info] Executing:  | type | name=Passwd | ${!col4} | 
+2021-03-19T14:57:34.438Z - [info] Executing:  | type | name=ConfirmPasswd | ${!col4} | 
+2021-03-19T14:57:34.608Z - [info] Executing:  | echo | ${!csvReadLineNumber} | blue | 
+2021-03-19T14:57:34.615Z - [echo] 2
+2021-03-19T14:57:34.642Z - [info] Executing:  | executeScript_Sandbox | return Number(${!csvReadLineNumber})+1 | !csvReadLineNumber | 
+2021-03-19T14:57:34.675Z - [info] Executing:  | echo | ${!csvReadLineNumber} | blue | 
+2021-03-19T14:57:34.684Z - [echo] 3
+2021-03-19T14:57:34.710Z - [info] Executing:  | store | true | !errorIgnore | 
+2021-03-19T14:57:34.749Z - [info] Executing:  | csvRead | user_info.csv |  | 
+2021-03-19T14:57:35.785Z - [info] Executing:  | store | false | !errorIgnore | 
+2021-03-19T14:57:35.809Z - [info] Executing:  | click | xpath=//*[@id="accountDetailsNext"]/div/button/div[2] |  | 
+2021-03-19T14:57:35.895Z - [info] Executing:  | pause | 3000 |  | 
+2021-03-19T14:57:38.930Z - [info] Executing:  | open | https://accounts.google.com/signup/v2/webcreateaccount?service=mail&continue=https%3A%2F%2Fmail.google.com%2Fmail&hl=en-GB&dsh=S-1089625264%3A1616102015659256&gmb=exp&biz=false&flowName=GlifWebSignIn&flowEntry=SignUp |  | 
+2021-03-19T14:57:41.040Z - [info] Executing:  | end |  |  | 
+2021-03-19T14:57:41.072Z - [info] Executing:  | while_v2 | ${!csvReadStatus} == "OK" |  | 
+2021-03-19T14:57:41.097Z - [info] Executing:  | echo | Inside subroutine: Status = ${!csvReadStatus}, Line = ${!csvReadLineNumber} | blue | 
+2021-03-19T14:57:41.107Z - [echo] Inside subroutine: Status = OK, Line = 3
+2021-03-19T14:57:41.132Z - [info] Executing:  | type | id=firstName | ${!col1} | 
+2021-03-19T14:57:41.292Z - [info] Executing:  | type | id=lastName | ${!col2} | 
+2021-03-19T14:57:41.420Z - [info] Executing:  | type | id=username | ${!col3} | 
+2021-03-19T14:57:41.636Z - [info] Executing:  | type | name=Passwd | ${!col4} | 
+2021-03-19T14:57:41.783Z - [info] Executing:  | type | name=ConfirmPasswd | ${!col4} | 
+2021-03-19T14:57:41.952Z - [info] Executing:  | echo | ${!csvReadLineNumber} | blue | 
+2021-03-19T14:57:41.960Z - [echo] 3
+2021-03-19T14:57:41.981Z - [info] Executing:  | executeScript_Sandbox | return Number(${!csvReadLineNumber})+1 | !csvReadLineNumber | 
+2021-03-19T14:57:42.022Z - [info] Executing:  | echo | ${!csvReadLineNumber} | blue | 
+2021-03-19T14:57:42.030Z - [echo] 4
+2021-03-19T14:57:42.047Z - [info] Executing:  | store | true | !errorIgnore | 
+2021-03-19T14:57:42.091Z - [info] Executing:  | csvRead | user_info.csv |  | 
+2021-03-19T14:57:43.089Z - [info] Executing:  | store | false | !errorIgnore | 
+2021-03-19T14:57:43.119Z - [info] Executing:  | click | xpath=//*[@id="accountDetailsNext"]/div/button/div[2] |  | 
+2021-03-19T14:57:43.208Z - [info] Executing:  | pause | 3000 |  | 
+2021-03-19T14:57:46.248Z - [info] Executing:  | open | https://accounts.google.com/signup/v2/webcreateaccount?service=mail&continue=https%3A%2F%2Fmail.google.com%2Fmail&hl=en-GB&dsh=S-1089625264%3A1616102015659256&gmb=exp&biz=false&flowName=GlifWebSignIn&flowEntry=SignUp |  | 
+2021-03-19T14:57:48.328Z - [info] Executing:  | end |  |  | 
+2021-03-19T14:57:48.358Z - [info] Executing:  | while_v2 | ${!csvReadStatus} == "OK" |  | 
+2021-03-19T14:57:48.392Z - [info] Executing:  | echo | Inside subroutine: Status = ${!csvReadStatus}, Line = ${!csvReadLineNumber} | blue | 
+2021-03-19T14:57:48.402Z - [echo] Inside subroutine: Status = OK, Line = 4
+2021-03-19T14:57:48.425Z - [info] Executing:  | type | id=firstName | ${!col1} | 
+2021-03-19T14:57:48.553Z - [info] Executing:  | type | id=lastName | ${!col2} | 
+2021-03-19T14:57:48.647Z - [info] Executing:  | type | id=username | ${!col3} | 
+2021-03-19T14:57:48.860Z - [info] Executing:  | type | name=Passwd | ${!col4} | 
+2021-03-19T14:57:49.047Z - [info] Executing:  | type | name=ConfirmPasswd | ${!col4} | 
+2021-03-19T14:57:49.215Z - [info] Executing:  | echo | ${!csvReadLineNumber} | blue | 
+2021-03-19T14:57:49.231Z - [echo] 4
+2021-03-19T14:57:49.261Z - [info] Executing:  | executeScript_Sandbox | return Number(${!csvReadLineNumber})+1 | !csvReadLineNumber | 
+2021-03-19T14:57:49.294Z - [info] Executing:  | echo | ${!csvReadLineNumber} | blue | 
+2021-03-19T14:57:49.305Z - [echo] 5
+2021-03-19T14:57:49.326Z - [info] Executing:  | store | true | !errorIgnore | 
+2021-03-19T14:57:49.363Z - [info] Executing:  | csvRead | user_info.csv |  | 
+2021-03-19T14:57:50.353Z - [error][ignored] end of csv file reached
+2021-03-19T14:57:50.396Z - [info] Executing:  | store | false | !errorIgnore | 
+2021-03-19T14:57:50.424Z - [info] Executing:  | click | xpath=//*[@id="accountDetailsNext"]/div/button/div[2] |  | 
+2021-03-19T14:57:50.514Z - [info] Executing:  | pause | 3000 |  | 
+2021-03-19T14:57:53.548Z - [info] Executing:  | open | https://accounts.google.com/signup/v2/webcreateaccount?service=mail&continue=https%3A%2F%2Fmail.google.com%2Fmail&hl=en-GB&dsh=S-1089625264%3A1616102015659256&gmb=exp&biz=false&flowName=GlifWebSignIn&flowEntry=SignUp |  | 
+2021-03-19T14:57:55.647Z - [info] Executing:  | end |  |  | 
+2021-03-19T14:57:55.679Z - [info] Executing:  | while_v2 | ${!csvReadStatus} == "OK" |  | 
+2021-03-19T14:57:55.732Z - [info] Macro completed (Runtime 33.29s)
+2021-03-19T14:57:56.766Z - UI.Vision RPA closing

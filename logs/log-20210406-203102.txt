@@ -1,0 +1,24 @@
+2021-04-06T20:31:02.630Z - UI.Vision RPA started
+2021-04-06T20:31:04.374Z - [status] Playing macro RPA_Demo/Read_pdf.json
+2021-04-06T20:31:04.442Z - [info] Executing:  | XRun | C:\Users\Administrator.TECHNE\Desktop\My Account - Add Payment Account - confirmation.pdf |  | 
+2021-04-06T20:31:04.648Z - [info] Executing:  | pause | 2000 |  | 
+2021-04-06T20:31:06.700Z - [info] Executing:  | OCRExtract | accountInfo_dpi_120.png | accountInfo | 
+2021-04-06T20:31:14.005Z - [info] OCR (eng) started (3.7 KB)
+2021-04-06T20:31:14.790Z - [info] OCR result received (0.8s from endpoint 1)
+2021-04-06T20:31:14.899Z - [info] Executing:  | executeScript_Sandbox | return ${accountInfo}.replace(/[\t\n\r]/gm,''); | accountInfo | 
+2021-04-06T20:31:14.973Z - [info] Executing:  | echo | ${accountInfo} | blue | 
+2021-04-06T20:31:14.984Z - [echo] Xcel Account Number:51-0013351023-6Name on Account:AYSE KAVUKCUOGULLARI
+2021-04-06T20:31:15.048Z - [info] Executing:  | store | ${accountInfo} | !csvLine | 
+2021-04-06T20:31:15.132Z - [info] Executing:  | csvSave | myPDF |  | 
+2021-04-06T20:31:15.279Z - [info] Executing:  | XRun | C:\Program Files\Mozilla Firefox\firefox.exe |  | 
+2021-04-06T20:31:15.397Z - [info] Executing:  | pause | 5000 |  | 
+2021-04-06T20:31:20.441Z - [info] Executing:  | open | https://mail.google.com/mail/u/1/#inbox |  | 
+2021-04-06T20:31:22.642Z - [info] Executing:  | bringBrowserToForeground |  |  | 
+2021-04-06T20:31:22.749Z - [info] Executing:  | XClickRelative | maximize1_dpi_120.png |  | 
+2021-04-06T20:31:24.004Z - [info] Executing:  | XClick | clickNewEmail_dpi_109.png |  | 
+2021-04-06T20:31:26.727Z - [info] Executing:  | XClickRelative | receiver_dpi_120.png |  | 
+2021-04-06T20:31:33.872Z - [info] Executing:  | comment | pause // 2000 |  | 
+2021-04-06T20:31:33.921Z - [info] Executing:  | XType | makifkav44@gmail.com |  | 
+2021-04-06T20:31:34.352Z - [info] Executing:  | XClick | attach_dpi_120.png |  | 
+2021-04-06T20:31:45.399Z - [error] Image 'attach_dpi_120.png' (conf. = 0.8) not found
+2021-04-06T20:31:45.444Z - [info] Macro failed (Runtime 41.02s)

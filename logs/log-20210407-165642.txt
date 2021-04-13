@@ -1,0 +1,31 @@
+2021-04-07T16:56:42.514Z - UI.Vision RPA started
+2021-04-07T16:56:43.276Z - [status] Playing macro RPA_Demo/Read_pdf.json
+2021-04-07T16:56:43.345Z - [info] Executing:  | XRun | C:\Users\Administrator.TECHNE\Desktop\My Account - Add Payment Account - confirmation.pdf |  | 
+2021-04-07T16:56:43.580Z - [info] Executing:  | pause | 2000 |  | 
+2021-04-07T16:56:45.617Z - [info] Executing:  | OCRExtract | accountInfo_dpi_120.png | accountInfo | 
+2021-04-07T16:56:53.401Z - [info] OCR (eng) started (3.7 KB)
+2021-04-07T16:56:54.297Z - [info] OCR result received (0.9s from endpoint 1)
+2021-04-07T16:56:54.518Z - [info] Executing:  | executeScript_Sandbox | return ${accountInfo}.replace(/[\t\n\r]/gm,''); | accountInfo | 
+2021-04-07T16:56:54.567Z - [info] Executing:  | echo | ${accountInfo} | blue | 
+2021-04-07T16:56:54.579Z - [echo] Xcel Account Number:51-0013351023-6Name on Account:AYSE KAVUKCUOGULLARI
+2021-04-07T16:56:54.697Z - [info] Executing:  | store | ${accountInfo} | !csvLine | 
+2021-04-07T16:56:54.764Z - [info] Executing:  | csvSave | myPDF |  | 
+2021-04-07T16:56:55.103Z - [info] Executing:  | comment | XRun // C:\Program Files\Mozilla Firefox\firefox.exe |  | 
+2021-04-07T16:56:55.127Z - [info] Executing:  | pause | 5000 |  | 
+2021-04-07T16:57:00.184Z - [info] Executing:  | open | https://mail.google.com/mail/u/1/#inbox |  | 
+2021-04-07T16:57:03.509Z - [info] Executing:  | bringBrowserToForeground |  |  | 
+2021-04-07T16:57:03.567Z - [info] Executing:  | XClickRelative | maximize1_dpi_120.png |  | 
+2021-04-07T16:57:05.239Z - [info] Executing:  | XClick | clickNewEmail_dpi_109.png |  | 
+2021-04-07T16:57:06.234Z - [info] Executing:  | XClickRelative | receiver_dpi_120.png |  | 
+2021-04-07T16:57:11.985Z - [info] Executing:  | comment | pause // 2000 |  | 
+2021-04-07T16:57:12.023Z - [info] Executing:  | XType | makifkav44@gmail.com |  | 
+2021-04-07T16:57:12.457Z - [info] Executing:  | XClick | attach_dpi_120.png |  | 
+2021-04-07T16:57:13.536Z - [info] Executing:  | XClickRelative | upload_dpi_120.png |  | 
+2021-04-07T16:57:25.488Z - [error] Image 'upload_dpi_120.png' (conf. = 0.8) not found
+2021-04-07T16:57:25.557Z - [info] Macro failed (Runtime 42.22s)
+2021-04-07T16:58:08.498Z - [warning] Invalid value for cmd line arg: "closeBrowser" should be 0, 1, true or false, but now it's 
+2021-04-07T16:58:08.802Z - [status] Playing macro RPA_Demo/Read_pdf
+2021-04-07T16:58:08.862Z - [info] Executing:  | XRun | C:\Users\Administrator.TECHNE\Desktop\My Account - Add Payment Account - confirmation.pdf |  | 
+2021-04-07T16:58:09.165Z - [info] Executing:  | pause | 2000 |  | 
+2021-04-07T16:58:11.224Z - [info] Executing:  | OCRExtract | accountInfo_dpi_120.png | accountInfo | 
+2021-04-07T16:58:13.941Z - UI.Vision RPA closing

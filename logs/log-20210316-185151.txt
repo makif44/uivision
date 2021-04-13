@@ -1,0 +1,71 @@
+2021-03-16T16:51:51.070Z - UI.Vision RPA started
+2021-03-16T16:52:25.302Z - [status] Playing macro Gmail
+2021-03-16T16:52:25.333Z - [info] Executing:  | XRun | C:\Program Files (x86)\Google\Chrome\Application\chrome.exe |  | 
+2021-03-16T16:52:27.553Z - [info] Executing:  | comment | pause // 5000 |  | 
+2021-03-16T16:52:29.577Z - [info] Executing:  | open | https://mail.google.com/mail/u/1/#inbox |  | 
+2021-03-16T16:52:34.507Z - [info] Executing:  | comment | setWindowSize // 1700x900 |  | 
+2021-03-16T16:52:36.525Z - [info] Executing:  | bringBrowserToForeground |  |  | 
+2021-03-16T16:52:38.576Z - [info] Executing:  | click | xpath=/html/body |  | 
+2021-03-16T16:52:40.653Z - [info] Executing:  | click | linkText=Snoozed |  | 
+2021-03-16T16:52:42.709Z - [info] Executing:  | verifyText | xpath=//*[@id="aso_search_form_anchor"]/div | in:snoozed  | 
+2021-03-16T16:52:42.741Z - [error][ignored] text not matched, 
+	expected: "in:snoozed", 
+	actual: ""
+2021-03-16T16:52:44.781Z - [info] Executing:  | click | linkText=Sent |  | 
+2021-03-16T16:52:46.845Z - [info] Executing:  | verifyText | xpath=//*[@id="aso_search_form_anchor"]/div | in:sent | 
+2021-03-16T16:52:46.887Z - [error][ignored] text not matched, 
+	expected: "in:sent", 
+	actual: ""
+2021-03-16T16:52:48.915Z - [info] Executing:  | click | linkText=Drafts |  | 
+2021-03-16T16:52:50.962Z - [info] Executing:  | verifyText | xpath=//*[@id="aso_search_form_anchor"]/div | in:draft | 
+2021-03-16T16:52:51.053Z - [error][ignored] text not matched, 
+	expected: "in:draft", 
+	actual: ""
+2021-03-16T16:52:53.071Z - [info] Executing:  | click | linkText=Inbox |  | 
+2021-03-16T16:52:55.207Z - [info] Executing:  | click | xpath=(//div[@class='UI']//tr)[1] |  | 
+2021-03-16T16:52:57.264Z - [info] Executing:  | click | xpath=//*[@id=":4"]/div[4]/div/div/div/div/div |  | 
+2021-03-16T16:52:59.339Z - [info] Executing:  | XType | ${KEY_CTRL+KEY_F4} |  | 
+2021-03-16T16:53:01.760Z - [info] Executing:  | XType | ${KEY_CTRL+KEY_F4} |  | 
+2021-03-16T16:53:04.115Z - [info] Executing:  | comment | click // xpath=//*[@id=":e1"]/div[5]/div |  | 
+2021-03-16T16:53:06.187Z - [info] Macro completed (Runtime 40.86s)
+2021-03-16T19:26:03.099Z - [status] Playing macro Gmail
+2021-03-16T19:26:03.151Z - [info] Executing:  | XRun | C:\Program Files (x86)\Google\Chrome\Application\chrome.exe |  | 
+2021-03-16T19:26:05.284Z - [info] Executing:  | comment | pause // 5000 |  | 
+2021-03-16T19:26:07.304Z - [info] Executing:  | open | https://mail.google.com/mail/u/1/#inbox |  | 
+2021-03-16T19:26:11.372Z - [info] Executing:  | comment | setWindowSize // 1700x900 |  | 
+2021-03-16T19:26:13.390Z - [info] Executing:  | bringBrowserToForeground |  |  | 
+2021-03-16T19:26:15.461Z - [info] Executing:  | click | xpath=/html/body |  | 
+2021-03-16T19:26:17.509Z - [info] Executing:  | click | linkText=Snoozed |  | 
+2021-03-16T19:26:19.592Z - [info] Executing:  | visualVerify | verifySnoozedPage_dpi_120.png | in:snoozed  | 
+2021-03-16T19:26:22.134Z - [info] Executing:  | click | linkText=Sent |  | 
+2021-03-16T19:26:24.217Z - [info] Executing:  | visualVerify | verifySentPage_dpi_120.png | in:sent | 
+2021-03-16T19:26:26.609Z - [info] Executing:  | click | linkText=Drafts |  | 
+2021-03-16T19:26:28.673Z - [info] Executing:  | visualVerify | verifyDraftPage_dpi_120.png | draft | 
+2021-03-16T19:26:31.084Z - [info] Executing:  | click | linkText=Inbox |  | 
+2021-03-16T19:26:33.176Z - [info] Executing:  | click | xpath=(//div[@class='UI']//tr)[1] |  | 
+2021-03-16T19:26:35.249Z - [info] Executing:  | click | xpath=//*[@id=":4"]/div[4]/div/div/div/div/div |  | 
+2021-03-16T19:26:37.313Z - [info] Executing:  | XType | ${KEY_CTRL+KEY_F4} |  | 
+2021-03-16T19:26:39.665Z - [info] Executing:  | XType | ${KEY_CTRL+KEY_F4} |  | 
+2021-03-16T19:26:42.012Z - [info] Executing:  | comment | click // xpath=//*[@id=":e1"]/div[5]/div |  | 
+2021-03-16T19:26:44.068Z - [info] Macro completed (Runtime 40.93s)
+2021-03-16T19:46:48.950Z - [status] Playing macro Gmail
+2021-03-16T19:46:48.984Z - [info] Executing:  | XRun | C:\Program Files (x86)\Google\Chrome\Application\chrome.exe |  | 
+2021-03-16T19:46:51.112Z - [info] Executing:  | comment | pause // 5000 |  | 
+2021-03-16T19:46:53.141Z - [info] Executing:  | open | https://mail.google.com/mail/u/1/#inbox |  | 
+2021-03-16T19:46:57.245Z - [info] Executing:  | comment | setWindowSize // 1700x900 |  | 
+2021-03-16T19:46:59.272Z - [info] Executing:  | bringBrowserToForeground |  |  | 
+2021-03-16T19:47:01.360Z - [info] Executing:  | click | xpath=/html/body |  | 
+2021-03-16T19:47:03.416Z - [info] Executing:  | click | linkText=Snoozed |  | 
+2021-03-16T19:47:05.479Z - [info] Executing:  | visualVerify | verifySnoozedPage_dpi_120.png | in:snoozed  | 
+2021-03-16T19:47:07.924Z - [info] Executing:  | click | linkText=Sent |  | 
+2021-03-16T19:47:09.988Z - [info] Executing:  | visualVerify | verifySentPage_dpi_120.png | in:sent | 
+2021-03-16T19:47:12.442Z - [info] Executing:  | click | linkText=Drafts |  | 
+2021-03-16T19:47:14.486Z - [info] Executing:  | visualVerify | verifyDraftPage_dpi_120.png | draft | 
+2021-03-16T19:47:16.880Z - [info] Executing:  | click | linkText=Inbox |  | 
+2021-03-16T19:47:18.966Z - [info] Executing:  | click | xpath=(//div[@class='UI']//tr)[1] |  | 
+2021-03-16T19:47:21.040Z - [info] Executing:  | click | xpath=//*[@id=":4"]/div[4]/div/div/div/div/div |  | 
+2021-03-16T19:47:23.100Z - [info] Executing:  | XType | ${KEY_CTRL+KEY_F4} |  | 
+2021-03-16T19:47:25.447Z - [info] Executing:  | XType | ${KEY_CTRL+KEY_F4} |  | 
+2021-03-16T19:47:27.782Z - [info] Executing:  | comment | click // xpath=//*[@id=":e1"]/div[5]/div |  | 
+2021-03-16T19:47:29.851Z - [info] Macro completed (Runtime 40.88s)
+2021-03-16T19:47:36.851Z - UI.Vision RPA closing

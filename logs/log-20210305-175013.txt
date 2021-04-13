@@ -1,0 +1,6 @@
+2021-03-05T15:50:13.817Z - UI.Vision RPA started
+2021-03-05T15:50:46.429Z - [error] Can't find macro with name "Test/xodo"
+2021-03-05T15:51:38.370Z - [error] Can't find macro with name "Test/xodo"
+2021-03-05T15:52:30.722Z - [status] Playing macro C:\Users\makif\Desktop\uivision\macros\Test\xodo.json
+2021-03-05T15:52:30.835Z - [info] Macro completed (Runtime 0.07s)
+2021-03-05T15:52:31.682Z - UI.Vision RPA closing

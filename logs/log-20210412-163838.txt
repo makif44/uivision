@@ -1,0 +1,32 @@
+2021-04-12T16:39:42.121Z - [status] Playing macro Read_pdf
+2021-04-12T16:39:42.174Z - [info] Executing:  | XRun | C:\Users\Administrator.TECHNE\Desktop\My Account - Add Payment Account - confirmation.pdf |  | 
+2021-04-12T16:39:43.031Z - [info] Executing:  | XDesktopAutomation | true |  | 
+2021-04-12T16:39:43.360Z - [info] Executing:  | comment | pause // 2000 |  | 
+2021-04-12T16:39:43.691Z - [info] Executing:  | comment | OCRExtract // accountInfo_dpi_120.png | accountInfo | 
+2021-04-12T16:39:44.019Z - [info] Executing:  | comment | OCRExtract // rpa_demo_dpi_120.png | accountInfo | 
+2021-04-12T16:39:44.342Z - [info] Executing:  | OCRExtract | homeTools_dpi_120.png | accountInfo | 
+2021-04-12T16:39:44.355Z - [error] OCR feature disabled.
+2021-04-12T16:39:44.404Z - [info] Macro failed (Runtime 2.24s)
+2021-04-12T16:40:21.068Z - [status] Playing macro Read_pdf
+2021-04-12T16:40:21.123Z - [info] Executing:  | XRun | C:\Users\Administrator.TECHNE\Desktop\My Account - Add Payment Account - confirmation.pdf |  | 
+2021-04-12T16:40:21.646Z - [info] Executing:  | XDesktopAutomation | true |  | 
+2021-04-12T16:40:21.990Z - [info] Executing:  | comment | pause // 2000 |  | 
+2021-04-12T16:40:22.324Z - [info] Executing:  | comment | OCRExtract // accountInfo_dpi_120.png | accountInfo | 
+2021-04-12T16:40:22.656Z - [info] Executing:  | comment | OCRExtract // rpa_demo_dpi_120.png | accountInfo | 
+2021-04-12T16:40:22.981Z - [info] Executing:  | OCRExtract | homeTools_dpi_120.png | accountInfo | 
+2021-04-12T16:40:35.002Z - [error] Image 'homeTools_dpi_120.png' (conf. = 0.6) not found
+2021-04-12T16:40:35.041Z - [info] Macro failed (Runtime 13.93s)
+2021-04-12T16:40:49.209Z - [info] OCR (eng) started (607.2 KB)
+2021-04-12T16:40:52.476Z - [info] OCR result received (3.2s from endpoint 2)
+2021-04-12T16:41:25.979Z - [status] Playing macro Read_pdf
+2021-04-12T16:41:26.041Z - [info] Executing:  | XRun | C:\Users\Administrator.TECHNE\Desktop\My Account - Add Payment Account - confirmation.pdf |  | 
+2021-04-12T16:41:26.561Z - [info] Executing:  | XDesktopAutomation | true |  | 
+2021-04-12T16:41:26.920Z - [info] Executing:  | comment | pause // 2000 |  | 
+2021-04-12T16:41:27.263Z - [info] Executing:  | OCRExtract | accountInfo_dpi_120.png | accountInfo | 
+2021-04-12T16:41:39.162Z - [error] Image 'accountInfo_dpi_120.png' (conf. = 0.6) not found
+2021-04-12T16:41:39.222Z - [info] Macro failed (Runtime 13.20s)
+2021-04-12T16:41:56.949Z - [status] Playing macro Read_pdf
+2021-04-12T16:41:57.006Z - [info] Executing:  | OCRExtract | accountInfo_dpi_120.png | accountInfo | 
+2021-04-12T16:41:58.949Z - [error] Image 'accountInfo_dpi_120.png' (conf. = 0.6) not found
+2021-04-12T16:41:58.979Z - [info] Macro failed (Runtime 1.99s)
+2021-04-12T16:43:45.895Z - UI.Vision RPA closing

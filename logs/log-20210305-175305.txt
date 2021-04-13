@@ -1,0 +1,40 @@
+2021-03-05T15:53:05.970Z - UI.Vision RPA started
+2021-03-05T15:53:07.783Z - [status] Playing macro Test/xodo
+2021-03-05T15:53:07.845Z - [info] Executing:  | open | https://ui.vision/demo/webtest/frames/ |  | 
+2021-03-05T15:53:10.292Z - [info] Executing:  | echo | Reduce replay speed so we can better see what is going on... |  | 
+2021-03-05T15:53:10.307Z - [echo] Reduce replay speed so we can better see what is going on...
+2021-03-05T15:53:10.345Z - [info] Executing:  | store | medium | !replayspeed | 
+2021-03-05T15:53:10.685Z - [info] Executing:  | selectFrame | index=0 |  | 
+2021-03-05T15:53:11.043Z - [info] Executing:  | click | name=mytext1 |  | 
+2021-03-05T15:53:11.429Z - [info] Executing:  | type | name=mytext1 | Frame1 (index=0) | 
+2021-03-05T15:53:11.804Z - [info] Executing:  | selectFrame | relative=top |  | 
+2021-03-05T15:53:12.168Z - [info] Executing:  | selectFrame | index=1 |  | 
+2021-03-05T15:53:12.516Z - [info] Executing:  | click | name=mytext2 |  | 
+2021-03-05T15:53:12.863Z - [info] Executing:  | type | name=mytext2 | Frame2 (index=1) | 
+2021-03-05T15:53:13.208Z - [info] Executing:  | selectFrame | relative=top |  | 
+2021-03-05T15:53:13.552Z - [info] Executing:  | selectFrame | index=2 |  | 
+2021-03-05T15:53:13.900Z - [info] Executing:  | click | name=mytext3 |  | 
+2021-03-05T15:53:14.257Z - [info] Executing:  | type | name=mytext3 | Frame3 (index=2) | 
+2021-03-05T15:53:14.601Z - [info] Executing:  | selectFrame | relative=top |  | 
+2021-03-05T15:53:14.947Z - [info] Executing:  | selectFrame | index=3 |  | 
+2021-03-05T15:53:15.299Z - [info] Executing:  | click | name=mytext4 |  | 
+2021-03-05T15:53:15.655Z - [info] Executing:  | type | name=mytext4 | Frame4 (index=3) | 
+2021-03-05T15:53:16.087Z - [info] Executing:  | selectFrame | relative=top |  | 
+2021-03-05T15:53:16.644Z - [info] Executing:  | selectFrame | index=4 |  | 
+2021-03-05T15:53:17.039Z - [info] Executing:  | click | name=mytext5 |  | 
+2021-03-05T15:53:17.394Z - [info] Executing:  | type | name=mytext5 | Frame5 (index=4) | 
+2021-03-05T15:53:17.750Z - [info] Executing:  | selectFrame | relative=top |  | 
+2021-03-05T15:53:18.114Z - [info] Executing:  | selectFrame | index=2 |  | 
+2021-03-05T15:53:18.524Z - [info] Executing:  | type | name=mytext3 | now testing iframe inside this frame | 
+2021-03-05T15:53:18.925Z - [info] Executing:  | selectFrame | index=0 |  | 
+2021-03-05T15:53:19.269Z - [info] Executing:  | click | //span[contains(text(),"UI.Vision IDE")] |  | 
+2021-03-05T15:53:19.627Z - [info] Executing:  | click | css=input.quantumWizTextinputSimpleinputInput.exportInput |  | 
+2021-03-05T15:53:19.979Z - [info] Executing:  | type | css=input.quantumWizTextinputSimpleinputInput.exportInput | iframe in frame: works! | 
+2021-03-05T15:53:20.409Z - [info] Executing:  | clickAndWait | xpath=//div[3]/div/div/div/span |  | 
+2021-03-05T15:53:22.786Z - [info] Executing:  | type | name=entry.1572386418 | Form Filling Test Done! | 
+2021-03-05T15:53:25.170Z - [info] Executing:  | click | xpath=//*[@id="mG61Hd"]/div/div/div[3]/div[1]/div[1]/div[2]/span/span |  | 
+2021-03-05T15:53:25.532Z - [info] Executing:  | selectFrame | relative=top |  | 
+2021-03-05T15:53:25.875Z - [info] Executing:  | selectFrame | index=2 |  | 
+2021-03-05T15:53:26.253Z - [info] Executing:  | type | name=mytext3 | Test completed! | 
+2021-03-05T15:53:26.653Z - [info] Macro completed (Runtime 18.82s)
+2021-03-05T15:53:27.550Z - UI.Vision RPA closing

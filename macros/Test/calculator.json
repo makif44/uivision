@@ -1,0 +1,31 @@
+{
+  "Name": "calculator",
+  "CreationDate": "2021-3-4",
+  "Commands": [
+    {
+      "Command": "open",
+      "Target": "https://www.cs.tut.fi/~jkorpela/calc.html8",
+      "Value": ""
+    },
+    {
+      "Command": "click",
+      "Target": "//body/button[5]",
+      "Value": ""
+    },
+    {
+      "Command": "click",
+      "Target": "//button[12]",
+      "Value": ""
+    },
+    {
+      "Command": "click",
+      "Target": "//button[15]",
+      "Value": ""
+    },
+    {
+      "Command": "click",
+      "Target": "//button[22]",
+      "Value": ""
+    }
+  ]
+}

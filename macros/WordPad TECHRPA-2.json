@@ -1,0 +1,56 @@
+{
+  "Name": "WordPad TECHRPA-2",
+  "CreationDate": "2021-3-25",
+  "Commands": [
+    {
+      "Command": "visualSearch",
+      "Target": "11_dpi_120.png",
+      "Value": "TextDocumentNumber"
+    },
+    {
+      "Command": "echo",
+      "Target": "${TextDocumentNumber} files were found",
+      "Value": ""
+    },
+    {
+      "Command": "times",
+      "Target": "${TextDocumentNumber}",
+      "Value": ""
+    },
+    {
+      "Command": "OCRExtractRelative",
+      "Target": "wordPad_dpi_120.png",
+      "Value": "fileName"
+    },
+    {
+      "Command": "executeScript_Sandbox",
+      "Target": "return ${fileName}.replace(/( |\\n|\\r)/gm, \"\");",
+      "Value": "fileName"
+    },
+    {
+      "Command": "echo",
+      "Target": "${fileName}",
+      "Value": "blue"
+    },
+    {
+      "Command": "store",
+      "Target": "${!times}",
+      "Value": "!csvLine"
+    },
+    {
+      "Command": "store",
+      "Target": "${fileName}",
+      "Value": "!csvLine"
+    },
+    {
+      "Command": "csvSave",
+      "Target": "wordpad file names",
+      "Value": ""
+    },
+    {
+      "Command": "end",
+      "Target": "",
+      "Value": ""
+    }
+  ]
+}

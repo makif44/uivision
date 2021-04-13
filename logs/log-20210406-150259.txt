@@ -1,0 +1,4 @@
+2021-04-06T15:02:59.657Z - UI.Vision RPA started
+2021-04-06T15:03:00.001Z - [warning] Invalid value for cmd line arg: "closeBrowser" should be 0, 1, true or false, but now it's 
+2021-04-06T15:03:00.179Z - [error] No connection to browser tab
+2021-04-06T15:03:14.071Z - UI.Vision RPA closing

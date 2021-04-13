@@ -1,0 +1,61 @@
+{
+  "Name": "cuz",
+  "CreationDate": "2021-3-16",
+  "Commands": [
+    {
+      "Command": "open",
+      "Target": "https://test-main-dot-web-app-dot-cuz-tech.appspot.com/welcome",
+      "Value": ""
+    },
+    {
+      "Command": "deleteAllCookies",
+      "Target": "",
+      "Value": ""
+    },
+    {
+      "Command": "open",
+      "Target": "https://test-main-dot-web-app-dot-cuz-tech.appspot.com/welcome",
+      "Value": ""
+    },
+    {
+      "Command": "click",
+      "Target": "xpath=//*[@id=\"userStatus\"]/div/span/div/div[2]/input",
+      "Value": ""
+    },
+    {
+      "Command": "type",
+      "Target": "xpath=//*[@id=\"userStatus\"]/div/span/div/div[2]/input",
+      "Value": "translationcuz@gmail.com"
+    },
+    {
+      "Command": "click",
+      "Target": "xpath=//button[@type='submit']",
+      "Value": ""
+    },
+    {
+      "Command": "click",
+      "Target": "xpath=//input[@type='password']",
+      "Value": ""
+    },
+    {
+      "Command": "type",
+      "Target": "xpath=//*[@id=\"userLogin\"]/div[2]/span/div/div[2]/input",
+      "Value": "__RPA_ENCRYPTED__26f591609615385b41732d284c73e1"
+    },
+    {
+      "Command": "click",
+      "Target": "xpath=//*[@id=\"userLogin\"]/button/span",
+      "Value": ""
+    },
+    {
+      "Command": "waitForElementVisible",
+      "Target": "//span[@class=\"cuz-btn-icon cuz-new-project cuz-icon-add\"]",
+      "Value": ""
+    },
+    {
+      "Command": "verifyText",
+      "Target": "//h1",
+      "Value": "Projects"
+    }
+  ]
+}

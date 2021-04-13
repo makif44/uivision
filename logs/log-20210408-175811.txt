@@ -1,0 +1,16 @@
+2021-04-08T17:58:11.872Z - UI.Vision RPA started
+2021-04-08T17:58:13.270Z - [status] Playing macro RPA_Demo/Read_pdf.json
+2021-04-08T17:58:13.331Z - [info] Executing:  | XRun | C:\Users\Administrator.TECHNE\Desktop\My Account - Add Payment Account - confirmation.pdf |  | 
+2021-04-08T17:58:14.092Z - [info] Executing:  | pause | 2000 |  | 
+2021-04-08T17:58:16.121Z - [info] Executing:  | OCRExtract | accountInfo1_dpi_120.png | accountInfo | 
+2021-04-08T17:58:27.853Z - [error] Image 'accountInfo1_dpi_120.png' (conf. = 0.8) not found
+2021-04-08T17:58:27.920Z - [info] Macro failed (Runtime 14.60s)
+2021-04-08T17:59:06.168Z - [status] Playing macro Read_pdf
+2021-04-08T17:59:06.234Z - [info] Executing:  | OCRExtract | accountInfo1_dpi_120.png | accountInfo | 
+2021-04-08T17:59:07.942Z - [error] Image 'accountInfo1_dpi_120.png' (conf. = 0.8) not found
+2021-04-08T17:59:07.974Z - [info] Macro failed (Runtime 1.75s)
+2021-04-08T17:59:29.600Z - [status] Playing macro Read_pdf
+2021-04-08T17:59:29.730Z - [info] Executing:  | OCRExtract | accountInfo1_dpi_120.png | accountInfo | 
+2021-04-08T17:59:31.609Z - [error] Image 'accountInfo1_dpi_120.png' (conf. = 0.8) not found
+2021-04-08T17:59:31.645Z - [info] Macro failed (Runtime 1.93s)
+2021-04-08T17:59:40.219Z - UI.Vision RPA closing

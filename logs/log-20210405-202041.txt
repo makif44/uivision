@@ -1,0 +1,7 @@
+2021-04-05T17:20:41.078Z - UI.Vision RPA started
+2021-04-05T17:21:46.125Z - [status] Playing macro Read from pdf
+2021-04-05T17:21:46.177Z - [info] Executing:  | XRun | C:\Users\makif\Desktop/My Account - Add Payment Account - confirmation.pdf |  | 
+2021-04-05T17:21:46.966Z - [info] Executing:  | pause | 5000 |  | 
+2021-04-05T17:21:52.302Z - [info] Executing:  | OCRExtract | accountInfo_dpi_120.png | accountInfo | 
+2021-04-05T17:22:04.144Z - [error] Image 'accountInfo_dpi_120.png' (conf. = 0.6) not found
+2021-04-05T17:22:04.195Z - [info] Macro failed (Runtime 18.03s)

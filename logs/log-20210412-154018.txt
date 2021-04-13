@@ -1,0 +1,324 @@
+2021-04-12T15:40:18.482Z - UI.Vision RPA started
+2021-04-12T15:40:23.423Z - [status] Playing macro Read_pdf
+2021-04-12T15:40:23.484Z - [info] Executing:  | XRun | C:\Users\Administrator.TECHNE\Desktop\My Account - Add Payment Account - confirmation.pdf |  | 
+2021-04-12T15:40:24.593Z - [info] Executing:  | pause | 2000 |  | 
+2021-04-12T15:40:26.929Z - [info] Executing:  | OCRExtract | account2_dpi_120.png | accountInfo | 
+2021-04-12T15:40:39.036Z - [error] Image 'account2_dpi_120.png' (conf. = 0.6) not found
+2021-04-12T15:40:39.095Z - [info] Macro failed (Runtime 15.62s)
+2021-04-12T15:41:05.814Z - [status] Playing macro Create_email
+2021-04-12T15:41:05.867Z - [info] Executing:  | open | https://accounts.google.com/signup/v2/webcreateaccount?service=mail&continue=https%3A%2F%2Fmail.google.com%2Fmail&hl=en-GB&dsh=S-1089625264%3A1616102015659256&gmb=exp&biz=false&flowName=GlifWebSignIn&flowEntry=SignUp |  | 
+2021-04-12T15:41:06.005Z - [error] An unexpected error occurred
+2021-04-12T15:41:06.042Z - [info] Macro failed (Runtime 0.19s)
+2021-04-12T15:41:31.373Z - [status] Playing macro Create_email
+2021-04-12T15:41:31.429Z - [info] Executing:  | open | https://accounts.google.com/signup/v2/webcreateaccount?service=mail&continue=https%3A%2F%2Fmail.google.com%2Fmail&hl=en-GB&dsh=S-1089625264%3A1616102015659256&gmb=exp&biz=false&flowName=GlifWebSignIn&flowEntry=SignUp |  | 
+2021-04-12T15:41:31.843Z - [info] Executing:  | csvRead | user_info2.csv |  | 
+2021-04-12T15:41:32.284Z - [info] Executing:  | while_v2 | ${!csvReadStatus} == "OK" |  | 
+2021-04-12T15:41:32.626Z - [info] Executing:  | echo | Inside subroutine: Status = ${!csvReadStatus}, Line = ${!csvReadLineNumber} | blue | 
+2021-04-12T15:41:32.636Z - [echo] Inside subroutine: Status = OK, Line = 1
+2021-04-12T15:41:32.969Z - [info] Executing:  | type | id=firstName | ${!col1} | 
+2021-04-12T15:41:33.430Z - [info] Executing:  | type | id=lastName | ${!col2} | 
+2021-04-12T15:41:33.853Z - [info] Executing:  | type | name=Passwd | ${!col4} | 
+2021-04-12T15:41:34.338Z - [info] Executing:  | type | name=ConfirmPasswd | ${!col4} | 
+2021-04-12T15:41:34.808Z - [info] Executing:  | echo | status is ${!statusOK} | blue | 
+2021-04-12T15:41:34.818Z - [echo] status is true
+2021-04-12T15:41:35.141Z - [info] Executing:  | do |  |  | 
+2021-04-12T15:41:35.479Z - [info] Executing:  | if_v2 | ${!statusOK}==false |  | 
+2021-04-12T15:41:35.811Z - [info] Executing:  | type | id=username | ${!col3} | 
+2021-04-12T15:41:36.361Z - [info] Executing:  | click | xpath=//*[@id="accountDetailsNext"]/div/button/div[2] |  | 
+2021-04-12T15:41:36.797Z - [info] Executing:  | pause | 2000 |  | 
+2021-04-12T15:41:39.137Z - [info] Executing:  | store | true | !statusOK | 
+2021-04-12T15:41:39.470Z - [info] Executing:  | visualVerify | verifiyPhone_dpi_120.png |  | 
+2021-04-12T15:41:50.017Z - [error][ignored] Image 'verifiyPhone_dpi_120.png' (conf. = 0.6) not found
+2021-04-12T15:41:50.342Z - [info] Executing:  | echo | status is ${!statusOK} | blue | 
+2021-04-12T15:41:50.351Z - [echo] status is false
+2021-04-12T15:41:50.677Z - [info] Executing:  | repeatIf | ${!statusOK}==false |  | 
+2021-04-12T15:41:51.010Z - [info] Executing:  | if_v2 | ${!statusOK}==false |  | 
+2021-04-12T15:41:51.342Z - [info] Executing:  | executeScript_Sandbox | return ${!col3}+"1" | !col3 | 
+2021-04-12T15:41:51.680Z - [info] Executing:  | comment | store // ${!col3} | !csvLine | 
+2021-04-12T15:41:52.011Z - [info] Executing:  | comment | csvSave // user_info2.csv |  | 
+2021-04-12T15:41:52.344Z - [info] Executing:  | end |  |  | 
+2021-04-12T15:41:52.667Z - [info] Executing:  | type | id=username | ${!col3} | 
+2021-04-12T15:41:53.231Z - [info] Executing:  | click | xpath=//*[@id="accountDetailsNext"]/div/button/div[2] |  | 
+2021-04-12T15:41:53.683Z - [info] Executing:  | pause | 2000 |  | 
+2021-04-12T15:41:56.027Z - [info] Executing:  | store | true | !statusOK | 
+2021-04-12T15:41:56.360Z - [info] Executing:  | visualVerify | verifiyPhone_dpi_120.png |  | 
+2021-04-12T15:42:06.878Z - [error][ignored] Image 'verifiyPhone_dpi_120.png' (conf. = 0.6) not found
+2021-04-12T15:42:07.209Z - [info] Executing:  | echo | status is ${!statusOK} | blue | 
+2021-04-12T15:42:07.219Z - [echo] status is false
+2021-04-12T15:42:07.548Z - [info] Executing:  | repeatIf | ${!statusOK}==false |  | 
+2021-04-12T15:42:07.880Z - [info] Executing:  | if_v2 | ${!statusOK}==false |  | 
+2021-04-12T15:42:08.212Z - [info] Executing:  | executeScript_Sandbox | return ${!col3}+"1" | !col3 | 
+2021-04-12T15:42:08.550Z - [info] Executing:  | comment | store // ${!col3} | !csvLine | 
+2021-04-12T15:42:08.882Z - [info] Executing:  | comment | csvSave // user_info2.csv |  | 
+2021-04-12T15:42:09.214Z - [info] Executing:  | end |  |  | 
+2021-04-12T15:42:09.553Z - [info] Executing:  | type | id=username | ${!col3} | 
+2021-04-12T15:42:19.632Z - [error] timeout reached when looking for element 'id=username'
+2021-04-12T15:42:19.666Z - [info] Macro failed (Runtime 48.25s)
+2021-04-12T15:44:09.547Z - [status] Playing macro Create_email
+2021-04-12T15:44:09.603Z - [info] Executing:  | open | https://accounts.google.com/signup/v2/webcreateaccount?service=mail&continue=https%3A%2F%2Fmail.google.com%2Fmail&hl=en-GB&dsh=S-1089625264%3A1616102015659256&gmb=exp&biz=false&flowName=GlifWebSignIn&flowEntry=SignUp |  | 
+2021-04-12T15:44:12.058Z - [info] Executing:  | csvRead | user_info2.csv |  | 
+2021-04-12T15:44:12.444Z - [info] Executing:  | while_v2 | ${!csvReadStatus} == "OK" |  | 
+2021-04-12T15:44:12.775Z - [info] Executing:  | echo | Inside subroutine: Status = ${!csvReadStatus}, Line = ${!csvReadLineNumber} | blue | 
+2021-04-12T15:44:12.787Z - [echo] Inside subroutine: Status = OK, Line = 1
+2021-04-12T15:44:13.114Z - [info] Executing:  | type | id=firstName | ${!col1} | 
+2021-04-12T15:44:13.547Z - [info] Executing:  | type | id=lastName | ${!col2} | 
+2021-04-12T15:44:13.980Z - [info] Executing:  | type | name=Passwd | ${!col4} | 
+2021-04-12T15:44:14.481Z - [info] Executing:  | type | name=ConfirmPasswd | ${!col4} | 
+2021-04-12T15:44:14.967Z - [info] Executing:  | echo | status is ${!statusOK} | blue | 
+2021-04-12T15:44:14.979Z - [echo] status is true
+2021-04-12T15:44:15.304Z - [info] Executing:  | do |  |  | 
+2021-04-12T15:44:15.636Z - [info] Executing:  | if_v2 | ${!statusOK}==false |  | 
+2021-04-12T15:44:15.969Z - [info] Executing:  | type | id=username | ${!col3} | 
+2021-04-12T15:44:16.539Z - [info] Executing:  | click | xpath=//*[@id="accountDetailsNext"]/div/button/div[2] |  | 
+2021-04-12T15:44:16.972Z - [info] Executing:  | pause | 2000 |  | 
+2021-04-12T15:44:19.329Z - [info] Executing:  | store | true | !statusOK | 
+2021-04-12T15:44:19.660Z - [info] Executing:  | visualVerify | verifiyPhone_dpi_120.png |  | 
+2021-04-12T15:44:30.199Z - [error][ignored] Image 'verifiyPhone_dpi_120.png' (conf. = 0.6) not found
+2021-04-12T15:44:30.540Z - [info] Executing:  | echo | status is ${!statusOK} | blue | 
+2021-04-12T15:44:30.554Z - [echo] status is false
+2021-04-12T15:44:30.886Z - [info] Executing:  | repeatIf | ${!statusOK}==false |  | 
+2021-04-12T15:44:31.226Z - [info] Executing:  | if_v2 | ${!statusOK}==false |  | 
+2021-04-12T15:44:31.563Z - [info] Executing:  | executeScript_Sandbox | return ${!col3}+"1" | !col3 | 
+2021-04-12T15:44:31.928Z - [info] Executing:  | comment | store // ${!col3} | !csvLine | 
+2021-04-12T15:44:32.261Z - [info] Executing:  | comment | csvSave // user_info2.csv |  | 
+2021-04-12T15:44:32.592Z - [info] Executing:  | end |  |  | 
+2021-04-12T15:44:32.931Z - [info] Executing:  | type | id=username | ${!col3} | 
+2021-04-12T15:44:33.511Z - [info] Executing:  | click | xpath=//*[@id="accountDetailsNext"]/div/button/div[2] |  | 
+2021-04-12T15:44:33.934Z - [info] Executing:  | pause | 2000 |  | 
+2021-04-12T15:44:36.288Z - [info] Executing:  | store | true | !statusOK | 
+2021-04-12T15:44:36.642Z - [info] Executing:  | visualVerify | verifiyPhone_dpi_120.png |  | 
+2021-04-12T15:44:47.168Z - [error][ignored] Image 'verifiyPhone_dpi_120.png' (conf. = 0.6) not found
+2021-04-12T15:44:47.507Z - [info] Executing:  | echo | status is ${!statusOK} | blue | 
+2021-04-12T15:44:47.520Z - [echo] status is false
+2021-04-12T15:44:47.845Z - [info] Executing:  | repeatIf | ${!statusOK}==false |  | 
+2021-04-12T15:44:48.181Z - [info] Executing:  | if_v2 | ${!statusOK}==false |  | 
+2021-04-12T15:44:48.513Z - [info] Executing:  | executeScript_Sandbox | return ${!col3}+"1" | !col3 | 
+2021-04-12T15:44:48.845Z - [info] Executing:  | comment | store // ${!col3} | !csvLine | 
+2021-04-12T15:44:49.184Z - [info] Executing:  | comment | csvSave // user_info2.csv |  | 
+2021-04-12T15:44:49.534Z - [info] Executing:  | end |  |  | 
+2021-04-12T15:44:49.864Z - [info] Executing:  | type | id=username | ${!col3} | 
+2021-04-12T15:44:59.950Z - [error] timeout reached when looking for element 'id=username'
+2021-04-12T15:44:59.993Z - [info] Macro failed (Runtime 50.40s)
+2021-04-12T15:45:06.115Z - [status] Playing macro Create_email
+2021-04-12T15:45:06.171Z - [info] Executing:  | open | https://accounts.google.com/signup/v2/webcreateaccount?service=mail&continue=https%3A%2F%2Fmail.google.com%2Fmail&hl=en-GB&dsh=S-1089625264%3A1616102015659256&gmb=exp&biz=false&flowName=GlifWebSignIn&flowEntry=SignUp |  | 
+2021-04-12T15:45:08.619Z - [info] Executing:  | csvRead | user_info2.csv |  | 
+2021-04-12T15:45:09.020Z - [info] Executing:  | while_v2 | ${!csvReadStatus} == "OK" |  | 
+2021-04-12T15:45:09.369Z - [info] Executing:  | echo | Inside subroutine: Status = ${!csvReadStatus}, Line = ${!csvReadLineNumber} | blue | 
+2021-04-12T15:45:09.386Z - [echo] Inside subroutine: Status = OK, Line = 1
+2021-04-12T15:45:09.708Z - [info] Executing:  | type | id=firstName | ${!col1} | 
+2021-04-12T15:45:10.162Z - [info] Executing:  | type | id=lastName | ${!col2} | 
+2021-04-12T15:45:10.596Z - [info] Executing:  | type | name=Passwd | ${!col4} | 
+2021-04-12T15:45:11.095Z - [info] Executing:  | type | name=ConfirmPasswd | ${!col4} | 
+2021-04-12T15:45:11.581Z - [info] Executing:  | echo | status is ${!statusOK} | blue | 
+2021-04-12T15:45:11.595Z - [echo] status is true
+2021-04-12T15:45:11.929Z - [info] Executing:  | do |  |  | 
+2021-04-12T15:45:12.268Z - [info] Executing:  | if_v2 | ${!statusOK}==false |  | 
+2021-04-12T15:45:12.601Z - [info] Executing:  | type | id=username | ${!col3} | 
+2021-04-12T15:45:13.165Z - [info] Executing:  | click | xpath=//*[@id="accountDetailsNext"]/div/button/div[2] |  | 
+2021-04-12T15:45:13.604Z - [info] Executing:  | pause | 2000 |  | 
+2021-04-12T15:45:15.943Z - [info] Executing:  | store | true | !statusOK | 
+2021-04-12T15:45:16.281Z - [info] Executing:  | visualVerify | verifiyPhone_dpi_120.png |  | 
+2021-04-12T15:45:26.768Z - [error][ignored] Image 'verifiyPhone_dpi_120.png' (conf. = 0.6) not found
+2021-04-12T15:45:27.127Z - [info] Executing:  | echo | status is ${!statusOK} | blue | 
+2021-04-12T15:45:27.142Z - [echo] status is false
+2021-04-12T15:45:27.465Z - [info] Executing:  | repeatIf | ${!statusOK}==false |  | 
+2021-04-12T15:45:27.797Z - [info] Executing:  | if_v2 | ${!statusOK}==false |  | 
+2021-04-12T15:45:28.130Z - [info] Executing:  | executeScript_Sandbox | return ${!col3}+"1" | !col3 | 
+2021-04-12T15:45:28.483Z - [info] Executing:  | comment | store // ${!col3} | !csvLine | 
+2021-04-12T15:45:28.829Z - [info] Executing:  | comment | csvSave // user_info2.csv |  | 
+2021-04-12T15:45:29.170Z - [info] Executing:  | end |  |  | 
+2021-04-12T15:45:29.502Z - [info] Executing:  | type | id=username | ${!col3} | 
+2021-04-12T15:45:30.057Z - [info] Executing:  | click | xpath=//*[@id="accountDetailsNext"]/div/button/div[2] |  | 
+2021-04-12T15:45:30.493Z - [info] Executing:  | pause | 2000 |  | 
+2021-04-12T15:45:32.843Z - [info] Executing:  | store | true | !statusOK | 
+2021-04-12T15:45:33.180Z - [info] Executing:  | visualVerify | verifiyPhone_dpi_120.png |  | 
+2021-04-12T15:45:43.678Z - [error][ignored] Image 'verifiyPhone_dpi_120.png' (conf. = 0.6) not found
+2021-04-12T15:45:44.008Z - [info] Executing:  | echo | status is ${!statusOK} | blue | 
+2021-04-12T15:45:44.024Z - [echo] status is false
+2021-04-12T15:45:44.356Z - [info] Executing:  | repeatIf | ${!statusOK}==false |  | 
+2021-04-12T15:45:44.709Z - [info] Executing:  | if_v2 | ${!statusOK}==false |  | 
+2021-04-12T15:45:45.042Z - [info] Executing:  | executeScript_Sandbox | return ${!col3}+"1" | !col3 | 
+2021-04-12T15:45:45.381Z - [info] Executing:  | comment | store // ${!col3} | !csvLine | 
+2021-04-12T15:45:45.729Z - [info] Executing:  | comment | csvSave // user_info2.csv |  | 
+2021-04-12T15:45:46.060Z - [info] Executing:  | end |  |  | 
+2021-04-12T15:45:46.398Z - [info] Executing:  | type | id=username | ${!col3} | 
+2021-04-12T15:45:56.492Z - [error] timeout reached when looking for element 'id=username'
+2021-04-12T15:45:56.531Z - [info] Macro failed (Runtime 50.37s)
+2021-04-12T15:46:18.471Z - [status] Playing macro Create_email
+2021-04-12T15:46:18.530Z - [info] Executing:  | visualVerify | verifiyPhone_dpi_120.png |  | 
+2021-04-12T15:46:19.068Z - [error] Image 'verifiyPhone_dpi_120.png' (conf. = 0.6) not found
+2021-04-12T15:46:19.106Z - [info] Macro failed (Runtime 0.59s)
+2021-04-12T15:47:51.473Z - [status] Playing macro Create_email
+2021-04-12T15:47:51.537Z - [info] Executing:  | visualVerify | verfyPhone_dpi_120.png |  | 
+2021-04-12T15:47:52.125Z - [error] Image 'verfyPhone_dpi_120.png' (conf. = 0.6) not found
+2021-04-12T15:47:52.161Z - [info] Macro failed (Runtime 0.64s)
+2021-04-12T15:48:48.703Z - [status] Playing macro Create_email
+2021-04-12T15:48:48.778Z - [info] Executing:  | visualVerify | verfyPhone_dpi_120.png |  | 
+2021-04-12T15:48:49.599Z - [info] Macro completed (Runtime 0.84s)
+2021-04-12T15:49:45.366Z - [status] Playing macro Create_email
+2021-04-12T15:49:45.433Z - [info] Executing:  | open | https://accounts.google.com/signup/v2/webcreateaccount?service=mail&continue=https%3A%2F%2Fmail.google.com%2Fmail&hl=en-GB&dsh=S-1089625264%3A1616102015659256&gmb=exp&biz=false&flowName=GlifWebSignIn&flowEntry=SignUp |  | 
+2021-04-12T15:49:47.882Z - [info] Executing:  | csvRead | user_info2.csv |  | 
+2021-04-12T15:49:48.282Z - [info] Executing:  | while_v2 | ${!csvReadStatus} == "OK" |  | 
+2021-04-12T15:49:48.622Z - [info] Executing:  | echo | Inside subroutine: Status = ${!csvReadStatus}, Line = ${!csvReadLineNumber} | blue | 
+2021-04-12T15:49:48.637Z - [echo] Inside subroutine: Status = OK, Line = 1
+2021-04-12T15:49:48.970Z - [info] Executing:  | type | id=firstName | ${!col1} | 
+2021-04-12T15:49:49.410Z - [info] Executing:  | type | id=lastName | ${!col2} | 
+2021-04-12T15:49:49.841Z - [info] Executing:  | type | name=Passwd | ${!col4} | 
+2021-04-12T15:49:50.360Z - [info] Executing:  | type | name=ConfirmPasswd | ${!col4} | 
+2021-04-12T15:49:50.846Z - [info] Executing:  | echo | status is ${!statusOK} | blue | 
+2021-04-12T15:49:50.860Z - [echo] status is true
+2021-04-12T15:49:51.195Z - [info] Executing:  | do |  |  | 
+2021-04-12T15:49:51.534Z - [info] Executing:  | if_v2 | ${!statusOK}==false |  | 
+2021-04-12T15:49:51.880Z - [info] Executing:  | type | id=username | ${!col3} | 
+2021-04-12T15:49:52.435Z - [info] Executing:  | click | xpath=//*[@id="accountDetailsNext"]/div/button/div[2] |  | 
+2021-04-12T15:49:52.883Z - [info] Executing:  | pause | 2000 |  | 
+2021-04-12T15:49:55.220Z - [info] Executing:  | store | true | !statusOK | 
+2021-04-12T15:49:55.558Z - [info] Executing:  | visualVerify | verfyPhone_dpi_120.png |  | 
+2021-04-12T15:50:06.058Z - [error][ignored] Image 'verfyPhone_dpi_120.png' (conf. = 0.6) not found
+2021-04-12T15:50:06.399Z - [info] Executing:  | echo | status is ${!statusOK} | blue | 
+2021-04-12T15:50:06.410Z - [echo] status is false
+2021-04-12T15:50:06.747Z - [info] Executing:  | repeatIf | ${!statusOK}==false |  | 
+2021-04-12T15:50:07.079Z - [info] Executing:  | if_v2 | ${!statusOK}==false |  | 
+2021-04-12T15:50:07.412Z - [info] Executing:  | executeScript_Sandbox | return ${!col3}+"1" | !col3 | 
+2021-04-12T15:50:07.757Z - [info] Executing:  | comment | store // ${!col3} | !csvLine | 
+2021-04-12T15:50:08.098Z - [info] Executing:  | comment | csvSave // user_info2.csv |  | 
+2021-04-12T15:50:08.429Z - [info] Executing:  | end |  |  | 
+2021-04-12T15:50:08.767Z - [info] Executing:  | type | id=username | ${!col3} | 
+2021-04-12T15:50:09.332Z - [info] Executing:  | click | xpath=//*[@id="accountDetailsNext"]/div/button/div[2] |  | 
+2021-04-12T15:50:09.839Z - [info] Executing:  | pause | 2000 |  | 
+2021-04-12T15:50:12.177Z - [info] Executing:  | store | true | !statusOK | 
+2021-04-12T15:50:12.509Z - [info] Executing:  | visualVerify | verfyPhone_dpi_120.png |  | 
+2021-04-12T15:50:13.143Z - [info] Executing:  | echo | status is ${!statusOK} | blue | 
+2021-04-12T15:50:13.163Z - [echo] status is true
+2021-04-12T15:50:13.482Z - [info] Executing:  | repeatIf | ${!statusOK}==false |  | 
+2021-04-12T15:50:13.814Z - [info] Executing:  | echo | ${!csvReadLineNumber} | blue | 
+2021-04-12T15:50:13.827Z - [echo] 1
+2021-04-12T15:50:14.167Z - [info] Executing:  | store | ${!col1} | !csvLine | 
+2021-04-12T15:50:14.499Z - [info] Executing:  | store | ${!col2} | !csvLine | 
+2021-04-12T15:50:14.834Z - [info] Executing:  | store | ${!col3} | !csvLine | 
+2021-04-12T15:50:15.185Z - [info] Executing:  | store | ${!col4} | !csvLine | 
+2021-04-12T15:50:15.518Z - [info] Executing:  | csvSave | user_info2.csv |  | 
+2021-04-12T15:50:15.919Z - [info] Executing:  | executeScript_Sandbox | return Number(${!csvReadLineNumber})+1 | !csvReadLineNumber | 
+2021-04-12T15:50:16.274Z - [info] Executing:  | echo | ${!csvReadLineNumber} | blue | 
+2021-04-12T15:50:16.288Z - [echo] 2
+2021-04-12T15:50:16.606Z - [info] Executing:  | store | true | !errorIgnore | 
+2021-04-12T15:50:16.954Z - [info] Executing:  | csvRead | user_info.csv |  | 
+2021-04-12T15:50:17.357Z - [info] Executing:  | store | false | !errorIgnore | 
+2021-04-12T15:50:17.693Z - [info] Executing:  | pause | 1000 |  | 
+2021-04-12T15:50:19.061Z - [info] Executing:  | executeScript_Sandbox | return ${!col3}+1 |  | 
+2021-04-12T15:50:19.401Z - [info] Executing:  | type | id=phoneNumberId | 6970241286 | 
+2021-04-12T15:50:19.833Z - [info] Executing:  | click | xpath=//*[@id="view_container"]/div/div/div[2]/div/div[2]/div/div/div/div/button/div[2] |  | 
+2021-04-12T15:50:20.265Z - [info] Executing:  | XClick | vysor_dpi_120.png |  | 
+2021-04-12T15:50:30.701Z - [error] Image 'vysor_dpi_120.png' (conf. = 0.6) not found
+2021-04-12T15:50:30.747Z - [info] Macro failed (Runtime 45.33s)
+2021-04-12T15:50:39.831Z - [status] Playing macro Read_pdf
+2021-04-12T15:50:39.889Z - [info] Executing:  | XRun | C:\Users\Administrator.TECHNE\Desktop\My Account - Add Payment Account - confirmation.pdf |  | 
+2021-04-12T15:50:40.393Z - [info] Executing:  | pause | 2000 |  | 
+2021-04-12T15:50:42.731Z - [info] Executing:  | OCRExtract | account2_dpi_120.png | accountInfo | 
+2021-04-12T15:50:44.011Z - [error] Invalid tab ID: 3
+2021-04-12T15:50:44.047Z - [info] Macro failed (Runtime 4.17s)
+2021-04-12T15:51:27.158Z - [status] Playing macro Read_pdf
+2021-04-12T15:51:27.237Z - [info] Executing:  | XRun | C:\Users\Administrator.TECHNE\Desktop\My Account - Add Payment Account - confirmation.pdf |  | 
+2021-04-12T15:51:27.712Z - [info] Executing:  | pause | 2000 |  | 
+2021-04-12T15:51:30.076Z - [info] Executing:  | OCRExtract | account2_dpi_120.png | accountInfo | 
+2021-04-12T15:51:31.361Z - [error] Invalid tab ID: 4
+2021-04-12T15:51:31.411Z - [info] Macro failed (Runtime 4.19s)
+2021-04-12T15:51:57.285Z - [status] Playing macro Read_pdf
+2021-04-12T15:51:57.355Z - [info] Executing:  | XRun | C:\Users\Administrator.TECHNE\Desktop\My Account - Add Payment Account - confirmation.pdf |  | 
+2021-04-12T15:51:57.883Z - [info] Executing:  | pause | 2000 |  | 
+2021-04-12T15:52:00.242Z - [info] Executing:  | OCRExtract | account2_dpi_120.png | accountInfo | 
+2021-04-12T15:52:11.879Z - [error] Image 'account2_dpi_120.png' (conf. = 0.6) not found
+2021-04-12T15:52:11.927Z - [info] Macro failed (Runtime 14.59s)
+2021-04-12T15:59:26.391Z - [status] Playing macro Read_pdf
+2021-04-12T15:59:26.478Z - [info] Executing:  | XRun | C:\Users\Administrator.TECHNE\Desktop\My Account - Add Payment Account - confirmation.pdf |  | 
+2021-04-12T15:59:26.960Z - [info] Executing:  | XDesktopAutomation | true |  | 
+2021-04-12T15:59:27.319Z - [info] Executing:  | pause | 2000 |  | 
+2021-04-12T15:59:29.710Z - [info] Executing:  | OCRExtract | account2_dpi_120.png | accountInfo | 
+2021-04-12T15:59:41.373Z - [error] Image 'account2_dpi_120.png' (conf. = 0.6) not found
+2021-04-12T15:59:41.420Z - [info] Macro failed (Runtime 14.96s)
+2021-04-12T16:00:01.650Z - [status] Playing macro Calculator TECHRPA-11-13
+2021-04-12T16:00:01.725Z - [info] Executing:  | comment | store // slow | !replayspeed | 
+2021-04-12T16:00:02.069Z - [info] Executing:  | XDesktopAutomation | true |  | 
+2021-04-12T16:00:02.434Z - [info] Executing:  | XRun | C:\Windows\System32\calc |  | 
+2021-04-12T16:00:02.942Z - [info] Executing:  | XClick | button8_dpi_120.png |  | 
+2021-04-12T16:00:13.537Z - [error] Image 'button8_dpi_120.png' (conf. = 0.6) not found
+2021-04-12T16:00:13.607Z - [info] Macro failed (Runtime 11.90s)
+2021-04-12T16:17:52.343Z - [status] Playing macro Read_pdf
+2021-04-12T16:17:52.430Z - [info] Executing:  | XRun | C:\Users\Administrator.TECHNE\Desktop\My Account - Add Payment Account - confirmation.pdf |  | 
+2021-04-12T16:17:52.960Z - [info] Executing:  | XDesktopAutomation | true |  | 
+2021-04-12T16:17:53.342Z - [info] Executing:  | pause | 2000 |  | 
+2021-04-12T16:17:55.698Z - [info] Executing:  | OCRExtract | account2_dpi_120.png | accountInfo | 
+2021-04-12T16:18:07.422Z - [error] Image 'account2_dpi_120.png' (conf. = 0.6) not found
+2021-04-12T16:18:07.476Z - [info] Macro failed (Runtime 15.06s)
+2021-04-12T16:18:23.579Z - [status] Playing macro Read_pdf
+2021-04-12T16:18:23.655Z - [info] Executing:  | XRun | C:\Users\Administrator.TECHNE\Desktop\My Account - Add Payment Account - confirmation.pdf |  | 
+2021-04-12T16:18:24.126Z - [info] Executing:  | XDesktopAutomation | true |  | 
+2021-04-12T16:18:24.504Z - [info] Executing:  | pause | 2000 |  | 
+2021-04-12T16:18:26.864Z - [info] Executing:  | OCRExtract | account2_dpi_120.png | accountInfo | 
+2021-04-12T16:18:38.615Z - [error] Image 'account2_dpi_120.png' (conf. = 0.6) not found
+2021-04-12T16:18:38.664Z - [info] Macro failed (Runtime 15.02s)
+2021-04-12T16:20:54.324Z - [status] Playing macro Read_pdf
+2021-04-12T16:20:54.421Z - [info] Executing:  | XRun | C:\Users\Administrator.TECHNE\Desktop\My Account - Add Payment Account - confirmation.pdf |  | 
+2021-04-12T16:20:54.902Z - [info] Executing:  | XDesktopAutomation | true |  | 
+2021-04-12T16:20:55.256Z - [info] Executing:  | pause | 2000 |  | 
+2021-04-12T16:20:57.607Z - [info] Executing:  | OCRExtract | accountInfo_dpi_120.png | accountInfo | 
+2021-04-12T16:21:09.311Z - [error] Image 'accountInfo_dpi_120.png' (conf. = 0.6) not found
+2021-04-12T16:21:09.372Z - [info] Macro failed (Runtime 14.97s)
+2021-04-12T16:23:12.143Z - [status] Playing macro Read_pdf
+2021-04-12T16:23:12.224Z - [info] Executing:  | XRun | C:\Users\Administrator.TECHNE\Desktop\My Account - Add Payment Account - confirmation.pdf |  | 
+2021-04-12T16:23:12.760Z - [info] Executing:  | XDesktopAutomation | true |  | 
+2021-04-12T16:23:13.126Z - [info] Executing:  | pause | 2000 |  | 
+2021-04-12T16:23:15.482Z - [info] Executing:  | OCRExtract | accountInfo_dpi_120.png | accountInfo | 
+2021-04-12T16:23:27.203Z - [error] Image 'accountInfo_dpi_120.png' (conf. = 0.6) not found
+2021-04-12T16:23:27.255Z - [info] Macro failed (Runtime 15.05s)
+2021-04-12T16:23:37.955Z - [status] Playing macro Read_pdf
+2021-04-12T16:23:38.031Z - [info] Executing:  | OCRExtract | accountInfo_dpi_120.png | accountInfo | 
+2021-04-12T16:23:39.697Z - [error] Image 'accountInfo_dpi_120.png' (conf. = 0.6) not found
+2021-04-12T16:23:39.755Z - [info] Macro failed (Runtime 1.74s)
+2021-04-12T16:24:05.317Z - [status] Playing macro Read_pdf
+2021-04-12T16:24:05.417Z - [info] Executing:  | XRun | C:\Users\Administrator.TECHNE\Desktop\My Account - Add Payment Account - confirmation.pdf |  | 
+2021-04-12T16:24:05.984Z - [info] Executing:  | XDesktopAutomation | true |  | 
+2021-04-12T16:24:06.375Z - [info] Executing:  | pause | 2000 |  | 
+2021-04-12T16:24:08.745Z - [info] Executing:  | OCRExtract | accountInfo_dpi_120.png | accountInfo | 
+2021-04-12T16:24:20.518Z - [error] Image 'accountInfo_dpi_120.png' (conf. = 0.6) not found
+2021-04-12T16:24:20.572Z - [info] Macro failed (Runtime 15.17s)
+2021-04-12T16:24:46.495Z - [status] Playing macro Read_pdf
+2021-04-12T16:24:46.576Z - [info] Executing:  | XRun | C:\Users\Administrator.TECHNE\Desktop\My Account - Add Payment Account - confirmation.pdf |  | 
+2021-04-12T16:24:47.125Z - [info] Executing:  | XDesktopAutomation | true |  | 
+2021-04-12T16:24:47.509Z - [info] Executing:  | comment | pause // 2000 |  | 
+2021-04-12T16:24:47.870Z - [info] Executing:  | OCRExtract | accountInfo_dpi_120.png | accountInfo | 
+2021-04-12T16:24:59.668Z - [error] Image 'accountInfo_dpi_120.png' (conf. = 0.6) not found
+2021-04-12T16:24:59.725Z - [info] Macro failed (Runtime 13.16s)
+2021-04-12T16:31:57.240Z - [status] Playing macro Read_pdf
+2021-04-12T16:31:57.337Z - [info] Executing:  | XRun | C:\Users\Administrator.TECHNE\Desktop\My Account - Add Payment Account - confirmation.pdf |  | 
+2021-04-12T16:31:57.863Z - [info] Executing:  | XDesktopAutomation | true |  | 
+2021-04-12T16:31:58.248Z - [info] Executing:  | comment | pause // 2000 |  | 
+2021-04-12T16:31:58.612Z - [info] Executing:  | comment | OCRExtract // accountInfo_dpi_120.png | accountInfo | 
+2021-04-12T16:31:58.982Z - [info] Executing:  | OCRExtract | rpa_demo_dpi_120.png | accountInfo | 
+2021-04-12T16:32:10.651Z - [error] Image 'rpa_demo_dpi_120.png' (conf. = 0.6) not found
+2021-04-12T16:32:10.709Z - [info] Macro failed (Runtime 13.39s)
+2021-04-12T16:32:20.239Z - [status] Playing macro Read_pdf
+2021-04-12T16:32:20.324Z - [info] Executing:  | OCRExtract | rpa_demo_dpi_120.png | accountInfo | 
+2021-04-12T16:32:21.972Z - [error] Image 'rpa_demo_dpi_120.png' (conf. = 0.6) not found
+2021-04-12T16:32:22.037Z - [info] Macro failed (Runtime 1.73s)
+2021-04-12T16:32:36.416Z - [status] Playing macro Read_pdf
+2021-04-12T16:32:36.494Z - [info] Executing:  | XRun | C:\Users\Administrator.TECHNE\Desktop\My Account - Add Payment Account - confirmation.pdf |  | 
+2021-04-12T16:32:36.963Z - [info] Executing:  | XDesktopAutomation | true |  | 
+2021-04-12T16:32:37.326Z - [info] Executing:  | comment | pause // 2000 |  | 
+2021-04-12T16:32:37.682Z - [info] Executing:  | comment | OCRExtract // accountInfo_dpi_120.png | accountInfo | 
+2021-04-12T16:32:38.035Z - [info] Executing:  | OCRExtract | rpa_demo_dpi_120.png | accountInfo | 
+2021-04-12T16:32:49.680Z - [error] Image 'rpa_demo_dpi_120.png' (conf. = 0.6) not found
+2021-04-12T16:32:49.750Z - [info] Macro failed (Runtime 13.27s)
+2021-04-12T16:33:24.318Z - [status] Playing macro Read_pdf
+2021-04-12T16:33:24.429Z - [info] Executing:  | XRun | C:\Users\Administrator.TECHNE\Desktop\My Account - Add Payment Account - confirmation.pdf |  | 
+2021-04-12T16:33:24.928Z - [info] Executing:  | XDesktopAutomation | true |  | 
+2021-04-12T16:33:25.310Z - [info] Executing:  | comment | pause // 2000 |  | 
+2021-04-12T16:33:25.673Z - [info] Executing:  | comment | OCRExtract // accountInfo_dpi_120.png | accountInfo | 
+2021-04-12T16:33:26.042Z - [info] Executing:  | comment | OCRExtract // rpa_demo_dpi_120.png | accountInfo | 
+2021-04-12T16:33:26.412Z - [info] Executing:  | OCRExtract | homeTools_dpi_120.png | accountInfo | 
+2021-04-12T16:33:38.043Z - [error] Image 'homeTools_dpi_120.png' (conf. = 0.6) not found
+2021-04-12T16:33:38.101Z - [info] Macro failed (Runtime 13.69s)
+2021-04-12T16:35:51.743Z - [info] OCR (eng) started (396.2 KB)
+2021-04-12T16:35:56.067Z - [info] OCR result received (4.3s from endpoint 3)
+2021-04-12T16:36:47.149Z - [info] OCR (eng) started (396.2 KB)
+2021-04-12T16:36:49.814Z - [info] OCR result received (2.6s from endpoint 3)

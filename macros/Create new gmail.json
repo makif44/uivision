@@ -1,0 +1,11 @@
+{
+  "Name": "Create new gmail",
+  "CreationDate": "2021-3-18",
+  "Commands": [
+    {
+      "Command": "open",
+      "Target": "https://accounts.google.com/signup/v2/webcreateaccount?service=mail&continue=https%3A%2F%2Fmail.google.com%2Fmail%2F&ltmpl=default&gmb=exp&biz=false&flowName=GlifWebSignIn&flowEntry=SignUp",
+      "Value": ""
+    }
+  ]
+}

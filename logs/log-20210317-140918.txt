@@ -1,0 +1,13 @@
+2021-03-17T12:09:18.378Z - [status] Playing macro Calculator TECHRPA-11-13
+2021-03-17T12:09:18.445Z - [info] Executing:  | store | slow | !replayspeed | 
+2021-03-17T12:09:20.485Z - [info] Executing:  | XDesktopAutomation | true |  | 
+2021-03-17T12:09:22.516Z - [info] Executing:  | XRun | C:\Windows\System32\cacls.exe |  | 
+2021-03-17T12:09:24.785Z - [info] Executing:  | XClick | button8_dpi_120.png |  | 
+2021-03-17T12:09:35.921Z - [error] Image 'button8_dpi_120.png' (conf. = 0.8) not found
+2021-03-17T12:09:35.967Z - [info] Macro failed (Runtime 17.54s)
+2021-03-17T12:17:14.453Z - [status] Playing macro Calculator TECHRPA-11-13
+2021-03-17T12:17:14.488Z - [info] Executing:  | store | slow | !replayspeed | 
+2021-03-17T12:17:16.513Z - [info] Executing:  | XDesktopAutomation | true |  | 
+2021-03-17T12:17:18.540Z - [info] Executing:  | XRun | \C\Windows\System32\cacls.exe |  | 
+2021-03-17T12:18:55.415Z - [info] Macro was stopped manually (Runtime 100.94s)
+2021-03-17T12:20:28.513Z - UI.Vision RPA closing

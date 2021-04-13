@@ -1,0 +1,14 @@
+2021-03-05T14:36:26.939Z - UI.Vision RPA started
+2021-03-05T14:36:28.507Z - [error] No macro found with path 'Demo/Core/DemoFrames'
+2021-03-05T14:37:19.584Z - [error] No macro found with path 'Demo/Core/DemoFrames'
+2021-03-05T14:38:11.641Z - [error] No macro found with path 'Demo/Core/DemoFrames'
+2021-03-05T14:39:03.572Z - [error] No macro found with path 'Demo/Core/DemoFrames'
+2021-03-05T14:39:55.613Z - [error] No macro found with path 'Demo/Core/DemoFrames'
+2021-03-05T14:40:47.593Z - [error] No macro found with path 'Demo/Core/DemoFrames'
+2021-03-05T14:41:39.616Z - [error] No macro found with path 'Demo/Core/DemoFrames'
+2021-03-05T14:42:31.628Z - [error] No macro found with path 'Demo/Core/DemoFrames'
+2021-03-05T14:43:23.621Z - [error] No macro found with path 'Demo/Core/DemoFrames'
+2021-03-05T14:44:15.790Z - [error] No macro found with path 'Demo/Core/DemoFrames'
+2021-03-05T14:45:07.688Z - [error] No macro found with path 'Demo/Core/DemoFrames'
+2021-03-05T14:45:59.625Z - [error] No macro found with path 'Demo/Core/DemoFrames'
+2021-03-05T14:46:00.919Z - UI.Vision RPA closing

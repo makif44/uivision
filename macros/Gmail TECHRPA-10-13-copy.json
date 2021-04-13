@@ -1,0 +1,111 @@
+{
+  "Name": "Gmail TECHRPA-10-13-copy",
+  "CreationDate": "2021-3-18",
+  "Commands": [
+    {
+      "Command": "store",
+      "Target": "!replayspeed",
+      "Value": "medium"
+    },
+    {
+      "Command": "comment",
+      "Target": "XRun // C:\\Program Files\\Mozilla Firefox\\firefox.exe",
+      "Value": ""
+    },
+    {
+      "Command": "open",
+      "Target": "https://mail.google.com/mail/u/1/#inbox",
+      "Value": ""
+    },
+    {
+      "Command": "comment",
+      "Target": "setWindowSize // 1700x900",
+      "Value": ""
+    },
+    {
+      "Command": "bringBrowserToForeground",
+      "Target": "",
+      "Value": ""
+    },
+    {
+      "Command": "comment",
+      "Target": "XClickRelative // fullSize_dpi_120.png",
+      "Value": ""
+    },
+    {
+      "Command": "comment",
+      "Target": "click // xpath=/html/body",
+      "Value": ""
+    },
+    {
+      "Command": "visualVerify",
+      "Target": "gmailTopic_dpi_120.png@0.50",
+      "Value": ""
+    },
+    {
+      "Command": "visualSearch",
+      "Target": "checkbox_dpi_120.png",
+      "Value": "checkboxNumber"
+    },
+    {
+      "Command": "echo",
+      "Target": "check box number ${checkboxNumber}",
+      "Value": "checkboxNumber"
+    },
+    {
+      "Command": "comment",
+      "Target": "OCRExtractRelative // mxk0xf_dpi_120.png@0.7#2",
+      "Value": "name"
+    },
+    {
+      "Command": "comment",
+      "Target": "echo // ${name}",
+      "Value": "name"
+    },
+    {
+      "Command": "times",
+      "Target": "3",
+      "Value": ""
+    },
+    {
+      "Command": "OCRExtractRelative",
+      "Target": "mxk0xf_dpi_120.png@0.7#${!times}",
+      "Value": "name"
+    },
+    {
+      "Command": "executeScript_Sandbox",
+      "Target": "return ${name}.replace(/( |\\n|\\r)/gm, \"\");",
+      "Value": "name"
+    },
+    {
+      "Command": "echo",
+      "Target": "${name}",
+      "Value": "pink"
+    },
+    {
+      "Command": "comment",
+      "Target": "echo // ${name}",
+      "Value": "blue"
+    },
+    {
+      "Command": "store",
+      "Target": "${!times}",
+      "Value": "!csvLine"
+    },
+    {
+      "Command": "store",
+      "Target": "${name}",
+      "Value": "!csvLine"
+    },
+    {
+      "Command": "csvSave",
+      "Target": "inbox",
+      "Value": ""
+    },
+    {
+      "Command": "end",
+      "Target": "",
+      "Value": ""
+    }
+  ]
+}

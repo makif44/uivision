@@ -1,0 +1,56 @@
+{
+  "Name": "Calculator TECHRPA-11-13",
+  "CreationDate": "2021-3-17",
+  "Commands": [
+    {
+      "Command": "comment",
+      "Target": "store // slow",
+      "Value": "!replayspeed"
+    },
+    {
+      "Command": "XDesktopAutomation",
+      "Target": "true",
+      "Value": ""
+    },
+    {
+      "Command": "XRun",
+      "Target": "C:\\Windows\\System32\\calc",
+      "Value": ""
+    },
+    {
+      "Command": "XClick",
+      "Target": "button8_dpi_120.png",
+      "Value": ""
+    },
+    {
+      "Command": "XClick",
+      "Target": "plusButton_dpi_120.png",
+      "Value": ""
+    },
+    {
+      "Command": "XClick",
+      "Target": "button9_dpi_120.png",
+      "Value": ""
+    },
+    {
+      "Command": "XClick",
+      "Target": "equalButton_dpi_120.png",
+      "Value": ""
+    },
+    {
+      "Command": "visualAssert",
+      "Target": "calResult_dpi_120.png",
+      "Value": "result"
+    },
+    {
+      "Command": "comment",
+      "Target": "XClickRelative // closeCal_dpi_120.png",
+      "Value": ""
+    },
+    {
+      "Command": "XType",
+      "Target": "${KEY_ALT+KEY_F4}",
+      "Value": ""
+    }
+  ]
+}

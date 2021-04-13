@@ -1,0 +1,22 @@
+2021-04-06T14:57:49.017Z - UI.Vision RPA started
+2021-04-06T14:57:51.078Z - [warning] Invalid value for cmd line arg: "closeBrowser" should be 0, 1, true or false, but now it's 
+2021-04-06T14:57:51.428Z - [status] Playing macro RPA_Demo/Read_pdf
+2021-04-06T14:57:51.515Z - [info] Executing:  | XRun | C:\Users\Administrator.TECHNE\Desktop\My Account - Add Payment Account - confirmation.pdf |  | 
+2021-04-06T14:57:51.899Z - [info] Executing:  | pause | 2000 |  | 
+2021-04-06T14:57:53.939Z - [info] Executing:  | OCRExtract | accountInfo_dpi_120.png | accountInfo | 
+2021-04-06T14:58:05.298Z - [error] Image 'accountInfo_dpi_120.png' (conf. = 0.8) not found
+2021-04-06T14:58:05.341Z - [info] Macro failed (Runtime 13.87s)
+2021-04-06T14:58:46.047Z - [warning] Invalid value for cmd line arg: "closeBrowser" should be 0, 1, true or false, but now it's 
+2021-04-06T14:58:46.855Z - [status] Playing macro RPA_Demo/Read_pdf
+2021-04-06T14:58:46.907Z - [info] Executing:  | XRun | C:\Users\Administrator.TECHNE\Desktop\My Account - Add Payment Account - confirmation.pdf |  | 
+2021-04-06T14:58:47.053Z - [info] Executing:  | pause | 2000 |  | 
+2021-04-06T14:58:49.098Z - [info] Executing:  | OCRExtract | accountInfo_dpi_120.png | accountInfo | 
+2021-04-06T14:59:00.388Z - [error] Image 'accountInfo_dpi_120.png' (conf. = 0.8) not found
+2021-04-06T14:59:00.421Z - [info] Macro failed (Runtime 13.53s)
+2021-04-06T15:02:18.113Z - [warning] Invalid value for cmd line arg: "closeBrowser" should be 0, 1, true or false, but now it's 
+2021-04-06T15:02:18.934Z - [status] Playing macro RPA_Demo/Read_pdf
+2021-04-06T15:02:18.989Z - [info] Executing:  | XRun | C:\Users\Administrator.TECHNE\Desktop\My Account - Add Payment Account - confirmation.pdf |  | 
+2021-04-06T15:02:19.120Z - [info] Executing:  | pause | 2000 |  | 
+2021-04-06T15:02:21.169Z - [info] Executing:  | OCRExtract | accountInfo_dpi_120.png | accountInfo | 
+2021-04-06T15:02:32.454Z - [error] Image 'accountInfo_dpi_120.png' (conf. = 0.8) not found
+2021-04-06T15:02:32.490Z - [info] Macro failed (Runtime 13.51s)

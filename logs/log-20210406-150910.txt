@@ -1,0 +1,33 @@
+2021-04-06T15:09:10.404Z - UI.Vision RPA started
+2021-04-06T15:09:11.018Z - [warning] Invalid value for cmd line arg: "closeBrowser" should be 0, 1, true or false, but now it's 
+2021-04-06T15:09:11.332Z - [status] Playing macro RPA_Demo/Read_pdf
+2021-04-06T15:09:11.387Z - [info] Executing:  | XRun | C:\Users\Administrator.TECHNE\Desktop\My Account - Add Payment Account - confirmation.pdf |  | 
+2021-04-06T15:09:11.737Z - [info] Executing:  | pause | 2000 |  | 
+2021-04-06T15:09:13.773Z - [info] Executing:  | OCRExtract | accountInfo_dpi_120.png | accountInfo | 
+2021-04-06T15:09:17.356Z - [info] OCR (eng) started (3.7 KB)
+2021-04-06T15:09:18.179Z - [info] OCR result received (0.7s from endpoint 1)
+2021-04-06T15:09:18.217Z - [info] Executing:  | executeScript_Sandbox | return ${accountInfo}.replace(/[\t\n\r]/gm,''); | accountInfo | 
+2021-04-06T15:09:18.489Z - [info] Executing:  | echo | ${accountInfo} | blue | 
+2021-04-06T15:09:18.503Z - [echo] Xcel Account Number:51-0013351023-6Name on Account:AYSE KAVUKCUOGULLARI
+2021-04-06T15:09:18.538Z - [info] Executing:  | store | ${accountInfo} | !csvLine | 
+2021-04-06T15:09:19.330Z - [info] Executing:  | csvSave | myPDF |  | 
+2021-04-06T15:09:21.040Z - [info] Executing:  | XRun | C:\Program Files\Mozilla Firefox\firefox.exe |  | 
+2021-04-06T15:09:21.748Z - [info] Executing:  | pause | 5000 |  | 
+2021-04-06T15:09:26.792Z - [info] Executing:  | open | https://mail.google.com/mail/u/1/#inbox |  | 
+2021-04-06T15:09:31.329Z - [info] Executing:  | bringBrowserToForeground |  |  | 
+2021-04-06T15:09:31.456Z - [info] Executing:  | XClickRelative | maximize1_dpi_120.png |  | 
+2021-04-06T15:09:33.169Z - [info] Executing:  | XClick | clickNewEmail_dpi_109.png |  | 
+2021-04-06T15:09:34.357Z - [info] Executing:  | XClickRelative | receiver_dpi_120.png |  | 
+2021-04-06T15:09:39.559Z - [info] Executing:  | comment | pause // 2000 |  | 
+2021-04-06T15:09:39.657Z - [info] Executing:  | XType | makifkav44@gmail.com |  | 
+2021-04-06T15:09:40.083Z - [info] Executing:  | XClick | attach_dpi_120.png |  | 
+2021-04-06T15:09:41.112Z - [info] Executing:  | XClickRelative | upload_dpi_120.png |  | 
+2021-04-06T15:09:43.445Z - [info] Executing:  | XType | C:\Users\Administrator.TECHNE\Desktop\uivision\datasources |  | 
+2021-04-06T15:09:43.981Z - [info] Executing:  | XType | ${KEY_ENTER} |  | 
+2021-04-06T15:09:44.464Z - [info] Executing:  | XClick | ocr=myPDF | #doubleclick | 
+2021-04-06T15:09:46.017Z - [info] OCR (eng) started (424.9 KB)
+2021-04-06T15:09:48.642Z - [info] OCR result received (2.6s from endpoint 1)
+2021-04-06T15:09:49.173Z - [info] Executing:  | XClick | sendButton_dpi_120.png |  | 
+2021-04-06T15:09:50.532Z - [info] Executing:  | visualVerify | messageSent_dpi_109.png |  | 
+2021-04-06T15:09:53.728Z - [info] Macro completed (Runtime 42.35s)
+2021-04-06T15:10:57.510Z - UI.Vision RPA closing

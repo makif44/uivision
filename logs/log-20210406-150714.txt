@@ -1,0 +1,16 @@
+2021-04-06T15:07:14.570Z - UI.Vision RPA started
+2021-04-06T15:07:15.749Z - [warning] Invalid value for cmd line arg: "closeBrowser" should be 0, 1, true or false, but now it's 
+2021-04-06T15:07:16.182Z - [status] Playing macro RPA_Demo/Read_pdf
+2021-04-06T15:07:16.514Z - [info] Executing:  | XRun | C:\Users\Administrator.TECHNE\Desktop\My Account - Add Payment Account - confirmation.pdf |  | 
+2021-04-06T15:07:17.161Z - [info] Executing:  | pause | 2000 |  | 
+2021-04-06T15:07:19.198Z - [info] Executing:  | OCRExtract | accountInfo_dpi_120.png | accountInfo | 
+2021-04-06T15:07:32.071Z - [info] OCR (eng) started (3.7 KB)
+2021-04-06T15:07:32.775Z - [info] OCR result received (0.7s from endpoint 1)
+2021-04-06T15:07:32.903Z - [info] Executing:  | executeScript_Sandbox | return ${accountInfo}.replace(/[\t\n\r]/gm,''); | accountInfo | 
+2021-04-06T15:07:33.130Z - [info] Executing:  | echo | ${accountInfo} | blue | 
+2021-04-06T15:07:33.143Z - [echo] Xcel Account Number:51-0013351023-6Name on Account:AYSE KAVUKCUOGULLARI
+2021-04-06T15:07:33.165Z - [info] Executing:  | store | ${accountInfo} | !csvLine | 
+2021-04-06T15:07:33.197Z - [info] Executing:  | csvSave | myPDF |  | 
+2021-04-06T15:07:33.560Z - [info] Executing:  | XRun | C:\Program Files\Mozilla Firefox\firefox.exe |  | 
+2021-04-06T15:07:33.954Z - [info] Executing:  | pause | 5000 |  | 
+2021-04-06T15:07:38.993Z - [info] Executing:  | open | https://mail.google.com/mail/u/1/#inbox |  | 

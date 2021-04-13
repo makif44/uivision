@@ -1,0 +1,281 @@
+{
+  "Name": "Create_email",
+  "CreationDate": "2021-4-12",
+  "Commands": [
+    {
+      "Command": "open",
+      "Target": "https://accounts.google.com/signup/v2/webcreateaccount?service=mail&continue=https%3A%2F%2Fmail.google.com%2Fmail&hl=en-GB&dsh=S-1089625264%3A1616102015659256&gmb=exp&biz=false&flowName=GlifWebSignIn&flowEntry=SignUp",
+      "Value": ""
+    },
+    {
+      "Command": "csvRead",
+      "Target": "user_info2.csv",
+      "Value": ""
+    },
+    {
+      "Command": "while_v2",
+      "Target": "${!csvReadStatus} == \"OK\"",
+      "Value": ""
+    },
+    {
+      "Command": "echo",
+      "Target": "Inside subroutine: Status = ${!csvReadStatus}, Line = ${!csvReadLineNumber}",
+      "Value": "blue"
+    },
+    {
+      "Command": "type",
+      "Target": "id=firstName",
+      "Value": "${!col1}"
+    },
+    {
+      "Command": "type",
+      "Target": "id=lastName",
+      "Value": "${!col2}"
+    },
+    {
+      "Command": "type",
+      "Target": "name=Passwd",
+      "Value": "${!col4}"
+    },
+    {
+      "Command": "type",
+      "Target": "name=ConfirmPasswd",
+      "Value": "${!col4}"
+    },
+    {
+      "Command": "echo",
+      "Target": "status is ${!statusOK}",
+      "Value": "blue"
+    },
+    {
+      "Command": "do",
+      "Target": "",
+      "Value": ""
+    },
+    {
+      "Command": "if_v2",
+      "Target": "${!statusOK}==false",
+      "Value": ""
+    },
+    {
+      "Command": "executeScript_Sandbox",
+      "Target": "return ${!col3}+\"1\"",
+      "Value": "!col3"
+    },
+    {
+      "Command": "comment",
+      "Target": "store // ${!col3}",
+      "Value": "!csvLine"
+    },
+    {
+      "Command": "comment",
+      "Target": "csvSave // user_info2.csv",
+      "Value": ""
+    },
+    {
+      "Command": "end",
+      "Target": "",
+      "Value": ""
+    },
+    {
+      "Command": "type",
+      "Target": "id=username",
+      "Value": "${!col3}"
+    },
+    {
+      "Command": "click",
+      "Target": "xpath=//*[@id=\"accountDetailsNext\"]/div/button/div[2]",
+      "Value": ""
+    },
+    {
+      "Command": "pause",
+      "Target": "2000",
+      "Value": ""
+    },
+    {
+      "Command": "store",
+      "Target": "true",
+      "Value": "!statusOK"
+    },
+    {
+      "Command": "visualVerify",
+      "Target": "verfyPhone_dpi_120.png",
+      "Value": ""
+    },
+    {
+      "Command": "echo",
+      "Target": "status is ${!statusOK}",
+      "Value": "blue"
+    },
+    {
+      "Command": "repeatIf",
+      "Target": "${!statusOK}==false",
+      "Value": ""
+    },
+    {
+      "Command": "echo",
+      "Target": "${!csvReadLineNumber}",
+      "Value": "blue"
+    },
+    {
+      "Command": "store",
+      "Target": "${!col1}",
+      "Value": "!csvLine"
+    },
+    {
+      "Command": "store",
+      "Target": "${!col2}",
+      "Value": "!csvLine"
+    },
+    {
+      "Command": "store",
+      "Target": "${!col3}",
+      "Value": "!csvLine"
+    },
+    {
+      "Command": "store",
+      "Target": "${!col4}",
+      "Value": "!csvLine"
+    },
+    {
+      "Command": "csvSave",
+      "Target": "user_info2.csv",
+      "Value": ""
+    },
+    {
+      "Command": "executeScript_Sandbox",
+      "Target": "return Number(${!csvReadLineNumber})+1",
+      "Value": "!csvReadLineNumber"
+    },
+    {
+      "Command": "echo",
+      "Target": "${!csvReadLineNumber}",
+      "Value": "blue"
+    },
+    {
+      "Command": "store",
+      "Target": "true",
+      "Value": "!errorIgnore"
+    },
+    {
+      "Command": "csvRead",
+      "Target": "user_info.csv",
+      "Value": ""
+    },
+    {
+      "Command": "store",
+      "Target": "false",
+      "Value": "!errorIgnore"
+    },
+    {
+      "Command": "pause",
+      "Target": "1000",
+      "Value": ""
+    },
+    {
+      "Command": "executeScript_Sandbox",
+      "Target": "return ${!col3}+1",
+      "Value": ""
+    },
+    {
+      "Command": "type",
+      "Target": "id=phoneNumberId",
+      "Value": "6970241286"
+    },
+    {
+      "Command": "click",
+      "Target": "xpath=//*[@id=\"view_container\"]/div/div/div[2]/div/div[2]/div/div/div/div/button/div[2]",
+      "Value": ""
+    },
+    {
+      "Command": "XClick",
+      "Target": "vysor_dpi_120.png",
+      "Value": ""
+    },
+    {
+      "Command": "pause",
+      "Target": "3000",
+      "Value": ""
+    },
+    {
+      "Command": "OCRExtractRelative",
+      "Target": "googleVerificationCode_dpi_120.png",
+      "Value": "verificationCode"
+    },
+    {
+      "Command": "echo",
+      "Target": "verification code is = ${verificationCode}",
+      "Value": "blue"
+    },
+    {
+      "Command": "type",
+      "Target": "id=code",
+      "Value": "${verificationCode}"
+    },
+    {
+      "Command": "click",
+      "Target": "xpath=//*[@id=\"view_container\"]/div/div/div[2]/div/div[2]/div[2]/div/div/div/button/div[2]",
+      "Value": ""
+    },
+    {
+      "Command": "type",
+      "Target": "id=day",
+      "Value": "${!col5}"
+    },
+    {
+      "Command": "select",
+      "Target": "id=month",
+      "Value": "${!col6}"
+    },
+    {
+      "Command": "type",
+      "Target": "id=year",
+      "Value": "${!col6}"
+    },
+    {
+      "Command": "select",
+      "Target": "id=gender",
+      "Value": "${!col7}"
+    },
+    {
+      "Command": "click",
+      "Target": "xpath=//*[@id=\"view_container\"]/div/div/div[2]/div/div[2]/div/div/div/div/button/div[2]",
+      "Value": ""
+    },
+    {
+      "Command": "click",
+      "Target": "xpath=//*[@id=\"view_container\"]/div/div/div[2]/div/div[2]/div[2]/div[2]/div/div/button/div[2]",
+      "Value": ""
+    },
+    {
+      "Command": "click",
+      "Target": "xpath=//*[@id=\"view_container\"]/div/div/div[2]/div/div/div/form/span/section/div/div/div/div/div/div/span/div/div/div/div/div[3]/div",
+      "Value": ""
+    },
+    {
+      "Command": "click",
+      "Target": "xpath=//*[@id=\"view_container\"]/div/div/div[2]/div/div[2]/div/div/div/div/button/div[2]",
+      "Value": ""
+    },
+    {
+      "Command": "click",
+      "Target": "xpath=//*[@id=\"view_container\"]/div/div/div[2]/div/div[2]/div/div/div[2]/div/button/div[2]",
+      "Value": ""
+    },
+    {
+      "Command": "click",
+      "Target": "xpath=//*[@id=\"termsofserviceNext\"]/span/span",
+      "Value": ""
+    },
+    {
+      "Command": "open",
+      "Target": "https://accounts.google.com/signup/v2/webcreateaccount?service=mail&continue=https%3A%2F%2Fmail.google.com%2Fmail&hl=en-GB&dsh=S-1089625264%3A1616102015659256&gmb=exp&biz=false&flowName=GlifWebSignIn&flowEntry=SignUp",
+      "Value": ""
+    },
+    {
+      "Command": "end",
+      "Target": "",
+      "Value": ""
+    }
+  ]
+}

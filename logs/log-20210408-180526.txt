@@ -1,0 +1,4 @@
+2021-04-08T18:05:26.897Z - UI.Vision RPA started
+2021-04-08T18:05:28.673Z - [status] Playing macro RPA_Demo/Create_email.json
+2021-04-08T18:05:28.746Z - [info] Executing:  | open | https://accounts.google.com/signup/v2/webcreateaccount?service=mail&continue=https%3A%2F%2Fmail.google.com%2Fmail&hl=en-GB&dsh=S-1089625264%3A1616102015659256&gmb=exp&biz=false&flowName=GlifWebSignIn&flowEntry=SignUp |  | 
+2021-04-08T18:05:29.106Z - UI.Vision RPA closing

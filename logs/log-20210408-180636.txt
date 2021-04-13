@@ -1,0 +1,47 @@
+2021-04-08T18:06:36.559Z - UI.Vision RPA started
+2021-04-08T18:06:39.221Z - [status] Playing macro RPA_Demo/Create_email.json
+2021-04-08T18:06:39.273Z - [info] Executing:  | open | https://accounts.google.com/signup/v2/webcreateaccount?service=mail&continue=https%3A%2F%2Fmail.google.com%2Fmail&hl=en-GB&dsh=S-1089625264%3A1616102015659256&gmb=exp&biz=false&flowName=GlifWebSignIn&flowEntry=SignUp |  | 
+2021-04-08T18:06:41.380Z - [info] Executing:  | csvRead | user_info2.csv |  | 
+2021-04-08T18:06:41.480Z - [info] Executing:  | while_v2 | ${!csvReadStatus} == "OK" |  | 
+2021-04-08T18:06:41.521Z - [info] Executing:  | echo | Inside subroutine: Status = ${!csvReadStatus}, Line = ${!csvReadLineNumber} | blue | 
+2021-04-08T18:06:41.528Z - [echo] Inside subroutine: Status = OK, Line = 1
+2021-04-08T18:06:41.579Z - [info] Executing:  | type | id=firstName | ${!col1} | 
+2021-04-08T18:06:41.746Z - [info] Executing:  | type | id=lastName | ${!col2} | 
+2021-04-08T18:06:41.877Z - [info] Executing:  | type | name=Passwd | ${!col4} | 
+2021-04-08T18:06:42.064Z - [info] Executing:  | type | name=ConfirmPasswd | ${!col4} | 
+2021-04-08T18:06:42.233Z - [info] Executing:  | echo | status is ${!statusOK} | blue | 
+2021-04-08T18:06:42.242Z - [echo] status is true
+2021-04-08T18:06:42.279Z - [info] Executing:  | do |  |  | 
+2021-04-08T18:06:42.332Z - [info] Executing:  | if_v2 | ${!statusOK}==false |  | 
+2021-04-08T18:06:42.398Z - [info] Executing:  | type | id=username | ${!col3} | 
+2021-04-08T18:06:42.666Z - [info] Executing:  | click | xpath=//*[@id="accountDetailsNext"]/div/button/div[2] |  | 
+2021-04-08T18:06:42.772Z - [info] Executing:  | pause | 2000 |  | 
+2021-04-08T18:06:44.812Z - [info] Executing:  | store | true | !statusOK | 
+2021-04-08T18:06:44.858Z - [info] Executing:  | visualVerify | verifiyPhone_dpi_120.png |  | 
+2021-04-08T18:06:55.441Z - [error][ignored] Image 'verifiyPhone_dpi_120.png' (conf. = 0.8) not found
+2021-04-08T18:06:55.507Z - [info] Executing:  | echo | status is ${!statusOK} | blue | 
+2021-04-08T18:06:55.517Z - [echo] status is false
+2021-04-08T18:06:55.568Z - [info] Executing:  | repeatIf | ${!statusOK}==false |  | 
+2021-04-08T18:06:55.624Z - [info] Executing:  | if_v2 | ${!statusOK}==false |  | 
+2021-04-08T18:06:55.693Z - [info] Executing:  | executeScript_Sandbox | return ${!col3}+"1" | !col3 | 
+2021-04-08T18:06:55.754Z - [info] Executing:  | comment | store // ${!col3} | !csvLine | 
+2021-04-08T18:06:55.782Z - [info] Executing:  | comment | csvSave // user_info2.csv |  | 
+2021-04-08T18:06:55.847Z - [info] Executing:  | end |  |  | 
+2021-04-08T18:06:55.886Z - [info] Executing:  | type | id=username | ${!col3} | 
+2021-04-08T18:06:56.275Z - [info] Executing:  | click | xpath=//*[@id="accountDetailsNext"]/div/button/div[2] |  | 
+2021-04-08T18:06:56.375Z - [info] Executing:  | pause | 2000 |  | 
+2021-04-08T18:06:58.431Z - [info] Executing:  | store | true | !statusOK | 
+2021-04-08T18:06:58.461Z - [info] Executing:  | visualVerify | verifiyPhone_dpi_120.png |  | 
+2021-04-08T18:07:08.983Z - [error][ignored] Image 'verifiyPhone_dpi_120.png' (conf. = 0.8) not found
+2021-04-08T18:07:09.024Z - [info] Executing:  | echo | status is ${!statusOK} | blue | 
+2021-04-08T18:07:09.034Z - [echo] status is false
+2021-04-08T18:07:09.085Z - [info] Executing:  | repeatIf | ${!statusOK}==false |  | 
+2021-04-08T18:07:09.125Z - [info] Executing:  | if_v2 | ${!statusOK}==false |  | 
+2021-04-08T18:07:09.260Z - [info] Executing:  | executeScript_Sandbox | return ${!col3}+"1" | !col3 | 
+2021-04-08T18:07:09.321Z - [info] Executing:  | comment | store // ${!col3} | !csvLine | 
+2021-04-08T18:07:09.379Z - [info] Executing:  | comment | csvSave // user_info2.csv |  | 
+2021-04-08T18:07:09.452Z - [info] Executing:  | end |  |  | 
+2021-04-08T18:07:09.536Z - [info] Executing:  | type | id=username | ${!col3} | 
+2021-04-08T18:07:19.656Z - [error] timeout reached when looking for element 'id=username'
+2021-04-08T18:07:19.698Z - [info] Macro failed (Runtime 40.44s)
+2021-04-08T18:35:13.721Z - UI.Vision RPA closing

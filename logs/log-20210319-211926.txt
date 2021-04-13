@@ -1,0 +1,13 @@
+2021-03-19T19:19:26.628Z - UI.Vision RPA started
+2021-03-19T19:19:28.111Z - [status] Playing macro Calculator TECHRPA-11-13
+2021-03-19T19:19:28.148Z - [info] Executing:  | comment | store // slow | !replayspeed | 
+2021-03-19T19:19:28.184Z - [info] Executing:  | XDesktopAutomation | true |  | 
+2021-03-19T19:19:28.231Z - [info] Executing:  | XRun | C:\Windows\System32\calc |  | 
+2021-03-19T19:19:28.444Z - [info] Executing:  | XClick | button8_dpi_120.png |  | 
+2021-03-19T19:19:31.019Z - [info] Executing:  | XClick | plusButton_dpi_120.png |  | 
+2021-03-19T19:19:32.478Z - [info] Executing:  | XClick | button9_dpi_120.png |  | 
+2021-03-19T19:19:33.795Z - [info] Executing:  | XClick | equalButton_dpi_120.png |  | 
+2021-03-19T19:19:35.243Z - [info] Executing:  | visualAssert | calResult_dpi_120.png | result | 
+2021-03-19T19:19:46.258Z - [error] Image 'calResult_dpi_120.png' (conf. = 0.8) not found
+2021-03-19T19:19:46.302Z - [info] Macro failed (Runtime 18.16s)
+2021-03-19T19:19:56.892Z - UI.Vision RPA closing

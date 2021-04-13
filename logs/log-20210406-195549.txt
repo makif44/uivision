@@ -1,0 +1,9 @@
+2021-04-06T19:55:49.674Z - UI.Vision RPA started
+2021-04-06T19:55:51.159Z - [status] Playing macro RPA_Demo/Read_pdf.json
+2021-04-06T19:55:51.204Z - [info] Executing:  | XRun | C:\Users\Administrator.TECHNE\Desktop\My Account - Add Payment Account - confirmation.pdf |  | 
+2021-04-06T19:55:51.411Z - [info] Executing:  | pause | 2000 |  | 
+2021-04-06T19:55:53.438Z - [info] Executing:  | OCRExtract | accountInfo_dpi_120.png | accountInfo | 
+2021-04-06T19:55:53.510Z - [info] Macro was stopped manually (Runtime 2.32s)
+2021-04-06T19:55:56.881Z - [info] OCR (eng) started (1.3 KB)
+2021-04-06T19:55:57.709Z - [info] OCR result received (0.8s from endpoint 2)
+2021-04-06T19:59:33.647Z - UI.Vision RPA closing

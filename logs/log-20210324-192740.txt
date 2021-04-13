@@ -1,0 +1,330 @@
+2021-03-24T17:27:40.597Z - UI.Vision RPA started
+2021-03-24T17:27:56.981Z - [status] Playing macro WordPad TECHRPA-2
+2021-03-24T17:27:57.161Z - [info] Executing:  | visualSearch | 11_dpi_120.png | TextDocumentNumber | 
+2021-03-24T17:28:01.571Z - [info] Executing:  | echo | ${TextDocumentNumber} files were found |  | 
+2021-03-24T17:28:01.588Z - [echo] 1 files were found
+2021-03-24T17:28:01.666Z - [info] Executing:  | times | ${TextDocumentNumber} |  | 
+2021-03-24T17:28:01.817Z - [info] Executing:  | OCRExtractRelative | wordPad_dpi_120.png | fileName | 
+2021-03-24T17:28:14.561Z - [error] Image 'wordPad_dpi_120.png' (conf. = 0.8) not found
+2021-03-24T17:28:14.690Z - [info] Macro failed (Runtime 17.58s)
+2021-03-24T17:29:29.789Z - [status] Playing macro WordPad TECHRPA-2
+2021-03-24T17:29:29.904Z - [info] Executing:  | OCRExtractRelative | wordPad_dpi_120.png | fileName | 
+2021-03-24T17:29:34.184Z - [info] OCR (eng) started (1.4 KB)
+2021-03-24T17:29:36.239Z - [info] OCR result received (2.0s from endpoint 3)
+2021-03-24T17:29:36.417Z - [info] Macro completed (Runtime 6.54s)
+2021-03-24T17:45:47.175Z - [status] Playing macro Create_user_accountsTECHRPA-4
+2021-03-24T17:45:47.282Z - [info] Executing:  | open | https://accounts.google.com/signup/v2/webcreateaccount?service=mail&continue=https%3A%2F%2Fmail.google.com%2Fmail&hl=en-GB&dsh=S-1089625264%3A1616102015659256&gmb=exp&biz=false&flowName=GlifWebSignIn&flowEntry=SignUp |  | 
+2021-03-24T17:46:47.371Z - [error] timeout
+2021-03-24T17:46:47.450Z - [info] Macro failed (Runtime 60.19s)
+2021-03-24T22:40:05.283Z - [status] Playing macro Create_user_accountsTECHRPA-4
+2021-03-24T22:40:05.341Z - [info] Executing:  | open | https://accounts.google.com/signup/v2/webcreateaccount?service=mail&continue=https%3A%2F%2Fmail.google.com%2Fmail&hl=en-GB&dsh=S-1089625264%3A1616102015659256&gmb=exp&biz=false&flowName=GlifWebSignIn&flowEntry=SignUp |  | 
+2021-03-24T22:40:10.346Z - [info] Executing:  | csvRead | user_info2.csv |  | 
+2021-03-24T22:40:10.424Z - [error] Number of columns is inconsistent on line 5
+2021-03-24T22:40:10.455Z - [info] Macro failed (Runtime 5.13s)
+2021-03-24T22:40:49.555Z - [status] Playing macro Create_user_accountsTECHRPA-4
+2021-03-24T22:40:49.664Z - [info] Executing:  | open | https://accounts.google.com/signup/v2/webcreateaccount?service=mail&continue=https%3A%2F%2Fmail.google.com%2Fmail&hl=en-GB&dsh=S-1089625264%3A1616102015659256&gmb=exp&biz=false&flowName=GlifWebSignIn&flowEntry=SignUp |  | 
+2021-03-24T22:40:53.128Z - [info] Executing:  | csvRead | user_info2.csv |  | 
+2021-03-24T22:40:53.236Z - [info] Executing:  | while_v2 | ${!csvReadStatus} == "OK" |  | 
+2021-03-24T22:40:53.284Z - [info] Executing:  | echo | Inside subroutine: Status = ${!csvReadStatus}, Line = ${!csvReadLineNumber} | blue | 
+2021-03-24T22:40:53.293Z - [echo] Inside subroutine: Status = OK, Line = 1
+2021-03-24T22:40:53.350Z - [info] Executing:  | type | id=firstName | ${!col1} | 
+2021-03-24T22:40:53.553Z - [info] Executing:  | type | id=lastName | ${!col2} | 
+2021-03-24T22:40:53.719Z - [info] Executing:  | type | name=Passwd | ${!col4} | 
+2021-03-24T22:40:53.982Z - [info] Executing:  | type | name=ConfirmPasswd | ${!col4} | 
+2021-03-24T22:40:54.252Z - [info] Executing:  | echo | status is ${!statusOK} | blue | 
+2021-03-24T22:40:54.263Z - [echo] status is true
+2021-03-24T22:40:54.310Z - [info] Executing:  | do |  |  | 
+2021-03-24T22:40:54.368Z - [info] Executing:  | if_v2 | ${!statusOK}==false |  | 
+2021-03-24T22:40:54.431Z - [info] Executing:  | type | id=username | ${!col3} | 
+2021-03-24T22:40:54.792Z - [info] Executing:  | click | xpath=//*[@id="accountDetailsNext"]/div/button/div[2] |  | 
+2021-03-24T22:40:54.965Z - [info] Executing:  | pause | 4000 |  | 
+2021-03-24T22:40:59.014Z - [info] Executing:  | store | true | !statusOK | 
+2021-03-24T22:40:59.068Z - [info] Executing:  | visualVerify | verifiyPhone_dpi_120.png |  | 
+2021-03-24T22:41:10.723Z - [error][ignored] Image 'verifiyPhone_dpi_120.png' (conf. = 0.8) not found
+2021-03-24T22:41:10.770Z - [info] Executing:  | echo | status is ${!statusOK} | blue | 
+2021-03-24T22:41:10.778Z - [echo] status is false
+2021-03-24T22:41:10.827Z - [info] Executing:  | repeatIf | ${!statusOK}==false |  | 
+2021-03-24T22:41:10.904Z - [info] Executing:  | if_v2 | ${!statusOK}==false |  | 
+2021-03-24T22:41:10.980Z - [info] Executing:  | executeScript_Sandbox | return ${!col3}+"1" | !col3 | 
+2021-03-24T22:41:11.044Z - [info] Executing:  | store | ${!col3} | !csvLine | 
+2021-03-24T22:41:11.140Z - [info] Executing:  | csvSave | user_info2.csv |  | 
+2021-03-24T22:41:11.412Z - [info] Executing:  | end |  |  | 
+2021-03-24T22:41:11.467Z - [info] Executing:  | type | id=username | ${!col3} | 
+2021-03-24T22:41:12.023Z - [info] Executing:  | click | xpath=//*[@id="accountDetailsNext"]/div/button/div[2] |  | 
+2021-03-24T22:41:12.189Z - [info] Executing:  | pause | 4000 |  | 
+2021-03-24T22:41:16.229Z - [info] Executing:  | store | true | !statusOK | 
+2021-03-24T22:41:16.286Z - [info] Executing:  | visualVerify | verifiyPhone_dpi_120.png |  | 
+2021-03-24T22:41:17.260Z - [info] Executing:  | echo | status is ${!statusOK} | blue | 
+2021-03-24T22:41:17.268Z - [echo] status is true
+2021-03-24T22:41:17.288Z - [info] Executing:  | repeatIf | ${!statusOK}==false |  | 
+2021-03-24T22:41:17.356Z - [info] Executing:  | echo | ${!csvReadLineNumber} | blue | 
+2021-03-24T22:41:17.383Z - [echo] 1
+2021-03-24T22:41:17.480Z - [info] Executing:  | store | ${!col1} | !csvLine | 
+2021-03-24T22:41:17.688Z - [info] Executing:  | store | ${!col2} | !csvLine | 
+2021-03-24T22:41:17.743Z - [info] Executing:  | store | ${!col3} | !csvLine | 
+2021-03-24T22:41:17.798Z - [info] Executing:  | store | ${!col4} | !csvLine | 
+2021-03-24T22:41:17.911Z - [info] Executing:  | csvSave | user_info2.csv |  | 
+2021-03-24T22:41:18.066Z - [info] Executing:  | executeScript_Sandbox | return Number(${!csvReadLineNumber})+1 | !csvReadLineNumber | 
+2021-03-24T22:41:18.125Z - [info] Executing:  | echo | ${!csvReadLineNumber} | blue | 
+2021-03-24T22:41:18.134Z - [echo] 2
+2021-03-24T22:41:18.231Z - [info] Executing:  | store | true | !errorIgnore | 
+2021-03-24T22:41:18.324Z - [info] Executing:  | csvRead | user_info.csv |  | 
+2021-03-24T22:41:18.509Z - [info] Executing:  | store | false | !errorIgnore | 
+2021-03-24T22:41:18.567Z - [info] Executing:  | pause | 3000 |  | 
+2021-03-24T22:41:21.605Z - [info] Executing:  | executeScript_Sandbox | return ${!col3}+1 |  | 
+2021-03-24T22:41:21.648Z - [info] Executing:  | type | id=phoneNumberId | 6970241286 | 
+2021-03-24T22:41:21.798Z - [info] Executing:  | click | xpath=//*[@id="view_container"]/div/div/div[2]/div/div[2]/div/div/div/div/button/div[2] |  | 
+2021-03-24T22:41:21.935Z - [info] Executing:  | XClick | vysor_dpi_120.png |  | 
+2021-03-24T22:41:23.366Z - [info] Executing:  | OCRExtractRelative | googleVerificationCode_dpi_120.png | verificationCode | 
+2021-03-24T22:41:36.285Z - [error] Image 'googleVerificationCode_dpi_120.png' (conf. = 0.8) not found
+2021-03-24T22:41:36.322Z - [info] Macro failed (Runtime 46.67s)
+2021-03-24T22:45:32.641Z - [status] Playing macro Create_user_accountsTECHRPA-4
+2021-03-24T22:45:32.712Z - [info] Executing:  | open | https://accounts.google.com/signup/v2/webcreateaccount?service=mail&continue=https%3A%2F%2Fmail.google.com%2Fmail&hl=en-GB&dsh=S-1089625264%3A1616102015659256&gmb=exp&biz=false&flowName=GlifWebSignIn&flowEntry=SignUp |  | 
+2021-03-24T22:45:36.258Z - [info] Executing:  | csvRead | user_info2.csv |  | 
+2021-03-24T22:45:36.325Z - [error] Number of columns is inconsistent on line 5
+2021-03-24T22:45:36.379Z - [info] Macro failed (Runtime 3.68s)
+2021-03-24T22:46:34.754Z - [status] Playing macro Create_user_accountsTECHRPA-4
+2021-03-24T22:46:34.819Z - [info] Executing:  | open | https://accounts.google.com/signup/v2/webcreateaccount?service=mail&continue=https%3A%2F%2Fmail.google.com%2Fmail&hl=en-GB&dsh=S-1089625264%3A1616102015659256&gmb=exp&biz=false&flowName=GlifWebSignIn&flowEntry=SignUp |  | 
+2021-03-24T22:46:38.136Z - [info] Executing:  | csvRead | user_info2.csv |  | 
+2021-03-24T22:46:38.237Z - [info] Executing:  | while_v2 | ${!csvReadStatus} == "OK" |  | 
+2021-03-24T22:46:38.284Z - [info] Executing:  | echo | Inside subroutine: Status = ${!csvReadStatus}, Line = ${!csvReadLineNumber} | blue | 
+2021-03-24T22:46:38.295Z - [echo] Inside subroutine: Status = OK, Line = 1
+2021-03-24T22:46:38.352Z - [info] Executing:  | type | id=firstName | ${!col1} | 
+2021-03-24T22:46:38.537Z - [info] Executing:  | type | id=lastName | ${!col2} | 
+2021-03-24T22:46:38.809Z - [info] Executing:  | type | name=Passwd | ${!col4} | 
+2021-03-24T22:46:39.062Z - [info] Executing:  | type | name=ConfirmPasswd | ${!col4} | 
+2021-03-24T22:46:39.356Z - [info] Executing:  | echo | status is ${!statusOK} | blue | 
+2021-03-24T22:46:39.368Z - [echo] status is true
+2021-03-24T22:46:39.411Z - [info] Executing:  | do |  |  | 
+2021-03-24T22:46:39.493Z - [info] Executing:  | if_v2 | ${!statusOK}==false |  | 
+2021-03-24T22:46:39.557Z - [info] Executing:  | type | id=username | ${!col3} | 
+2021-03-24T22:46:39.941Z - [info] Executing:  | click | xpath=//*[@id="accountDetailsNext"]/div/button/div[2] |  | 
+2021-03-24T22:46:40.138Z - [info] Executing:  | pause | 4000 |  | 
+2021-03-24T22:46:44.178Z - [info] Executing:  | store | true | !statusOK | 
+2021-03-24T22:46:44.222Z - [info] Executing:  | visualVerify | verifiyPhone_dpi_120.png |  | 
+2021-03-24T22:46:55.193Z - [error][ignored] Image 'verifiyPhone_dpi_120.png' (conf. = 0.8) not found
+2021-03-24T22:46:55.258Z - [info] Executing:  | echo | status is ${!statusOK} | blue | 
+2021-03-24T22:46:55.271Z - [echo] status is false
+2021-03-24T22:46:55.343Z - [info] Executing:  | repeatIf | ${!statusOK}==false |  | 
+2021-03-24T22:46:55.416Z - [info] Executing:  | if_v2 | ${!statusOK}==false |  | 
+2021-03-24T22:46:55.500Z - [info] Executing:  | executeScript_Sandbox | return ${!col3}+"1" | !col3 | 
+2021-03-24T22:46:55.626Z - [info] Executing:  | store | ${!col3} | !csvLine | 
+2021-03-24T22:46:55.754Z - [info] Executing:  | csvSave | user_info2.csv |  | 
+2021-03-24T22:46:55.910Z - [info] Executing:  | end |  |  | 
+2021-03-24T22:46:55.965Z - [info] Executing:  | type | id=username | ${!col3} | 
+2021-03-24T22:46:56.401Z - [info] Executing:  | click | xpath=//*[@id="accountDetailsNext"]/div/button/div[2] |  | 
+2021-03-24T22:46:56.570Z - [info] Executing:  | pause | 4000 |  | 
+2021-03-24T22:47:00.617Z - [info] Executing:  | store | true | !statusOK | 
+2021-03-24T22:47:00.671Z - [info] Executing:  | visualVerify | verifiyPhone_dpi_120.png |  | 
+2021-03-24T22:47:01.408Z - [info] Executing:  | echo | status is ${!statusOK} | blue | 
+2021-03-24T22:47:01.421Z - [echo] status is true
+2021-03-24T22:47:01.497Z - [info] Executing:  | repeatIf | ${!statusOK}==false |  | 
+2021-03-24T22:47:01.579Z - [info] Executing:  | echo | ${!csvReadLineNumber} | blue | 
+2021-03-24T22:47:01.609Z - [echo] 1
+2021-03-24T22:47:01.662Z - [info] Executing:  | store | ${!col1} | !csvLine | 
+2021-03-24T22:47:01.721Z - [info] Executing:  | store | ${!col2} | !csvLine | 
+2021-03-24T22:47:01.798Z - [info] Executing:  | store | ${!col3} | !csvLine | 
+2021-03-24T22:47:01.856Z - [info] Executing:  | store | ${!col4} | !csvLine | 
+2021-03-24T22:47:01.926Z - [info] Executing:  | csvSave | user_info2.csv |  | 
+2021-03-24T22:47:02.067Z - [info] Executing:  | executeScript_Sandbox | return Number(${!csvReadLineNumber})+1 | !csvReadLineNumber | 
+2021-03-24T22:47:02.134Z - [info] Executing:  | echo | ${!csvReadLineNumber} | blue | 
+2021-03-24T22:47:02.146Z - [echo] 2
+2021-03-24T22:47:02.215Z - [info] Executing:  | store | true | !errorIgnore | 
+2021-03-24T22:47:02.282Z - [info] Executing:  | csvRead | user_info.csv |  | 
+2021-03-24T22:47:02.397Z - [info] Executing:  | store | false | !errorIgnore | 
+2021-03-24T22:47:02.456Z - [info] Executing:  | pause | 3000 |  | 
+2021-03-24T22:47:05.503Z - [info] Executing:  | executeScript_Sandbox | return ${!col3}+1 |  | 
+2021-03-24T22:47:05.563Z - [info] Executing:  | type | id=phoneNumberId | 6970241286 | 
+2021-03-24T22:47:05.734Z - [info] Executing:  | click | xpath=//*[@id="view_container"]/div/div/div[2]/div/div[2]/div/div/div/div/button/div[2] |  | 
+2021-03-24T22:47:05.867Z - [info] Executing:  | XClick | vysor_dpi_120.png |  | 
+2021-03-24T22:47:06.932Z - [info] Executing:  | OCRExtractRelative | googleVerificationCode_dpi_120.png | verificationCode | 
+2021-03-24T22:47:19.457Z - [error] Image 'googleVerificationCode_dpi_120.png' (conf. = 0.8) not found
+2021-03-24T22:47:19.515Z - [info] Macro failed (Runtime 44.72s)
+2021-03-24T22:48:45.809Z - [status] Playing macro Create_user_accountsTECHRPA-4
+2021-03-24T22:48:45.872Z - [info] Executing:  | open | https://accounts.google.com/signup/v2/webcreateaccount?service=mail&continue=https%3A%2F%2Fmail.google.com%2Fmail&hl=en-GB&dsh=S-1089625264%3A1616102015659256&gmb=exp&biz=false&flowName=GlifWebSignIn&flowEntry=SignUp |  | 
+2021-03-24T22:48:49.324Z - [info] Executing:  | csvRead | user_info2.csv |  | 
+2021-03-24T22:48:49.424Z - [info] Executing:  | while_v2 | ${!csvReadStatus} == "OK" |  | 
+2021-03-24T22:48:49.466Z - [info] Executing:  | echo | Inside subroutine: Status = ${!csvReadStatus}, Line = ${!csvReadLineNumber} | blue | 
+2021-03-24T22:48:49.485Z - [echo] Inside subroutine: Status = OK, Line = 1
+2021-03-24T22:48:49.529Z - [info] Executing:  | type | id=firstName | ${!col1} | 
+2021-03-24T22:48:49.729Z - [info] Executing:  | type | id=lastName | ${!col2} | 
+2021-03-24T22:48:49.893Z - [info] Executing:  | type | name=Passwd | ${!col4} | 
+2021-03-24T22:48:50.153Z - [info] Executing:  | type | name=ConfirmPasswd | ${!col4} | 
+2021-03-24T22:48:50.416Z - [info] Executing:  | echo | status is ${!statusOK} | blue | 
+2021-03-24T22:48:50.426Z - [echo] status is true
+2021-03-24T22:48:50.466Z - [info] Executing:  | do |  |  | 
+2021-03-24T22:48:50.539Z - [info] Executing:  | if_v2 | ${!statusOK}==false |  | 
+2021-03-24T22:48:50.601Z - [info] Executing:  | type | id=username | ${!col3} | 
+2021-03-24T22:48:50.947Z - [info] Executing:  | click | xpath=//*[@id="accountDetailsNext"]/div/button/div[2] |  | 
+2021-03-24T22:48:51.141Z - [info] Executing:  | pause | 4000 |  | 
+2021-03-24T22:48:55.201Z - [info] Executing:  | store | true | !statusOK | 
+2021-03-24T22:48:55.267Z - [info] Executing:  | visualVerify | verifiyPhone_dpi_120.png |  | 
+2021-03-24T22:49:06.535Z - [error][ignored] Image 'verifiyPhone_dpi_120.png' (conf. = 0.8) not found
+2021-03-24T22:49:06.591Z - [info] Executing:  | echo | status is ${!statusOK} | blue | 
+2021-03-24T22:49:06.604Z - [echo] status is false
+2021-03-24T22:49:06.680Z - [info] Executing:  | repeatIf | ${!statusOK}==false |  | 
+2021-03-24T22:49:06.749Z - [info] Executing:  | if_v2 | ${!statusOK}==false |  | 
+2021-03-24T22:49:06.808Z - [info] Executing:  | executeScript_Sandbox | return ${!col3}+"1" | !col3 | 
+2021-03-24T22:49:06.888Z - [info] Executing:  | comment | store // ${!col3} | !csvLine | 
+2021-03-24T22:49:06.969Z - [info] Executing:  | comment | csvSave // user_info2.csv |  | 
+2021-03-24T22:49:07.028Z - [info] Executing:  | end |  |  | 
+2021-03-24T22:49:07.089Z - [info] Executing:  | type | id=username | ${!col3} | 
+2021-03-24T22:49:07.597Z - [info] Executing:  | click | xpath=//*[@id="accountDetailsNext"]/div/button/div[2] |  | 
+2021-03-24T22:49:07.750Z - [info] Executing:  | pause | 4000 |  | 
+2021-03-24T22:49:11.793Z - [info] Executing:  | store | true | !statusOK | 
+2021-03-24T22:49:11.849Z - [info] Executing:  | visualVerify | verifiyPhone_dpi_120.png |  | 
+2021-03-24T22:49:12.831Z - [info] Executing:  | echo | status is ${!statusOK} | blue | 
+2021-03-24T22:49:12.842Z - [echo] status is true
+2021-03-24T22:49:12.892Z - [info] Executing:  | repeatIf | ${!statusOK}==false |  | 
+2021-03-24T22:49:12.986Z - [info] Executing:  | echo | ${!csvReadLineNumber} | blue | 
+2021-03-24T22:49:13.002Z - [echo] 1
+2021-03-24T22:49:13.136Z - [info] Executing:  | store | ${!col1} | !csvLine | 
+2021-03-24T22:49:13.315Z - [info] Executing:  | store | ${!col2} | !csvLine | 
+2021-03-24T22:49:13.438Z - [info] Executing:  | store | ${!col3} | !csvLine | 
+2021-03-24T22:49:13.507Z - [info] Executing:  | store | ${!col4} | !csvLine | 
+2021-03-24T22:49:13.568Z - [info] Executing:  | csvSave | user_info2.csv |  | 
+2021-03-24T22:49:13.689Z - [info] Executing:  | executeScript_Sandbox | return Number(${!csvReadLineNumber})+1 | !csvReadLineNumber | 
+2021-03-24T22:49:13.742Z - [info] Executing:  | echo | ${!csvReadLineNumber} | blue | 
+2021-03-24T22:49:13.757Z - [echo] 2
+2021-03-24T22:49:13.820Z - [info] Executing:  | store | true | !errorIgnore | 
+2021-03-24T22:49:13.891Z - [info] Executing:  | csvRead | user_info.csv |  | 
+2021-03-24T22:49:14.031Z - [info] Executing:  | store | false | !errorIgnore | 
+2021-03-24T22:49:14.073Z - [info] Executing:  | pause | 3000 |  | 
+2021-03-24T22:49:17.118Z - [info] Executing:  | executeScript_Sandbox | return ${!col3}+1 |  | 
+2021-03-24T22:49:17.167Z - [info] Executing:  | type | id=phoneNumberId | 6970241286 | 
+2021-03-24T22:49:17.318Z - [info] Executing:  | click | xpath=//*[@id="view_container"]/div/div/div[2]/div/div[2]/div/div/div/div/button/div[2] |  | 
+2021-03-24T22:49:17.482Z - [info] Executing:  | XClick | vysor_dpi_120.png |  | 
+2021-03-24T22:49:18.763Z - [info] Executing:  | OCRExtractRelative | googleVerificationCode_dpi_120.png | verificationCode | 
+2021-03-24T22:49:22.354Z - [info] OCR (eng) started (2.1 KB)
+2021-03-24T22:49:23.639Z - [info] OCR result received (1.3s from endpoint 3)
+2021-03-24T22:49:23.705Z - [info] Executing:  | type | id=code | ${verificationCode} | 
+2021-03-24T22:49:23.814Z - [info] Executing:  | click | xpath=//*[@id="view_container"]/div/div/div[2]/div/div[2]/div[2]/div/div/div/button/div[2] |  | 
+2021-03-24T22:49:23.932Z - [info] Executing:  | type | id=day | ${!col5} | 
+2021-03-24T22:49:23.971Z - [error] Internal variable "!COL5" not supported
+2021-03-24T22:49:24.014Z - [info] Macro failed (Runtime 38.16s)
+2021-03-24T22:50:29.425Z - [status] Playing macro Create_user_accountsTECHRPA-4
+2021-03-24T22:50:29.520Z - [info] Executing:  | open | https://accounts.google.com/signup/v2/webcreateaccount?service=mail&continue=https%3A%2F%2Fmail.google.com%2Fmail&hl=en-GB&dsh=S-1089625264%3A1616102015659256&gmb=exp&biz=false&flowName=GlifWebSignIn&flowEntry=SignUp |  | 
+2021-03-24T22:50:33.620Z - [info] Executing:  | csvRead | user_info2.csv |  | 
+2021-03-24T22:50:33.736Z - [info] Executing:  | while_v2 | ${!csvReadStatus} == "OK" |  | 
+2021-03-24T22:50:33.798Z - [info] Executing:  | echo | Inside subroutine: Status = ${!csvReadStatus}, Line = ${!csvReadLineNumber} | blue | 
+2021-03-24T22:50:33.813Z - [echo] Inside subroutine: Status = OK, Line = 1
+2021-03-24T22:50:33.858Z - [info] Executing:  | type | id=firstName | ${!col1} | 
+2021-03-24T22:50:34.051Z - [info] Executing:  | type | id=lastName | ${!col2} | 
+2021-03-24T22:50:34.246Z - [info] Executing:  | type | name=Passwd | ${!col4} | 
+2021-03-24T22:50:34.532Z - [info] Executing:  | type | name=ConfirmPasswd | ${!col4} | 
+2021-03-24T22:50:34.827Z - [info] Executing:  | echo | status is ${!statusOK} | blue | 
+2021-03-24T22:50:34.852Z - [echo] status is true
+2021-03-24T22:50:34.898Z - [info] Executing:  | do |  |  | 
+2021-03-24T22:50:34.961Z - [info] Executing:  | if_v2 | ${!statusOK}==false |  | 
+2021-03-24T22:50:35.029Z - [info] Executing:  | type | id=username | ${!col3} | 
+2021-03-24T22:50:35.419Z - [info] Executing:  | click | xpath=//*[@id="accountDetailsNext"]/div/button/div[2] |  | 
+2021-03-24T22:50:35.598Z - [info] Executing:  | pause | 4000 |  | 
+2021-03-24T22:50:39.647Z - [info] Executing:  | store | true | !statusOK | 
+2021-03-24T22:50:39.707Z - [info] Executing:  | visualVerify | verifiyPhone_dpi_120.png |  | 
+2021-03-24T22:50:50.631Z - [error][ignored] Image 'verifiyPhone_dpi_120.png' (conf. = 0.8) not found
+2021-03-24T22:50:50.690Z - [info] Executing:  | echo | status is ${!statusOK} | blue | 
+2021-03-24T22:50:50.715Z - [echo] status is false
+2021-03-24T22:50:51.220Z - [info] Executing:  | repeatIf | ${!statusOK}==false |  | 
+2021-03-24T22:50:51.333Z - [info] Executing:  | if_v2 | ${!statusOK}==false |  | 
+2021-03-24T22:50:51.407Z - [info] Executing:  | executeScript_Sandbox | return ${!col3}+"1" | !col3 | 
+2021-03-24T22:50:51.495Z - [info] Executing:  | comment | store // ${!col3} | !csvLine | 
+2021-03-24T22:50:51.568Z - [info] Executing:  | comment | csvSave // user_info2.csv |  | 
+2021-03-24T22:50:51.636Z - [info] Executing:  | end |  |  | 
+2021-03-24T22:50:51.698Z - [info] Executing:  | type | id=username | ${!col3} | 
+2021-03-24T22:50:52.160Z - [info] Executing:  | click | xpath=//*[@id="accountDetailsNext"]/div/button/div[2] |  | 
+2021-03-24T22:50:52.357Z - [info] Executing:  | pause | 4000 |  | 
+2021-03-24T22:50:56.429Z - [info] Executing:  | store | true | !statusOK | 
+2021-03-24T22:50:56.478Z - [info] Executing:  | visualVerify | verifiyPhone_dpi_120.png |  | 
+2021-03-24T22:50:57.607Z - [info] Executing:  | echo | status is ${!statusOK} | blue | 
+2021-03-24T22:50:57.626Z - [echo] status is true
+2021-03-24T22:50:57.712Z - [info] Executing:  | repeatIf | ${!statusOK}==false |  | 
+2021-03-24T22:50:57.790Z - [info] Executing:  | echo | ${!csvReadLineNumber} | blue | 
+2021-03-24T22:50:57.809Z - [echo] 1
+2021-03-24T22:50:57.896Z - [info] Executing:  | store | ${!col1} | !csvLine | 
+2021-03-24T22:50:58.000Z - [info] Executing:  | store | ${!col2} | !csvLine | 
+2021-03-24T22:50:58.070Z - [info] Executing:  | store | ${!col3} | !csvLine | 
+2021-03-24T22:50:58.152Z - [info] Executing:  | store | ${!col4} | !csvLine | 
+2021-03-24T22:50:58.220Z - [info] Executing:  | csvSave | user_info2.csv |  | 
+2021-03-24T22:50:58.416Z - [info] Executing:  | executeScript_Sandbox | return Number(${!csvReadLineNumber})+1 | !csvReadLineNumber | 
+2021-03-24T22:50:58.483Z - [info] Executing:  | echo | ${!csvReadLineNumber} | blue | 
+2021-03-24T22:50:58.495Z - [echo] 2
+2021-03-24T22:50:58.562Z - [info] Executing:  | store | true | !errorIgnore | 
+2021-03-24T22:50:58.661Z - [info] Executing:  | csvRead | user_info.csv |  | 
+2021-03-24T22:50:58.825Z - [info] Executing:  | store | false | !errorIgnore | 
+2021-03-24T22:50:58.888Z - [info] Executing:  | pause | 3000 |  | 
+2021-03-24T22:51:01.941Z - [info] Executing:  | executeScript_Sandbox | return ${!col3}+1 |  | 
+2021-03-24T22:51:01.990Z - [info] Executing:  | type | id=phoneNumberId | 6970241286 | 
+2021-03-24T22:51:02.148Z - [info] Executing:  | click | xpath=//*[@id="view_container"]/div/div/div[2]/div/div[2]/div/div/div/div/button/div[2] |  | 
+2021-03-24T22:51:02.293Z - [info] Executing:  | XClick | vysor_dpi_120.png |  | 
+2021-03-24T22:51:03.427Z - [info] Executing:  | OCRExtractRelative | googleVerificationCode_dpi_120.png | verificationCode | 
+2021-03-24T22:51:07.010Z - [info] OCR (eng) started (2.1 KB)
+2021-03-24T22:51:07.408Z - [info] OCR result received (0.4s from endpoint 3)
+2021-03-24T22:51:07.501Z - [info] Executing:  | echo | ${verificationCode} | blue | 
+2021-03-24T22:51:07.565Z - [info] Executing:  | type | id=code | ${verificationCode} | 
+2021-03-24T22:51:07.754Z - [info] Executing:  | click | xpath=//*[@id="view_container"]/div/div/div[2]/div/div[2]/div[2]/div/div/div/button/div[2] |  | 
+2021-03-24T22:51:07.955Z - [info] Executing:  | type | id=day | ${!col5} | 
+2021-03-24T22:51:07.992Z - [error] Internal variable "!COL5" not supported
+2021-03-24T22:51:08.067Z - [info] Macro failed (Runtime 38.57s)
+2021-03-24T22:58:50.315Z - [status] Playing macro Create_user_accountsTECHRPA-4
+2021-03-24T22:58:50.417Z - [info] Executing:  | open | https://accounts.google.com/signup/v2/webcreateaccount?service=mail&continue=https%3A%2F%2Fmail.google.com%2Fmail&hl=en-GB&dsh=S-1089625264%3A1616102015659256&gmb=exp&biz=false&flowName=GlifWebSignIn&flowEntry=SignUp |  | 
+2021-03-24T22:58:52.622Z - [info] Executing:  | csvRead | user_info2.csv |  | 
+2021-03-24T22:58:52.771Z - [info] Executing:  | while_v2 | ${!csvReadStatus} == "OK" |  | 
+2021-03-24T22:58:52.848Z - [info] Executing:  | echo | Inside subroutine: Status = ${!csvReadStatus}, Line = ${!csvReadLineNumber} | blue | 
+2021-03-24T22:58:52.877Z - [echo] Inside subroutine: Status = OK, Line = 1
+2021-03-24T22:58:52.945Z - [info] Executing:  | type | id=firstName | ${!col1} | 
+2021-03-24T22:58:53.201Z - [info] Executing:  | type | id=lastName | ${!col2} | 
+2021-03-24T22:58:53.452Z - [info] Executing:  | type | name=Passwd | ${!col4} | 
+2021-03-24T22:58:53.780Z - [info] Executing:  | type | name=ConfirmPasswd | ${!col4} | 
+2021-03-24T22:58:54.083Z - [info] Executing:  | echo | status is ${!statusOK} | blue | 
+2021-03-24T22:58:54.127Z - [echo] status is true
+2021-03-24T22:58:54.193Z - [info] Executing:  | do |  |  | 
+2021-03-24T22:58:54.275Z - [info] Executing:  | if_v2 | ${!statusOK}==false |  | 
+2021-03-24T22:58:54.350Z - [info] Executing:  | type | id=username | ${!col3} | 
+2021-03-24T22:58:54.776Z - [info] Executing:  | click | xpath=//*[@id="accountDetailsNext"]/div/button/div[2] |  | 
+2021-03-24T22:58:54.960Z - [info] Executing:  | pause | 4000 |  | 
+2021-03-24T22:58:59.017Z - [info] Executing:  | store | true | !statusOK | 
+2021-03-24T22:58:59.085Z - [info] Executing:  | visualVerify | verifiyPhone_dpi_120.png |  | 
+2021-03-24T22:59:10.228Z - [error][ignored] Image 'verifiyPhone_dpi_120.png' (conf. = 0.8) not found
+2021-03-24T22:59:10.289Z - [info] Executing:  | echo | status is ${!statusOK} | blue | 
+2021-03-24T22:59:10.312Z - [echo] status is false
+2021-03-24T22:59:10.381Z - [info] Executing:  | repeatIf | ${!statusOK}==false |  | 
+2021-03-24T22:59:10.456Z - [info] Executing:  | if_v2 | ${!statusOK}==false |  | 
+2021-03-24T22:59:10.540Z - [info] Executing:  | executeScript_Sandbox | return ${!col3}+"1" | !col3 | 
+2021-03-24T22:59:10.645Z - [info] Executing:  | comment | store // ${!col3} | !csvLine | 
+2021-03-24T22:59:10.722Z - [info] Executing:  | comment | csvSave // user_info2.csv |  | 
+2021-03-24T22:59:10.813Z - [info] Executing:  | end |  |  | 
+2021-03-24T22:59:10.910Z - [info] Executing:  | type | id=username | ${!col3} | 
+2021-03-24T22:59:11.372Z - [info] Executing:  | click | xpath=//*[@id="accountDetailsNext"]/div/button/div[2] |  | 
+2021-03-24T22:59:11.573Z - [info] Executing:  | pause | 4000 |  | 
+2021-03-24T22:59:15.634Z - [info] Executing:  | store | true | !statusOK | 
+2021-03-24T22:59:15.706Z - [info] Executing:  | visualVerify | verifiyPhone_dpi_120.png |  | 
+2021-03-24T22:59:16.850Z - [info] Executing:  | echo | status is ${!statusOK} | blue | 
+2021-03-24T22:59:16.882Z - [echo] status is true
+2021-03-24T22:59:17.020Z - [info] Executing:  | repeatIf | ${!statusOK}==false |  | 
+2021-03-24T22:59:17.118Z - [info] Executing:  | echo | ${!csvReadLineNumber} | blue | 
+2021-03-24T22:59:17.167Z - [echo] 1
+2021-03-24T22:59:17.235Z - [info] Executing:  | store | ${!col1} | !csvLine | 
+2021-03-24T22:59:17.328Z - [info] Executing:  | store | ${!col2} | !csvLine | 
+2021-03-24T22:59:17.411Z - [info] Executing:  | store | ${!col3} | !csvLine | 
+2021-03-24T22:59:17.507Z - [info] Executing:  | store | ${!col4} | !csvLine | 
+2021-03-24T22:59:17.582Z - [info] Executing:  | csvSave | user_info2.csv |  | 
+2021-03-24T22:59:17.767Z - [info] Executing:  | executeScript_Sandbox | return Number(${!csvReadLineNumber})+1 | !csvReadLineNumber | 
+2021-03-24T22:59:17.855Z - [info] Executing:  | echo | ${!csvReadLineNumber} | blue | 
+2021-03-24T22:59:17.884Z - [echo] 2
+2021-03-24T22:59:17.948Z - [info] Executing:  | store | true | !errorIgnore | 
+2021-03-24T22:59:18.040Z - [info] Executing:  | csvRead | user_info.csv |  | 
+2021-03-24T22:59:18.201Z - [info] Executing:  | store | false | !errorIgnore | 
+2021-03-24T22:59:18.285Z - [info] Executing:  | pause | 3000 |  | 
+2021-03-24T22:59:21.342Z - [info] Executing:  | executeScript_Sandbox | return ${!col3}+1 |  | 
+2021-03-24T22:59:21.407Z - [info] Executing:  | type | id=phoneNumberId | 6970241286 | 
+2021-03-24T22:59:21.630Z - [info] Executing:  | click | xpath=//*[@id="view_container"]/div/div/div[2]/div/div[2]/div/div/div/div/button/div[2] |  | 
+2021-03-24T22:59:21.794Z - [info] Executing:  | XClick | vysor_dpi_120.png |  | 
+2021-03-24T22:59:23.010Z - [info] Executing:  | pause | 3000 |  | 
+2021-03-24T22:59:26.076Z - [info] Executing:  | OCRExtractRelative | googleVerificationCode_dpi_120.png | verificationCode | 
+2021-03-24T22:59:29.745Z - [info] OCR (eng) started (2.1 KB)
+2021-03-24T22:59:30.806Z - [info] OCR result received (1.0s from endpoint 3)
+2021-03-24T22:59:30.916Z - [info] Executing:  | echo | verification code is = ${verificationCode} | blue | 
+2021-03-24T22:59:30.950Z - [echo] verification code is = 
+2021-03-24T22:59:31.004Z - [info] Executing:  | type | id=code | ${verificationCode} | 
+2021-03-24T22:59:41.154Z - [error] timeout reached when looking for element 'id=code'
+2021-03-24T22:59:41.214Z - [info] Macro failed (Runtime 50.82s)

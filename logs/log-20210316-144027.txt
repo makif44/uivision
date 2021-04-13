@@ -1,0 +1,406 @@
+2021-03-16T12:43:05.245Z - [status] Playing macro cuz
+2021-03-16T12:43:05.305Z - [info] Executing:  | open | https://test-main-dot-web-app-dot-cuz-tech.appspot.com/welcome |  | 
+2021-03-16T12:43:12.741Z - [info] Executing:  | deleteAllCookies |  |  | 
+2021-03-16T12:43:14.816Z - [info] Executing:  | open | https://test-main-dot-web-app-dot-cuz-tech.appspot.com/welcome |  | 
+2021-03-16T12:43:18.919Z - [info] Executing:  | click | xpath=//*[@id="userStatus"]/div/span/div/div[2]/input |  | 
+2021-03-16T12:43:20.987Z - [info] Executing:  | type | xpath=//*[@id="userStatus"]/div/span/div/div[2]/input | translationcuz@gmail.com | 
+2021-03-16T12:43:23.040Z - [info] Executing:  | click | xpath=//button[@type='submit'] |  | 
+2021-03-16T12:43:25.126Z - [info] Executing:  | click | xpath=//input[@type='password'] |  | 
+2021-03-16T12:43:35.180Z - [error] timeout reached when looking for element 'xpath=//input[@type='password']'
+2021-03-16T12:43:35.239Z - [info] Macro failed (Runtime 29.94s)
+2021-03-16T12:45:53.260Z - [status] Playing macro Gmail
+2021-03-16T12:45:53.296Z - [info] Executing:  | open | https://mail.google.com/mail/u/1/#inbox |  | 
+2021-03-16T12:45:57.404Z - [info] Executing:  | click | xpath=/html/body |  | 
+2021-03-16T12:45:59.464Z - [info] Executing:  | click | linkText=Snoozed |  | 
+2021-03-16T12:46:01.534Z - [info] Executing:  | click | linkText=Sent |  | 
+2021-03-16T12:46:03.638Z - [info] Executing:  | click | linkText=Drafts |  | 
+2021-03-16T12:46:05.728Z - [info] Executing:  | click | linkText=Inbox |  | 
+2021-03-16T12:46:07.834Z - [info] Executing:  | click | xpath=//*[@id=":eq"]/span/span |  | 
+2021-03-16T12:46:09.901Z - [info] Executing:  | click | xpath=//*[@id=":2m"]/div/div[2]/div/table/tbody/tr/td/span/span |  | 
+2021-03-16T12:46:20.023Z - [warning] Element found with secondary locator "xpath=//div[3]/div/div/div/div/div/div/div[2]/div/table/tbody/tr/td/span/span". To use it by default, update the target field to use it as primary locator.
+2021-03-16T12:46:22.039Z - [info] Executing:  | click | xpath=//*[@id=":4"]/div[4]/div/div/div/div/div |  | 
+2021-03-16T12:46:24.100Z - [info] Executing:  | click | id=:dx |  | 
+2021-03-16T12:46:26.172Z - [info] Executing:  | click | xpath=//*[@id=":e1"]/div[5]/div |  | 
+2021-03-16T12:46:28.281Z - [info] Macro completed (Runtime 35.00s)
+2021-03-16T12:52:21.286Z - [status] Playing macro Gmail
+2021-03-16T12:52:21.330Z - [info] Executing:  | open | https://mail.google.com/mail/u/1/#inbox |  | 
+2021-03-16T12:52:25.456Z - [info] Executing:  | setWindowSize | 1024x768 |  | 
+2021-03-16T12:52:25.730Z - [warning] Only able to resize it to 1025@763, given 1024@768
+2021-03-16T12:52:27.760Z - [info] Executing:  | click | xpath=/html/body |  | 
+2021-03-16T12:52:30.034Z - [info] Executing:  | click | linkText=Snoozed |  | 
+2021-03-16T12:52:32.125Z - [info] Executing:  | click | linkText=Sent |  | 
+2021-03-16T12:52:34.205Z - [info] Executing:  | click | linkText=Drafts |  | 
+2021-03-16T12:52:36.315Z - [info] Executing:  | click | linkText=Inbox |  | 
+2021-03-16T12:52:38.406Z - [info] Executing:  | click | xpath=//*[@id=":eq"]/span/span |  | 
+2021-03-16T12:52:42.962Z - [info] Macro was stopped manually (Runtime 21.64s)
+2021-03-16T12:53:07.325Z - [status] Playing macro Gmail
+2021-03-16T12:53:07.375Z - [info] Executing:  | open | https://mail.google.com/mail/u/1/#inbox |  | 
+2021-03-16T12:53:19.463Z - [error] open' failed. No page load event detected after 10 seconds. Error detail: still same ipc secret
+2021-03-16T12:53:19.517Z - [info] Macro failed (Runtime 12.15s)
+2021-03-16T12:53:27.344Z - [status] Playing macro Gmail
+2021-03-16T12:53:27.374Z - [info] Executing:  | open | https://mail.google.com/mail/u/1/#inbox |  | 
+2021-03-16T12:53:39.455Z - [error] open' failed. No page load event detected after 10 seconds. Error detail: still same ipc secret
+2021-03-16T12:53:39.495Z - [info] Macro failed (Runtime 12.13s)
+2021-03-16T12:54:09.448Z - [status] Playing macro Gmail
+2021-03-16T12:54:09.479Z - [info] Executing:  | open | https://mail.google.com/mail/u/1/#inbox |  | 
+2021-03-16T12:54:13.675Z - [info] Executing:  | setWindowSize | 1024x768 |  | 
+2021-03-16T12:54:13.787Z - [warning] Only able to resize it to 1025@763, given 1024@768
+2021-03-16T12:54:15.811Z - [info] Executing:  | bringBrowserToForeground |  |  | 
+2021-03-16T12:54:17.907Z - [info] Executing:  | click | xpath=/html/body |  | 
+2021-03-16T12:54:19.974Z - [info] Executing:  | click | linkText=Snoozed |  | 
+2021-03-16T12:54:22.043Z - [info] Executing:  | click | linkText=Sent |  | 
+2021-03-16T12:54:24.133Z - [info] Executing:  | click | linkText=Drafts |  | 
+2021-03-16T12:54:26.212Z - [info] Executing:  | click | linkText=Inbox |  | 
+2021-03-16T12:54:28.344Z - [info] Executing:  | click | xpath=//*[@id=":eq"]/span/span |  | 
+2021-03-16T12:54:38.400Z - [error] timeout reached when looking for element 'xpath=//*[@id=":eq"]/span/span'
+2021-03-16T12:54:38.443Z - [info] Macro failed (Runtime 28.97s)
+2021-03-16T12:56:28.331Z - [status] Playing macro Gmail
+2021-03-16T12:56:28.373Z - [info] Executing:  | open | https://mail.google.com/mail/u/1/#inbox |  | 
+2021-03-16T12:56:40.471Z - [error] open' failed. No page load event detected after 10 seconds. Error detail: still same ipc secret
+2021-03-16T12:56:40.527Z - [info] Macro failed (Runtime 12.16s)
+2021-03-16T12:56:50.716Z - [status] Playing macro Gmail
+2021-03-16T12:56:50.760Z - [info] Executing:  | open | https://mail.google.com/mail/u/1/#inbox |  | 
+2021-03-16T12:57:02.852Z - [error] open' failed. No page load event detected after 10 seconds. Error detail: still same ipc secret
+2021-03-16T12:57:02.879Z - [info] Macro failed (Runtime 12.13s)
+2021-03-16T12:57:13.535Z - [status] Playing macro Gmail
+2021-03-16T12:57:13.575Z - [info] Executing:  | open | https://mail.google.com/mail/u/1/#inbox |  | 
+2021-03-16T12:57:18.583Z - [info] Executing:  | setWindowSize | 1920x1080 |  | 
+2021-03-16T12:57:18.641Z - [warning] Only able to resize it to 1540@763, given 1920@1080
+2021-03-16T12:57:20.668Z - [info] Executing:  | bringBrowserToForeground |  |  | 
+2021-03-16T12:57:22.787Z - [info] Executing:  | click | xpath=/html/body |  | 
+2021-03-16T12:57:24.859Z - [info] Executing:  | click | linkText=Snoozed |  | 
+2021-03-16T12:57:26.923Z - [info] Executing:  | click | linkText=Sent |  | 
+2021-03-16T12:57:28.975Z - [info] Executing:  | click | linkText=Drafts |  | 
+2021-03-16T12:57:31.033Z - [info] Executing:  | click | linkText=Inbox |  | 
+2021-03-16T12:57:33.164Z - [info] Executing:  | click | xpath=//*[@id=":eq"]/span/span |  | 
+2021-03-16T12:57:43.220Z - [error] timeout reached when looking for element 'xpath=//*[@id=":eq"]/span/span'
+2021-03-16T12:57:43.247Z - [info] Macro failed (Runtime 29.68s)
+2021-03-16T12:59:09.009Z - [status] Playing macro Gmail
+2021-03-16T12:59:09.060Z - [info] Executing:  | open | https://mail.google.com/mail/u/1/#inbox |  | 
+2021-03-16T12:59:21.149Z - [error] open' failed. No page load event detected after 10 seconds. Error detail: still same ipc secret
+2021-03-16T12:59:21.191Z - [info] Macro failed (Runtime 12.14s)
+2021-03-16T13:02:54.558Z - [status] Playing macro Gmail
+2021-03-16T13:02:54.590Z - [info] Executing:  | XRun | C:\Program Files (x86)\Google\Chrome\Application\chrome.exe |  | 
+2021-03-16T13:02:55.222Z - [info] Executing:  | open | https://mail.google.com/mail/u/1/#inbox |  | 
+2021-03-16T13:02:57.656Z - [info] Executing:  | setWindowSize | 1920x1080 |  | 
+2021-03-16T13:02:57.695Z - [warning] Only able to resize it to 1540@763, given 1920@1080
+2021-03-16T13:02:58.017Z - [info] Executing:  | bringBrowserToForeground |  |  | 
+2021-03-16T13:02:58.429Z - [info] Executing:  | click | xpath=/html/body |  | 
+2021-03-16T13:02:58.798Z - [info] Executing:  | click | linkText=Snoozed |  | 
+2021-03-16T13:02:59.157Z - [info] Executing:  | click | linkText=Sent |  | 
+2021-03-16T13:02:59.563Z - [info] Executing:  | click | linkText=Drafts |  | 
+2021-03-16T13:02:59.941Z - [info] Executing:  | click | linkText=Inbox |  | 
+2021-03-16T13:03:00.327Z - [info] Executing:  | click | xpath=//*[@id=":eq"]/span/span |  | 
+2021-03-16T13:03:00.687Z - [info] Executing:  | click | xpath=//*[@id=":2m"]/div/div[2]/div/table/tbody/tr/td/span/span |  | 
+2021-03-16T13:03:10.759Z - [error] timeout reached when looking for element 'xpath=//*[@id=":2m"]/div/div[2]/div/table/tbody/tr/td/span/span'
+2021-03-16T13:03:10.806Z - [info] Macro failed (Runtime 16.22s)
+2021-03-16T13:03:34.419Z - [status] Playing macro Gmail
+2021-03-16T13:03:34.465Z - [info] Executing:  | XRun | C:\Program Files (x86)\Google\Chrome\Application\chrome.exe |  | 
+2021-03-16T13:03:34.855Z - [info] Executing:  | open | https://mail.google.com/mail/u/1/#inbox |  | 
+2021-03-16T13:03:46.998Z - [error] open' failed. No page load event detected after 10 seconds. Error detail: still same ipc secret
+2021-03-16T13:03:47.041Z - [info] Macro failed (Runtime 12.58s)
+2021-03-16T13:04:01.773Z - [status] Playing macro Gmail
+2021-03-16T13:04:01.826Z - [info] Executing:  | XRun | C:\Program Files (x86)\Google\Chrome\Application\chrome.exe |  | 
+2021-03-16T13:04:02.201Z - [info] Executing:  | open | https://mail.google.com/mail/u/1/#inbox |  | 
+2021-03-16T13:04:14.333Z - [error] open' failed. No page load event detected after 10 seconds. Error detail: still same ipc secret
+2021-03-16T13:04:14.388Z - [info] Macro failed (Runtime 12.57s)
+2021-03-16T13:27:40.118Z - [status] Playing macro Gmail
+2021-03-16T13:27:40.153Z - [info] Executing:  | XRunAndWait | C:\Program Files (x86)\Google\Chrome\Application\chrome.exe |  | 
+2021-03-16T13:27:40.391Z - [info] App close detected, Exit code=0
+2021-03-16T13:27:40.757Z - [info] Executing:  | open | https://mail.google.com/mail/u/1/#inbox |  | 
+2021-03-16T13:27:52.889Z - [error] open' failed. No page load event detected after 10 seconds. Error detail: still same ipc secret
+2021-03-16T13:27:52.948Z - [info] Macro failed (Runtime 12.80s)
+2021-03-16T13:28:20.708Z - [status] Playing macro Gmail
+2021-03-16T13:28:20.752Z - [info] Executing:  | XRunAndWait | C:\Program Files (x86)\Google\Chrome\Application\chrome.exe |  | 
+2021-03-16T13:28:20.941Z - [info] App close detected, Exit code=0
+2021-03-16T13:28:21.288Z - [info] Executing:  | pause | 5000 |  | 
+2021-03-16T13:28:26.616Z - [info] Executing:  | open | https://mail.google.com/mail/u/1/#inbox |  | 
+2021-03-16T13:28:38.705Z - [error] open' failed. No page load event detected after 10 seconds. Error detail: still same ipc secret
+2021-03-16T13:28:38.754Z - [info] Macro failed (Runtime 18.02s)
+2021-03-16T13:29:04.631Z - [status] Playing macro Gmail
+2021-03-16T13:29:04.676Z - [info] Executing:  | XRunAndWait | C:\Program Files (x86)\Google\Chrome\Application\chrome.exe |  | 
+2021-03-16T13:29:04.838Z - [info] App close detected, Exit code=0
+2021-03-16T13:29:05.206Z - [info] Executing:  | pause | 5000 |  | 
+2021-03-16T13:29:10.576Z - [info] Executing:  | open | https://mail.google.com/mail/u/1/#inbox |  | 
+2021-03-16T13:29:22.697Z - [error] open' failed. No page load event detected after 10 seconds. Error detail: still same ipc secret
+2021-03-16T13:29:22.737Z - [info] Macro failed (Runtime 18.07s)
+2021-03-16T13:31:47.503Z - [status] Playing macro Gmail
+2021-03-16T13:31:47.548Z - [info] Executing:  | XRunAndWait | C:\Program Files (x86)\Google\Chrome\Application\chrome.exe |  | 
+2021-03-16T13:31:47.764Z - [info] App close detected, Exit code=0
+2021-03-16T13:31:48.141Z - [info] Executing:  | pause | 5000 |  | 
+2021-03-16T13:31:53.483Z - [info] Executing:  | open | https://mail.google.com/mail/u/1/#inbox |  | 
+2021-03-16T13:32:05.580Z - [error] open' failed. No page load event detected after 10 seconds. Error detail: still same ipc secret
+2021-03-16T13:32:05.621Z - [info] Macro failed (Runtime 18.08s)
+2021-03-16T13:40:49.218Z - [status] Playing macro Gmail
+2021-03-16T13:40:49.246Z - [info] Executing:  | XRunAndWait | C:\Program Files (x86)\Google\Chrome\Application\chrome.exe |  | 
+2021-03-16T13:40:49.421Z - [info] App close detected, Exit code=0
+2021-03-16T13:40:49.799Z - [info] Executing:  | pause | 5000 |  | 
+2021-03-16T13:40:55.151Z - [info] Executing:  | open | https://mail.google.com/mail/u/1/#inbox |  | 
+2021-03-16T13:40:58.528Z - [info] Executing:  | setWindowSize | 1800x1000 |  | 
+2021-03-16T13:40:58.568Z - [warning] Only able to resize it to 1540@763, given 1800@1000
+2021-03-16T13:40:58.893Z - [info] Executing:  | bringBrowserToForeground |  |  | 
+2021-03-16T13:40:59.310Z - [info] Executing:  | click | xpath=/html/body |  | 
+2021-03-16T13:40:59.786Z - [info] Executing:  | click | linkText=Snoozed |  | 
+2021-03-16T13:41:00.538Z - [info] Executing:  | click | linkText=Sent |  | 
+2021-03-16T13:41:01.033Z - [info] Executing:  | click | linkText=Drafts |  | 
+2021-03-16T13:41:01.543Z - [info] Executing:  | click | linkText=Inbox |  | 
+2021-03-16T13:41:02.264Z - [info] Executing:  | click | xpath=//*[@id=":eq"]/span/span |  | 
+2021-03-16T13:41:12.345Z - [error] timeout reached when looking for element 'xpath=//*[@id=":eq"]/span/span'
+2021-03-16T13:41:12.389Z - [info] Macro failed (Runtime 23.15s)
+2021-03-16T13:41:38.179Z - [status] Playing macro Gmail
+2021-03-16T13:41:38.220Z - [info] Executing:  | XRunAndWait | C:\Program Files (x86)\Google\Chrome\Application\chrome.exe |  | 
+2021-03-16T13:41:38.423Z - [info] App close detected, Exit code=0
+2021-03-16T13:41:38.773Z - [info] Executing:  | pause | 5000 |  | 
+2021-03-16T13:41:44.123Z - [info] Executing:  | open | https://mail.google.com/mail/u/1/#inbox |  | 
+2021-03-16T13:41:48.602Z - [info] Executing:  | setWindowSize | 1800x1000 |  | 
+2021-03-16T13:41:48.691Z - [warning] Only able to resize it to 1540@763, given 1800@1000
+2021-03-16T13:41:49.035Z - [info] Executing:  | bringBrowserToForeground |  |  | 
+2021-03-16T13:41:49.394Z - [info] Executing:  | click | xpath=/html/body |  | 
+2021-03-16T13:41:50.069Z - [info] Executing:  | click | linkText=Snoozed |  | 
+2021-03-16T13:41:50.692Z - [info] Executing:  | click | linkText=Sent |  | 
+2021-03-16T13:41:51.612Z - [info] Executing:  | click | linkText=Drafts |  | 
+2021-03-16T13:41:52.642Z - [info] Executing:  | click | linkText=Inbox |  | 
+2021-03-16T13:41:53.640Z - [info] Executing:  | click | xpath=//*[@id=":eq"]/span/span |  | 
+2021-03-16T13:42:03.733Z - [error] timeout reached when looking for element 'xpath=//*[@id=":eq"]/span/span'
+2021-03-16T13:42:03.803Z - [info] Macro failed (Runtime 25.60s)
+2021-03-16T13:57:17.267Z - [status] Playing macro Gmail
+2021-03-16T13:57:17.314Z - [info] Executing:  | XRunAndWait | C:\Program Files (x86)\Google\Chrome\Application\chrome.exe |  | 
+2021-03-16T13:57:17.507Z - [info] App close detected, Exit code=0
+2021-03-16T13:57:17.911Z - [info] Executing:  | pause | 5000 |  | 
+2021-03-16T13:57:23.243Z - [info] Executing:  | open | https://mail.google.com/mail/u/1/#inbox |  | 
+2021-03-16T13:57:35.331Z - [error] open' failed. No page load event detected after 10 seconds. Error detail: still same ipc secret
+2021-03-16T13:57:35.381Z - [info] Macro failed (Runtime 18.08s)
+2021-03-16T13:57:42.529Z - [status] Playing macro Gmail
+2021-03-16T13:57:42.567Z - [info] Executing:  | XRunAndWait | C:\Program Files (x86)\Google\Chrome\Application\chrome.exe |  | 
+2021-03-16T13:57:42.708Z - [info] App close detected, Exit code=0
+2021-03-16T13:57:43.086Z - [info] Executing:  | comment | pause // 5000 |  | 
+2021-03-16T13:57:43.429Z - [info] Executing:  | open | https://mail.google.com/mail/u/1/#inbox |  | 
+2021-03-16T13:57:55.615Z - [error] open' failed. No page load event detected after 10 seconds. Error detail: still same ipc secret
+2021-03-16T13:57:55.639Z - [info] Macro failed (Runtime 13.08s)
+2021-03-16T13:58:09.343Z - [status] Playing macro Gmail
+2021-03-16T13:58:09.380Z - [info] Executing:  | XRunAndWait | C:\Program Files (x86)\Google\Chrome\Application\chrome.exe |  | 
+2021-03-16T13:58:09.519Z - [info] App close detected, Exit code=0
+2021-03-16T13:58:09.860Z - [info] Executing:  | comment | pause // 5000 |  | 
+2021-03-16T13:58:10.194Z - [info] Executing:  | open | https://mail.google.com/mail/u/1/#inbox |  | 
+2021-03-16T13:58:22.362Z - [error] open' failed. No page load event detected after 10 seconds. Error detail: still same ipc secret
+2021-03-16T13:58:22.403Z - [info] Macro failed (Runtime 13.04s)
+2021-03-16T13:59:37.979Z - [status] Playing macro Gmail
+2021-03-16T13:59:38.007Z - [info] Executing:  | XRunAndWait | C:\Program Files (x86)\Google\Chrome\Application\chrome.exe |  | 
+2021-03-16T13:59:38.167Z - [info] App close detected, Exit code=0
+2021-03-16T13:59:38.534Z - [info] Executing:  | comment | pause // 5000 |  | 
+2021-03-16T13:59:38.859Z - [info] Executing:  | open | https://mail.google.com/mail/u/1/#inbox |  | 
+2021-03-16T13:59:42.329Z - [info] Executing:  | setWindowSize | 1800x1000 |  | 
+2021-03-16T13:59:42.381Z - [warning] Only able to resize it to 1540@763, given 1800@1000
+2021-03-16T13:59:42.704Z - [info] Executing:  | bringBrowserToForeground |  |  | 
+2021-03-16T13:59:43.046Z - [info] Executing:  | click | xpath=/html/body |  | 
+2021-03-16T13:59:43.500Z - [info] Executing:  | click | linkText=Snoozed |  | 
+2021-03-16T13:59:43.883Z - [info] Executing:  | click | linkText=Sent |  | 
+2021-03-16T13:59:44.873Z - [info] Executing:  | click | linkText=Drafts |  | 
+2021-03-16T13:59:45.348Z - [info] Executing:  | click | linkText=Inbox |  | 
+2021-03-16T13:59:46.114Z - [info] Executing:  | click | xpath=//*[@id=":eq"]/span/span |  | 
+2021-03-16T13:59:56.176Z - [error] timeout reached when looking for element 'xpath=//*[@id=":eq"]/span/span'
+2021-03-16T13:59:56.216Z - [info] Macro failed (Runtime 18.22s)
+2021-03-16T14:00:23.567Z - [status] Playing macro Gmail
+2021-03-16T14:00:23.603Z - [info] Executing:  | XRunAndWait | C:\Program Files (x86)\Google\Chrome\Application\chrome.exe |  | 
+2021-03-16T14:00:23.770Z - [info] App close detected, Exit code=0
+2021-03-16T14:00:24.115Z - [info] Executing:  | comment | pause // 5000 |  | 
+2021-03-16T14:00:24.447Z - [info] Executing:  | open | https://mail.google.com/mail/u/1/#inbox |  | 
+2021-03-16T14:00:27.846Z - [info] Executing:  | setWindowSize | 1800x1000 |  | 
+2021-03-16T14:00:27.898Z - [warning] Only able to resize it to 1540@763, given 1800@1000
+2021-03-16T14:00:28.227Z - [info] Executing:  | bringBrowserToForeground |  |  | 
+2021-03-16T14:00:28.579Z - [info] Executing:  | click | xpath=/html/body |  | 
+2021-03-16T14:00:29.154Z - [info] Executing:  | click | linkText=Snoozed |  | 
+2021-03-16T14:00:29.671Z - [info] Executing:  | click | linkText=Sent |  | 
+2021-03-16T14:00:30.757Z - [info] Executing:  | click | linkText=Drafts |  | 
+2021-03-16T14:00:31.502Z - [info] Executing:  | click | linkText=Inbox |  | 
+2021-03-16T14:00:32.132Z - [info] Executing:  | click | (//div[@class='UI']//tr)[1]//td[4] |  | 
+2021-03-16T14:00:42.438Z - [error] timeout reached when looking for element '(//div[@class='UI']//tr)[1]//td[4]'
+2021-03-16T14:00:42.473Z - [info] Macro failed (Runtime 18.88s)
+2021-03-16T14:01:59.167Z - [status] Playing macro Gmail
+2021-03-16T14:01:59.210Z - [info] Executing:  | XRunAndWait | C:\Program Files (x86)\Google\Chrome\Application\chrome.exe |  | 
+2021-03-16T14:01:59.423Z - [info] App close detected, Exit code=0
+2021-03-16T14:02:01.481Z - [info] Executing:  | comment | pause // 5000 |  | 
+2021-03-16T14:02:03.517Z - [info] Executing:  | open | https://mail.google.com/mail/u/1/#inbox |  | 
+2021-03-16T14:02:08.633Z - [info] Executing:  | setWindowSize | 1800x900 |  | 
+2021-03-16T14:02:08.694Z - [warning] Only able to resize it to 1540@763, given 1800@900
+2021-03-16T14:02:10.722Z - [info] Executing:  | bringBrowserToForeground |  |  | 
+2021-03-16T14:02:12.787Z - [info] Executing:  | click | xpath=/html/body |  | 
+2021-03-16T14:02:14.889Z - [info] Executing:  | click | linkText=Snoozed |  | 
+2021-03-16T14:02:16.984Z - [info] Executing:  | click | linkText=Sent |  | 
+2021-03-16T14:02:19.073Z - [info] Executing:  | click | linkText=Drafts |  | 
+2021-03-16T14:02:21.155Z - [info] Executing:  | click | linkText=Inbox |  | 
+2021-03-16T14:02:23.303Z - [info] Executing:  | click | (//div[@class='UI']//tr)[1]//td[4] |  | 
+2021-03-16T14:02:33.383Z - [error] timeout reached when looking for element '(//div[@class='UI']//tr)[1]//td[4]'
+2021-03-16T14:02:33.439Z - [info] Macro failed (Runtime 34.24s)
+2021-03-16T14:06:30.780Z - [status] Playing macro Gmail
+2021-03-16T14:06:30.817Z - [info] Executing:  | XRunAndWait | C:\Program Files (x86)\Google\Chrome\Application\chrome.exe |  | 
+2021-03-16T14:06:30.986Z - [info] App close detected, Exit code=0
+2021-03-16T14:06:33.083Z - [info] Executing:  | comment | pause // 5000 |  | 
+2021-03-16T14:06:35.105Z - [info] Executing:  | open | https://mail.google.com/mail/u/1/#inbox |  | 
+2021-03-16T14:06:39.182Z - [info] Executing:  | setWindowSize | 1800x900 |  | 
+2021-03-16T14:06:39.206Z - [warning] Only able to resize it to 1536@722, given 1800@900
+2021-03-16T14:06:41.239Z - [info] Executing:  | bringBrowserToForeground |  |  | 
+2021-03-16T14:06:43.306Z - [info] Executing:  | click | xpath=/html/body |  | 
+2021-03-16T14:06:45.388Z - [info] Executing:  | click | linkText=Snoozed |  | 
+2021-03-16T14:06:47.467Z - [info] Executing:  | click | linkText=Sent |  | 
+2021-03-16T14:06:49.585Z - [info] Executing:  | click | linkText=Drafts |  | 
+2021-03-16T14:06:51.638Z - [info] Executing:  | click | linkText=Inbox |  | 
+2021-03-16T14:06:53.729Z - [info] Executing:  | click | (//div[@class='UI']//tr)[1]//td[4] |  | 
+2021-03-16T14:07:03.779Z - [error] timeout reached when looking for element '(//div[@class='UI']//tr)[1]//td[4]'
+2021-03-16T14:07:03.820Z - [info] Macro failed (Runtime 33.01s)
+2021-03-16T14:07:58.269Z - [status] Playing macro Gmail
+2021-03-16T14:07:58.313Z - [info] Executing:  | XRunAndWait | C:\Program Files (x86)\Google\Chrome\Application\chrome.exe |  | 
+2021-03-16T14:07:58.475Z - [info] App close detected, Exit code=0
+2021-03-16T14:08:00.524Z - [info] Executing:  | comment | pause // 5000 |  | 
+2021-03-16T14:08:02.558Z - [info] Executing:  | open | https://mail.google.com/mail/u/1/#inbox |  | 
+2021-03-16T14:08:06.671Z - [info] Executing:  | setWindowSize | 1800x900 |  | 
+2021-03-16T14:08:06.701Z - [warning] Only able to resize it to 1536@507, given 1800@900
+2021-03-16T14:08:08.719Z - [info] Executing:  | bringBrowserToForeground |  |  | 
+2021-03-16T14:08:10.845Z - [info] Executing:  | click | xpath=/html/body |  | 
+2021-03-16T14:08:13.003Z - [info] Executing:  | click | linkText=Snoozed |  | 
+2021-03-16T14:08:15.128Z - [info] Executing:  | click | linkText=Sent |  | 
+2021-03-16T14:08:18.072Z - [info] Executing:  | click | linkText=Drafts |  | 
+2021-03-16T14:08:20.185Z - [info] Executing:  | click | linkText=Inbox |  | 
+2021-03-16T14:08:22.434Z - [info] Executing:  | click | (//div[@class='UI']//tr)[1]//td[4] |  | 
+2021-03-16T14:08:32.593Z - [error] timeout reached when looking for element '(//div[@class='UI']//tr)[1]//td[4]'
+2021-03-16T14:08:32.640Z - [info] Macro failed (Runtime 34.33s)
+2021-03-16T14:08:55.214Z - [status] Playing macro Gmail
+2021-03-16T14:08:55.251Z - [info] Executing:  | XRunAndWait | C:\Program Files (x86)\Google\Chrome\Application\chrome.exe |  | 
+2021-03-16T14:08:55.421Z - [info] App close detected, Exit code=0
+2021-03-16T14:08:57.492Z - [info] Executing:  | comment | pause // 5000 |  | 
+2021-03-16T14:08:59.517Z - [info] Executing:  | open | https://mail.google.com/mail/u/1/#inbox |  | 
+2021-03-16T14:09:11.594Z - [error] open' failed. No page load event detected after 10 seconds. Error detail: still same ipc secret
+2021-03-16T14:09:11.617Z - [info] Macro failed (Runtime 16.38s)
+2021-03-16T14:11:01.019Z - [status] Playing macro Gmail
+2021-03-16T14:11:01.047Z - [info] Executing:  | XRunAndWait | C:\Program Files (x86)\Google\Chrome\Application\chrome.exe |  | 
+2021-03-16T14:11:01.216Z - [info] App close detected, Exit code=0
+2021-03-16T14:11:03.252Z - [info] Executing:  | comment | pause // 5000 |  | 
+2021-03-16T14:11:05.296Z - [info] Executing:  | open | https://mail.google.com/mail/u/1/#inbox |  | 
+2021-03-16T14:11:10.448Z - [info] Executing:  | setWindowSize | 1800x900 |  | 
+2021-03-16T14:11:10.553Z - [warning] Only able to resize it to 1540@763, given 1800@900
+2021-03-16T14:11:12.581Z - [info] Executing:  | bringBrowserToForeground |  |  | 
+2021-03-16T14:11:14.610Z - [info] Executing:  | click | xpath=/html/body |  | 
+2021-03-16T14:11:16.692Z - [info] Executing:  | click | linkText=Snoozed |  | 
+2021-03-16T14:11:18.770Z - [info] Executing:  | click | linkText=Sent |  | 
+2021-03-16T14:11:20.829Z - [info] Executing:  | click | linkText=Drafts |  | 
+2021-03-16T14:11:22.899Z - [info] Executing:  | click | linkText=Inbox |  | 
+2021-03-16T14:11:24.983Z - [info] Executing:  | click | (//div[@class='UI']//tr)[1] |  | 
+2021-03-16T14:11:35.084Z - [error] timeout reached when looking for element '(//div[@class='UI']//tr)[1]'
+2021-03-16T14:11:35.129Z - [info] Macro failed (Runtime 34.09s)
+2021-03-16T14:12:04.058Z - [status] Playing macro Gmail
+2021-03-16T14:12:04.102Z - [info] Executing:  | XRunAndWait | C:\Program Files (x86)\Google\Chrome\Application\chrome.exe |  | 
+2021-03-16T14:12:04.330Z - [info] App close detected, Exit code=0
+2021-03-16T14:12:06.377Z - [info] Executing:  | comment | pause // 5000 |  | 
+2021-03-16T14:12:08.418Z - [info] Executing:  | open | https://mail.google.com/mail/u/1/#inbox |  | 
+2021-03-16T14:12:14.201Z - [info] Executing:  | setWindowSize | 1800x900 |  | 
+2021-03-16T14:12:14.279Z - [warning] Only able to resize it to 1540@763, given 1800@900
+2021-03-16T14:12:16.318Z - [info] Executing:  | bringBrowserToForeground |  |  | 
+2021-03-16T14:12:18.379Z - [info] Executing:  | click | xpath=/html/body |  | 
+2021-03-16T14:12:20.891Z - [info] Executing:  | click | linkText=Snoozed |  | 
+2021-03-16T14:12:23.100Z - [info] Executing:  | click | linkText=Sent |  | 
+2021-03-16T14:12:25.160Z - [info] Executing:  | click | linkText=Drafts |  | 
+2021-03-16T14:12:27.250Z - [info] Executing:  | click | linkText=Inbox |  | 
+2021-03-16T14:12:29.383Z - [info] Executing:  | click | xpath=(//div[@class='UI']//tr)[1] |  | 
+2021-03-16T14:12:31.450Z - [info] Executing:  | click | xpath=//*[@id=":4"]/div[4]/div/div/div/div/div |  | 
+2021-03-16T14:12:33.527Z - [info] Executing:  | click | id=:dx |  | 
+2021-03-16T14:12:35.622Z - [info] Executing:  | click | xpath=//*[@id=":e1"]/div[5]/div |  | 
+2021-03-16T14:12:45.689Z - [error] timeout reached when looking for element 'xpath=//*[@id=":e1"]/div[5]/div'
+2021-03-16T14:12:45.716Z - [info] Macro failed (Runtime 41.62s)
+2021-03-16T14:23:10.125Z - [status] Playing macro Gmail
+2021-03-16T14:23:10.167Z - [info] Executing:  | XRunAndWait | C:\Program Files (x86)\Google\Chrome\Application\chrome.exe |  | 
+2021-03-16T14:23:10.377Z - [info] App close detected, Exit code=0
+2021-03-16T14:23:12.412Z - [info] Executing:  | comment | pause // 5000 |  | 
+2021-03-16T14:23:14.457Z - [info] Executing:  | open | https://mail.google.com/mail/u/1/#inbox |  | 
+2021-03-16T14:23:20.363Z - [info] Executing:  | setWindowSize | 1800x900 |  | 
+2021-03-16T14:23:20.487Z - [warning] Only able to resize it to 1540@763, given 1800@900
+2021-03-16T14:23:22.544Z - [info] Executing:  | bringBrowserToForeground |  |  | 
+2021-03-16T14:23:24.583Z - [info] Executing:  | click | xpath=/html/body |  | 
+2021-03-16T14:23:27.284Z - [info] Executing:  | click | linkText=Snoozed |  | 
+2021-03-16T14:23:29.350Z - [info] Executing:  | click | linkText=Sent |  | 
+2021-03-16T14:23:31.425Z - [info] Executing:  | click | linkText=Drafts |  | 
+2021-03-16T14:23:33.479Z - [info] Executing:  | click | linkText=Inbox |  | 
+2021-03-16T14:23:35.715Z - [info] Executing:  | click | xpath=(//div[@class='UI']//tr)[1] |  | 
+2021-03-16T14:23:37.796Z - [info] Executing:  | click | xpath=//*[@id=":4"]/div[4]/div/div/div/div/div |  | 
+2021-03-16T14:23:39.862Z - [info] Executing:  | click | id=:dx |  | 
+2021-03-16T14:23:41.937Z - [info] Executing:  | comment | click // xpath=//*[@id=":e1"]/div[5]/div |  | 
+2021-03-16T14:23:44.027Z - [info] Macro completed (Runtime 33.87s)
+2021-03-16T14:24:19.363Z - [status] Playing macro Gmail
+2021-03-16T14:24:19.404Z - [info] Executing:  | XRunAndWait | C:\Program Files (x86)\Google\Chrome\Application\chrome.exe |  | 
+2021-03-16T14:24:19.593Z - [info] App close detected, Exit code=0
+2021-03-16T14:24:21.700Z - [info] Executing:  | comment | pause // 5000 |  | 
+2021-03-16T14:24:23.725Z - [info] Executing:  | open | https://mail.google.com/mail/u/1/#inbox |  | 
+2021-03-16T14:24:28.893Z - [info] Executing:  | setWindowSize | 1800x900 |  | 
+2021-03-16T14:24:28.917Z - [warning] Only able to resize it to 1540@763, given 1800@900
+2021-03-16T14:24:30.939Z - [info] Executing:  | bringBrowserToForeground |  |  | 
+2021-03-16T14:24:32.969Z - [info] Executing:  | click | xpath=/html/body |  | 
+2021-03-16T14:24:35.064Z - [info] Executing:  | click | linkText=Snoozed |  | 
+2021-03-16T14:24:37.134Z - [info] Executing:  | click | linkText=Sent |  | 
+2021-03-16T14:24:39.192Z - [info] Executing:  | click | linkText=Drafts |  | 
+2021-03-16T14:24:41.269Z - [info] Executing:  | click | linkText=Inbox |  | 
+2021-03-16T14:24:43.404Z - [info] Executing:  | click | xpath=(//div[@class='UI']//tr)[1] |  | 
+2021-03-16T14:24:45.459Z - [info] Executing:  | click | xpath=//*[@id=":4"]/div[4]/div/div/div/div/div |  | 
+2021-03-16T14:24:47.518Z - [info] Executing:  | comment | click // id=:dx |  | 
+2021-03-16T14:24:49.551Z - [info] Executing:  | comment | click // xpath=//*[@id=":e1"]/div[5]/div |  | 
+2021-03-16T14:24:51.611Z - [info] Macro completed (Runtime 32.22s)
+2021-03-16T14:29:06.887Z - [status] Playing macro Gmail
+2021-03-16T14:29:06.921Z - [info] Executing:  | XRunAndWait | C:\Program Files (x86)\Google\Chrome\Application\chrome.exe |  | 
+2021-03-16T14:29:07.217Z - [info] App close detected, Exit code=0
+2021-03-16T14:29:09.259Z - [info] Executing:  | comment | pause // 5000 |  | 
+2021-03-16T14:29:11.282Z - [info] Executing:  | open | https://mail.google.com/mail/u/1/#inbox |  | 
+2021-03-16T14:29:16.788Z - [info] Executing:  | setWindowSize | 1800x900 |  | 
+2021-03-16T14:29:16.862Z - [warning] Only able to resize it to 1540@763, given 1800@900
+2021-03-16T14:29:18.894Z - [info] Executing:  | bringBrowserToForeground |  |  | 
+2021-03-16T14:29:20.939Z - [info] Executing:  | click | xpath=/html/body |  | 
+2021-03-16T14:29:23.069Z - [info] Executing:  | click | linkText=Snoozed |  | 
+2021-03-16T14:29:25.144Z - [info] Executing:  | click | linkText=Sent |  | 
+2021-03-16T14:29:27.206Z - [info] Executing:  | click | linkText=Drafts |  | 
+2021-03-16T14:29:29.302Z - [info] Executing:  | click | linkText=Inbox |  | 
+2021-03-16T14:29:31.431Z - [info] Executing:  | click | xpath=(//div[@class='UI']//tr)[1] |  | 
+2021-03-16T14:29:33.507Z - [info] Executing:  | click | xpath=//*[@id=":4"]/div[4]/div/div/div/div/div |  | 
+2021-03-16T14:29:35.563Z - [info] Executing:  | XType | ${KEY_CTRL+KEY_F4} |  | 
+2021-03-16T14:29:37.909Z - [info] Executing:  | comment | click // xpath=//*[@id=":e1"]/div[5]/div |  | 
+2021-03-16T14:29:39.968Z - [info] Macro completed (Runtime 33.06s)
+2021-03-16T14:37:26.241Z - [status] Playing macro Gmail
+2021-03-16T14:37:26.274Z - [info] Executing:  | XRunAndWait | C:\Program Files (x86)\Google\Chrome\Application\chrome.exe |  | 
+2021-03-16T14:37:26.551Z - [info] App close detected, Exit code=0
+2021-03-16T14:37:28.611Z - [info] Executing:  | comment | pause // 5000 |  | 
+2021-03-16T14:37:30.645Z - [info] Executing:  | open | https://mail.google.com/mail/u/1/#inbox |  | 
+2021-03-16T14:37:36.825Z - [info] Executing:  | setWindowSize | 1800x900 |  | 
+2021-03-16T14:37:36.900Z - [warning] Only able to resize it to 1540@763, given 1800@900
+2021-03-16T14:37:38.951Z - [info] Executing:  | bringBrowserToForeground |  |  | 
+2021-03-16T14:37:40.984Z - [info] Executing:  | click | xpath=/html/body |  | 
+2021-03-16T14:37:43.075Z - [info] Executing:  | click | linkText=Snoozed |  | 
+2021-03-16T14:37:45.162Z - [info] Executing:  | verifyText | name=q | in:snoozed  | 
+2021-03-16T14:37:45.197Z - [error][ignored] text not matched, 
+	expected: "in:snoozed", 
+	actual: ""
+2021-03-16T14:37:47.217Z - [info] Executing:  | click | linkText=Sent |  | 
+2021-03-16T14:37:49.286Z - [info] Executing:  | click | linkText=Drafts |  | 
+2021-03-16T14:37:51.382Z - [info] Executing:  | click | linkText=Inbox |  | 
+2021-03-16T14:37:53.524Z - [info] Executing:  | click | xpath=(//div[@class='UI']//tr)[1] |  | 
+2021-03-16T14:37:55.590Z - [info] Executing:  | click | xpath=//*[@id=":4"]/div[4]/div/div/div/div/div |  | 
+2021-03-16T14:37:57.665Z - [info] Executing:  | XType | ${KEY_CTRL+KEY_F4} |  | 
+2021-03-16T14:37:59.998Z - [info] Executing:  | comment | click // xpath=//*[@id=":e1"]/div[5]/div |  | 
+2021-03-16T14:38:02.061Z - [info] Macro completed (Runtime 35.79s)
+2021-03-16T14:38:36.801Z - [status] Playing macro Gmail
+2021-03-16T14:38:36.848Z - [info] Executing:  | XRunAndWait | C:\Program Files (x86)\Google\Chrome\Application\chrome.exe |  | 
+2021-03-16T14:38:37.019Z - [info] App close detected, Exit code=0
+2021-03-16T14:38:39.088Z - [info] Executing:  | comment | pause // 5000 |  | 
+2021-03-16T14:38:41.112Z - [info] Executing:  | open | https://mail.google.com/mail/u/1/#inbox |  | 
+2021-03-16T14:38:46.193Z - [info] Executing:  | setWindowSize | 1800x900 |  | 
+2021-03-16T14:38:46.215Z - [warning] Only able to resize it to 1540@763, given 1800@900
+2021-03-16T14:38:48.234Z - [info] Executing:  | bringBrowserToForeground |  |  | 
+2021-03-16T14:38:50.281Z - [info] Executing:  | click | xpath=/html/body |  | 
+2021-03-16T14:38:52.359Z - [info] Executing:  | click | linkText=Snoozed |  | 
+2021-03-16T14:38:54.438Z - [info] Executing:  | verifyText | name=q | in:snoozed  | 
+2021-03-16T14:38:54.472Z - [error][ignored] text not matched, 
+	expected: "in:snoozed", 
+	actual: ""
+2021-03-16T14:38:56.493Z - [info] Executing:  | click | linkText=Sent |  | 
+2021-03-16T14:38:58.584Z - [info] Executing:  | click | linkText=Drafts |  | 
+2021-03-16T14:39:00.703Z - [info] Executing:  | click | linkText=Inbox |  | 
+2021-03-16T14:39:02.831Z - [info] Executing:  | click | xpath=(//div[@class='UI']//tr)[1] |  | 
+2021-03-16T14:39:04.908Z - [info] Executing:  | click | xpath=//*[@id=":4"]/div[4]/div/div/div/div/div |  | 
+2021-03-16T14:39:06.992Z - [info] Executing:  | XType | ${KEY_CTRL+KEY_F4} |  | 
+2021-03-16T14:39:09.339Z - [info] Executing:  | XType | ${KEY_CTRL+KEY_F4} |  | 
+2021-03-16T14:39:11.702Z - [info] Executing:  | XType | ${KEY_CTRL+KEY_F4} |  | 

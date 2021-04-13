@@ -1,0 +1,2004 @@
+2021-03-18T19:40:12.484Z - UI.Vision RPA started
+2021-03-18T19:40:56.080Z - [status] Playing macro WordPad TECHRPA-2
+2021-03-18T19:40:56.123Z - [info] Executing:  | OCRExtractRelative | WordPad_dpi_120.png | fileName | 
+2021-03-18T19:40:57.307Z - [error] visualAssert: No input image found for file name 'WordPad_dpi_120.png'
+2021-03-18T19:40:57.337Z - [info] Macro failed (Runtime 1.22s)
+2021-03-18T19:41:09.051Z - [status] Playing macro WordPad TECHRPA-2
+2021-03-18T19:41:09.087Z - [info] Executing:  | OCRExtractRelative |  | fileName | 
+2021-03-18T19:41:10.243Z - [error] Target should be like 'abc.png@0.8#1'
+2021-03-18T19:41:10.263Z - [info] Macro failed (Runtime 1.19s)
+2021-03-18T19:41:47.723Z - [status] Playing macro WordPad TECHRPA-2
+2021-03-18T19:41:47.764Z - [info] Executing:  | OCRExtractRelative | WordPad_dpi_120.png | fileName | 
+2021-03-18T19:41:49.045Z - [error] Cannot find green and/or pink boxes
+2021-03-18T19:41:49.074Z - [info] Macro failed (Runtime 1.32s)
+2021-03-18T19:42:06.495Z - [status] Playing macro WordPad TECHRPA-2
+2021-03-18T19:42:06.535Z - [info] Executing:  | OCRExtractRelative | WordPad_dpi_120.png | fileName | 
+2021-03-18T19:42:07.844Z - [error] Cannot find green and/or pink boxes
+2021-03-18T19:42:07.872Z - [info] Macro failed (Runtime 1.35s)
+2021-03-18T19:43:01.985Z - [status] Playing macro WordPad TECHRPA-2
+2021-03-18T19:43:02.022Z - [info] Executing:  | OCRExtractRelative | WordPad_dpi_120.png | fileName | 
+2021-03-18T19:43:05.833Z - [info] OCR (eng) started (1.4 KB)
+2021-03-18T19:43:06.684Z - [info] OCR result received (0.8s from endpoint 2)
+2021-03-18T19:43:06.783Z - [info] Macro completed (Runtime 4.77s)
+2021-03-18T19:43:46.580Z - [status] Playing macro WordPad TECHRPA-2
+2021-03-18T19:43:46.623Z - [info] Executing:  | visualSearch | Text_dpi_120.png | TextDocumentNumber | 
+2021-03-18T19:43:47.504Z - [info] Executing:  | echo | ${TextDocumentNumber} files were found |  | 
+2021-03-18T19:43:47.513Z - [echo] 3 files were found
+2021-03-18T19:43:47.566Z - [info] Executing:  | times | ${TextDocumentNumber} |  | 
+2021-03-18T19:43:47.634Z - [info] Executing:  | OCRExtractRelative | WordPad_dpi_120.png | fileName | 
+2021-03-18T19:43:51.442Z - [info] OCR (eng) started (1.4 KB)
+2021-03-18T19:43:51.982Z - [info] OCR result received (0.5s from endpoint 2)
+2021-03-18T19:43:52.022Z - [info] Executing:  | echo | ${fileName} | blue | 
+2021-03-18T19:43:52.055Z - [info] Executing:  | end |  |  | 
+2021-03-18T19:43:52.105Z - [info] Executing:  | times | ${TextDocumentNumber} |  | 
+2021-03-18T19:43:52.150Z - [info] Executing:  | OCRExtractRelative | WordPad_dpi_120.png | fileName | 
+2021-03-18T19:43:55.969Z - [info] OCR (eng) started (1.4 KB)
+2021-03-18T19:43:56.783Z - [info] OCR result received (0.8s from endpoint 2)
+2021-03-18T19:43:56.824Z - [info] Executing:  | echo | ${fileName} | blue | 
+2021-03-18T19:43:56.854Z - [info] Executing:  | end |  |  | 
+2021-03-18T19:43:56.908Z - [info] Executing:  | times | ${TextDocumentNumber} |  | 
+2021-03-18T19:43:56.951Z - [info] Executing:  | OCRExtractRelative | WordPad_dpi_120.png | fileName | 
+2021-03-18T19:44:00.806Z - [info] OCR (eng) started (1.4 KB)
+2021-03-18T19:44:01.275Z - [info] OCR result received (0.5s from endpoint 2)
+2021-03-18T19:44:01.306Z - [info] Executing:  | echo | ${fileName} | blue | 
+2021-03-18T19:44:01.335Z - [info] Executing:  | end |  |  | 
+2021-03-18T19:44:01.384Z - [info] Executing:  | times | ${TextDocumentNumber} |  | 
+2021-03-18T19:44:01.465Z - [info] Macro completed (Runtime 14.85s)
+2021-03-18T19:45:30.479Z - [status] Playing macro WordPad TECHRPA-2
+2021-03-18T19:45:30.531Z - [info] Executing:  | visualSearch | Text_dpi_120.png | TextDocumentNumber | 
+2021-03-18T19:45:31.444Z - [info] Executing:  | echo | ${TextDocumentNumber} files were found |  | 
+2021-03-18T19:45:31.458Z - [echo] 3 files were found
+2021-03-18T19:45:31.496Z - [info] Executing:  | times | ${TextDocumentNumber} |  | 
+2021-03-18T19:45:31.573Z - [info] Executing:  | OCRExtractRelative | WordPad_dpi_120.png | fileName | 
+2021-03-18T19:45:35.523Z - [info] OCR (eng) started (1.4 KB)
+2021-03-18T19:45:36.022Z - [info] OCR result received (0.5s from endpoint 2)
+2021-03-18T19:45:36.061Z - [info] Executing:  | echo | ${fileName} | blue | 
+2021-03-18T19:45:36.091Z - [info] Executing:  | store | ${!times} | !csvFile | 
+2021-03-18T19:45:36.104Z - [error] Not allowed to write to '!csvFile'
+2021-03-18T19:45:36.133Z - [info] Macro failed (Runtime 5.62s)
+2021-03-18T19:46:46.871Z - [status] Playing macro WordPad TECHRPA-2
+2021-03-18T19:46:46.910Z - [info] Executing:  | visualSearch | Text_dpi_120.png | TextDocumentNumber | 
+2021-03-18T19:46:47.864Z - [info] Executing:  | echo | ${TextDocumentNumber} files were found |  | 
+2021-03-18T19:46:47.874Z - [echo] 3 files were found
+2021-03-18T19:46:47.900Z - [info] Executing:  | times | ${TextDocumentNumber} |  | 
+2021-03-18T19:46:47.958Z - [info] Executing:  | OCRExtractRelative | WordPad_dpi_120.png | fileName | 
+2021-03-18T19:46:51.833Z - [info] OCR (eng) started (1.4 KB)
+2021-03-18T19:46:52.282Z - [info] OCR result received (0.4s from endpoint 2)
+2021-03-18T19:46:52.322Z - [info] Executing:  | echo | ${fileName} | blue | 
+2021-03-18T19:46:52.353Z - [info] Executing:  | store | ${!times} | !csvLine | 
+2021-03-18T19:46:52.403Z - [info] Executing:  | store | ${fileName} | !csvLine | 
+2021-03-18T19:46:52.461Z - [info] Executing:  | csvSave | wordpad file names |  | 
+2021-03-18T19:46:52.539Z - [info] Executing:  | end |  |  | 
+2021-03-18T19:46:52.569Z - [info] Executing:  | times | ${TextDocumentNumber} |  | 
+2021-03-18T19:46:52.636Z - [info] Executing:  | OCRExtractRelative | WordPad_dpi_120.png | fileName | 
+2021-03-18T19:46:56.509Z - [info] OCR (eng) started (1.4 KB)
+2021-03-18T19:46:56.982Z - [info] OCR result received (0.5s from endpoint 2)
+2021-03-18T19:46:57.021Z - [info] Executing:  | echo | ${fileName} | blue | 
+2021-03-18T19:46:57.051Z - [info] Executing:  | store | ${!times} | !csvLine | 
+2021-03-18T19:46:57.104Z - [info] Executing:  | store | ${fileName} | !csvLine | 
+2021-03-18T19:46:57.162Z - [info] Executing:  | csvSave | wordpad file names |  | 
+2021-03-18T19:46:57.268Z - [info] Executing:  | end |  |  | 
+2021-03-18T19:46:57.309Z - [info] Executing:  | times | ${TextDocumentNumber} |  | 
+2021-03-18T19:46:57.368Z - [info] Executing:  | OCRExtractRelative | WordPad_dpi_120.png | fileName | 
+2021-03-18T19:47:01.210Z - [info] OCR (eng) started (1.4 KB)
+2021-03-18T19:47:02.038Z - [info] OCR result received (0.8s from endpoint 2)
+2021-03-18T19:47:02.091Z - [info] Executing:  | echo | ${fileName} | blue | 
+2021-03-18T19:47:02.137Z - [info] Executing:  | store | ${!times} | !csvLine | 
+2021-03-18T19:47:02.202Z - [info] Executing:  | store | ${fileName} | !csvLine | 
+2021-03-18T19:47:02.269Z - [info] Executing:  | csvSave | wordpad file names |  | 
+2021-03-18T19:47:02.354Z - [info] Executing:  | end |  |  | 
+2021-03-18T19:47:02.401Z - [info] Executing:  | times | ${TextDocumentNumber} |  | 
+2021-03-18T19:47:02.488Z - [info] Macro completed (Runtime 15.59s)
+2021-03-18T19:47:46.573Z - [status] Playing macro WordPad TECHRPA-2
+2021-03-18T19:47:46.619Z - [info] Executing:  | visualSearch | Text_dpi_120.png | TextDocumentNumber | 
+2021-03-18T19:47:47.516Z - [info] Executing:  | echo | ${TextDocumentNumber} files were found |  | 
+2021-03-18T19:47:47.523Z - [echo] 3 files were found
+2021-03-18T19:47:47.573Z - [info] Executing:  | times | ${TextDocumentNumber} |  | 
+2021-03-18T19:47:47.620Z - [info] Executing:  | OCRExtractRelative | WordPad_dpi_120.png@0.80#${!times} | fileName | 
+2021-03-18T19:47:51.573Z - [info] OCR (eng) started (2.6 KB)
+2021-03-18T19:47:52.814Z - [info] OCR result received (1.2s from endpoint 2)
+2021-03-18T19:47:52.860Z - [info] Executing:  | echo | ${fileName} | blue | 
+2021-03-18T19:47:52.868Z - [echo] svvor
+2021-03-18T19:47:52.890Z - [info] Executing:  | store | ${!times} | !csvLine | 
+2021-03-18T19:47:52.944Z - [info] Executing:  | store | ${fileName} | !csvLine | 
+2021-03-18T19:47:52.999Z - [info] Executing:  | csvSave | wordpad file names |  | 
+2021-03-18T19:47:53.079Z - [info] Executing:  | end |  |  | 
+2021-03-18T19:47:53.110Z - [info] Executing:  | times | ${TextDocumentNumber} |  | 
+2021-03-18T19:47:53.175Z - [info] Executing:  | OCRExtractRelative | WordPad_dpi_120.png@0.80#${!times} | fileName | 
+2021-03-18T19:47:57.076Z - [info] OCR (eng) started (1.4 KB)
+2021-03-18T19:47:57.544Z - [info] OCR result received (0.5s from endpoint 2)
+2021-03-18T19:47:57.580Z - [info] Executing:  | echo | ${fileName} | blue | 
+2021-03-18T19:47:57.608Z - [info] Executing:  | store | ${!times} | !csvLine | 
+2021-03-18T19:47:57.663Z - [info] Executing:  | store | ${fileName} | !csvLine | 
+2021-03-18T19:47:57.718Z - [info] Executing:  | csvSave | wordpad file names |  | 
+2021-03-18T19:47:57.797Z - [info] Executing:  | end |  |  | 
+2021-03-18T19:47:57.827Z - [info] Executing:  | times | ${TextDocumentNumber} |  | 
+2021-03-18T19:47:57.897Z - [info] Executing:  | OCRExtractRelative | WordPad_dpi_120.png@0.80#${!times} | fileName | 
+2021-03-18T19:48:01.726Z - [info] OCR (eng) started (971 byte)
+2021-03-18T19:48:02.221Z - [info] OCR result received (0.5s from endpoint 2)
+2021-03-18T19:48:02.255Z - [info] Executing:  | echo | ${fileName} | blue | 
+2021-03-18T19:48:02.283Z - [info] Executing:  | store | ${!times} | !csvLine | 
+2021-03-18T19:48:02.344Z - [info] Executing:  | store | ${fileName} | !csvLine | 
+2021-03-18T19:48:02.395Z - [info] Executing:  | csvSave | wordpad file names |  | 
+2021-03-18T19:48:02.474Z - [info] Executing:  | end |  |  | 
+2021-03-18T19:48:02.505Z - [info] Executing:  | times | ${TextDocumentNumber} |  | 
+2021-03-18T19:48:02.594Z - [info] Macro completed (Runtime 15.99s)
+2021-03-18T19:52:07.717Z - [status] Playing macro WordPad TECHRPA-2
+2021-03-18T19:52:07.765Z - [info] Executing:  | visualSearch | Text_dpi_120.png | TextDocumentNumber | 
+2021-03-18T19:52:14.539Z - [info] Executing:  | echo | ${TextDocumentNumber} files were found |  | 
+2021-03-18T19:52:14.546Z - [echo] 3 files were found
+2021-03-18T19:52:14.572Z - [info] Executing:  | times | ${TextDocumentNumber} |  | 
+2021-03-18T19:52:14.630Z - [info] Executing:  | OCRExtractRelative | WordPad_dpi_120.png@0.80#${!times} | fileName | 
+2021-03-18T19:52:18.493Z - [info] OCR (eng) started (2.6 KB)
+2021-03-18T19:52:19.173Z - [info] OCR result received (0.7s from endpoint 2)
+2021-03-18T19:52:19.210Z - [info] Executing:  | executeScript | return ${fileName}.replace(/( |\n|\r)/gm, ""); | fileName | 
+2021-03-18T19:52:19.376Z - [error] Error #101: UI.Vision RPA is not connected to a browser tab
+2021-03-18T19:52:19.406Z - [info] Macro failed (Runtime 11.65s)
+2021-03-18T19:52:46.785Z - [status] Playing macro WordPad TECHRPA-2
+2021-03-18T19:52:46.835Z - [info] Executing:  | visualSearch | Text_dpi_120.png | TextDocumentNumber | 
+2021-03-18T19:52:47.742Z - [info] Executing:  | echo | ${TextDocumentNumber} files were found |  | 
+2021-03-18T19:52:47.754Z - [echo] 3 files were found
+2021-03-18T19:52:47.809Z - [info] Executing:  | times | ${TextDocumentNumber} |  | 
+2021-03-18T19:52:47.869Z - [info] Executing:  | OCRExtractRelative | WordPad_dpi_120.png@0.80#${!times} | fileName | 
+2021-03-18T19:52:51.767Z - [info] OCR (eng) started (2.6 KB)
+2021-03-18T19:52:52.558Z - [info] OCR result received (0.8s from endpoint 2)
+2021-03-18T19:52:52.602Z - [info] Executing:  | executeScript | return ${fileName}.replace(/( |\n|\r)/gm, ""); | fileName | 
+2021-03-18T19:52:52.777Z - [error] Error #101: UI.Vision RPA is not connected to a browser tab
+2021-03-18T19:52:52.811Z - [info] Macro failed (Runtime 5.98s)
+2021-03-18T19:53:24.947Z - [status] Playing macro WordPad TECHRPA-2
+2021-03-18T19:53:25.002Z - [info] Executing:  | visualSearch | Text_dpi_120.png | TextDocumentNumber | 
+2021-03-18T19:53:25.889Z - [info] Executing:  | echo | ${TextDocumentNumber} files were found |  | 
+2021-03-18T19:53:25.903Z - [echo] 3 files were found
+2021-03-18T19:53:25.944Z - [info] Executing:  | times | ${TextDocumentNumber} |  | 
+2021-03-18T19:53:26.028Z - [info] Executing:  | OCRExtractRelative | WordPad_dpi_120.png@0.80#${!times} | fileName | 
+2021-03-18T19:53:30.037Z - [info] OCR (eng) started (2.6 KB)
+2021-03-18T19:53:32.743Z - [info] OCR result received (2.7s from endpoint 2)
+2021-03-18T19:53:32.801Z - [info] Executing:  | executeScript | return ${fileName}.replace(/( |\n|\r)/gm, ""); | fileName | 
+2021-03-18T19:53:32.954Z - [error] Error #101: UI.Vision RPA is not connected to a browser tab
+2021-03-18T19:53:32.989Z - [info] Macro failed (Runtime 8.00s)
+2021-03-18T19:53:51.042Z - [status] Playing macro WordPad TECHRPA-2
+2021-03-18T19:53:51.102Z - [info] Executing:  | visualSearch | Text_dpi_120.png | TextDocumentNumber | 
+2021-03-18T19:53:52.105Z - [info] Executing:  | echo | ${TextDocumentNumber} files were found |  | 
+2021-03-18T19:53:52.118Z - [echo] 3 files were found
+2021-03-18T19:53:52.150Z - [info] Executing:  | times | ${TextDocumentNumber} |  | 
+2021-03-18T19:53:52.229Z - [info] Executing:  | OCRExtractRelative | WordPad_dpi_120.png@0.80#${!times} | fileName | 
+2021-03-18T19:53:56.141Z - [info] OCR (eng) started (2.6 KB)
+2021-03-18T19:53:56.931Z - [info] OCR result received (0.8s from endpoint 2)
+2021-03-18T19:53:56.979Z - [info] Executing:  | executeScript_Sandbox | return ${fileName}.replace(/( |\n|\r)/gm, ""); | fileName | 
+2021-03-18T19:53:57.022Z - [info] Executing:  | echo | ${fileName} | blue | 
+2021-03-18T19:53:57.037Z - [echo] svvor
+2021-03-18T19:53:57.087Z - [info] Executing:  | store | ${!times} | !csvLine | 
+2021-03-18T19:53:57.156Z - [info] Executing:  | store | ${fileName} | !csvLine | 
+2021-03-18T19:53:57.211Z - [info] Executing:  | csvSave | wordpad file names |  | 
+2021-03-18T19:53:57.321Z - [info] Executing:  | end |  |  | 
+2021-03-18T19:53:57.372Z - [info] Executing:  | times | ${TextDocumentNumber} |  | 
+2021-03-18T19:53:57.437Z - [info] Executing:  | OCRExtractRelative | WordPad_dpi_120.png@0.80#${!times} | fileName | 
+2021-03-18T19:54:01.461Z - [info] OCR (eng) started (1.4 KB)
+2021-03-18T19:54:01.955Z - [info] OCR result received (0.5s from endpoint 2)
+2021-03-18T19:54:02.003Z - [info] Executing:  | executeScript_Sandbox | return ${fileName}.replace(/( |\n|\r)/gm, ""); | fileName | 
+2021-03-18T19:54:02.045Z - [info] Executing:  | echo | ${fileName} | blue | 
+2021-03-18T19:54:02.105Z - [info] Executing:  | store | ${!times} | !csvLine | 
+2021-03-18T19:54:02.170Z - [info] Executing:  | store | ${fileName} | !csvLine | 
+2021-03-18T19:54:02.223Z - [info] Executing:  | csvSave | wordpad file names |  | 
+2021-03-18T19:54:02.330Z - [info] Executing:  | end |  |  | 
+2021-03-18T19:54:02.378Z - [info] Executing:  | times | ${TextDocumentNumber} |  | 
+2021-03-18T19:54:02.434Z - [info] Executing:  | OCRExtractRelative | WordPad_dpi_120.png@0.80#${!times} | fileName | 
+2021-03-18T19:54:06.316Z - [info] OCR (eng) started (971 byte)
+2021-03-18T19:54:06.901Z - [info] OCR result received (0.6s from endpoint 2)
+2021-03-18T19:54:06.954Z - [info] Executing:  | executeScript_Sandbox | return ${fileName}.replace(/( |\n|\r)/gm, ""); | fileName | 
+2021-03-18T19:54:06.999Z - [info] Executing:  | echo | ${fileName} | blue | 
+2021-03-18T19:54:07.054Z - [info] Executing:  | store | ${!times} | !csvLine | 
+2021-03-18T19:54:07.119Z - [info] Executing:  | store | ${fileName} | !csvLine | 
+2021-03-18T19:54:07.175Z - [info] Executing:  | csvSave | wordpad file names |  | 
+2021-03-18T19:54:07.278Z - [info] Executing:  | end |  |  | 
+2021-03-18T19:54:07.326Z - [info] Executing:  | times | ${TextDocumentNumber} |  | 
+2021-03-18T19:54:07.401Z - [info] Macro completed (Runtime 16.31s)
+2021-03-18T19:55:35.400Z - [info] inbox.csv deleted
+2021-03-18T19:55:37.841Z - [info] wordpad file names.csv deleted
+2021-03-18T19:55:39.516Z - [status] Playing macro Gmail TECHRPA-10-13-copy
+2021-03-18T19:55:39.561Z - [info] Executing:  | store | !replayspeed | medium | 
+2021-03-18T19:55:39.596Z - [info] Executing:  | comment | XRun // C:\Program Files\Mozilla Firefox\firefox.exe |  | 
+2021-03-18T19:55:39.663Z - [info] Executing:  | open | https://mail.google.com/mail/u/1/#inbox |  | 
+2021-03-18T19:55:42.798Z - [info] Executing:  | comment | setWindowSize // 1700x900 |  | 
+2021-03-18T19:55:42.834Z - [info] Executing:  | bringBrowserToForeground |  |  | 
+2021-03-18T19:55:42.977Z - [info] Executing:  | XClickRelative | fullSize_dpi_120.png |  | 
+2021-03-18T19:55:43.802Z - [info] Executing:  | comment | click // xpath=/html/body |  | 
+2021-03-18T19:55:43.851Z - [info] Executing:  | visualVerify | gmailTopic_dpi_120.png@0.50 |  | 
+2021-03-18T19:55:44.753Z - [info] Executing:  | visualSearch | checkbox_dpi_120.png | checkboxNumber | 
+2021-03-18T19:55:55.886Z - [info] Executing:  | echo | check box number ${checkboxNumber} | checkboxNumber | 
+2021-03-18T19:55:55.894Z - [echo] check box number 0
+2021-03-18T19:55:55.930Z - [info] Executing:  | comment | OCRExtractRelative // mxk0xf_dpi_120.png@0.7#2 | name | 
+2021-03-18T19:55:55.982Z - [info] Executing:  | comment | echo // ${name} | name | 
+2021-03-18T19:55:56.048Z - [info] Executing:  | times | 3 |  | 
+2021-03-18T19:55:56.100Z - [info] Executing:  | OCRExtractRelative | mxk0xf_dpi_120.png@0.7#${!times} | name | 
+2021-03-18T19:56:08.257Z - [error] Image 'mxk0xf_dpi_120.png' (conf. = 0.7) not found
+2021-03-18T19:56:08.288Z - [info] Macro failed (Runtime 28.74s)
+2021-03-18T19:56:21.915Z - [status] Playing macro Gmail TECHRPA-10-13-copy
+2021-03-18T19:56:21.973Z - [info] Executing:  | store | !replayspeed | medium | 
+2021-03-18T19:56:22.020Z - [info] Executing:  | comment | XRun // C:\Program Files\Mozilla Firefox\firefox.exe |  | 
+2021-03-18T19:56:22.077Z - [info] Executing:  | open | https://mail.google.com/mail/u/1/#inbox |  | 
+2021-03-18T19:56:25.401Z - [info] Executing:  | comment | setWindowSize // 1700x900 |  | 
+2021-03-18T19:56:25.443Z - [info] Executing:  | bringBrowserToForeground |  |  | 
+2021-03-18T19:56:25.594Z - [info] Executing:  | XClickRelative | fullSize_dpi_120.png |  | 
+2021-03-18T19:56:26.739Z - [info] Executing:  | comment | click // xpath=/html/body |  | 
+2021-03-18T19:56:26.816Z - [info] Executing:  | visualVerify | gmailTopic_dpi_120.png@0.50 |  | 
+2021-03-18T19:56:37.849Z - [error][ignored] Image 'gmailTopic_dpi_120.png' (conf. = 0.5) not found
+2021-03-18T19:56:37.890Z - [info] Executing:  | visualSearch | checkbox_dpi_120.png | checkboxNumber | 
+2021-03-18T19:56:48.933Z - [info] Executing:  | echo | check box number ${checkboxNumber} | checkboxNumber | 
+2021-03-18T19:56:48.943Z - [echo] check box number 0
+2021-03-18T19:56:48.993Z - [info] Executing:  | comment | OCRExtractRelative // mxk0xf_dpi_120.png@0.7#2 | name | 
+2021-03-18T19:56:49.055Z - [info] Executing:  | comment | echo // ${name} | name | 
+2021-03-18T19:56:49.103Z - [info] Executing:  | times | 3 |  | 
+2021-03-18T19:56:49.157Z - [info] Executing:  | OCRExtractRelative | mxk0xf_dpi_120.png@0.7#${!times} | name | 
+2021-03-18T19:57:01.346Z - [error] Image 'mxk0xf_dpi_120.png' (conf. = 0.7) not found
+2021-03-18T19:57:01.375Z - [info] Macro failed (Runtime 39.42s)
+2021-03-18T19:57:16.246Z - [status] Playing macro Gmail TECHRPA-10-13-copy
+2021-03-18T19:57:16.291Z - [info] Executing:  | store | !replayspeed | medium | 
+2021-03-18T19:57:16.327Z - [info] Executing:  | comment | XRun // C:\Program Files\Mozilla Firefox\firefox.exe |  | 
+2021-03-18T19:57:16.381Z - [info] Executing:  | open | https://mail.google.com/mail/u/1/#inbox |  | 
+2021-03-18T19:57:19.811Z - [info] Executing:  | comment | setWindowSize // 1700x900 |  | 
+2021-03-18T19:57:19.882Z - [info] Executing:  | bringBrowserToForeground |  |  | 
+2021-03-18T19:57:20.089Z - [info] Executing:  | XClickRelative | fullSize_dpi_120.png |  | 
+2021-03-18T19:57:21.176Z - [info] Executing:  | comment | click // xpath=/html/body |  | 
+2021-03-18T19:57:21.295Z - [info] Executing:  | visualVerify | gmailTopic_dpi_120.png@0.50 |  | 
+2021-03-18T19:57:32.276Z - [error][ignored] Image 'gmailTopic_dpi_120.png' (conf. = 0.5) not found
+2021-03-18T19:57:32.434Z - [info] Executing:  | visualSearch | checkbox_dpi_120.png | checkboxNumber | 
+2021-03-18T19:57:42.142Z - [info] Macro was stopped manually (Runtime 25.86s)
+2021-03-18T19:57:54.584Z - [status] Playing macro Gmail TECHRPA-10-13-copy
+2021-03-18T19:57:54.643Z - [info] Executing:  | store | !replayspeed | medium | 
+2021-03-18T19:57:54.688Z - [info] Executing:  | comment | XRun // C:\Program Files\Mozilla Firefox\firefox.exe |  | 
+2021-03-18T19:57:54.757Z - [info] Executing:  | open | https://mail.google.com/mail/u/1/#inbox |  | 
+2021-03-18T19:57:58.245Z - [info] Executing:  | comment | setWindowSize // 1700x900 |  | 
+2021-03-18T19:57:58.326Z - [info] Executing:  | bringBrowserToForeground |  |  | 
+2021-03-18T19:57:58.542Z - [info] Executing:  | comment | XClickRelative // fullSize_dpi_120.png |  | 
+2021-03-18T19:57:58.611Z - [info] Executing:  | comment | click // xpath=/html/body |  | 
+2021-03-18T19:57:58.674Z - [info] Executing:  | visualVerify | gmailTopic_dpi_120.png@0.50 |  | 
+2021-03-18T19:57:59.536Z - [info] Executing:  | visualSearch | checkbox_dpi_120.png | checkboxNumber | 
+2021-03-18T19:58:00.319Z - [info] Executing:  | echo | check box number ${checkboxNumber} | checkboxNumber | 
+2021-03-18T19:58:00.337Z - [echo] check box number 10
+2021-03-18T19:58:00.422Z - [info] Executing:  | comment | OCRExtractRelative // mxk0xf_dpi_120.png@0.7#2 | name | 
+2021-03-18T19:58:00.511Z - [info] Executing:  | comment | echo // ${name} | name | 
+2021-03-18T19:58:00.585Z - [info] Executing:  | times | 3 |  | 
+2021-03-18T19:58:00.671Z - [info] Executing:  | OCRExtractRelative | mxk0xf_dpi_120.png@0.7#${!times} | name | 
+2021-03-18T19:58:03.814Z - [info] OCR (eng) started (1.6 KB)
+2021-03-18T19:58:04.789Z - [info] OCR result received (1.0s from endpoint 2)
+2021-03-18T19:58:04.862Z - [info] Executing:  | executeScript_Sandbox | return ${name}.replace(/( |\n|\r)/gm, ""); | name | 
+2021-03-18T19:58:04.927Z - [info] Executing:  | echo | ${name1} | pink | 
+2021-03-18T19:58:04.949Z - [error] variable "NAME1" is not defined
+2021-03-18T19:58:04.997Z - [info] Macro failed (Runtime 10.37s)
+2021-03-18T19:58:42.677Z - [status] Playing macro Gmail TECHRPA-10-13-copy
+2021-03-18T19:58:42.733Z - [info] Executing:  | store | !replayspeed | medium | 
+2021-03-18T19:58:42.776Z - [info] Executing:  | comment | XRun // C:\Program Files\Mozilla Firefox\firefox.exe |  | 
+2021-03-18T19:58:42.833Z - [info] Executing:  | open | https://mail.google.com/mail/u/1/#inbox |  | 
+2021-03-18T19:58:45.265Z - [info] Executing:  | comment | setWindowSize // 1700x900 |  | 
+2021-03-18T19:58:45.327Z - [info] Executing:  | bringBrowserToForeground |  |  | 
+2021-03-18T19:58:45.532Z - [info] Executing:  | comment | XClickRelative // fullSize_dpi_120.png |  | 
+2021-03-18T19:58:45.618Z - [info] Executing:  | comment | click // xpath=/html/body |  | 
+2021-03-18T19:58:45.700Z - [info] Executing:  | visualVerify | gmailTopic_dpi_120.png@0.50 |  | 
+2021-03-18T19:58:46.689Z - [info] Executing:  | visualSearch | checkbox_dpi_120.png | checkboxNumber | 
+2021-03-18T19:58:47.433Z - [info] Executing:  | echo | check box number ${checkboxNumber} | checkboxNumber | 
+2021-03-18T19:58:47.448Z - [echo] check box number 10
+2021-03-18T19:58:47.483Z - [info] Executing:  | comment | OCRExtractRelative // mxk0xf_dpi_120.png@0.7#2 | name | 
+2021-03-18T19:58:47.569Z - [info] Executing:  | comment | echo // ${name} | name | 
+2021-03-18T19:58:47.744Z - [info] Executing:  | times | 3 |  | 
+2021-03-18T19:58:47.833Z - [info] Executing:  | OCRExtractRelative | mxk0xf_dpi_120.png@0.7#${!times} | name | 
+2021-03-18T19:58:51.024Z - [info] OCR (eng) started (1.6 KB)
+2021-03-18T19:58:51.507Z - [info] OCR result received (0.5s from endpoint 2)
+2021-03-18T19:58:51.572Z - [info] Executing:  | executeScript_Sandbox | return ${name}.replace(/( |\n|\r)/gm, ""); | name | 
+2021-03-18T19:58:51.645Z - [info] Executing:  | echo | ${name} | pink | 
+2021-03-18T19:58:51.658Z - [echo] Jacob,me,Cole5
+2021-03-18T19:58:51.719Z - [info] Executing:  | comment | echo // ${name} | blue | 
+2021-03-18T19:58:51.803Z - [info] Executing:  | store | ${!times} | !csvLine | 
+2021-03-18T19:58:51.862Z - [info] Executing:  | store | ${name} | !csvLine | 
+2021-03-18T19:58:51.938Z - [info] Executing:  | csvSave | inbox |  | 
+2021-03-18T19:58:52.023Z - [info] Executing:  | end |  |  | 
+2021-03-18T19:58:52.073Z - [info] Executing:  | times | 3 |  | 
+2021-03-18T19:58:52.149Z - [info] Executing:  | OCRExtractRelative | mxk0xf_dpi_120.png@0.7#${!times} | name | 
+2021-03-18T19:58:55.121Z - [info] OCR (eng) started (1.8 KB)
+2021-03-18T19:58:55.721Z - [info] OCR result received (0.6s from endpoint 2)
+2021-03-18T19:58:55.781Z - [info] Executing:  | executeScript_Sandbox | return ${name}.replace(/( |\n|\r)/gm, ""); | name | 
+2021-03-18T19:58:55.858Z - [info] Executing:  | echo | ${name} | pink | 
+2021-03-18T19:58:55.873Z - [echo] JacobMoy(Atlassi
+2021-03-18T19:58:55.932Z - [info] Executing:  | comment | echo // ${name} | blue | 
+2021-03-18T19:58:56.003Z - [info] Executing:  | store | ${!times} | !csvLine | 
+2021-03-18T19:58:56.065Z - [info] Executing:  | store | ${name} | !csvLine | 
+2021-03-18T19:58:56.142Z - [info] Executing:  | csvSave | inbox |  | 
+2021-03-18T19:58:56.228Z - [info] Executing:  | end |  |  | 
+2021-03-18T19:58:56.276Z - [info] Executing:  | times | 3 |  | 
+2021-03-18T19:58:56.346Z - [info] Executing:  | OCRExtractRelative | mxk0xf_dpi_120.png@0.7#${!times} | name | 
+2021-03-18T19:58:59.322Z - [info] OCR (eng) started (1.1 KB)
+2021-03-18T19:59:00.111Z - [info] OCR result received (0.8s from endpoint 2)
+2021-03-18T19:59:00.184Z - [info] Executing:  | executeScript_Sandbox | return ${name}.replace(/( |\n|\r)/gm, ""); | name | 
+2021-03-18T19:59:00.256Z - [info] Executing:  | echo | ${name} | pink | 
+2021-03-18T19:59:00.268Z - [echo] Cole,me5
+2021-03-18T19:59:00.321Z - [info] Executing:  | comment | echo // ${name} | blue | 
+2021-03-18T19:59:00.399Z - [info] Executing:  | store | ${!times} | !csvLine | 
+2021-03-18T19:59:00.461Z - [info] Executing:  | store | ${name} | !csvLine | 
+2021-03-18T19:59:00.540Z - [info] Executing:  | csvSave | inbox |  | 
+2021-03-18T19:59:00.625Z - [info] Executing:  | end |  |  | 
+2021-03-18T19:59:00.676Z - [info] Executing:  | times | 3 |  | 
+2021-03-18T19:59:00.775Z - [info] Macro completed (Runtime 18.05s)
+2021-03-18T20:00:40.474Z - [info] inbox.csv deleted
+2021-03-18T20:00:43.778Z - [status] Playing macro Gmail TECHRPA-10-13-copy
+2021-03-18T20:00:43.819Z - [info] Executing:  | store | !replayspeed | medium | 
+2021-03-18T20:00:43.848Z - [info] Executing:  | comment | XRun // C:\Program Files\Mozilla Firefox\firefox.exe |  | 
+2021-03-18T20:00:43.903Z - [info] Executing:  | open | https://mail.google.com/mail/u/1/#inbox |  | 
+2021-03-18T20:00:47.207Z - [info] Executing:  | comment | setWindowSize // 1700x900 |  | 
+2021-03-18T20:00:47.253Z - [info] Executing:  | bringBrowserToForeground |  |  | 
+2021-03-18T20:00:47.437Z - [info] Executing:  | comment | XClickRelative // fullSize_dpi_120.png |  | 
+2021-03-18T20:00:47.519Z - [info] Executing:  | comment | click // xpath=/html/body |  | 
+2021-03-18T20:00:47.570Z - [info] Executing:  | visualVerify | gmailTopic_dpi_120.png@0.50 |  | 
+2021-03-18T20:00:48.528Z - [info] Executing:  | visualSearch | checkbox_dpi_120.png | checkboxNumber | 
+2021-03-18T20:00:49.317Z - [info] Executing:  | echo | check box number ${checkboxNumber} | checkboxNumber | 
+2021-03-18T20:00:49.323Z - [echo] check box number 10
+2021-03-18T20:00:49.385Z - [info] Executing:  | comment | OCRExtractRelative // mxk0xf_dpi_120.png@0.7#2 | name | 
+2021-03-18T20:00:49.457Z - [info] Executing:  | comment | echo // ${name} | name | 
+2021-03-18T20:00:49.601Z - [info] Executing:  | times | 3 |  | 
+2021-03-18T20:00:49.668Z - [info] Executing:  | OCRExtractRelative | mxk0xf_dpi_120.png@0.7#${!times} | name | 
+2021-03-18T20:00:52.800Z - [info] OCR (eng) started (1.6 KB)
+2021-03-18T20:00:53.273Z - [info] OCR result received (0.5s from endpoint 2)
+2021-03-18T20:00:53.331Z - [info] Executing:  | executeScript_Sandbox | return ${name}.replace(/( |\n|\r)/gm, ""); | name | 
+2021-03-18T20:00:53.361Z - [info] Executing:  | echo | ${name} | pink | 
+2021-03-18T20:00:53.367Z - [echo] Jacob,me,Cole5
+2021-03-18T20:00:53.436Z - [info] Executing:  | comment | echo // ${name} | blue | 
+2021-03-18T20:00:53.481Z - [info] Executing:  | store | ${!times} | !csvLine | 
+2021-03-18T20:00:53.519Z - [info] Executing:  | store | ${name} | !csvLine | 
+2021-03-18T20:00:53.562Z - [info] Executing:  | csvSave | inbox |  | 
+2021-03-18T20:00:53.649Z - [info] Executing:  | end |  |  | 
+2021-03-18T20:00:53.680Z - [info] Executing:  | times | 3 |  | 
+2021-03-18T20:00:53.741Z - [info] Executing:  | OCRExtractRelative | mxk0xf_dpi_120.png@0.7#${!times} | name | 
+2021-03-18T20:00:56.693Z - [info] OCR (eng) started (1.8 KB)
+2021-03-18T20:00:57.280Z - [info] OCR result received (0.6s from endpoint 2)
+2021-03-18T20:00:57.324Z - [info] Executing:  | executeScript_Sandbox | return ${name}.replace(/( |\n|\r)/gm, ""); | name | 
+2021-03-18T20:00:57.355Z - [info] Executing:  | echo | ${name} | pink | 
+2021-03-18T20:00:57.359Z - [echo] JacobMoy(Atlassi
+2021-03-18T20:00:57.405Z - [info] Executing:  | comment | echo // ${name} | blue | 
+2021-03-18T20:00:57.460Z - [info] Executing:  | store | ${!times} | !csvLine | 
+2021-03-18T20:00:57.504Z - [info] Executing:  | store | ${name} | !csvLine | 
+2021-03-18T20:00:57.547Z - [info] Executing:  | csvSave | inbox |  | 
+2021-03-18T20:00:57.629Z - [info] Executing:  | end |  |  | 
+2021-03-18T20:00:57.660Z - [info] Executing:  | times | 3 |  | 
+2021-03-18T20:00:57.703Z - [info] Executing:  | OCRExtractRelative | mxk0xf_dpi_120.png@0.7#${!times} | name | 
+2021-03-18T20:01:00.664Z - [info] OCR (eng) started (1.1 KB)
+2021-03-18T20:01:01.216Z - [info] OCR result received (0.5s from endpoint 2)
+2021-03-18T20:01:01.254Z - [info] Executing:  | executeScript_Sandbox | return ${name}.replace(/( |\n|\r)/gm, ""); | name | 
+2021-03-18T20:01:01.285Z - [info] Executing:  | echo | ${name} | pink | 
+2021-03-18T20:01:01.289Z - [echo] Cole,me5
+2021-03-18T20:01:01.335Z - [info] Executing:  | comment | echo // ${name} | blue | 
+2021-03-18T20:01:01.394Z - [info] Executing:  | store | ${!times} | !csvLine | 
+2021-03-18T20:01:01.454Z - [info] Executing:  | store | ${name} | !csvLine | 
+2021-03-18T20:01:01.509Z - [info] Executing:  | csvSave | inbox |  | 
+2021-03-18T20:01:01.606Z - [info] Executing:  | end |  |  | 
+2021-03-18T20:01:01.647Z - [info] Executing:  | times | 3 |  | 
+2021-03-18T20:01:01.733Z - [info] Macro completed (Runtime 17.92s)
+2021-03-18T20:01:31.720Z - [status] Playing macro Gmail TECHRPA-10-13-copy
+2021-03-18T20:01:31.761Z - [info] Executing:  | store | !replayspeed | medium | 
+2021-03-18T20:01:31.794Z - [info] Executing:  | comment | XRun // C:\Program Files\Mozilla Firefox\firefox.exe |  | 
+2021-03-18T20:01:31.854Z - [info] Executing:  | open | https://mail.google.com/mail/u/1/#inbox |  | 
+2021-03-18T20:01:42.505Z - [info] Macro was stopped manually (Runtime 10.75s)
+2021-03-18T20:01:51.505Z - [status] Playing macro Gmail TECHRPA-10-13-copy
+2021-03-18T20:01:51.550Z - [info] Executing:  | store | !replayspeed | medium | 
+2021-03-18T20:01:51.595Z - [info] Executing:  | comment | XRun // C:\Program Files\Mozilla Firefox\firefox.exe |  | 
+2021-03-18T20:01:51.649Z - [info] Executing:  | open | https://mail.google.com/mail/u/1/#inbox |  | 
+2021-03-18T20:01:53.924Z - [info] Executing:  | comment | setWindowSize // 1700x900 |  | 
+2021-03-18T20:01:53.984Z - [info] Executing:  | bringBrowserToForeground |  |  | 
+2021-03-18T20:01:54.201Z - [info] Executing:  | comment | XClickRelative // fullSize_dpi_120.png |  | 
+2021-03-18T20:01:54.263Z - [info] Executing:  | comment | click // xpath=/html/body |  | 
+2021-03-18T20:01:54.314Z - [info] Executing:  | visualVerify | gmailTopic_dpi_120.png@0.50 |  | 
+2021-03-18T20:01:55.407Z - [info] Executing:  | visualSearch | checkbox_dpi_120.png | checkboxNumber | 
+2021-03-18T20:01:56.006Z - [info] Executing:  | echo | check box number ${checkboxNumber} | checkboxNumber | 
+2021-03-18T20:01:56.018Z - [echo] check box number 10
+2021-03-18T20:01:56.053Z - [info] Executing:  | comment | OCRExtractRelative // mxk0xf_dpi_120.png@0.7#2 | name | 
+2021-03-18T20:01:56.182Z - [info] Executing:  | comment | echo // ${name} | name | 
+2021-03-18T20:01:56.274Z - [info] Executing:  | times | 3 |  | 
+2021-03-18T20:01:56.340Z - [info] Executing:  | OCRExtractRelative | mxk0xf_dpi_120.png@0.7#${!times} | name | 
+2021-03-18T20:01:59.426Z - [info] OCR (eng) started (2.2 KB)
+2021-03-18T20:02:00.563Z - [info] OCR result received (1.1s from endpoint 2)
+2021-03-18T20:02:00.605Z - [info] Executing:  | executeScript_Sandbox | return ${name}.replace(/( |\n|\r)/gm, ""); | name | 
+2021-03-18T20:02:00.635Z - [info] Executing:  | echo | ${name} | pink | 
+2021-03-18T20:02:00.642Z - [echo] Jacob,me,Cole5
+2021-03-18T20:02:00.687Z - [info] Executing:  | comment | echo // ${name} | blue | 
+2021-03-18T20:02:00.743Z - [info] Executing:  | store | ${!times} | !csvLine | 
+2021-03-18T20:02:00.789Z - [info] Executing:  | store | ${name} | !csvLine | 
+2021-03-18T20:02:00.835Z - [info] Executing:  | csvSave | inbox |  | 
+2021-03-18T20:02:00.930Z - [info] Executing:  | end |  |  | 
+2021-03-18T20:02:00.973Z - [info] Executing:  | times | 3 |  | 
+2021-03-18T20:02:01.023Z - [info] Executing:  | OCRExtractRelative | mxk0xf_dpi_120.png@0.7#${!times} | name | 
+2021-03-18T20:02:03.726Z - [info] OCR (eng) started (2.7 KB)
+2021-03-18T20:02:04.501Z - [info] OCR result received (0.8s from endpoint 2)
+2021-03-18T20:02:04.527Z - [info] Executing:  | executeScript_Sandbox | return ${name}.replace(/( |\n|\r)/gm, ""); | name | 
+2021-03-18T20:02:04.558Z - [info] Executing:  | echo | ${name} | pink | 
+2021-03-18T20:02:04.564Z - [echo] JacobMoy(Atlassi
+2021-03-18T20:02:04.624Z - [info] Executing:  | comment | echo // ${name} | blue | 
+2021-03-18T20:02:04.668Z - [info] Executing:  | store | ${!times} | !csvLine | 
+2021-03-18T20:02:04.715Z - [info] Executing:  | store | ${name} | !csvLine | 
+2021-03-18T20:02:04.772Z - [info] Executing:  | csvSave | inbox |  | 
+2021-03-18T20:02:04.853Z - [info] Executing:  | end |  |  | 
+2021-03-18T20:02:04.880Z - [info] Executing:  | times | 3 |  | 
+2021-03-18T20:02:04.953Z - [info] Executing:  | OCRExtractRelative | mxk0xf_dpi_120.png@0.7#${!times} | name | 
+2021-03-18T20:02:07.586Z - [info] OCR (eng) started (1.5 KB)
+2021-03-18T20:02:08.377Z - [info] OCR result received (0.8s from endpoint 2)
+2021-03-18T20:02:08.428Z - [info] Executing:  | executeScript_Sandbox | return ${name}.replace(/( |\n|\r)/gm, ""); | name | 
+2021-03-18T20:02:08.460Z - [info] Executing:  | echo | ${name} | pink | 
+2021-03-18T20:02:08.467Z - [echo] Cole,me5
+2021-03-18T20:02:08.525Z - [info] Executing:  | comment | echo // ${name} | blue | 
+2021-03-18T20:02:08.568Z - [info] Executing:  | store | ${!times} | !csvLine | 
+2021-03-18T20:02:08.613Z - [info] Executing:  | store | ${name} | !csvLine | 
+2021-03-18T20:02:08.674Z - [info] Executing:  | csvSave | inbox |  | 
+2021-03-18T20:02:08.755Z - [info] Executing:  | end |  |  | 
+2021-03-18T20:02:08.791Z - [info] Executing:  | times | 3 |  | 
+2021-03-18T20:02:08.873Z - [info] Macro completed (Runtime 17.33s)
+2021-03-18T20:30:21.030Z - [status] Playing macro WordPad TECHRPA-2
+2021-03-18T20:30:21.087Z - [info] Executing:  | visualSearch | Text_dpi_120.png | TextDocumentNumber | 
+2021-03-18T20:30:31.838Z - [info] Executing:  | echo | ${TextDocumentNumber} files were found |  | 
+2021-03-18T20:30:31.846Z - [echo] 0 files were found
+2021-03-18T20:30:31.885Z - [info] Executing:  | times | ${TextDocumentNumber} |  | 
+2021-03-18T20:30:32.009Z - [info] Macro completed (Runtime 10.94s)
+2021-03-18T20:30:43.525Z - [status] Playing macro WordPad TECHRPA-2
+2021-03-18T20:30:43.573Z - [info] Executing:  | visualSearch | Text_dpi_120.png | TextDocumentNumber | 
+2021-03-18T20:30:44.421Z - [info] Executing:  | echo | ${TextDocumentNumber} files were found |  | 
+2021-03-18T20:30:44.430Z - [echo] 3 files were found
+2021-03-18T20:30:44.468Z - [info] Executing:  | times | ${TextDocumentNumber} |  | 
+2021-03-18T20:30:44.547Z - [info] Executing:  | OCRExtractRelative | WordPad_dpi_120.png@0.80#${!times} | fileName | 
+2021-03-18T20:30:48.199Z - [info] OCR (eng) started (2.6 KB)
+2021-03-18T20:30:49.025Z - [info] OCR result received (0.8s from endpoint 2)
+2021-03-18T20:30:49.088Z - [info] Executing:  | executeScript_Sandbox | return ${fileName}.replace(/( |\n|\r)/gm, ""); | fileName | 
+2021-03-18T20:30:49.137Z - [info] Executing:  | echo | ${fileName} | blue | 
+2021-03-18T20:30:49.146Z - [echo] svvor
+2021-03-18T20:30:49.200Z - [info] Executing:  | store | ${!times} | !csvLine | 
+2021-03-18T20:30:49.268Z - [info] Executing:  | store | ${fileName} | !csvLine | 
+2021-03-18T20:30:49.318Z - [info] Executing:  | csvSave | wordpad file names |  | 
+2021-03-18T20:30:49.395Z - [info] Executing:  | end |  |  | 
+2021-03-18T20:30:49.439Z - [info] Executing:  | times | ${TextDocumentNumber} |  | 
+2021-03-18T20:30:49.510Z - [info] Executing:  | OCRExtractRelative | WordPad_dpi_120.png@0.80#${!times} | fileName | 
+2021-03-18T20:30:53.194Z - [info] OCR (eng) started (1.4 KB)
+2021-03-18T20:30:53.653Z - [info] OCR result received (0.4s from endpoint 2)
+2021-03-18T20:30:53.717Z - [info] Executing:  | executeScript_Sandbox | return ${fileName}.replace(/( |\n|\r)/gm, ""); | fileName | 
+2021-03-18T20:30:53.769Z - [info] Executing:  | echo | ${fileName} | blue | 
+2021-03-18T20:30:53.829Z - [info] Executing:  | store | ${!times} | !csvLine | 
+2021-03-18T20:30:53.893Z - [info] Executing:  | store | ${fileName} | !csvLine | 
+2021-03-18T20:30:53.946Z - [info] Executing:  | csvSave | wordpad file names |  | 
+2021-03-18T20:30:54.032Z - [info] Executing:  | end |  |  | 
+2021-03-18T20:30:54.085Z - [info] Executing:  | times | ${TextDocumentNumber} |  | 
+2021-03-18T20:30:54.139Z - [info] Executing:  | OCRExtractRelative | WordPad_dpi_120.png@0.80#${!times} | fileName | 
+2021-03-18T20:30:57.787Z - [info] OCR (eng) started (971 byte)
+2021-03-18T20:30:58.259Z - [info] OCR result received (0.5s from endpoint 2)
+2021-03-18T20:30:58.300Z - [info] Executing:  | executeScript_Sandbox | return ${fileName}.replace(/( |\n|\r)/gm, ""); | fileName | 
+2021-03-18T20:30:58.337Z - [info] Executing:  | echo | ${fileName} | blue | 
+2021-03-18T20:30:58.395Z - [info] Executing:  | store | ${!times} | !csvLine | 
+2021-03-18T20:30:58.453Z - [info] Executing:  | store | ${fileName} | !csvLine | 
+2021-03-18T20:30:58.498Z - [info] Executing:  | csvSave | wordpad file names |  | 
+2021-03-18T20:30:58.574Z - [info] Executing:  | end |  |  | 
+2021-03-18T20:30:58.619Z - [info] Executing:  | times | ${TextDocumentNumber} |  | 
+2021-03-18T20:30:58.692Z - [info] Macro completed (Runtime 15.13s)
+2021-03-18T20:33:02.094Z - [status] Playing macro WordPad TECHRPA-2
+2021-03-18T20:33:02.141Z - [info] Executing:  | OCRExtractRelative | WordPad_dpi_120.png@0.80#${!times} | fileName | 
+2021-03-18T20:33:02.158Z - [error] Internal variable "!TIMES" not supported
+2021-03-18T20:33:02.195Z - [info] Macro failed (Runtime 0.06s)
+2021-03-18T20:36:46.608Z - [status] Playing macro WordPad TECHRPA-2
+2021-03-18T20:36:46.674Z - [info] Executing:  | OCRExtractRelative | WordPad_dpi_120.png | fileName | 
+2021-03-18T20:36:50.472Z - [info] OCR (eng) started (1.8 KB)
+2021-03-18T20:36:51.574Z - [info] OCR result received (1.1s from endpoint 2)
+2021-03-18T20:36:51.646Z - [info] Macro completed (Runtime 4.98s)
+2021-03-18T20:37:10.585Z - [status] Playing macro WordPad TECHRPA-2
+2021-03-18T20:37:10.638Z - [info] Executing:  | OCRExtractRelative | WordPad_dpi_120.png@0.85 | fileName | 
+2021-03-18T20:37:14.398Z - [info] OCR (eng) started (1.8 KB)
+2021-03-18T20:37:14.865Z - [info] OCR result received (0.5s from endpoint 2)
+2021-03-18T20:37:14.963Z - [info] Macro completed (Runtime 4.34s)
+2021-03-18T20:38:18.058Z - [status] Playing macro WordPad TECHRPA-2
+2021-03-18T20:38:18.120Z - [info] Executing:  | visualSearch | Text_dpi_120.png | TextDocumentNumber | 
+2021-03-18T20:38:18.998Z - [info] Executing:  | echo | ${TextDocumentNumber} files were found |  | 
+2021-03-18T20:38:19.007Z - [echo] 6 files were found
+2021-03-18T20:38:19.104Z - [info] Executing:  | times | ${TextDocumentNumber} |  | 
+2021-03-18T20:38:19.169Z - [info] Executing:  | OCRExtractRelative | word_dpi_120.png | fileName | 
+2021-03-18T20:38:23.197Z - [info] OCR (eng) started (922 byte)
+2021-03-18T20:38:24.307Z - [info] OCR result received (1.1s from endpoint 2)
+2021-03-18T20:38:24.374Z - [info] Executing:  | executeScript_Sandbox | return ${fileName}.replace(/( |\n|\r)/gm, ""); | fileName | 
+2021-03-18T20:38:24.421Z - [info] Executing:  | echo | ${fileName} | blue | 
+2021-03-18T20:38:24.489Z - [info] Executing:  | store | ${!times} | !csvLine | 
+2021-03-18T20:38:24.540Z - [info] Executing:  | store | ${fileName} | !csvLine | 
+2021-03-18T20:38:24.593Z - [info] Executing:  | csvSave | wordpad file names |  | 
+2021-03-18T20:38:24.684Z - [info] Executing:  | end |  |  | 
+2021-03-18T20:38:24.728Z - [info] Executing:  | times | ${TextDocumentNumber} |  | 
+2021-03-18T20:38:24.778Z - [info] Executing:  | OCRExtractRelative | word_dpi_120.png | fileName | 
+2021-03-18T20:38:28.628Z - [info] OCR (eng) started (1.3 KB)
+2021-03-18T20:38:30.600Z - [info] OCR result received (1.9s from endpoint 2)
+2021-03-18T20:38:30.660Z - [info] Executing:  | executeScript_Sandbox | return ${fileName}.replace(/( |\n|\r)/gm, ""); | fileName | 
+2021-03-18T20:38:30.716Z - [info] Executing:  | echo | ${fileName} | blue | 
+2021-03-18T20:38:30.784Z - [info] Executing:  | store | ${!times} | !csvLine | 
+2021-03-18T20:38:30.839Z - [info] Executing:  | store | ${fileName} | !csvLine | 
+2021-03-18T20:38:30.895Z - [info] Executing:  | csvSave | wordpad file names |  | 
+2021-03-18T20:38:30.995Z - [info] Executing:  | end |  |  | 
+2021-03-18T20:38:31.044Z - [info] Executing:  | times | ${TextDocumentNumber} |  | 
+2021-03-18T20:38:31.098Z - [info] Executing:  | OCRExtractRelative | word_dpi_120.png | fileName | 
+2021-03-18T20:38:35.019Z - [info] OCR (eng) started (1.3 KB)
+2021-03-18T20:38:35.804Z - [info] OCR result received (0.8s from endpoint 2)
+2021-03-18T20:38:35.859Z - [info] Executing:  | executeScript_Sandbox | return ${fileName}.replace(/( |\n|\r)/gm, ""); | fileName | 
+2021-03-18T20:38:35.904Z - [info] Executing:  | echo | ${fileName} | blue | 
+2021-03-18T20:38:35.967Z - [info] Executing:  | store | ${!times} | !csvLine | 
+2021-03-18T20:38:36.030Z - [info] Executing:  | store | ${fileName} | !csvLine | 
+2021-03-18T20:38:36.086Z - [info] Executing:  | csvSave | wordpad file names |  | 
+2021-03-18T20:38:36.190Z - [info] Executing:  | end |  |  | 
+2021-03-18T20:38:36.239Z - [info] Executing:  | times | ${TextDocumentNumber} |  | 
+2021-03-18T20:38:36.293Z - [info] Executing:  | OCRExtractRelative | word_dpi_120.png | fileName | 
+2021-03-18T20:38:40.157Z - [info] OCR (eng) started (1.3 KB)
+2021-03-18T20:38:40.713Z - [info] OCR result received (0.5s from endpoint 2)
+2021-03-18T20:38:40.780Z - [info] Executing:  | executeScript_Sandbox | return ${fileName}.replace(/( |\n|\r)/gm, ""); | fileName | 
+2021-03-18T20:38:40.824Z - [info] Executing:  | echo | ${fileName} | blue | 
+2021-03-18T20:38:40.883Z - [info] Executing:  | store | ${!times} | !csvLine | 
+2021-03-18T20:38:40.947Z - [info] Executing:  | store | ${fileName} | !csvLine | 
+2021-03-18T20:38:41.004Z - [info] Executing:  | csvSave | wordpad file names |  | 
+2021-03-18T20:38:41.108Z - [info] Executing:  | end |  |  | 
+2021-03-18T20:38:41.157Z - [info] Executing:  | times | ${TextDocumentNumber} |  | 
+2021-03-18T20:38:41.211Z - [info] Executing:  | OCRExtractRelative | word_dpi_120.png | fileName | 
+2021-03-18T20:38:45.021Z - [info] OCR (eng) started (1.3 KB)
+2021-03-18T20:38:45.861Z - [info] OCR result received (0.8s from endpoint 2)
+2021-03-18T20:38:45.918Z - [info] Executing:  | executeScript_Sandbox | return ${fileName}.replace(/( |\n|\r)/gm, ""); | fileName | 
+2021-03-18T20:38:45.980Z - [info] Executing:  | echo | ${fileName} | blue | 
+2021-03-18T20:38:46.050Z - [info] Executing:  | store | ${!times} | !csvLine | 
+2021-03-18T20:38:46.124Z - [info] Executing:  | store | ${fileName} | !csvLine | 
+2021-03-18T20:38:46.180Z - [info] Executing:  | csvSave | wordpad file names |  | 
+2021-03-18T20:38:46.297Z - [info] Executing:  | end |  |  | 
+2021-03-18T20:38:46.355Z - [info] Executing:  | times | ${TextDocumentNumber} |  | 
+2021-03-18T20:38:46.412Z - [info] Executing:  | OCRExtractRelative | word_dpi_120.png | fileName | 
+2021-03-18T20:38:50.280Z - [info] OCR (eng) started (1.3 KB)
+2021-03-18T20:38:51.111Z - [info] OCR result received (0.8s from endpoint 2)
+2021-03-18T20:38:51.178Z - [info] Executing:  | executeScript_Sandbox | return ${fileName}.replace(/( |\n|\r)/gm, ""); | fileName | 
+2021-03-18T20:38:51.228Z - [info] Executing:  | echo | ${fileName} | blue | 
+2021-03-18T20:38:51.299Z - [info] Executing:  | store | ${!times} | !csvLine | 
+2021-03-18T20:38:51.356Z - [info] Executing:  | store | ${fileName} | !csvLine | 
+2021-03-18T20:38:51.418Z - [info] Executing:  | csvSave | wordpad file names |  | 
+2021-03-18T20:38:51.523Z - [info] Executing:  | end |  |  | 
+2021-03-18T20:38:51.574Z - [info] Executing:  | times | ${TextDocumentNumber} |  | 
+2021-03-18T20:38:51.678Z - [info] Macro completed (Runtime 33.57s)
+2021-03-18T20:39:10.557Z - [status] Playing macro WordPad TECHRPA-2
+2021-03-18T20:39:10.612Z - [info] Executing:  | visualSearch | Text_dpi_120.png | TextDocumentNumber | 
+2021-03-18T20:39:11.530Z - [info] Macro completed (Runtime 0.93s)
+2021-03-18T20:40:56.837Z - [status] Playing macro WordPad TECHRPA-2
+2021-03-18T20:40:56.893Z - [info] Executing:  | visualSearch | Text_dpi_120.png | TextDocumentNumber | 
+2021-03-18T20:40:57.776Z - [info] Executing:  | echo | ${TextDocumentNumber} files were found |  | 
+2021-03-18T20:40:57.787Z - [echo] 3 files were found
+2021-03-18T20:40:57.823Z - [info] Executing:  | times | ${TextDocumentNumber} |  | 
+2021-03-18T20:40:57.935Z - [info] Executing:  | OCRExtractRelative | WordPad_dpi_120.png@0.60#${!times} | fileName | 
+2021-03-18T20:41:01.812Z - [info] OCR (eng) started (6.2 KB)
+2021-03-18T20:41:02.564Z - [info] OCR result received (0.7s from endpoint 2)
+2021-03-18T20:41:02.642Z - [info] Executing:  | executeScript_Sandbox | return ${fileName}.replace(/( |\n|\r)/gm, ""); | fileName | 
+2021-03-18T20:41:02.703Z - [info] Executing:  | echo | ${fileName} | blue | 
+2021-03-18T20:41:02.721Z - [echo] passwor
+2021-03-18T20:41:02.789Z - [info] Executing:  | store | ${!times} | !csvLine | 
+2021-03-18T20:41:02.854Z - [info] Executing:  | store | ${fileName} | !csvLine | 
+2021-03-18T20:41:02.917Z - [info] Executing:  | csvSave | wordpad file names |  | 
+2021-03-18T20:41:03.037Z - [info] Executing:  | end |  |  | 
+2021-03-18T20:41:03.091Z - [info] Executing:  | times | ${TextDocumentNumber} |  | 
+2021-03-18T20:41:03.164Z - [info] Executing:  | OCRExtractRelative | WordPad_dpi_120.png@0.60#${!times} | fileName | 
+2021-03-18T20:41:06.964Z - [info] OCR (eng) started (1.8 KB)
+2021-03-18T20:41:07.445Z - [info] OCR result received (0.5s from endpoint 2)
+2021-03-18T20:41:07.500Z - [info] Executing:  | executeScript_Sandbox | return ${fileName}.replace(/( |\n|\r)/gm, ""); | fileName | 
+2021-03-18T20:41:07.566Z - [info] Executing:  | echo | ${fileName} | blue | 
+2021-03-18T20:41:07.655Z - [info] Executing:  | store | ${!times} | !csvLine | 
+2021-03-18T20:41:07.718Z - [info] Executing:  | store | ${fileName} | !csvLine | 
+2021-03-18T20:41:07.775Z - [info] Executing:  | csvSave | wordpad file names |  | 
+2021-03-18T20:41:07.902Z - [info] Executing:  | end |  |  | 
+2021-03-18T20:41:07.956Z - [info] Executing:  | times | ${TextDocumentNumber} |  | 
+2021-03-18T20:41:08.037Z - [info] Executing:  | OCRExtractRelative | WordPad_dpi_120.png@0.60#${!times} | fileName | 
+2021-03-18T20:41:11.785Z - [info] OCR (eng) started (1.5 KB)
+2021-03-18T20:41:12.588Z - [info] OCR result received (0.8s from endpoint 2)
+2021-03-18T20:41:12.663Z - [info] Executing:  | executeScript_Sandbox | return ${fileName}.replace(/( |\n|\r)/gm, ""); | fileName | 
+2021-03-18T20:41:12.727Z - [info] Executing:  | echo | ${fileName} | blue | 
+2021-03-18T20:41:12.804Z - [info] Executing:  | store | ${!times} | !csvLine | 
+2021-03-18T20:41:12.869Z - [info] Executing:  | store | ${fileName} | !csvLine | 
+2021-03-18T20:41:12.930Z - [info] Executing:  | csvSave | wordpad file names |  | 
+2021-03-18T20:41:13.062Z - [info] Executing:  | end |  |  | 
+2021-03-18T20:41:13.108Z - [info] Executing:  | times | ${TextDocumentNumber} |  | 
+2021-03-18T20:41:13.218Z - [info] Macro completed (Runtime 16.34s)
+2021-03-18T20:41:31.868Z - [info] wordpad file names.csv deleted
+2021-03-18T20:41:45.769Z - [status] Playing macro WordPad TECHRPA-2
+2021-03-18T20:41:45.828Z - [info] Executing:  | visualSearch | Text_dpi_120.png | TextDocumentNumber | 
+2021-03-18T20:41:46.669Z - [info] Executing:  | echo | ${TextDocumentNumber} files were found |  | 
+2021-03-18T20:41:46.681Z - [echo] 3 files were found
+2021-03-18T20:41:46.723Z - [info] Executing:  | times | ${TextDocumentNumber} |  | 
+2021-03-18T20:41:46.822Z - [info] Executing:  | OCRExtractRelative | WordPad_dpi_120.png@0.60#${!times} | fileName | 
+2021-03-18T20:41:50.691Z - [info] OCR (eng) started (6.2 KB)
+2021-03-18T20:41:51.178Z - [info] OCR result received (0.5s from endpoint 2)
+2021-03-18T20:41:51.227Z - [info] Executing:  | executeScript_Sandbox | return ${fileName}.replace(/( |\n|\r)/gm, ""); | fileName | 
+2021-03-18T20:41:51.268Z - [info] Executing:  | echo | ${fileName} | blue | 
+2021-03-18T20:41:51.280Z - [echo] passwor
+2021-03-18T20:41:51.340Z - [info] Executing:  | store | ${!times} | !csvLine | 
+2021-03-18T20:41:51.396Z - [info] Executing:  | store | ${fileName} | !csvLine | 
+2021-03-18T20:41:51.447Z - [info] Executing:  | csvSave | wordpad file names |  | 
+2021-03-18T20:41:51.540Z - [info] Executing:  | end |  |  | 
+2021-03-18T20:41:51.576Z - [info] Executing:  | times | ${TextDocumentNumber} |  | 
+2021-03-18T20:41:51.658Z - [info] Executing:  | OCRExtractRelative | WordPad_dpi_120.png@0.60#${!times} | fileName | 
+2021-03-18T20:41:55.460Z - [info] OCR (eng) started (1.8 KB)
+2021-03-18T20:41:55.930Z - [info] OCR result received (0.5s from endpoint 2)
+2021-03-18T20:41:55.975Z - [info] Executing:  | executeScript_Sandbox | return ${fileName}.replace(/( |\n|\r)/gm, ""); | fileName | 
+2021-03-18T20:41:56.016Z - [info] Executing:  | echo | ${fileName} | blue | 
+2021-03-18T20:41:56.084Z - [info] Executing:  | store | ${!times} | !csvLine | 
+2021-03-18T20:41:56.135Z - [info] Executing:  | store | ${fileName} | !csvLine | 
+2021-03-18T20:41:56.186Z - [info] Executing:  | csvSave | wordpad file names |  | 
+2021-03-18T20:41:56.274Z - [info] Executing:  | end |  |  | 
+2021-03-18T20:41:56.308Z - [info] Executing:  | times | ${TextDocumentNumber} |  | 
+2021-03-18T20:41:56.385Z - [info] Executing:  | OCRExtractRelative | WordPad_dpi_120.png@0.60#${!times} | fileName | 
+2021-03-18T20:42:00.265Z - [info] OCR (eng) started (1.5 KB)
+2021-03-18T20:42:01.045Z - [info] OCR result received (0.8s from endpoint 2)
+2021-03-18T20:42:01.098Z - [info] Executing:  | executeScript_Sandbox | return ${fileName}.replace(/( |\n|\r)/gm, ""); | fileName | 
+2021-03-18T20:42:01.138Z - [info] Executing:  | echo | ${fileName} | blue | 
+2021-03-18T20:42:01.207Z - [info] Executing:  | store | ${!times} | !csvLine | 
+2021-03-18T20:42:01.262Z - [info] Executing:  | store | ${fileName} | !csvLine | 
+2021-03-18T20:42:01.315Z - [info] Executing:  | csvSave | wordpad file names |  | 
+2021-03-18T20:42:01.425Z - [info] Executing:  | end |  |  | 
+2021-03-18T20:42:01.463Z - [info] Executing:  | times | ${TextDocumentNumber} |  | 
+2021-03-18T20:42:01.561Z - [info] Macro completed (Runtime 15.75s)
+2021-03-18T21:46:29.462Z - [status] Playing macro Create user accounts
+2021-03-18T21:46:29.524Z - [info] Executing:  | open | https://accounts.google.com/signup/v2/webcreateaccount?service=mail&continue=https%3A%2F%2Fmail.google.com%2Fmail&hl=en-GB&dsh=S-1089625264%3A1616102015659256&gmb=exp&biz=false&flowName=GlifWebSignIn&flowEntry=SignUp |  | 
+2021-03-18T21:46:31.695Z - [info] Executing:  | csvRead | user_info.csv |  | 
+2021-03-18T21:46:31.792Z - [info] Executing:  | while_v2 | ${!csvReadStatus}=="OK" |  | 
+2021-03-18T21:46:31.831Z - [info] Executing:  | XClick | firstName_dpi_120.png |  | 
+2021-03-18T21:46:37.367Z - [info] Executing:  | XType | firstName_dpi_120.png | ${!col1} | 
+2021-03-18T21:46:37.378Z - [error] XType currently doesn't use the "Value" field
+2021-03-18T21:46:37.419Z - [info] Macro failed (Runtime 7.91s)
+2021-03-18T21:47:43.014Z - [status] Playing macro Create user accounts
+2021-03-18T21:47:43.082Z - [info] Executing:  | open | https://accounts.google.com/signup/v2/webcreateaccount?service=mail&continue=https%3A%2F%2Fmail.google.com%2Fmail&hl=en-GB&dsh=S-1089625264%3A1616102015659256&gmb=exp&biz=false&flowName=GlifWebSignIn&flowEntry=SignUp |  | 
+2021-03-18T21:47:45.277Z - [info] Executing:  | csvRead | user_info.csv |  | 
+2021-03-18T21:47:45.377Z - [info] Executing:  | while_v2 | ${!csvReadStatus}=="OK" |  | 
+2021-03-18T21:47:45.426Z - [info] Executing:  | comment | XClick // firstName_dpi_120.png |  | 
+2021-03-18T21:47:45.493Z - [info] Executing:  | XType | id=firstName | ${!col1} | 
+2021-03-18T21:47:45.501Z - [error] XType currently doesn't use the "Value" field
+2021-03-18T21:47:45.533Z - [info] Macro failed (Runtime 2.46s)
+2021-03-18T21:47:49.791Z - [status] Playing macro Create user accounts
+2021-03-18T21:47:49.841Z - [info] Executing:  | open | https://accounts.google.com/signup/v2/webcreateaccount?service=mail&continue=https%3A%2F%2Fmail.google.com%2Fmail&hl=en-GB&dsh=S-1089625264%3A1616102015659256&gmb=exp&biz=false&flowName=GlifWebSignIn&flowEntry=SignUp |  | 
+2021-03-18T21:47:51.993Z - [info] Executing:  | csvRead | user_info.csv |  | 
+2021-03-18T21:47:52.101Z - [info] Executing:  | while_v2 | ${!csvReadStatus}=="OK" |  | 
+2021-03-18T21:47:52.141Z - [info] Executing:  | XClick | firstName_dpi_120.png |  | 
+2021-03-18T21:47:53.087Z - [info] Executing:  | XType | id=firstName | ${!col1} | 
+2021-03-18T21:47:53.095Z - [error] XType currently doesn't use the "Value" field
+2021-03-18T21:47:53.124Z - [info] Macro failed (Runtime 3.29s)
+2021-03-18T21:48:17.189Z - [status] Playing macro Create user accounts
+2021-03-18T21:48:17.238Z - [info] Executing:  | open | https://accounts.google.com/signup/v2/webcreateaccount?service=mail&continue=https%3A%2F%2Fmail.google.com%2Fmail&hl=en-GB&dsh=S-1089625264%3A1616102015659256&gmb=exp&biz=false&flowName=GlifWebSignIn&flowEntry=SignUp |  | 
+2021-03-18T21:48:19.388Z - [info] Executing:  | csvRead | user_info.csv |  | 
+2021-03-18T21:48:19.450Z - [info] Executing:  | while_v2 | ${!csvReadStatus}=="OK" |  | 
+2021-03-18T21:48:19.490Z - [info] Executing:  | XClick | firstName_dpi_120.png |  | 
+2021-03-18T21:48:20.339Z - [info] Executing:  | XType | id=firstName | ${!col1} | 
+2021-03-18T21:48:20.345Z - [error] XType currently doesn't use the "Value" field
+2021-03-18T21:48:20.367Z - [info] Macro failed (Runtime 3.15s)
+2021-03-18T21:49:13.991Z - [status] Playing macro Create user accounts
+2021-03-18T21:49:14.050Z - [info] Executing:  | open | https://accounts.google.com/signup/v2/webcreateaccount?service=mail&continue=https%3A%2F%2Fmail.google.com%2Fmail&hl=en-GB&dsh=S-1089625264%3A1616102015659256&gmb=exp&biz=false&flowName=GlifWebSignIn&flowEntry=SignUp |  | 
+2021-03-18T21:49:16.188Z - [info] Executing:  | csvRead | user_info.csv |  | 
+2021-03-18T21:49:16.262Z - [info] Executing:  | while_v2 | ${!csvReadStatus}=="OK" |  | 
+2021-03-18T21:49:16.296Z - [info] Executing:  | XClick | firstName_dpi_120.png |  | 
+2021-03-18T21:49:17.118Z - [info] Executing:  | XType | id=firstName | ${!COL1} | 
+2021-03-18T21:49:17.126Z - [error] XType currently doesn't use the "Value" field
+2021-03-18T21:49:17.153Z - [info] Macro failed (Runtime 3.12s)
+2021-03-18T21:50:00.156Z - [status] Playing macro Create user accounts
+2021-03-18T21:50:00.215Z - [info] Executing:  | open | https://accounts.google.com/signup/v2/webcreateaccount?service=mail&continue=https%3A%2F%2Fmail.google.com%2Fmail&hl=en-GB&dsh=S-1089625264%3A1616102015659256&gmb=exp&biz=false&flowName=GlifWebSignIn&flowEntry=SignUp |  | 
+2021-03-18T21:50:02.377Z - [info] Executing:  | csvRead | user_info.csv |  | 
+2021-03-18T21:50:02.439Z - [info] Executing:  | while_v2 | ${!csvReadStatus}=="OK" |  | 
+2021-03-18T21:50:02.471Z - [info] Executing:  | XClick | firstName_dpi_120.png@0.9 |  | 
+2021-03-18T21:50:12.960Z - [error] Image 'firstName_dpi_120.png' (conf. = 0.9) not found
+2021-03-18T21:50:12.988Z - [info] Macro failed (Runtime 12.79s)
+2021-03-18T21:50:33.387Z - [status] Playing macro Create user accounts
+2021-03-18T21:50:33.462Z - [info] Executing:  | open | https://accounts.google.com/signup/v2/webcreateaccount?service=mail&continue=https%3A%2F%2Fmail.google.com%2Fmail&hl=en-GB&dsh=S-1089625264%3A1616102015659256&gmb=exp&biz=false&flowName=GlifWebSignIn&flowEntry=SignUp |  | 
+2021-03-18T21:50:35.633Z - [info] Executing:  | csvRead | user_info.csv |  | 
+2021-03-18T21:50:35.743Z - [info] Executing:  | while_v2 | ${!csvReadStatus}=="OK" |  | 
+2021-03-18T21:50:35.776Z - [info] Executing:  | XClick | firstName_dpi_120.png@0.95 |  | 
+2021-03-18T21:50:46.241Z - [error] Image 'firstName_dpi_120.png' (conf. = 0.95) not found
+2021-03-18T21:50:46.280Z - [info] Macro failed (Runtime 12.83s)
+2021-03-18T21:51:03.192Z - [status] Playing macro Create user accounts
+2021-03-18T21:51:03.248Z - [info] Executing:  | open | https://accounts.google.com/signup/v2/webcreateaccount?service=mail&continue=https%3A%2F%2Fmail.google.com%2Fmail&hl=en-GB&dsh=S-1089625264%3A1616102015659256&gmb=exp&biz=false&flowName=GlifWebSignIn&flowEntry=SignUp |  | 
+2021-03-18T21:51:05.389Z - [info] Executing:  | csvRead | user_info.csv |  | 
+2021-03-18T21:51:05.459Z - [info] Executing:  | while_v2 | ${!csvReadStatus}=="OK" |  | 
+2021-03-18T21:51:05.491Z - [info] Executing:  | XClick | firstName_dpi_120.png@0.88 |  | 
+2021-03-18T21:51:06.303Z - [info] Executing:  | XType | id=firstName | ${!COL1} | 
+2021-03-18T21:51:06.311Z - [error] XType currently doesn't use the "Value" field
+2021-03-18T21:51:06.338Z - [info] Macro failed (Runtime 3.11s)
+2021-03-18T21:52:21.175Z - [status] Playing macro Create user accounts
+2021-03-18T21:52:21.224Z - [info] Executing:  | open | https://accounts.google.com/signup/v2/webcreateaccount?service=mail&continue=https%3A%2F%2Fmail.google.com%2Fmail&hl=en-GB&dsh=S-1089625264%3A1616102015659256&gmb=exp&biz=false&flowName=GlifWebSignIn&flowEntry=SignUp |  | 
+2021-03-18T21:52:23.391Z - [info] Executing:  | csvRead | user_info.csv |  | 
+2021-03-18T21:52:23.472Z - [info] Executing:  | while_v2 | ${!csvReadStatus}=="OK" |  | 
+2021-03-18T21:52:23.507Z - [info] Executing:  | XClick | firstName_dpi_120.png@0.88 |  | 
+2021-03-18T21:52:24.260Z - [info] Executing:  | XType | id=firstName | ${!COL1}_${!csvReadLineNumber} | 
+2021-03-18T21:52:24.267Z - [error] XType currently doesn't use the "Value" field
+2021-03-18T21:52:24.297Z - [info] Macro failed (Runtime 3.08s)
+2021-03-18T21:53:02.454Z - [status] Playing macro Create user accounts
+2021-03-18T21:53:02.506Z - [info] Executing:  | open | https://accounts.google.com/signup/v2/webcreateaccount?service=mail&continue=https%3A%2F%2Fmail.google.com%2Fmail&hl=en-GB&dsh=S-1089625264%3A1616102015659256&gmb=exp&biz=false&flowName=GlifWebSignIn&flowEntry=SignUp |  | 
+2021-03-18T21:53:04.656Z - [info] Executing:  | csvRead | user_info.csv |  | 
+2021-03-18T21:53:04.735Z - [info] Executing:  | while_v2 | ${!csvReadStatus}=="OK" |  | 
+2021-03-18T21:53:04.783Z - [info] Executing:  | XClick | firstName_dpi_120.png@0.88 |  | 
+2021-03-18T21:53:15.274Z - [error] Image 'firstName_dpi_120.png' (conf. = 0.88) not found
+2021-03-18T21:53:15.307Z - [info] Macro failed (Runtime 12.81s)
+2021-03-18T21:53:26.811Z - [status] Playing macro Create user accounts
+2021-03-18T21:53:26.869Z - [info] Executing:  | open | https://accounts.google.com/signup/v2/webcreateaccount?service=mail&continue=https%3A%2F%2Fmail.google.com%2Fmail&hl=en-GB&dsh=S-1089625264%3A1616102015659256&gmb=exp&biz=false&flowName=GlifWebSignIn&flowEntry=SignUp |  | 
+2021-03-18T21:53:29.017Z - [info] Executing:  | csvRead | user_info.csv |  | 
+2021-03-18T21:53:29.105Z - [info] Executing:  | while_v2 | ${!csvReadStatus}=="OK" |  | 
+2021-03-18T21:53:29.146Z - [info] Executing:  | XClick | firstName_dpi_120.png |  | 
+2021-03-18T21:53:30.075Z - [info] Executing:  | XType | id=firstName | ${!COL1}_${!csvReadLineNumber} | 
+2021-03-18T21:53:30.088Z - [error] XType currently doesn't use the "Value" field
+2021-03-18T21:53:30.118Z - [info] Macro failed (Runtime 3.26s)
+2021-03-18T21:54:01.690Z - [status] Playing macro Create user accounts
+2021-03-18T21:54:01.735Z - [info] Executing:  | click | firstName_dpi_120.png |  | 
+2021-03-18T21:54:07.298Z - [info] Macro was stopped manually (Runtime 5.57s)
+2021-03-18T21:54:23.165Z - [status] Playing macro Create user accounts
+2021-03-18T21:54:23.209Z - [info] Executing:  | open | https://accounts.google.com/signup/v2/webcreateaccount?service=mail&continue=https%3A%2F%2Fmail.google.com%2Fmail&hl=en-GB&dsh=S-1089625264%3A1616102015659256&gmb=exp&biz=false&flowName=GlifWebSignIn&flowEntry=SignUp |  | 
+2021-03-18T21:54:25.348Z - [info] Executing:  | csvRead | user_info.csv |  | 
+2021-03-18T21:54:25.435Z - [info] Executing:  | while_v2 | ${!csvReadStatus}=="OK" |  | 
+2021-03-18T21:54:25.473Z - [info] Executing:  | click | id=firstName |  | 
+2021-03-18T21:54:25.617Z - [info] Executing:  | XType | id=firstName | ${!COL1}_${!csvReadLineNumber} | 
+2021-03-18T21:54:25.626Z - [error] XType currently doesn't use the "Value" field
+2021-03-18T21:54:25.655Z - [info] Macro failed (Runtime 2.45s)
+2021-03-18T21:54:35.020Z - [status] Playing macro Create user accounts
+2021-03-18T21:54:35.097Z - [info] Executing:  | open | https://accounts.google.com/signup/v2/webcreateaccount?service=mail&continue=https%3A%2F%2Fmail.google.com%2Fmail&hl=en-GB&dsh=S-1089625264%3A1616102015659256&gmb=exp&biz=false&flowName=GlifWebSignIn&flowEntry=SignUp |  | 
+2021-03-18T21:54:37.285Z - [info] Executing:  | csvRead | user_info.csv |  | 
+2021-03-18T21:54:37.378Z - [info] Executing:  | while_v2 | ${!csvReadStatus}=="OK" |  | 
+2021-03-18T21:54:37.436Z - [info] Executing:  | click | id=firstName |  | 
+2021-03-18T21:54:37.567Z - [info] Executing:  | type | id=firstName | ${!COL1}_${!csvReadLineNumber} | 
+2021-03-18T21:54:37.707Z - [info] Executing:  | XClick | lastName_dpi_120.png |  | 
+2021-03-18T21:54:38.468Z - [info] Executing:  | XType | lastName_dpi_120.png | ${!col2} | 
+2021-03-18T21:54:38.480Z - [error] XType currently doesn't use the "Value" field
+2021-03-18T21:54:38.530Z - [info] Macro failed (Runtime 3.44s)
+2021-03-18T21:55:22.573Z - [status] Playing macro Create user accounts
+2021-03-18T21:55:22.618Z - [info] Executing:  | XClick | id=lastName |  | 
+2021-03-18T21:55:23.184Z - [info] Macro completed (Runtime 0.57s)
+2021-03-18T21:59:22.153Z - [status] Playing macro Create user accounts
+2021-03-18T21:59:22.226Z - [info] Executing:  | open | https://accounts.google.com/signup/v2/webcreateaccount?service=mail&continue=https%3A%2F%2Fmail.google.com%2Fmail&hl=en-GB&dsh=S-1089625264%3A1616102015659256&gmb=exp&biz=false&flowName=GlifWebSignIn&flowEntry=SignUp |  | 
+2021-03-18T21:59:24.396Z - [info] Executing:  | csvRead | user_info.csv |  | 
+2021-03-18T21:59:24.486Z - [info] Executing:  | while_v2 | ${!csvReadStatus}=="OK" |  | 
+2021-03-18T21:59:24.531Z - [info] Executing:  | click | id=firstName |  | 
+2021-03-18T21:59:24.657Z - [info] Executing:  | type | id=firstName | ${!COL1}_${!csvReadLineNumber} | 
+2021-03-18T21:59:24.800Z - [info] Executing:  | click | id=lastName |  | 
+2021-03-18T21:59:24.893Z - [info] Executing:  | type | id=lastName | ${!col2} | 
+2021-03-18T21:59:25.024Z - [info] Executing:  | end |  |  | 
+2021-03-18T21:59:25.070Z - [info] Executing:  | while_v2 | ${!csvReadStatus}=="OK" |  | 
+2021-03-18T21:59:25.145Z - [info] Executing:  | click | id=firstName |  | 
+2021-03-18T21:59:25.270Z - [info] Executing:  | type | id=firstName | ${!COL1}_${!csvReadLineNumber} | 
+2021-03-18T21:59:25.403Z - [info] Executing:  | click | id=lastName |  | 
+2021-03-18T21:59:25.509Z - [info] Executing:  | type | id=lastName | ${!col2} | 
+2021-03-18T21:59:25.659Z - [info] Executing:  | end |  |  | 
+2021-03-18T21:59:25.702Z - [info] Executing:  | while_v2 | ${!csvReadStatus}=="OK" |  | 
+2021-03-18T21:59:25.766Z - [info] Executing:  | click | id=firstName |  | 
+2021-03-18T21:59:25.900Z - [info] Executing:  | type | id=firstName | ${!COL1}_${!csvReadLineNumber} | 
+2021-03-18T21:59:26.068Z - [info] Executing:  | click | id=lastName |  | 
+2021-03-18T21:59:26.218Z - [info] Executing:  | type | id=lastName | ${!col2} | 
+2021-03-18T21:59:26.333Z - [info] Executing:  | end |  |  | 
+2021-03-18T21:59:26.377Z - [info] Executing:  | while_v2 | ${!csvReadStatus}=="OK" |  | 
+2021-03-18T21:59:26.428Z - [info] Executing:  | click | id=firstName |  | 
+2021-03-18T21:59:26.575Z - [info] Executing:  | type | id=firstName | ${!COL1}_${!csvReadLineNumber} | 
+2021-03-18T21:59:26.726Z - [info] Executing:  | click | id=lastName |  | 
+2021-03-18T21:59:26.840Z - [info] Executing:  | type | id=lastName | ${!col2} | 
+2021-03-18T21:59:26.955Z - [info] Executing:  | end |  |  | 
+2021-03-18T21:59:27.020Z - [info] Executing:  | while_v2 | ${!csvReadStatus}=="OK" |  | 
+2021-03-18T21:59:27.087Z - [info] Executing:  | click | id=firstName |  | 
+2021-03-18T21:59:27.223Z - [info] Executing:  | type | id=firstName | ${!COL1}_${!csvReadLineNumber} | 
+2021-03-18T21:59:27.628Z - [info] Executing:  | click | id=lastName |  | 
+2021-03-18T21:59:27.720Z - [info] Executing:  | type | id=lastName | ${!col2} | 
+2021-03-18T21:59:27.859Z - [info] Executing:  | end |  |  | 
+2021-03-18T21:59:27.917Z - [info] Executing:  | while_v2 | ${!csvReadStatus}=="OK" |  | 
+2021-03-18T21:59:27.983Z - [info] Executing:  | click | id=firstName |  | 
+2021-03-18T21:59:28.118Z - [info] Executing:  | type | id=firstName | ${!COL1}_${!csvReadLineNumber} | 
+2021-03-18T21:59:28.258Z - [info] Executing:  | click | id=lastName |  | 
+2021-03-18T21:59:28.387Z - [info] Executing:  | type | id=lastName | ${!col2} | 
+2021-03-18T21:59:28.637Z - [info] Executing:  | end |  |  | 
+2021-03-18T21:59:28.686Z - [info] Executing:  | while_v2 | ${!csvReadStatus}=="OK" |  | 
+2021-03-18T21:59:28.754Z - [info] Executing:  | click | id=firstName |  | 
+2021-03-18T21:59:28.855Z - [info] Executing:  | type | id=firstName | ${!COL1}_${!csvReadLineNumber} | 
+2021-03-18T21:59:29.013Z - [info] Executing:  | click | id=lastName |  | 
+2021-03-18T21:59:29.118Z - [info] Executing:  | type | id=lastName | ${!col2} | 
+2021-03-18T21:59:29.241Z - [info] Executing:  | end |  |  | 
+2021-03-18T21:59:29.275Z - [info] Executing:  | while_v2 | ${!csvReadStatus}=="OK" |  | 
+2021-03-18T21:59:29.332Z - [info] Executing:  | click | id=firstName |  | 
+2021-03-18T21:59:29.477Z - [info] Executing:  | type | id=firstName | ${!COL1}_${!csvReadLineNumber} | 
+2021-03-18T21:59:29.635Z - [info] Executing:  | click | id=lastName |  | 
+2021-03-18T21:59:29.765Z - [info] Executing:  | type | id=lastName | ${!col2} | 
+2021-03-18T21:59:29.873Z - [info] Executing:  | end |  |  | 
+2021-03-18T21:59:29.920Z - [info] Executing:  | while_v2 | ${!csvReadStatus}=="OK" |  | 
+2021-03-18T21:59:29.989Z - [info] Executing:  | click | id=firstName |  | 
+2021-03-18T21:59:30.126Z - [info] Executing:  | type | id=firstName | ${!COL1}_${!csvReadLineNumber} | 
+2021-03-18T21:59:30.299Z - [info] Executing:  | click | id=lastName |  | 
+2021-03-18T21:59:30.404Z - [info] Executing:  | type | id=lastName | ${!col2} | 
+2021-03-18T21:59:30.515Z - [info] Executing:  | end |  |  | 
+2021-03-18T21:59:30.550Z - [info] Executing:  | while_v2 | ${!csvReadStatus}=="OK" |  | 
+2021-03-18T21:59:30.608Z - [info] Executing:  | click | id=firstName |  | 
+2021-03-18T21:59:30.721Z - [info] Executing:  | type | id=firstName | ${!COL1}_${!csvReadLineNumber} | 
+2021-03-18T21:59:30.868Z - [info] Executing:  | click | id=lastName |  | 
+2021-03-18T21:59:30.968Z - [info] Executing:  | type | id=lastName | ${!col2} | 
+2021-03-18T21:59:31.142Z - [info] Executing:  | end |  |  | 
+2021-03-18T21:59:31.193Z - [info] Executing:  | while_v2 | ${!csvReadStatus}=="OK" |  | 
+2021-03-18T21:59:31.255Z - [info] Executing:  | click | id=firstName |  | 
+2021-03-18T21:59:31.396Z - [info] Executing:  | type | id=firstName | ${!COL1}_${!csvReadLineNumber} | 
+2021-03-18T21:59:31.567Z - [info] Executing:  | click | id=lastName |  | 
+2021-03-18T21:59:31.690Z - [info] Executing:  | type | id=lastName | ${!col2} | 
+2021-03-18T21:59:31.799Z - [info] Executing:  | end |  |  | 
+2021-03-18T21:59:31.852Z - [info] Executing:  | while_v2 | ${!csvReadStatus}=="OK" |  | 
+2021-03-18T21:59:31.902Z - [info] Executing:  | click | id=firstName |  | 
+2021-03-18T21:59:32.049Z - [info] Executing:  | type | id=firstName | ${!COL1}_${!csvReadLineNumber} | 
+2021-03-18T21:59:32.198Z - [info] Executing:  | click | id=lastName |  | 
+2021-03-18T21:59:32.301Z - [info] Executing:  | type | id=lastName | ${!col2} | 
+2021-03-18T21:59:32.415Z - [info] Executing:  | end |  |  | 
+2021-03-18T21:59:32.465Z - [info] Executing:  | while_v2 | ${!csvReadStatus}=="OK" |  | 
+2021-03-18T21:59:32.517Z - [info] Executing:  | click | id=firstName |  | 
+2021-03-18T21:59:32.636Z - [info] Executing:  | type | id=firstName | ${!COL1}_${!csvReadLineNumber} | 
+2021-03-18T21:59:32.711Z - [info] Macro was stopped manually (Runtime 10.50s)
+2021-03-18T22:00:06.085Z - [status] Playing macro Create user accounts
+2021-03-18T22:00:06.134Z - [info] Executing:  | XType | firstName_dpi_120.png | ${!col1} | 
+2021-03-18T22:00:06.147Z - [error] XType currently doesn't use the "Value" field
+2021-03-18T22:00:06.184Z - [info] Macro failed (Runtime 0.06s)
+2021-03-18T22:00:31.570Z - [status] Playing macro Create user accounts
+2021-03-18T22:00:31.655Z - [info] Executing:  | open | https://accounts.google.com/signup/v2/webcreateaccount?service=mail&continue=https%3A%2F%2Fmail.google.com%2Fmail&hl=en-GB&dsh=S-1089625264%3A1616102015659256&gmb=exp&biz=false&flowName=GlifWebSignIn&flowEntry=SignUp |  | 
+2021-03-18T22:00:33.859Z - [info] Executing:  | csvRead | user_info.csv |  | 
+2021-03-18T22:00:33.960Z - [info] Executing:  | while_v2 | ${!csvReadStatus}=="OK" |  | 
+2021-03-18T22:00:34.002Z - [info] Executing:  | comment | click // id=firstName |  | 
+2021-03-18T22:00:34.063Z - [info] Executing:  | type | id=firstName | ${!COL1}_${!csvReadLineNumber} | 
+2021-03-18T22:00:34.232Z - [info] Executing:  | comment | click // id=lastName |  | 
+2021-03-18T22:00:34.271Z - [info] Executing:  | type | id=lastName | ${!col2} | 
+2021-03-18T22:00:34.429Z - [info] Executing:  | click | firstName_dpi_120.png | ${!col1} | 
+2021-03-18T22:00:44.540Z - [error] timeout reached when looking for element 'firstName_dpi_120.png'
+2021-03-18T22:00:44.580Z - [info] Macro failed (Runtime 12.94s)
+2021-03-18T22:03:18.789Z - [status] Playing macro Create user accounts
+2021-03-18T22:03:18.853Z - [info] Executing:  | open | https://accounts.google.com/signup/v2/webcreateaccount?service=mail&continue=https%3A%2F%2Fmail.google.com%2Fmail&hl=en-GB&dsh=S-1089625264%3A1616102015659256&gmb=exp&biz=false&flowName=GlifWebSignIn&flowEntry=SignUp |  | 
+2021-03-18T22:03:21.030Z - [info] Executing:  | csvRead | user_info.csv |  | 
+2021-03-18T22:03:21.127Z - [info] Executing:  | while_v2 | ${!csvReadStatus}=="OK" |  | 
+2021-03-18T22:03:21.189Z - [info] Executing:  | type | id=firstName | ${!COL1}_${!csvReadLineNumber} | 
+2021-03-18T22:03:21.377Z - [info] Executing:  | type | id=lastName | ${!col2} | 
+2021-03-18T22:03:21.520Z - [info] Executing:  | type | id=username | ${!col3} | 
+2021-03-18T22:03:21.708Z - [info] Executing:  | type | name=Passwd | ${!col4} | 
+2021-03-18T22:03:21.916Z - [info] Executing:  | type | name=ConfirmPasswd | ${!col4} | 
+2021-03-18T22:03:22.109Z - [info] Executing:  | executeScript_Sandbox | return Number(${!csvReadLineNumber})+1 | !csvReadLineNumber | 
+2021-03-18T22:03:22.167Z - [info] Executing:  | end |  |  | 
+2021-03-18T22:03:22.250Z - [info] Executing:  | while_v2 | ${!csvReadStatus}=="OK" |  | 
+2021-03-18T22:03:22.307Z - [info] Executing:  | type | id=firstName | ${!COL1}_${!csvReadLineNumber} | 
+2021-03-18T22:03:22.479Z - [info] Executing:  | type | id=lastName | ${!col2} | 
+2021-03-18T22:03:22.622Z - [info] Executing:  | type | id=username | ${!col3} | 
+2021-03-18T22:03:22.808Z - [info] Executing:  | type | name=Passwd | ${!col4} | 
+2021-03-18T22:03:23.006Z - [info] Executing:  | type | name=ConfirmPasswd | ${!col4} | 
+2021-03-18T22:03:23.211Z - [info] Executing:  | executeScript_Sandbox | return Number(${!csvReadLineNumber})+1 | !csvReadLineNumber | 
+2021-03-18T22:03:23.269Z - [info] Executing:  | end |  |  | 
+2021-03-18T22:03:23.347Z - [info] Executing:  | while_v2 | ${!csvReadStatus}=="OK" |  | 
+2021-03-18T22:03:23.402Z - [info] Executing:  | type | id=firstName | ${!COL1}_${!csvReadLineNumber} | 
+2021-03-18T22:03:23.572Z - [info] Executing:  | type | id=lastName | ${!col2} | 
+2021-03-18T22:03:23.694Z - [info] Executing:  | type | id=username | ${!col3} | 
+2021-03-18T22:03:23.859Z - [info] Executing:  | type | name=Passwd | ${!col4} | 
+2021-03-18T22:03:24.061Z - [info] Executing:  | type | name=ConfirmPasswd | ${!col4} | 
+2021-03-18T22:03:24.262Z - [info] Executing:  | executeScript_Sandbox | return Number(${!csvReadLineNumber})+1 | !csvReadLineNumber | 
+2021-03-18T22:03:24.331Z - [info] Executing:  | end |  |  | 
+2021-03-18T22:03:24.402Z - [info] Executing:  | while_v2 | ${!csvReadStatus}=="OK" |  | 
+2021-03-18T22:03:24.471Z - [info] Executing:  | type | id=firstName | ${!COL1}_${!csvReadLineNumber} | 
+2021-03-18T22:03:24.643Z - [info] Executing:  | type | id=lastName | ${!col2} | 
+2021-03-18T22:03:24.785Z - [info] Executing:  | type | id=username | ${!col3} | 
+2021-03-18T22:03:24.969Z - [info] Executing:  | type | name=Passwd | ${!col4} | 
+2021-03-18T22:03:25.138Z - [info] Executing:  | type | name=ConfirmPasswd | ${!col4} | 
+2021-03-18T22:03:25.329Z - [info] Executing:  | executeScript_Sandbox | return Number(${!csvReadLineNumber})+1 | !csvReadLineNumber | 
+2021-03-18T22:03:25.388Z - [info] Executing:  | end |  |  | 
+2021-03-18T22:03:25.456Z - [info] Executing:  | while_v2 | ${!csvReadStatus}=="OK" |  | 
+2021-03-18T22:03:25.517Z - [info] Executing:  | type | id=firstName | ${!COL1}_${!csvReadLineNumber} | 
+2021-03-18T22:03:25.691Z - [info] Executing:  | type | id=lastName | ${!col2} | 
+2021-03-18T22:03:25.855Z - [info] Executing:  | type | id=username | ${!col3} | 
+2021-03-18T22:03:26.040Z - [info] Executing:  | type | name=Passwd | ${!col4} | 
+2021-03-18T22:03:26.244Z - [info] Executing:  | type | name=ConfirmPasswd | ${!col4} | 
+2021-03-18T22:03:26.439Z - [info] Executing:  | executeScript_Sandbox | return Number(${!csvReadLineNumber})+1 | !csvReadLineNumber | 
+2021-03-18T22:03:26.495Z - [info] Executing:  | end |  |  | 
+2021-03-18T22:03:26.581Z - [info] Executing:  | while_v2 | ${!csvReadStatus}=="OK" |  | 
+2021-03-18T22:03:26.638Z - [info] Executing:  | type | id=firstName | ${!COL1}_${!csvReadLineNumber} | 
+2021-03-18T22:03:26.822Z - [info] Executing:  | type | id=lastName | ${!col2} | 
+2021-03-18T22:03:26.966Z - [info] Executing:  | type | id=username | ${!col3} | 
+2021-03-18T22:03:27.169Z - [info] Executing:  | type | name=Passwd | ${!col4} | 
+2021-03-18T22:03:27.363Z - [info] Executing:  | type | name=ConfirmPasswd | ${!col4} | 
+2021-03-18T22:03:27.541Z - [info] Executing:  | executeScript_Sandbox | return Number(${!csvReadLineNumber})+1 | !csvReadLineNumber | 
+2021-03-18T22:03:27.592Z - [info] Executing:  | end |  |  | 
+2021-03-18T22:03:27.668Z - [info] Executing:  | while_v2 | ${!csvReadStatus}=="OK" |  | 
+2021-03-18T22:03:27.721Z - [info] Executing:  | type | id=firstName | ${!COL1}_${!csvReadLineNumber} | 
+2021-03-18T22:03:27.886Z - [info] Executing:  | type | id=lastName | ${!col2} | 
+2021-03-18T22:03:28.026Z - [info] Executing:  | type | id=username | ${!col3} | 
+2021-03-18T22:03:28.208Z - [info] Executing:  | type | name=Passwd | ${!col4} | 
+2021-03-18T22:03:28.389Z - [info] Executing:  | type | name=ConfirmPasswd | ${!col4} | 
+2021-03-18T22:03:28.555Z - [info] Executing:  | executeScript_Sandbox | return Number(${!csvReadLineNumber})+1 | !csvReadLineNumber | 
+2021-03-18T22:03:28.628Z - [info] Executing:  | end |  |  | 
+2021-03-18T22:03:28.684Z - [info] Executing:  | while_v2 | ${!csvReadStatus}=="OK" |  | 
+2021-03-18T22:03:28.783Z - [info] Executing:  | type | id=firstName | ${!COL1}_${!csvReadLineNumber} | 
+2021-03-18T22:03:28.944Z - [info] Executing:  | type | id=lastName | ${!col2} | 
+2021-03-18T22:03:29.108Z - [info] Executing:  | type | id=username | ${!col3} | 
+2021-03-18T22:03:29.323Z - [info] Executing:  | type | name=Passwd | ${!col4} | 
+2021-03-18T22:03:29.521Z - [info] Executing:  | type | name=ConfirmPasswd | ${!col4} | 
+2021-03-18T22:03:29.751Z - [info] Executing:  | executeScript_Sandbox | return Number(${!csvReadLineNumber})+1 | !csvReadLineNumber | 
+2021-03-18T22:03:29.819Z - [info] Executing:  | end |  |  | 
+2021-03-18T22:03:29.877Z - [info] Executing:  | while_v2 | ${!csvReadStatus}=="OK" |  | 
+2021-03-18T22:03:29.964Z - [info] Executing:  | type | id=firstName | ${!COL1}_${!csvReadLineNumber} | 
+2021-03-18T22:03:30.174Z - [info] Executing:  | type | id=lastName | ${!col2} | 
+2021-03-18T22:03:30.327Z - [info] Executing:  | type | id=username | ${!col3} | 
+2021-03-18T22:03:30.565Z - [info] Executing:  | type | name=Passwd | ${!col4} | 
+2021-03-18T22:03:30.789Z - [info] Executing:  | type | name=ConfirmPasswd | ${!col4} | 
+2021-03-18T22:03:30.990Z - [info] Executing:  | executeScript_Sandbox | return Number(${!csvReadLineNumber})+1 | !csvReadLineNumber | 
+2021-03-18T22:03:31.052Z - [info] Executing:  | end |  |  | 
+2021-03-18T22:03:31.144Z - [info] Executing:  | while_v2 | ${!csvReadStatus}=="OK" |  | 
+2021-03-18T22:03:31.203Z - [info] Executing:  | type | id=firstName | ${!COL1}_${!csvReadLineNumber} | 
+2021-03-18T22:03:31.404Z - [info] Executing:  | type | id=lastName | ${!col2} | 
+2021-03-18T22:03:31.570Z - [info] Executing:  | type | id=username | ${!col3} | 
+2021-03-18T22:03:31.607Z - [info] Macro was stopped manually (Runtime 12.77s)
+2021-03-18T22:04:13.890Z - [status] Playing macro Create user accounts
+2021-03-18T22:04:13.972Z - [info] Executing:  | open | https://accounts.google.com/signup/v2/webcreateaccount?service=mail&continue=https%3A%2F%2Fmail.google.com%2Fmail&hl=en-GB&dsh=S-1089625264%3A1616102015659256&gmb=exp&biz=false&flowName=GlifWebSignIn&flowEntry=SignUp |  | 
+2021-03-18T22:04:16.177Z - [info] Executing:  | csvRead | user_info.csv |  | 
+2021-03-18T22:04:16.302Z - [info] Executing:  | while_v2 | ${!csvReadStatus}=="OK" |  | 
+2021-03-18T22:04:16.356Z - [info] Executing:  | type | id=firstName | ${!COL1}_${!csvReadLineNumber} | 
+2021-03-18T22:04:16.572Z - [info] Executing:  | type | id=lastName | ${!col2} | 
+2021-03-18T22:04:16.728Z - [info] Executing:  | type | id=username | ${!col3} | 
+2021-03-18T22:04:16.958Z - [info] Executing:  | type | name=Passwd | ${!col4} | 
+2021-03-18T22:04:17.176Z - [info] Executing:  | type | name=ConfirmPasswd | ${!col4} | 
+2021-03-18T22:04:17.388Z - [info] Executing:  | end |  |  | 
+2021-03-18T22:04:17.447Z - [info] Executing:  | while_v2 | ${!csvReadStatus}=="OK" |  | 
+2021-03-18T22:04:17.546Z - [info] Executing:  | type | id=firstName | ${!COL1}_${!csvReadLineNumber} | 
+2021-03-18T22:04:17.717Z - [info] Executing:  | type | id=lastName | ${!col2} | 
+2021-03-18T22:04:17.860Z - [info] Executing:  | type | id=username | ${!col3} | 
+2021-03-18T22:04:18.056Z - [info] Executing:  | type | name=Passwd | ${!col4} | 
+2021-03-18T22:04:18.255Z - [info] Executing:  | type | name=ConfirmPasswd | ${!col4} | 
+2021-03-18T22:04:18.513Z - [info] Executing:  | end |  |  | 
+2021-03-18T22:04:18.577Z - [info] Executing:  | while_v2 | ${!csvReadStatus}=="OK" |  | 
+2021-03-18T22:04:18.657Z - [info] Executing:  | type | id=firstName | ${!COL1}_${!csvReadLineNumber} | 
+2021-03-18T22:04:18.837Z - [info] Executing:  | type | id=lastName | ${!col2} | 
+2021-03-18T22:04:18.955Z - [info] Executing:  | type | id=username | ${!col3} | 
+2021-03-18T22:04:19.139Z - [info] Executing:  | type | name=Passwd | ${!col4} | 
+2021-03-18T22:04:19.335Z - [info] Executing:  | type | name=ConfirmPasswd | ${!col4} | 
+2021-03-18T22:04:19.535Z - [info] Executing:  | end |  |  | 
+2021-03-18T22:04:19.594Z - [info] Executing:  | while_v2 | ${!csvReadStatus}=="OK" |  | 
+2021-03-18T22:04:19.742Z - [info] Executing:  | type | id=firstName | ${!COL1}_${!csvReadLineNumber} | 
+2021-03-18T22:04:19.947Z - [info] Executing:  | type | id=lastName | ${!col2} | 
+2021-03-18T22:04:20.102Z - [info] Executing:  | type | id=username | ${!col3} | 
+2021-03-18T22:04:20.317Z - [info] Executing:  | type | name=Passwd | ${!col4} | 
+2021-03-18T22:04:20.536Z - [info] Executing:  | type | name=ConfirmPasswd | ${!col4} | 
+2021-03-18T22:04:20.731Z - [info] Executing:  | end |  |  | 
+2021-03-18T22:04:20.790Z - [info] Executing:  | while_v2 | ${!csvReadStatus}=="OK" |  | 
+2021-03-18T22:04:20.862Z - [info] Executing:  | type | id=firstName | ${!COL1}_${!csvReadLineNumber} | 
+2021-03-18T22:04:21.036Z - [info] Executing:  | type | id=lastName | ${!col2} | 
+2021-03-18T22:04:21.150Z - [info] Executing:  | type | id=username | ${!col3} | 
+2021-03-18T22:04:21.335Z - [info] Executing:  | type | name=Passwd | ${!col4} | 
+2021-03-18T22:04:21.534Z - [info] Executing:  | type | name=ConfirmPasswd | ${!col4} | 
+2021-03-18T22:04:21.735Z - [info] Executing:  | end |  |  | 
+2021-03-18T22:04:21.803Z - [info] Executing:  | while_v2 | ${!csvReadStatus}=="OK" |  | 
+2021-03-18T22:04:21.896Z - [info] Executing:  | type | id=firstName | ${!COL1}_${!csvReadLineNumber} | 
+2021-03-18T22:04:22.097Z - [info] Executing:  | type | id=lastName | ${!col2} | 
+2021-03-18T22:04:22.250Z - [info] Executing:  | type | id=username | ${!col3} | 
+2021-03-18T22:04:22.470Z - [info] Executing:  | type | name=Passwd | ${!col4} | 
+2021-03-18T22:04:22.685Z - [info] Executing:  | type | name=ConfirmPasswd | ${!col4} | 
+2021-03-18T22:04:22.905Z - [info] Executing:  | end |  |  | 
+2021-03-18T22:04:22.973Z - [info] Executing:  | while_v2 | ${!csvReadStatus}=="OK" |  | 
+2021-03-18T22:04:23.053Z - [info] Executing:  | type | id=firstName | ${!COL1}_${!csvReadLineNumber} | 
+2021-03-18T22:04:23.255Z - [info] Executing:  | type | id=lastName | ${!col2} | 
+2021-03-18T22:04:23.385Z - [info] Executing:  | type | id=username | ${!col3} | 
+2021-03-18T22:04:23.582Z - [info] Executing:  | type | name=Passwd | ${!col4} | 
+2021-03-18T22:04:23.789Z - [info] Executing:  | type | name=ConfirmPasswd | ${!col4} | 
+2021-03-18T22:04:23.981Z - [info] Executing:  | end |  |  | 
+2021-03-18T22:04:24.034Z - [info] Executing:  | while_v2 | ${!csvReadStatus}=="OK" |  | 
+2021-03-18T22:04:24.110Z - [info] Executing:  | type | id=firstName | ${!COL1}_${!csvReadLineNumber} | 
+2021-03-18T22:04:24.316Z - [info] Executing:  | type | id=lastName | ${!col2} | 
+2021-03-18T22:04:24.496Z - [info] Executing:  | type | id=username | ${!col3} | 
+2021-03-18T22:04:24.702Z - [info] Executing:  | type | name=Passwd | ${!col4} | 
+2021-03-18T22:04:24.915Z - [info] Executing:  | type | name=ConfirmPasswd | ${!col4} | 
+2021-03-18T22:04:25.173Z - [info] Executing:  | end |  |  | 
+2021-03-18T22:04:25.247Z - [info] Executing:  | while_v2 | ${!csvReadStatus}=="OK" |  | 
+2021-03-18T22:04:25.342Z - [info] Executing:  | type | id=firstName | ${!COL1}_${!csvReadLineNumber} | 
+2021-03-18T22:04:25.534Z - [info] Executing:  | type | id=lastName | ${!col2} | 
+2021-03-18T22:04:25.698Z - [info] Executing:  | type | id=username | ${!col3} | 
+2021-03-18T22:04:25.985Z - [info] Executing:  | type | name=Passwd | ${!col4} | 
+2021-03-18T22:04:26.216Z - [info] Executing:  | type | name=ConfirmPasswd | ${!col4} | 
+2021-03-18T22:04:26.439Z - [info] Executing:  | end |  |  | 
+2021-03-18T22:04:26.504Z - [info] Executing:  | while_v2 | ${!csvReadStatus}=="OK" |  | 
+2021-03-18T22:04:26.591Z - [info] Executing:  | type | id=firstName | ${!COL1}_${!csvReadLineNumber} | 
+2021-03-18T22:04:26.793Z - [info] Executing:  | type | id=lastName | ${!col2} | 
+2021-03-18T22:04:26.945Z - [info] Executing:  | type | id=username | ${!col3} | 
+2021-03-18T22:04:27.176Z - [info] Executing:  | type | name=Passwd | ${!col4} | 
+2021-03-18T22:04:27.448Z - [info] Executing:  | type | name=ConfirmPasswd | ${!col4} | 
+2021-03-18T22:04:27.650Z - [info] Executing:  | end |  |  | 
+2021-03-18T22:04:27.700Z - [info] Macro was stopped manually (Runtime 13.74s)
+2021-03-18T22:05:41.272Z - [status] Playing macro Create user accounts
+2021-03-18T22:05:41.352Z - [info] Executing:  | open | https://accounts.google.com/signup/v2/webcreateaccount?service=mail&continue=https%3A%2F%2Fmail.google.com%2Fmail&hl=en-GB&dsh=S-1089625264%3A1616102015659256&gmb=exp&biz=false&flowName=GlifWebSignIn&flowEntry=SignUp |  | 
+2021-03-18T22:05:43.533Z - [info] Executing:  | csvRead | user_info.csv |  | 
+2021-03-18T22:05:43.659Z - [info] Executing:  | while_v2 | ${!csvReadStatus} == "OK" |  | 
+2021-03-18T22:05:43.721Z - [info] Executing:  | type | id=firstName | ${!COL1}_${!csvReadLineNumber} | 
+2021-03-18T22:05:43.910Z - [info] Executing:  | type | id=lastName | ${!col2} | 
+2021-03-18T22:05:44.072Z - [info] Executing:  | type | id=username | ${!col3} | 
+2021-03-18T22:05:44.274Z - [info] Executing:  | type | name=Passwd | ${!col4} | 
+2021-03-18T22:05:44.489Z - [info] Executing:  | type | name=ConfirmPasswd | ${!col4} | 
+2021-03-18T22:05:44.696Z - [info] Executing:  | executeScript_Sandbox | return Number(${!csvReadLineNumber})+1 | !csvReadLineNumber | 
+2021-03-18T22:05:44.787Z - [info] Executing:  | end |  |  | 
+2021-03-18T22:05:44.864Z - [info] Executing:  | while_v2 | ${!csvReadStatus} == "OK" |  | 
+2021-03-18T22:05:44.941Z - [info] Executing:  | type | id=firstName | ${!COL1}_${!csvReadLineNumber} | 
+2021-03-18T22:05:45.105Z - [info] Executing:  | type | id=lastName | ${!col2} | 
+2021-03-18T22:05:45.259Z - [info] Executing:  | type | id=username | ${!col3} | 
+2021-03-18T22:05:45.476Z - [info] Executing:  | type | name=Passwd | ${!col4} | 
+2021-03-18T22:05:45.710Z - [info] Executing:  | type | name=ConfirmPasswd | ${!col4} | 
+2021-03-18T22:05:45.943Z - [info] Executing:  | executeScript_Sandbox | return Number(${!csvReadLineNumber})+1 | !csvReadLineNumber | 
+2021-03-18T22:05:46.020Z - [info] Executing:  | end |  |  | 
+2021-03-18T22:05:46.111Z - [info] Executing:  | while_v2 | ${!csvReadStatus} == "OK" |  | 
+2021-03-18T22:05:46.183Z - [info] Executing:  | type | id=firstName | ${!COL1}_${!csvReadLineNumber} | 
+2021-03-18T22:05:46.388Z - [info] Executing:  | type | id=lastName | ${!col2} | 
+2021-03-18T22:05:46.663Z - [info] Executing:  | type | id=username | ${!col3} | 
+2021-03-18T22:05:46.933Z - [info] Executing:  | type | name=Passwd | ${!col4} | 
+2021-03-18T22:05:47.314Z - [info] Executing:  | type | name=ConfirmPasswd | ${!col4} | 
+2021-03-18T22:05:47.508Z - [info] Executing:  | executeScript_Sandbox | return Number(${!csvReadLineNumber})+1 | !csvReadLineNumber | 
+2021-03-18T22:05:47.588Z - [info] Executing:  | end |  |  | 
+2021-03-18T22:05:47.652Z - [info] Executing:  | while_v2 | ${!csvReadStatus} == "OK" |  | 
+2021-03-18T22:05:47.728Z - [info] Executing:  | type | id=firstName | ${!COL1}_${!csvReadLineNumber} | 
+2021-03-18T22:05:47.902Z - [info] Executing:  | type | id=lastName | ${!col2} | 
+2021-03-18T22:05:48.054Z - [info] Executing:  | type | id=username | ${!col3} | 
+2021-03-18T22:05:48.242Z - [info] Executing:  | type | name=Passwd | ${!col4} | 
+2021-03-18T22:05:48.474Z - [info] Executing:  | type | name=ConfirmPasswd | ${!col4} | 
+2021-03-18T22:05:48.672Z - [info] Executing:  | executeScript_Sandbox | return Number(${!csvReadLineNumber})+1 | !csvReadLineNumber | 
+2021-03-18T22:05:48.736Z - [info] Executing:  | end |  |  | 
+2021-03-18T22:05:48.819Z - [info] Executing:  | while_v2 | ${!csvReadStatus} == "OK" |  | 
+2021-03-18T22:05:48.885Z - [info] Executing:  | type | id=firstName | ${!COL1}_${!csvReadLineNumber} | 
+2021-03-18T22:05:49.073Z - [info] Executing:  | type | id=lastName | ${!col2} | 
+2021-03-18T22:05:49.215Z - [info] Executing:  | type | id=username | ${!col3} | 
+2021-03-18T22:05:49.404Z - [info] Executing:  | type | name=Passwd | ${!col4} | 
+2021-03-18T22:05:49.619Z - [info] Executing:  | type | name=ConfirmPasswd | ${!col4} | 
+2021-03-18T22:05:49.812Z - [info] Executing:  | executeScript_Sandbox | return Number(${!csvReadLineNumber})+1 | !csvReadLineNumber | 
+2021-03-18T22:05:49.908Z - [info] Executing:  | end |  |  | 
+2021-03-18T22:05:49.971Z - [info] Executing:  | while_v2 | ${!csvReadStatus} == "OK" |  | 
+2021-03-18T22:05:50.064Z - [info] Executing:  | type | id=firstName | ${!COL1}_${!csvReadLineNumber} | 
+2021-03-18T22:05:50.258Z - [info] Executing:  | type | id=lastName | ${!col2} | 
+2021-03-18T22:05:50.394Z - [info] Executing:  | type | id=username | ${!col3} | 
+2021-03-18T22:05:50.593Z - [info] Executing:  | type | name=Passwd | ${!col4} | 
+2021-03-18T22:05:50.796Z - [info] Executing:  | type | name=ConfirmPasswd | ${!col4} | 
+2021-03-18T22:05:51.005Z - [info] Executing:  | executeScript_Sandbox | return Number(${!csvReadLineNumber})+1 | !csvReadLineNumber | 
+2021-03-18T22:05:51.067Z - [info] Executing:  | end |  |  | 
+2021-03-18T22:05:51.152Z - [info] Executing:  | while_v2 | ${!csvReadStatus} == "OK" |  | 
+2021-03-18T22:05:51.220Z - [info] Executing:  | type | id=firstName | ${!COL1}_${!csvReadLineNumber} | 
+2021-03-18T22:05:51.413Z - [info] Executing:  | type | id=lastName | ${!col2} | 
+2021-03-18T22:05:51.582Z - [info] Executing:  | type | id=username | ${!col3} | 
+2021-03-18T22:05:51.810Z - [info] Executing:  | type | name=Passwd | ${!col4} | 
+2021-03-18T22:05:52.021Z - [info] Executing:  | type | name=ConfirmPasswd | ${!col4} | 
+2021-03-18T22:05:52.237Z - [info] Executing:  | executeScript_Sandbox | return Number(${!csvReadLineNumber})+1 | !csvReadLineNumber | 
+2021-03-18T22:05:52.327Z - [info] Executing:  | end |  |  | 
+2021-03-18T22:05:52.420Z - [info] Executing:  | while_v2 | ${!csvReadStatus} == "OK" |  | 
+2021-03-18T22:05:52.512Z - [info] Executing:  | type | id=firstName | ${!COL1}_${!csvReadLineNumber} | 
+2021-03-18T22:05:52.707Z - [info] Executing:  | type | id=lastName | ${!col2} | 
+2021-03-18T22:05:52.901Z - [info] Executing:  | type | id=username | ${!col3} | 
+2021-03-18T22:05:53.517Z - [info] Executing:  | type | name=Passwd | ${!col4} | 
+2021-03-18T22:05:53.712Z - [info] Executing:  | type | name=ConfirmPasswd | ${!col4} | 
+2021-03-18T22:05:53.943Z - [info] Executing:  | executeScript_Sandbox | return Number(${!csvReadLineNumber})+1 | !csvReadLineNumber | 
+2021-03-18T22:05:54.015Z - [info] Executing:  | end |  |  | 
+2021-03-18T22:05:54.072Z - [info] Macro was stopped manually (Runtime 12.73s)
+2021-03-18T22:06:04.936Z - [status] Playing macro Create user accounts
+2021-03-18T22:06:05.015Z - [info] Executing:  | open | https://accounts.google.com/signup/v2/webcreateaccount?service=mail&continue=https%3A%2F%2Fmail.google.com%2Fmail&hl=en-GB&dsh=S-1089625264%3A1616102015659256&gmb=exp&biz=false&flowName=GlifWebSignIn&flowEntry=SignUp |  | 
+2021-03-18T22:06:07.203Z - [info] Executing:  | csvRead | user_info.csv |  | 
+2021-03-18T22:06:07.330Z - [info] Executing:  | while_v2 | ${!csvReadStatus} == "OK" |  | 
+2021-03-18T22:06:07.389Z - [info] Executing:  | type | id=firstName | ${!COL1} | 
+2021-03-18T22:06:07.572Z - [info] Executing:  | type | id=lastName | ${!col2} | 
+2021-03-18T22:06:07.732Z - [info] Executing:  | type | id=username | ${!col3} | 
+2021-03-18T22:06:07.952Z - [info] Executing:  | type | name=Passwd | ${!col4} | 
+2021-03-18T22:06:08.165Z - [info] Executing:  | type | name=ConfirmPasswd | ${!col4} | 
+2021-03-18T22:06:08.352Z - [info] Executing:  | executeScript_Sandbox | return Number(${!csvReadLineNumber})+1 | !csvReadLineNumber | 
+2021-03-18T22:06:08.438Z - [info] Executing:  | end |  |  | 
+2021-03-18T22:06:08.522Z - [info] Executing:  | while_v2 | ${!csvReadStatus} == "OK" |  | 
+2021-03-18T22:06:08.602Z - [info] Executing:  | type | id=firstName | ${!COL1} | 
+2021-03-18T22:06:08.788Z - [info] Executing:  | type | id=lastName | ${!col2} | 
+2021-03-18T22:06:08.949Z - [info] Executing:  | type | id=username | ${!col3} | 
+2021-03-18T22:06:09.168Z - [info] Executing:  | type | name=Passwd | ${!col4} | 
+2021-03-18T22:06:09.402Z - [info] Executing:  | type | name=ConfirmPasswd | ${!col4} | 
+2021-03-18T22:06:09.608Z - [info] Executing:  | executeScript_Sandbox | return Number(${!csvReadLineNumber})+1 | !csvReadLineNumber | 
+2021-03-18T22:06:09.706Z - [info] Executing:  | end |  |  | 
+2021-03-18T22:06:09.764Z - [info] Executing:  | while_v2 | ${!csvReadStatus} == "OK" |  | 
+2021-03-18T22:06:09.854Z - [info] Executing:  | type | id=firstName | ${!COL1} | 
+2021-03-18T22:06:10.055Z - [info] Executing:  | type | id=lastName | ${!col2} | 
+2021-03-18T22:06:10.201Z - [info] Executing:  | type | id=username | ${!col3} | 
+2021-03-18T22:06:10.406Z - [info] Executing:  | type | name=Passwd | ${!col4} | 
+2021-03-18T22:06:10.621Z - [info] Executing:  | type | name=ConfirmPasswd | ${!col4} | 
+2021-03-18T22:06:10.861Z - [info] Executing:  | executeScript_Sandbox | return Number(${!csvReadLineNumber})+1 | !csvReadLineNumber | 
+2021-03-18T22:06:10.943Z - [info] Executing:  | end |  |  | 
+2021-03-18T22:06:11.021Z - [info] Executing:  | while_v2 | ${!csvReadStatus} == "OK" |  | 
+2021-03-18T22:06:11.124Z - [info] Executing:  | type | id=firstName | ${!COL1} | 
+2021-03-18T22:06:11.349Z - [info] Executing:  | type | id=lastName | ${!col2} | 
+2021-03-18T22:06:11.527Z - [info] Macro was stopped manually (Runtime 6.53s)
+2021-03-18T22:13:23.835Z - [status] Playing macro Create user accounts
+2021-03-18T22:13:23.928Z - [info] Executing:  | open | https://accounts.google.com/signup/v2/webcreateaccount?service=mail&continue=https%3A%2F%2Fmail.google.com%2Fmail&hl=en-GB&dsh=S-1089625264%3A1616102015659256&gmb=exp&biz=false&flowName=GlifWebSignIn&flowEntry=SignUp |  | 
+2021-03-18T22:13:26.134Z - [info] Executing:  | csvRead | user_info.csv |  | 
+2021-03-18T22:13:26.285Z - [info] Executing:  | while_v2 | ${!csvReadStatus} == "OK" |  | 
+2021-03-18T22:13:26.355Z - [info] Executing:  | type | id=firstName | ${!COL1} | 
+2021-03-18T22:13:26.558Z - [info] Executing:  | type | id=lastName | ${!col2} | 
+2021-03-18T22:13:26.778Z - [info] Executing:  | type | id=username | ${!col3} | 
+2021-03-18T22:13:27.032Z - [info] Executing:  | type | name=Passwd | ${!col4} | 
+2021-03-18T22:13:27.261Z - [info] Executing:  | type | name=ConfirmPasswd | ${!col4} | 
+2021-03-18T22:13:27.499Z - [info] Executing:  | echo | ${!csvReadLineNumber} | blue | 
+2021-03-18T22:13:27.538Z - [echo] 1
+2021-03-18T22:13:27.623Z - [info] Executing:  | executeScript_Sandbox | return Number(${!csvReadLineNumber})+1 | !csvReadLineNumber | 
+2021-03-18T22:13:27.718Z - [info] Executing:  | echo | ${!csvReadLineNumber} | blue | 
+2021-03-18T22:13:27.758Z - [echo] 2
+2021-03-18T22:13:27.823Z - [info] Executing:  | end |  |  | 
+2021-03-18T22:13:27.907Z - [info] Executing:  | while_v2 | ${!csvReadStatus} == "OK" |  | 
+2021-03-18T22:13:27.994Z - [info] Executing:  | type | id=firstName | ${!COL1} | 
+2021-03-18T22:13:28.186Z - [info] Executing:  | type | id=lastName | ${!col2} | 
+2021-03-18T22:13:28.337Z - [info] Executing:  | type | id=username | ${!col3} | 
+2021-03-18T22:13:28.543Z - [info] Executing:  | type | name=Passwd | ${!col4} | 
+2021-03-18T22:13:28.770Z - [info] Executing:  | type | name=ConfirmPasswd | ${!col4} | 
+2021-03-18T22:13:28.983Z - [info] Executing:  | echo | ${!csvReadLineNumber} | blue | 
+2021-03-18T22:13:29.024Z - [echo] 2
+2021-03-18T22:13:29.095Z - [info] Executing:  | executeScript_Sandbox | return Number(${!csvReadLineNumber})+1 | !csvReadLineNumber | 
+2021-03-18T22:13:29.201Z - [info] Executing:  | echo | ${!csvReadLineNumber} | blue | 
+2021-03-18T22:13:29.248Z - [echo] 3
+2021-03-18T22:13:29.321Z - [info] Executing:  | end |  |  | 
+2021-03-18T22:13:29.427Z - [info] Executing:  | while_v2 | ${!csvReadStatus} == "OK" |  | 
+2021-03-18T22:13:29.522Z - [info] Executing:  | type | id=firstName | ${!COL1} | 
+2021-03-18T22:13:29.716Z - [info] Executing:  | type | id=lastName | ${!col2} | 
+2021-03-18T22:13:29.997Z - [info] Executing:  | type | id=username | ${!col3} | 
+2021-03-18T22:13:30.260Z - [info] Executing:  | type | name=Passwd | ${!col4} | 
+2021-03-18T22:13:30.485Z - [info] Executing:  | type | name=ConfirmPasswd | ${!col4} | 
+2021-03-18T22:13:30.678Z - [info] Executing:  | echo | ${!csvReadLineNumber} | blue | 
+2021-03-18T22:13:30.716Z - [echo] 3
+2021-03-18T22:13:30.770Z - [info] Executing:  | executeScript_Sandbox | return Number(${!csvReadLineNumber})+1 | !csvReadLineNumber | 
+2021-03-18T22:13:30.863Z - [info] Executing:  | echo | ${!csvReadLineNumber} | blue | 
+2021-03-18T22:13:30.904Z - [echo] 4
+2021-03-18T22:13:30.966Z - [info] Executing:  | end |  |  | 
+2021-03-18T22:13:31.053Z - [info] Executing:  | while_v2 | ${!csvReadStatus} == "OK" |  | 
+2021-03-18T22:13:31.140Z - [info] Executing:  | type | id=firstName | ${!COL1} | 
+2021-03-18T22:13:31.339Z - [info] Executing:  | type | id=lastName | ${!col2} | 
+2021-03-18T22:13:31.497Z - [info] Executing:  | type | id=username | ${!col3} | 
+2021-03-18T22:13:31.759Z - [info] Executing:  | type | name=Passwd | ${!col4} | 
+2021-03-18T22:13:31.997Z - [info] Executing:  | type | name=ConfirmPasswd | ${!col4} | 
+2021-03-18T22:13:32.244Z - [info] Executing:  | echo | ${!csvReadLineNumber} | blue | 
+2021-03-18T22:13:32.289Z - [echo] 4
+2021-03-18T22:13:32.338Z - [info] Executing:  | executeScript_Sandbox | return Number(${!csvReadLineNumber})+1 | !csvReadLineNumber | 
+2021-03-18T22:13:32.459Z - [info] Executing:  | echo | ${!csvReadLineNumber} | blue | 
+2021-03-18T22:13:32.509Z - [echo] 5
+2021-03-18T22:13:32.585Z - [info] Executing:  | end |  |  | 
+2021-03-18T22:13:32.698Z - [info] Executing:  | while_v2 | ${!csvReadStatus} == "OK" |  | 
+2021-03-18T22:13:32.792Z - [info] Executing:  | type | id=firstName | ${!COL1} | 
+2021-03-18T22:13:33.014Z - [info] Executing:  | type | id=lastName | ${!col2} | 
+2021-03-18T22:13:33.248Z - [info] Executing:  | type | id=username | ${!col3} | 
+2021-03-18T22:13:33.475Z - [info] Executing:  | type | name=Passwd | ${!col4} | 
+2021-03-18T22:13:33.678Z - [info] Macro was stopped manually (Runtime 9.77s)
+2021-03-18T22:14:20.181Z - [status] Playing macro Create user accounts
+2021-03-18T22:14:20.285Z - [info] Executing:  | open | https://accounts.google.com/signup/v2/webcreateaccount?service=mail&continue=https%3A%2F%2Fmail.google.com%2Fmail&hl=en-GB&dsh=S-1089625264%3A1616102015659256&gmb=exp&biz=false&flowName=GlifWebSignIn&flowEntry=SignUp |  | 
+2021-03-18T22:14:22.506Z - [info] Executing:  | csvRead | user_info.csv |  | 
+2021-03-18T22:14:22.668Z - [info] Executing:  | while_v2 | ${!csvReadStatus} == "OK" |  | 
+2021-03-18T22:14:22.756Z - [info] Executing:  | type | id=firstName | ${!COL1} | 
+2021-03-18T22:14:22.963Z - [info] Executing:  | type | id=lastName | ${!col2} | 
+2021-03-18T22:14:23.156Z - [info] Executing:  | type | id=username | ${!col3} | 
+2021-03-18T22:14:23.377Z - [info] Executing:  | type | name=Passwd | ${!col4} | 
+2021-03-18T22:14:23.592Z - [info] Executing:  | type | name=ConfirmPasswd | ${!col4} | 
+2021-03-18T22:14:23.827Z - [info] Executing:  | echo | ${!csvReadLineNumber} | blue | 
+2021-03-18T22:14:23.872Z - [echo] 1
+2021-03-18T22:14:23.932Z - [info] Executing:  | executeScript_Sandbox | return Number(${!csvReadLineNumber})+1 | !csvReadLineNumber | 
+2021-03-18T22:14:24.051Z - [info] Executing:  | echo | ${!csvReadLineNumber} | blue | 
+2021-03-18T22:14:24.117Z - [echo] 2
+2021-03-18T22:14:24.198Z - [info] Executing:  | end |  |  | 
+2021-03-18T22:14:24.308Z - [info] Executing:  | while_v2 | ${!csvReadStatus} == "OK" |  | 
+2021-03-18T22:14:24.419Z - [info] Executing:  | type | id=firstName | ${!COL1} | 
+2021-03-18T22:14:24.639Z - [info] Executing:  | type | id=lastName | ${!col2} | 
+2021-03-18T22:14:24.820Z - [info] Executing:  | type | id=username | ${!col3} | 
+2021-03-18T22:14:25.038Z - [info] Executing:  | type | name=Passwd | ${!col4} | 
+2021-03-18T22:14:25.255Z - [info] Executing:  | type | name=ConfirmPasswd | ${!col4} | 
+2021-03-18T22:14:25.473Z - [info] Executing:  | echo | ${!csvReadLineNumber} | blue | 
+2021-03-18T22:14:25.528Z - [echo] 2
+2021-03-18T22:14:25.598Z - [info] Executing:  | executeScript_Sandbox | return Number(${!csvReadLineNumber})+1 | !csvReadLineNumber | 
+2021-03-18T22:14:25.704Z - [info] Executing:  | echo | ${!csvReadLineNumber} | blue | 
+2021-03-18T22:14:25.767Z - [echo] 3
+2021-03-18T22:14:25.860Z - [info] Executing:  | end |  |  | 
+2021-03-18T22:14:26.001Z - [info] Executing:  | while_v2 | ${!csvReadStatus} == "OK" |  | 
+2021-03-18T22:14:26.125Z - [info] Executing:  | type | id=firstName | ${!COL1} | 
+2021-03-18T22:14:26.456Z - [info] Executing:  | type | id=lastName | ${!col2} | 
+2021-03-18T22:14:26.723Z - [info] Executing:  | type | id=username | ${!col3} | 
+2021-03-18T22:14:27.021Z - [info] Executing:  | type | name=Passwd | ${!col4} | 
+2021-03-18T22:14:27.299Z - [info] Executing:  | type | name=ConfirmPasswd | ${!col4} | 
+2021-03-18T22:14:27.538Z - [info] Executing:  | echo | ${!csvReadLineNumber} | blue | 
+2021-03-18T22:14:27.595Z - [echo] 3
+2021-03-18T22:14:27.670Z - [info] Executing:  | executeScript_Sandbox | return Number(${!csvReadLineNumber})+1 | !csvReadLineNumber | 
+2021-03-18T22:14:27.792Z - [info] Executing:  | echo | ${!csvReadLineNumber} | blue | 
+2021-03-18T22:14:27.852Z - [echo] 4
+2021-03-18T22:14:27.927Z - [info] Executing:  | end |  |  | 
+2021-03-18T22:14:28.035Z - [info] Executing:  | while_v2 | ${!csvReadStatus} == "OK" |  | 
+2021-03-18T22:14:28.135Z - [info] Executing:  | type | id=firstName | ${!COL1} | 
+2021-03-18T22:14:28.332Z - [info] Executing:  | type | id=lastName | ${!col2} | 
+2021-03-18T22:14:28.543Z - [info] Executing:  | type | id=username | ${!col3} | 
+2021-03-18T22:14:28.804Z - [info] Executing:  | type | name=Passwd | ${!col4} | 
+2021-03-18T22:14:29.063Z - [info] Executing:  | type | name=ConfirmPasswd | ${!col4} | 
+2021-03-18T22:14:29.291Z - [info] Executing:  | echo | ${!csvReadLineNumber} | blue | 
+2021-03-18T22:14:29.346Z - [echo] 4
+2021-03-18T22:14:29.417Z - [info] Executing:  | executeScript_Sandbox | return Number(${!csvReadLineNumber})+1 | !csvReadLineNumber | 
+2021-03-18T22:14:29.569Z - [info] Executing:  | echo | ${!csvReadLineNumber} | blue | 
+2021-03-18T22:14:29.632Z - [echo] 5
+2021-03-18T22:14:29.718Z - [info] Executing:  | end |  |  | 
+2021-03-18T22:14:29.843Z - [info] Executing:  | while_v2 | ${!csvReadStatus} == "OK" |  | 
+2021-03-18T22:14:29.962Z - [info] Executing:  | type | id=firstName | ${!COL1} | 
+2021-03-18T22:14:30.207Z - [info] Executing:  | type | id=lastName | ${!col2} | 
+2021-03-18T22:14:30.439Z - [info] Executing:  | type | id=username | ${!col3} | 
+2021-03-18T22:14:30.700Z - [info] Executing:  | type | name=Passwd | ${!col4} | 
+2021-03-18T22:14:30.967Z - [info] Executing:  | type | name=ConfirmPasswd | ${!col4} | 
+2021-03-18T22:14:31.224Z - [info] Executing:  | echo | ${!csvReadLineNumber} | blue | 
+2021-03-18T22:14:31.281Z - [echo] 5
+2021-03-18T22:14:31.355Z - [info] Executing:  | executeScript_Sandbox | return Number(${!csvReadLineNumber})+1 | !csvReadLineNumber | 
+2021-03-18T22:14:31.472Z - [info] Executing:  | echo | ${!csvReadLineNumber} | blue | 
+2021-03-18T22:14:31.530Z - [echo] 6
+2021-03-18T22:14:31.601Z - [info] Executing:  | end |  |  | 
+2021-03-18T22:14:31.701Z - [info] Executing:  | while_v2 | ${!csvReadStatus} == "OK" |  | 
+2021-03-18T22:14:31.804Z - [info] Executing:  | type | id=firstName | ${!COL1} | 
+2021-03-18T22:14:32.008Z - [info] Executing:  | type | id=lastName | ${!col2} | 
+2021-03-18T22:14:32.214Z - [info] Executing:  | type | id=username | ${!col3} | 
+2021-03-18T22:14:32.455Z - [info] Executing:  | type | name=Passwd | ${!col4} | 
+2021-03-18T22:14:32.687Z - [info] Executing:  | type | name=ConfirmPasswd | ${!col4} | 
+2021-03-18T22:14:32.906Z - [info] Executing:  | echo | ${!csvReadLineNumber} | blue | 
+2021-03-18T22:14:32.964Z - [echo] 6
+2021-03-18T22:14:33.033Z - [info] Executing:  | executeScript_Sandbox | return Number(${!csvReadLineNumber})+1 | !csvReadLineNumber | 
+2021-03-18T22:14:33.148Z - [info] Executing:  | echo | ${!csvReadLineNumber} | blue | 
+2021-03-18T22:14:33.226Z - [echo] 7
+2021-03-18T22:14:33.301Z - [info] Executing:  | end |  |  | 
+2021-03-18T22:14:33.420Z - [info] Executing:  | while_v2 | ${!csvReadStatus} == "OK" |  | 
+2021-03-18T22:14:33.527Z - [info] Executing:  | type | id=firstName | ${!COL1} | 
+2021-03-18T22:14:33.763Z - [info] Executing:  | type | id=lastName | ${!col2} | 
+2021-03-18T22:14:34.027Z - [info] Executing:  | type | id=username | ${!col3} | 
+2021-03-18T22:14:34.350Z - [info] Executing:  | type | name=Passwd | ${!col4} | 
+2021-03-18T22:14:34.687Z - [info] Executing:  | type | name=ConfirmPasswd | ${!col4} | 
+2021-03-18T22:14:35.004Z - [info] Executing:  | echo | ${!csvReadLineNumber} | blue | 
+2021-03-18T22:14:35.079Z - [echo] 7
+2021-03-18T22:14:35.137Z - [info] Macro was stopped manually (Runtime 14.88s)
+2021-03-18T22:19:06.360Z - [status] Playing macro Create user accounts
+2021-03-18T22:19:06.435Z - [info] Executing:  | open | https://accounts.google.com/signup/v2/webcreateaccount?service=mail&continue=https%3A%2F%2Fmail.google.com%2Fmail&hl=en-GB&dsh=S-1089625264%3A1616102015659256&gmb=exp&biz=false&flowName=GlifWebSignIn&flowEntry=SignUp |  | 
+2021-03-18T22:19:08.592Z - [info] Executing:  | csvRead | user_info.csv |  | 
+2021-03-18T22:19:08.663Z - [info] Executing:  | while_v2 | ${!csvReadStatus} == "OK" |  | 
+2021-03-18T22:19:08.710Z - [info] Executing:  | echo | Inside subroutine: Status = ${!csvReadStatus}, Line = ${!csvReadLineNumber} | blue | 
+2021-03-18T22:19:08.716Z - [echo] Inside subroutine: Status = OK, Line = 1
+2021-03-18T22:19:08.764Z - [info] Executing:  | type | id=firstName | ${!COL1} | 
+2021-03-18T22:19:08.916Z - [info] Executing:  | type | id=lastName | ${!col2} | 
+2021-03-18T22:19:09.038Z - [info] Executing:  | type | id=username | ${!col3} | 
+2021-03-18T22:19:09.222Z - [info] Executing:  | type | name=Passwd | ${!col4} | 
+2021-03-18T22:19:09.385Z - [info] Executing:  | type | name=ConfirmPasswd | ${!col4} | 
+2021-03-18T22:19:09.581Z - [info] Executing:  | echo | ${!csvReadLineNumber} | blue | 
+2021-03-18T22:19:09.592Z - [echo] 1
+2021-03-18T22:19:09.662Z - [info] Executing:  | executeScript_Sandbox | return Number(${!csvReadLineNumber})+1 | !csvReadLineNumber | 
+2021-03-18T22:19:09.713Z - [info] Executing:  | echo | ${!csvReadLineNumber} | blue | 
+2021-03-18T22:19:09.723Z - [echo] 2
+2021-03-18T22:19:09.795Z - [info] Executing:  | end |  |  | 
+2021-03-18T22:19:09.846Z - [info] Executing:  | while_v2 | ${!csvReadStatus} == "OK" |  | 
+2021-03-18T22:19:09.904Z - [info] Executing:  | echo | Inside subroutine: Status = ${!csvReadStatus}, Line = ${!csvReadLineNumber} | blue | 
+2021-03-18T22:19:09.911Z - [echo] Inside subroutine: Status = OK, Line = 2
+2021-03-18T22:19:09.982Z - [info] Executing:  | type | id=firstName | ${!COL1} | 
+2021-03-18T22:19:10.142Z - [info] Executing:  | type | id=lastName | ${!col2} | 
+2021-03-18T22:19:10.273Z - [info] Executing:  | type | id=username | ${!col3} | 
+2021-03-18T22:19:10.466Z - [info] Executing:  | type | name=Passwd | ${!col4} | 
+2021-03-18T22:19:10.639Z - [info] Executing:  | type | name=ConfirmPasswd | ${!col4} | 
+2021-03-18T22:19:10.823Z - [info] Executing:  | echo | ${!csvReadLineNumber} | blue | 
+2021-03-18T22:19:10.830Z - [echo] 2
+2021-03-18T22:19:10.871Z - [info] Executing:  | executeScript_Sandbox | return Number(${!csvReadLineNumber})+1 | !csvReadLineNumber | 
+2021-03-18T22:19:10.947Z - [info] Executing:  | echo | ${!csvReadLineNumber} | blue | 
+2021-03-18T22:19:10.955Z - [echo] 3
+2021-03-18T22:19:10.997Z - [info] Executing:  | end |  |  | 
+2021-03-18T22:19:11.060Z - [info] Executing:  | while_v2 | ${!csvReadStatus} == "OK" |  | 
+2021-03-18T22:19:11.132Z - [info] Executing:  | echo | Inside subroutine: Status = ${!csvReadStatus}, Line = ${!csvReadLineNumber} | blue | 
+2021-03-18T22:19:11.140Z - [echo] Inside subroutine: Status = OK, Line = 3
+2021-03-18T22:19:11.199Z - [info] Executing:  | type | id=firstName | ${!COL1} | 
+2021-03-18T22:19:11.389Z - [info] Executing:  | type | id=lastName | ${!col2} | 
+2021-03-18T22:19:11.517Z - [info] Executing:  | type | id=username | ${!col3} | 
+2021-03-18T22:19:11.698Z - [info] Executing:  | type | name=Passwd | ${!col4} | 
+2021-03-18T22:19:11.859Z - [info] Executing:  | type | name=ConfirmPasswd | ${!col4} | 
+2021-03-18T22:19:12.027Z - [info] Executing:  | echo | ${!csvReadLineNumber} | blue | 
+2021-03-18T22:19:12.035Z - [echo] 3
+2021-03-18T22:19:12.066Z - [info] Executing:  | executeScript_Sandbox | return Number(${!csvReadLineNumber})+1 | !csvReadLineNumber | 
+2021-03-18T22:19:12.149Z - [info] Executing:  | echo | ${!csvReadLineNumber} | blue | 
+2021-03-18T22:19:12.158Z - [echo] 4
+2021-03-18T22:19:12.208Z - [info] Executing:  | end |  |  | 
+2021-03-18T22:19:12.276Z - [info] Executing:  | while_v2 | ${!csvReadStatus} == "OK" |  | 
+2021-03-18T22:19:12.329Z - [info] Executing:  | echo | Inside subroutine: Status = ${!csvReadStatus}, Line = ${!csvReadLineNumber} | blue | 
+2021-03-18T22:19:12.337Z - [echo] Inside subroutine: Status = OK, Line = 4
+2021-03-18T22:19:12.414Z - [info] Executing:  | type | id=firstName | ${!COL1} | 
+2021-03-18T22:19:12.555Z - [info] Executing:  | type | id=lastName | ${!col2} | 
+2021-03-18T22:19:12.733Z - [info] Executing:  | type | id=username | ${!col3} | 
+2021-03-18T22:19:12.968Z - [info] Executing:  | type | name=Passwd | ${!col4} | 
+2021-03-18T22:19:13.192Z - [info] Executing:  | type | name=ConfirmPasswd | ${!col4} | 
+2021-03-18T22:19:13.317Z - [info] Macro was stopped manually (Runtime 6.89s)
+2021-03-18T22:30:09.097Z - [status] Playing macro Create user accounts
+2021-03-18T22:30:09.175Z - [info] Executing:  | open | https://accounts.google.com/signup/v2/webcreateaccount?service=mail&continue=https%3A%2F%2Fmail.google.com%2Fmail&hl=en-GB&dsh=S-1089625264%3A1616102015659256&gmb=exp&biz=false&flowName=GlifWebSignIn&flowEntry=SignUp |  | 
+2021-03-18T22:30:12.552Z - [info] Executing:  | csvReadArray | user_info.csv | user_info | 
+2021-03-18T22:30:12.629Z - [info] Executing:  | forEach | row | user_info | 
+2021-03-18T22:30:12.647Z - [error] target must be an array
+2021-03-18T22:30:12.697Z - [info] Macro failed (Runtime 3.53s)
+2021-03-18T22:34:18.992Z - [status] Playing macro Create user accounts
+2021-03-18T22:34:19.057Z - [info] Executing:  | open | https://accounts.google.com/signup/v2/webcreateaccount?service=mail&continue=https%3A%2F%2Fmail.google.com%2Fmail&hl=en-GB&dsh=S-1089625264%3A1616102015659256&gmb=exp&biz=false&flowName=GlifWebSignIn&flowEntry=SignUp |  | 
+2021-03-18T22:34:21.226Z - [info] Executing:  | csvRead | user_info.csv |  | 
+2021-03-18T22:34:21.318Z - [info] Executing:  | while_v2 | ${!csvReadStatus} == "OK" |  | 
+2021-03-18T22:34:21.373Z - [info] Executing:  | echo | Inside subroutine: Status = ${!csvReadStatus}, Line = ${!csvReadLineNumber} | blue | 
+2021-03-18T22:34:21.383Z - [echo] Inside subroutine: Status = OK, Line = 1
+2021-03-18T22:34:21.428Z - [info] Executing:  | type | id=firstName | ${!col1} | 
+2021-03-18T22:34:21.583Z - [info] Executing:  | type | id=lastName | ${!col2} | 
+2021-03-18T22:34:21.727Z - [info] Executing:  | type | id=username | ${!col3} | 
+2021-03-18T22:34:21.921Z - [info] Executing:  | type | name=Passwd | ${!col4} | 
+2021-03-18T22:34:22.123Z - [info] Executing:  | type | name=ConfirmPasswd | ${!col4) | 
+2021-03-18T22:34:22.320Z - [info] Executing:  | echo | ${!csvReadLineNumber} | blue | 
+2021-03-18T22:34:22.330Z - [echo] 1
+2021-03-18T22:34:22.378Z - [info] Executing:  | executeScript_Sandbox | return Number(${!csvReadLineNumber})+1 | !csvReadLineNumber | 
+2021-03-18T22:34:22.447Z - [info] Executing:  | echo | ${!csvReadLineNumber} | blue | 
+2021-03-18T22:34:22.461Z - [echo] 2
+2021-03-18T22:34:22.528Z - [info] Executing:  | csvRead | user_info.csv |  | 
+2021-03-18T22:34:22.635Z - [info] Executing:  | end |  |  | 
+2021-03-18T22:34:22.715Z - [info] Executing:  | while_v2 | ${!csvReadStatus} == "OK" |  | 
+2021-03-18T22:34:22.765Z - [info] Executing:  | echo | Inside subroutine: Status = ${!csvReadStatus}, Line = ${!csvReadLineNumber} | blue | 
+2021-03-18T22:34:22.776Z - [echo] Inside subroutine: Status = OK, Line = 2
+2021-03-18T22:34:22.944Z - [info] Executing:  | type | id=firstName | ${!col1} | 
+2021-03-18T22:34:23.088Z - [info] Executing:  | type | id=lastName | ${!col2} | 
+2021-03-18T22:34:23.245Z - [info] Executing:  | type | id=username | ${!col3} | 
+2021-03-18T22:34:23.466Z - [info] Executing:  | type | name=Passwd | ${!col4} | 
+2021-03-18T22:34:23.655Z - [info] Executing:  | type | name=ConfirmPasswd | ${!col4) | 
+2021-03-18T22:34:23.832Z - [info] Executing:  | echo | ${!csvReadLineNumber} | blue | 
+2021-03-18T22:34:23.844Z - [echo] 2
+2021-03-18T22:34:23.875Z - [info] Executing:  | executeScript_Sandbox | return Number(${!csvReadLineNumber})+1 | !csvReadLineNumber | 
+2021-03-18T22:34:23.986Z - [info] Executing:  | echo | ${!csvReadLineNumber} | blue | 
+2021-03-18T22:34:23.997Z - [echo] 3
+2021-03-18T22:34:24.042Z - [info] Executing:  | csvRead | user_info.csv |  | 
+2021-03-18T22:34:24.148Z - [info] Executing:  | end |  |  | 
+2021-03-18T22:34:24.230Z - [info] Executing:  | while_v2 | ${!csvReadStatus} == "OK" |  | 
+2021-03-18T22:34:24.287Z - [info] Executing:  | echo | Inside subroutine: Status = ${!csvReadStatus}, Line = ${!csvReadLineNumber} | blue | 
+2021-03-18T22:34:24.298Z - [echo] Inside subroutine: Status = OK, Line = 3
+2021-03-18T22:34:24.378Z - [info] Executing:  | type | id=firstName | ${!col1} | 
+2021-03-18T22:34:24.538Z - [info] Executing:  | type | id=lastName | ${!col2} | 
+2021-03-18T22:34:24.667Z - [info] Executing:  | type | id=username | ${!col3} | 
+2021-03-18T22:34:24.889Z - [info] Executing:  | type | name=Passwd | ${!col4} | 
+2021-03-18T22:34:25.107Z - [info] Executing:  | type | name=ConfirmPasswd | ${!col4) | 
+2021-03-18T22:34:25.274Z - [info] Executing:  | echo | ${!csvReadLineNumber} | blue | 
+2021-03-18T22:34:25.286Z - [echo] 3
+2021-03-18T22:34:25.331Z - [info] Executing:  | executeScript_Sandbox | return Number(${!csvReadLineNumber})+1 | !csvReadLineNumber | 
+2021-03-18T22:34:25.426Z - [info] Executing:  | echo | ${!csvReadLineNumber} | blue | 
+2021-03-18T22:34:25.441Z - [echo] 4
+2021-03-18T22:34:25.491Z - [info] Executing:  | csvRead | user_info.csv |  | 
+2021-03-18T22:34:25.608Z - [info] Executing:  | end |  |  | 
+2021-03-18T22:34:25.682Z - [info] Executing:  | while_v2 | ${!csvReadStatus} == "OK" |  | 
+2021-03-18T22:34:25.875Z - [info] Executing:  | echo | Inside subroutine: Status = ${!csvReadStatus}, Line = ${!csvReadLineNumber} | blue | 
+2021-03-18T22:34:25.885Z - [echo] Inside subroutine: Status = OK, Line = 4
+2021-03-18T22:34:26.189Z - [info] Executing:  | type | id=firstName | ${!col1} | 
+2021-03-18T22:34:26.330Z - [info] Executing:  | type | id=lastName | ${!col2} | 
+2021-03-18T22:34:26.499Z - [info] Executing:  | type | id=username | ${!col3} | 
+2021-03-18T22:34:26.686Z - [info] Executing:  | type | name=Passwd | ${!col4} | 
+2021-03-18T22:34:27.036Z - [info] Executing:  | type | name=ConfirmPasswd | ${!col4) | 
+2021-03-18T22:34:27.217Z - [info] Executing:  | echo | ${!csvReadLineNumber} | blue | 
+2021-03-18T22:34:27.233Z - [echo] 4
+2021-03-18T22:34:27.286Z - [info] Executing:  | executeScript_Sandbox | return Number(${!csvReadLineNumber})+1 | !csvReadLineNumber | 
+2021-03-18T22:34:27.363Z - [info] Executing:  | echo | ${!csvReadLineNumber} | blue | 
+2021-03-18T22:34:27.379Z - [echo] 5
+2021-03-18T22:34:27.455Z - [info] Executing:  | csvRead | user_info.csv |  | 
+2021-03-18T22:34:27.546Z - [error] end of csv file reached
+2021-03-18T22:34:27.580Z - [info] Macro failed (Runtime 8.53s)
+2021-03-18T22:34:44.054Z - [status] Playing macro Create user accounts
+2021-03-18T22:34:44.120Z - [info] Executing:  | open | https://accounts.google.com/signup/v2/webcreateaccount?service=mail&continue=https%3A%2F%2Fmail.google.com%2Fmail&hl=en-GB&dsh=S-1089625264%3A1616102015659256&gmb=exp&biz=false&flowName=GlifWebSignIn&flowEntry=SignUp |  | 
+2021-03-18T22:34:46.275Z - [info] Executing:  | csvRead | user_info.csv |  | 
+2021-03-18T22:34:46.371Z - [info] Executing:  | while_v2 | ${!csvReadStatus} == "OK" |  | 
+2021-03-18T22:34:46.422Z - [info] Executing:  | echo | Inside subroutine: Status = ${!csvReadStatus}, Line = ${!csvReadLineNumber} | blue | 
+2021-03-18T22:34:46.437Z - [echo] Inside subroutine: Status = OK, Line = 1
+2021-03-18T22:34:46.494Z - [info] Executing:  | type | id=firstName | ${!col1} | 
+2021-03-18T22:34:46.650Z - [info] Executing:  | type | id=lastName | ${!col2} | 
+2021-03-18T22:34:46.780Z - [info] Executing:  | type | id=username | ${!col3} | 
+2021-03-18T22:34:46.981Z - [info] Executing:  | type | name=Passwd | ${!col4} | 
+2021-03-18T22:34:47.168Z - [info] Executing:  | type | name=ConfirmPasswd | ${!col4) | 
+2021-03-18T22:34:47.353Z - [info] Executing:  | echo | ${!csvReadLineNumber} | blue | 
+2021-03-18T22:34:47.367Z - [echo] 1
+2021-03-18T22:34:47.414Z - [info] Executing:  | executeScript_Sandbox | return Number(${!csvReadLineNumber})+1 | !csvReadLineNumber | 
+2021-03-18T22:34:47.477Z - [info] Executing:  | echo | ${!csvReadLineNumber} | blue | 
+2021-03-18T22:34:47.511Z - [echo] 2
+2021-03-18T22:34:47.559Z - [info] Executing:  | csvRead | user_info.csv |  | 
+2021-03-18T22:34:47.658Z - [info] Executing:  | end |  |  | 
+2021-03-18T22:34:47.722Z - [info] Executing:  | while_v2 | ${!csvReadStatus} == "OK" |  | 
+2021-03-18T22:34:47.775Z - [info] Executing:  | echo | Inside subroutine: Status = ${!csvReadStatus}, Line = ${!csvReadLineNumber} | blue | 
+2021-03-18T22:34:47.788Z - [echo] Inside subroutine: Status = OK, Line = 2
+2021-03-18T22:34:47.859Z - [info] Executing:  | type | id=firstName | ${!col1} | 
+2021-03-18T22:34:48.028Z - [info] Executing:  | type | id=lastName | ${!col2} | 
+2021-03-18T22:34:48.151Z - [info] Executing:  | type | id=username | ${!col3} | 
+2021-03-18T22:34:48.365Z - [info] Executing:  | type | name=Passwd | ${!col4} | 
+2021-03-18T22:34:48.544Z - [info] Executing:  | type | name=ConfirmPasswd | ${!col4) | 
+2021-03-18T22:34:48.717Z - [info] Executing:  | echo | ${!csvReadLineNumber} | blue | 
+2021-03-18T22:34:48.730Z - [echo] 2
+2021-03-18T22:34:48.772Z - [info] Executing:  | executeScript_Sandbox | return Number(${!csvReadLineNumber})+1 | !csvReadLineNumber | 
+2021-03-18T22:34:48.843Z - [info] Executing:  | echo | ${!csvReadLineNumber} | blue | 
+2021-03-18T22:34:48.857Z - [echo] 3
+2021-03-18T22:34:48.905Z - [info] Executing:  | csvRead | user_info.csv |  | 
+2021-03-18T22:34:49.016Z - [info] Executing:  | end |  |  | 
+2021-03-18T22:34:49.083Z - [info] Executing:  | while_v2 | ${!csvReadStatus} == "OK" |  | 
+2021-03-18T22:34:49.153Z - [info] Executing:  | echo | Inside subroutine: Status = ${!csvReadStatus}, Line = ${!csvReadLineNumber} | blue | 
+2021-03-18T22:34:49.168Z - [echo] Inside subroutine: Status = OK, Line = 3
+2021-03-18T22:34:49.228Z - [info] Executing:  | type | id=firstName | ${!col1} | 
+2021-03-18T22:34:49.412Z - [info] Executing:  | type | id=lastName | ${!col2} | 
+2021-03-18T22:34:49.579Z - [info] Executing:  | type | id=username | ${!col3} | 
+2021-03-18T22:34:49.766Z - [info] Executing:  | type | name=Passwd | ${!col4} | 
+2021-03-18T22:34:49.958Z - [info] Executing:  | type | name=ConfirmPasswd | ${!col4) | 
+2021-03-18T22:34:50.102Z - [info] Executing:  | echo | ${!csvReadLineNumber} | blue | 
+2021-03-18T22:34:50.116Z - [echo] 3
+2021-03-18T22:34:50.180Z - [info] Executing:  | executeScript_Sandbox | return Number(${!csvReadLineNumber})+1 | !csvReadLineNumber | 
+2021-03-18T22:34:50.237Z - [info] Executing:  | echo | ${!csvReadLineNumber} | blue | 
+2021-03-18T22:34:50.252Z - [echo] 4
+2021-03-18T22:34:50.314Z - [info] Executing:  | csvRead | user_info.csv |  | 
+2021-03-18T22:34:50.411Z - [info] Executing:  | end |  |  | 
+2021-03-18T22:34:50.485Z - [info] Executing:  | while_v2 | ${!csvReadStatus} == "OK" |  | 
+2021-03-18T22:34:50.536Z - [info] Executing:  | echo | Inside subroutine: Status = ${!csvReadStatus}, Line = ${!csvReadLineNumber} | blue | 
+2021-03-18T22:34:50.552Z - [echo] Inside subroutine: Status = OK, Line = 4
+2021-03-18T22:34:50.600Z - [info] Executing:  | type | id=firstName | ${!col1} | 
+2021-03-18T22:34:50.778Z - [info] Executing:  | type | id=lastName | ${!col2} | 
+2021-03-18T22:34:50.925Z - [info] Executing:  | type | id=username | ${!col3} | 
+2021-03-18T22:34:51.117Z - [info] Executing:  | type | name=Passwd | ${!col4} | 
+2021-03-18T22:34:51.316Z - [info] Executing:  | type | name=ConfirmPasswd | ${!col4) | 
+2021-03-18T22:34:51.477Z - [info] Executing:  | echo | ${!csvReadLineNumber} | blue | 
+2021-03-18T22:34:51.492Z - [echo] 4
+2021-03-18T22:34:51.539Z - [info] Executing:  | executeScript_Sandbox | return Number(${!csvReadLineNumber})+1 | !csvReadLineNumber | 
+2021-03-18T22:34:51.633Z - [info] Executing:  | echo | ${!csvReadLineNumber} | blue | 
+2021-03-18T22:34:51.648Z - [echo] 5
+2021-03-18T22:34:51.700Z - [info] Executing:  | csvRead | user_info.csv |  | 
+2021-03-18T22:34:51.780Z - [error] end of csv file reached
+2021-03-18T22:34:51.835Z - [info] Macro failed (Runtime 7.73s)
+2021-03-18T22:37:22.157Z - [status] Playing macro Create user accounts
+2021-03-18T22:37:22.217Z - [info] Executing:  | open | https://accounts.google.com/signup/v2/webcreateaccount?service=mail&continue=https%3A%2F%2Fmail.google.com%2Fmail&hl=en-GB&dsh=S-1089625264%3A1616102015659256&gmb=exp&biz=false&flowName=GlifWebSignIn&flowEntry=SignUp |  | 
+2021-03-18T22:37:24.380Z - [info] Executing:  | csvRead | user_info.csv |  | 
+2021-03-18T22:37:24.492Z - [info] Executing:  | while_v2 | ${!csvReadStatus} == "OK" |  | 
+2021-03-18T22:37:24.548Z - [info] Executing:  | echo | Inside subroutine: Status = ${!csvReadStatus}, Line = ${!csvReadLineNumber} | blue | 
+2021-03-18T22:37:24.571Z - [echo] Inside subroutine: Status = OK, Line = 1
+2021-03-18T22:37:24.672Z - [info] Executing:  | type | id=firstName | ${!col1} | 
+2021-03-18T22:37:24.859Z - [info] Executing:  | type | id=lastName | ${!col2} | 
+2021-03-18T22:37:25.005Z - [info] Executing:  | type | id=username | ${!col3} | 
+2021-03-18T22:37:25.219Z - [info] Executing:  | type | name=Passwd | ${!col4} | 
+2021-03-18T22:37:25.429Z - [info] Executing:  | type | name=ConfirmPasswd | ${!col4) | 
+2021-03-18T22:37:25.641Z - [info] Executing:  | echo | ${!csvReadLineNumber} | blue | 
+2021-03-18T22:37:25.657Z - [echo] 1
+2021-03-18T22:37:25.741Z - [info] Executing:  | executeScript_Sandbox | return Number(${!csvReadLineNumber})+1 | !csvReadLineNumber | 
+2021-03-18T22:37:25.808Z - [info] Executing:  | echo | ${!csvReadLineNumber} | blue | 
+2021-03-18T22:37:25.830Z - [echo] 2
+2021-03-18T22:37:25.889Z - [info] Executing:  | csvRead | user_info.csv |  | 
+2021-03-18T22:37:26.025Z - [info] Executing:  | store | false | !errorIgnore | 
+2021-03-18T22:37:26.072Z - [info] Executing:  | end |  |  | 
+2021-03-18T22:37:26.148Z - [info] Executing:  | while_v2 | ${!csvReadStatus} == "OK" |  | 
+2021-03-18T22:37:26.207Z - [info] Executing:  | echo | Inside subroutine: Status = ${!csvReadStatus}, Line = ${!csvReadLineNumber} | blue | 
+2021-03-18T22:37:26.223Z - [echo] Inside subroutine: Status = OK, Line = 2
+2021-03-18T22:37:26.284Z - [info] Executing:  | type | id=firstName | ${!col1} | 
+2021-03-18T22:37:26.441Z - [info] Executing:  | type | id=lastName | ${!col2} | 
+2021-03-18T22:37:26.607Z - [info] Executing:  | type | id=username | ${!col3} | 
+2021-03-18T22:37:26.807Z - [info] Executing:  | type | name=Passwd | ${!col4} | 
+2021-03-18T22:37:27.013Z - [info] Executing:  | type | name=ConfirmPasswd | ${!col4) | 
+2021-03-18T22:37:27.212Z - [info] Executing:  | echo | ${!csvReadLineNumber} | blue | 
+2021-03-18T22:37:27.231Z - [echo] 2
+2021-03-18T22:37:27.262Z - [info] Executing:  | executeScript_Sandbox | return Number(${!csvReadLineNumber})+1 | !csvReadLineNumber | 
+2021-03-18T22:37:27.333Z - [info] Executing:  | echo | ${!csvReadLineNumber} | blue | 
+2021-03-18T22:37:27.351Z - [echo] 3
+2021-03-18T22:37:27.440Z - [info] Executing:  | csvRead | user_info.csv |  | 
+2021-03-18T22:37:27.581Z - [info] Executing:  | store | false | !errorIgnore | 
+2021-03-18T22:37:27.635Z - [info] Executing:  | end |  |  | 
+2021-03-18T22:37:27.708Z - [info] Executing:  | while_v2 | ${!csvReadStatus} == "OK" |  | 
+2021-03-18T22:37:28.034Z - [info] Executing:  | echo | Inside subroutine: Status = ${!csvReadStatus}, Line = ${!csvReadLineNumber} | blue | 
+2021-03-18T22:37:28.051Z - [echo] Inside subroutine: Status = OK, Line = 3
+2021-03-18T22:37:28.105Z - [info] Executing:  | type | id=firstName | ${!col1} | 
+2021-03-18T22:37:28.264Z - [info] Executing:  | type | id=lastName | ${!col2} | 
+2021-03-18T22:37:28.394Z - [info] Executing:  | type | id=username | ${!col3} | 
+2021-03-18T22:37:28.575Z - [info] Executing:  | type | name=Passwd | ${!col4} | 
+2021-03-18T22:37:28.761Z - [info] Executing:  | type | name=ConfirmPasswd | ${!col4) | 
+2021-03-18T22:37:28.932Z - [info] Executing:  | echo | ${!csvReadLineNumber} | blue | 
+2021-03-18T22:37:28.951Z - [echo] 3
+2021-03-18T22:37:29.017Z - [info] Executing:  | executeScript_Sandbox | return Number(${!csvReadLineNumber})+1 | !csvReadLineNumber | 
+2021-03-18T22:37:29.075Z - [info] Executing:  | echo | ${!csvReadLineNumber} | blue | 
+2021-03-18T22:37:29.093Z - [echo] 4
+2021-03-18T22:37:29.159Z - [info] Executing:  | csvRead | user_info.csv |  | 
+2021-03-18T22:37:29.261Z - [info] Executing:  | store | false | !errorIgnore | 
+2021-03-18T22:37:29.338Z - [info] Executing:  | end |  |  | 
+2021-03-18T22:37:29.392Z - [info] Executing:  | while_v2 | ${!csvReadStatus} == "OK" |  | 
+2021-03-18T22:37:29.451Z - [info] Executing:  | echo | Inside subroutine: Status = ${!csvReadStatus}, Line = ${!csvReadLineNumber} | blue | 
+2021-03-18T22:37:29.482Z - [echo] Inside subroutine: Status = OK, Line = 4
+2021-03-18T22:37:29.529Z - [info] Executing:  | type | id=firstName | ${!col1} | 
+2021-03-18T22:37:29.682Z - [info] Executing:  | type | id=lastName | ${!col2} | 
+2021-03-18T22:37:29.818Z - [info] Executing:  | type | id=username | ${!col3} | 
+2021-03-18T22:37:30.018Z - [info] Executing:  | type | name=Passwd | ${!col4} | 
+2021-03-18T22:37:30.180Z - [info] Executing:  | type | name=ConfirmPasswd | ${!col4) | 
+2021-03-18T22:37:30.346Z - [info] Executing:  | echo | ${!csvReadLineNumber} | blue | 
+2021-03-18T22:37:30.365Z - [echo] 4
+2021-03-18T22:37:30.423Z - [info] Executing:  | executeScript_Sandbox | return Number(${!csvReadLineNumber})+1 | !csvReadLineNumber | 
+2021-03-18T22:37:30.486Z - [info] Executing:  | echo | ${!csvReadLineNumber} | blue | 
+2021-03-18T22:37:30.505Z - [echo] 5
+2021-03-18T22:37:30.571Z - [info] Executing:  | csvRead | user_info.csv |  | 
+2021-03-18T22:37:30.660Z - [error] end of csv file reached
+2021-03-18T22:37:30.699Z - [info] Macro failed (Runtime 8.49s)
+2021-03-18T22:38:16.881Z - [status] Playing macro Create user accounts
+2021-03-18T22:38:16.946Z - [info] Executing:  | open | https://accounts.google.com/signup/v2/webcreateaccount?service=mail&continue=https%3A%2F%2Fmail.google.com%2Fmail&hl=en-GB&dsh=S-1089625264%3A1616102015659256&gmb=exp&biz=false&flowName=GlifWebSignIn&flowEntry=SignUp |  | 
+2021-03-18T22:38:19.103Z - [info] Executing:  | csvRead | user_info.csv |  | 
+2021-03-18T22:38:19.215Z - [info] Executing:  | while_v2 | ${!csvReadStatus} == "OK" |  | 
+2021-03-18T22:38:19.264Z - [info] Executing:  | echo | Inside subroutine: Status = ${!csvReadStatus}, Line = ${!csvReadLineNumber} | blue | 
+2021-03-18T22:38:19.283Z - [echo] Inside subroutine: Status = OK, Line = 1
+2021-03-18T22:38:19.347Z - [info] Executing:  | type | id=firstName | ${!col1} | 
+2021-03-18T22:38:19.521Z - [info] Executing:  | type | id=lastName | ${!col2} | 
+2021-03-18T22:38:19.663Z - [info] Executing:  | type | id=username | ${!col3} | 
+2021-03-18T22:38:19.852Z - [info] Executing:  | type | name=Passwd | ${!col4} | 
+2021-03-18T22:38:20.050Z - [info] Executing:  | type | name=ConfirmPasswd | ${!col4) | 
+2021-03-18T22:38:20.234Z - [info] Executing:  | echo | ${!csvReadLineNumber} | blue | 
+2021-03-18T22:38:20.258Z - [echo] 1
+2021-03-18T22:38:20.360Z - [info] Executing:  | executeScript_Sandbox | return Number(${!csvReadLineNumber})+1 | !csvReadLineNumber | 
+2021-03-18T22:38:20.461Z - [info] Executing:  | echo | ${!csvReadLineNumber} | blue | 
+2021-03-18T22:38:20.483Z - [echo] 2
+2021-03-18T22:38:20.546Z - [info] Executing:  | store | true | !errorIgnore | 
+2021-03-18T22:38:20.611Z - [info] Executing:  | csvRead | user_info.csv |  | 
+2021-03-18T22:38:20.731Z - [info] Executing:  | store | false | !errorIgnore | 
+2021-03-18T22:38:20.795Z - [info] Executing:  | end |  |  | 
+2021-03-18T22:38:20.862Z - [info] Executing:  | while_v2 | ${!csvReadStatus} == "OK" |  | 
+2021-03-18T22:38:20.919Z - [info] Executing:  | echo | Inside subroutine: Status = ${!csvReadStatus}, Line = ${!csvReadLineNumber} | blue | 
+2021-03-18T22:38:20.940Z - [echo] Inside subroutine: Status = OK, Line = 2
+2021-03-18T22:38:21.027Z - [info] Executing:  | type | id=firstName | ${!col1} | 
+2021-03-18T22:38:21.187Z - [info] Executing:  | type | id=lastName | ${!col2} | 
+2021-03-18T22:38:21.345Z - [info] Executing:  | type | id=username | ${!col3} | 
+2021-03-18T22:38:21.557Z - [info] Executing:  | type | name=Passwd | ${!col4} | 
+2021-03-18T22:38:21.771Z - [info] Executing:  | type | name=ConfirmPasswd | ${!col4) | 
+2021-03-18T22:38:21.952Z - [info] Executing:  | echo | ${!csvReadLineNumber} | blue | 
+2021-03-18T22:38:21.976Z - [echo] 2
+2021-03-18T22:38:22.016Z - [info] Executing:  | executeScript_Sandbox | return Number(${!csvReadLineNumber})+1 | !csvReadLineNumber | 
+2021-03-18T22:38:22.117Z - [info] Executing:  | echo | ${!csvReadLineNumber} | blue | 
+2021-03-18T22:38:22.139Z - [echo] 3
+2021-03-18T22:38:22.194Z - [info] Executing:  | store | true | !errorIgnore | 
+2021-03-18T22:38:22.301Z - [info] Executing:  | csvRead | user_info.csv |  | 
+2021-03-18T22:38:22.404Z - [info] Executing:  | store | false | !errorIgnore | 
+2021-03-18T22:38:22.494Z - [info] Executing:  | end |  |  | 
+2021-03-18T22:38:22.551Z - [info] Executing:  | while_v2 | ${!csvReadStatus} == "OK" |  | 
+2021-03-18T22:38:22.652Z - [info] Executing:  | echo | Inside subroutine: Status = ${!csvReadStatus}, Line = ${!csvReadLineNumber} | blue | 
+2021-03-18T22:38:22.674Z - [echo] Inside subroutine: Status = OK, Line = 3
+2021-03-18T22:38:22.732Z - [info] Executing:  | type | id=firstName | ${!col1} | 
+2021-03-18T22:38:22.921Z - [info] Executing:  | type | id=lastName | ${!col2} | 
+2021-03-18T22:38:23.083Z - [info] Executing:  | type | id=username | ${!col3} | 
+2021-03-18T22:38:23.289Z - [info] Executing:  | type | name=Passwd | ${!col4} | 
+2021-03-18T22:38:23.458Z - [info] Executing:  | type | name=ConfirmPasswd | ${!col4) | 
+2021-03-18T22:38:23.641Z - [info] Executing:  | echo | ${!csvReadLineNumber} | blue | 
+2021-03-18T22:38:23.661Z - [echo] 3
+2021-03-18T22:38:23.713Z - [info] Executing:  | executeScript_Sandbox | return Number(${!csvReadLineNumber})+1 | !csvReadLineNumber | 
+2021-03-18T22:38:23.783Z - [info] Executing:  | echo | ${!csvReadLineNumber} | blue | 
+2021-03-18T22:38:23.821Z - [echo] 4
+2021-03-18T22:38:23.874Z - [info] Executing:  | store | true | !errorIgnore | 
+2021-03-18T22:38:23.942Z - [info] Executing:  | csvRead | user_info.csv |  | 
+2021-03-18T22:38:24.073Z - [info] Executing:  | store | false | !errorIgnore | 
+2021-03-18T22:38:24.148Z - [info] Executing:  | end |  |  | 
+2021-03-18T22:38:24.206Z - [info] Executing:  | while_v2 | ${!csvReadStatus} == "OK" |  | 
+2021-03-18T22:38:24.266Z - [info] Executing:  | echo | Inside subroutine: Status = ${!csvReadStatus}, Line = ${!csvReadLineNumber} | blue | 
+2021-03-18T22:38:24.305Z - [echo] Inside subroutine: Status = OK, Line = 4
+2021-03-18T22:38:24.360Z - [info] Executing:  | type | id=firstName | ${!col1} | 
+2021-03-18T22:38:24.556Z - [info] Executing:  | type | id=lastName | ${!col2} | 
+2021-03-18T22:38:24.749Z - [info] Executing:  | type | id=username | ${!col3} | 
+2021-03-18T22:38:24.966Z - [info] Executing:  | type | name=Passwd | ${!col4} | 
+2021-03-18T22:38:25.149Z - [info] Executing:  | type | name=ConfirmPasswd | ${!col4) | 
+2021-03-18T22:38:25.351Z - [info] Executing:  | echo | ${!csvReadLineNumber} | blue | 
+2021-03-18T22:38:25.379Z - [echo] 4
+2021-03-18T22:38:25.461Z - [info] Executing:  | executeScript_Sandbox | return Number(${!csvReadLineNumber})+1 | !csvReadLineNumber | 
+2021-03-18T22:38:25.527Z - [info] Executing:  | echo | ${!csvReadLineNumber} | blue | 
+2021-03-18T22:38:25.551Z - [echo] 5
+2021-03-18T22:38:25.637Z - [info] Executing:  | store | true | !errorIgnore | 
+2021-03-18T22:38:25.701Z - [info] Executing:  | csvRead | user_info.csv |  | 
+2021-03-18T22:38:25.784Z - [error][ignored] end of csv file reached
+2021-03-18T22:38:25.842Z - [info] Executing:  | store | false | !errorIgnore | 
+2021-03-18T22:38:25.941Z - [info] Executing:  | end |  |  | 
+2021-03-18T22:38:26.006Z - [info] Executing:  | while_v2 | ${!csvReadStatus} == "OK" |  | 
+2021-03-18T22:38:26.108Z - [info] Executing:  | open | https://accounts.google.com/signup/v2/webcreateaccount?service=mail&continue=https%3A%2F%2Fmail.google.com%2Fmail&hl=en-GB&dsh=S-1089625264%3A1616102015659256&gmb=exp&biz=false&flowName=GlifWebSignIn&flowEntry=SignUp |  | 
+2021-03-18T22:38:28.286Z - [info] Macro completed (Runtime 11.35s)
+2021-03-18T22:40:33.661Z - [status] Playing macro Create user accounts
+2021-03-18T22:40:33.731Z - [info] Executing:  | open | https://accounts.google.com/signup/v2/webcreateaccount?service=mail&continue=https%3A%2F%2Fmail.google.com%2Fmail&hl=en-GB&dsh=S-1089625264%3A1616102015659256&gmb=exp&biz=false&flowName=GlifWebSignIn&flowEntry=SignUp |  | 
+2021-03-18T22:40:35.917Z - [info] Executing:  | csvRead | user_info.csv |  | 
+2021-03-18T22:40:36.037Z - [info] Executing:  | while_v2 | ${!csvReadStatus} == "OK" |  | 
+2021-03-18T22:40:36.087Z - [info] Executing:  | echo | Inside subroutine: Status = ${!csvReadStatus}, Line = ${!csvReadLineNumber} | blue | 
+2021-03-18T22:40:36.111Z - [echo] Inside subroutine: Status = OK, Line = 1
+2021-03-18T22:40:36.190Z - [info] Executing:  | type | id=firstName | ${!col1} | 
+2021-03-18T22:40:36.345Z - [info] Executing:  | type | id=lastName | ${!col2} | 
+2021-03-18T22:40:36.524Z - [info] Executing:  | type | id=username | ${!col3} | 
+2021-03-18T22:40:36.751Z - [info] Executing:  | type | name=Passwd | ${!col4} | 
+2021-03-18T22:40:37.167Z - [info] Executing:  | type | name=ConfirmPasswd | ${!col4) | 
+2021-03-18T22:40:37.358Z - [info] Executing:  | echo | ${!csvReadLineNumber} | blue | 
+2021-03-18T22:40:37.383Z - [echo] 1
+2021-03-18T22:40:37.440Z - [info] Executing:  | executeScript_Sandbox | return Number(${!csvReadLineNumber})+1 | !csvReadLineNumber | 
+2021-03-18T22:40:37.516Z - [info] Executing:  | echo | ${!csvReadLineNumber} | blue | 
+2021-03-18T22:40:37.554Z - [echo] 2
+2021-03-18T22:40:37.607Z - [info] Executing:  | store | true | !errorIgnore | 
+2021-03-18T22:40:37.686Z - [info] Executing:  | csvRead | user_info.csv |  | 
+2021-03-18T22:40:37.815Z - [info] Executing:  | store | false | !errorIgnore | 
+2021-03-18T22:40:37.896Z - [info] Executing:  | click | xpath=//*[@id="accountDetailsNext"]/div/button/div[2] |  | 
+2021-03-18T22:40:38.042Z - [info] Executing:  | end |  |  | 
+2021-03-18T22:40:38.114Z - [info] Executing:  | while_v2 | ${!csvReadStatus} == "OK" |  | 
+2021-03-18T22:40:38.204Z - [info] Executing:  | echo | Inside subroutine: Status = ${!csvReadStatus}, Line = ${!csvReadLineNumber} | blue | 
+2021-03-18T22:40:38.231Z - [echo] Inside subroutine: Status = OK, Line = 2
+2021-03-18T22:40:38.292Z - [info] Executing:  | type | id=firstName | ${!col1} | 
+2021-03-18T22:40:38.490Z - [info] Executing:  | type | id=lastName | ${!col2} | 
+2021-03-18T22:40:38.652Z - [info] Executing:  | type | id=username | ${!col3} | 
+2021-03-18T22:40:38.868Z - [info] Executing:  | type | name=Passwd | ${!col4} | 
+2021-03-18T22:40:39.083Z - [info] Executing:  | type | name=ConfirmPasswd | ${!col4) | 
+2021-03-18T22:40:39.259Z - [info] Executing:  | echo | ${!csvReadLineNumber} | blue | 
+2021-03-18T22:40:39.287Z - [echo] 2
+2021-03-18T22:40:39.356Z - [info] Executing:  | executeScript_Sandbox | return Number(${!csvReadLineNumber})+1 | !csvReadLineNumber | 
+2021-03-18T22:40:39.432Z - [info] Executing:  | echo | ${!csvReadLineNumber} | blue | 
+2021-03-18T22:40:39.458Z - [echo] 3
+2021-03-18T22:40:39.526Z - [info] Executing:  | store | true | !errorIgnore | 
+2021-03-18T22:40:39.598Z - [info] Executing:  | csvRead | user_info.csv |  | 
+2021-03-18T22:40:39.736Z - [info] Executing:  | store | false | !errorIgnore | 
+2021-03-18T22:40:39.824Z - [info] Executing:  | click | xpath=//*[@id="accountDetailsNext"]/div/button/div[2] |  | 
+2021-03-18T22:40:39.964Z - [info] Executing:  | end |  |  | 
+2021-03-18T22:40:40.071Z - [info] Executing:  | while_v2 | ${!csvReadStatus} == "OK" |  | 
+2021-03-18T22:40:40.144Z - [info] Executing:  | echo | Inside subroutine: Status = ${!csvReadStatus}, Line = ${!csvReadLineNumber} | blue | 
+2021-03-18T22:40:40.177Z - [echo] Inside subroutine: Status = OK, Line = 3
+2021-03-18T22:40:40.263Z - [info] Executing:  | type | id=firstName | ${!col1} | 
+2021-03-18T22:40:40.478Z - [info] Executing:  | type | id=lastName | ${!col2} | 
+2021-03-18T22:40:40.641Z - [info] Executing:  | type | id=username | ${!col3} | 
+2021-03-18T22:40:40.845Z - [info] Executing:  | type | name=Passwd | ${!col4} | 
+2021-03-18T22:40:41.016Z - [info] Executing:  | type | name=ConfirmPasswd | ${!col4) | 
+2021-03-18T22:40:41.204Z - [info] Executing:  | echo | ${!csvReadLineNumber} | blue | 
+2021-03-18T22:40:41.231Z - [echo] 3
+2021-03-18T22:40:41.270Z - [info] Executing:  | executeScript_Sandbox | return Number(${!csvReadLineNumber})+1 | !csvReadLineNumber | 
+2021-03-18T22:40:41.371Z - [info] Executing:  | echo | ${!csvReadLineNumber} | blue | 
+2021-03-18T22:40:41.397Z - [echo] 4
+2021-03-18T22:40:41.484Z - [info] Executing:  | store | true | !errorIgnore | 
+2021-03-18T22:40:41.555Z - [info] Executing:  | csvRead | user_info.csv |  | 
+2021-03-18T22:40:41.717Z - [info] Executing:  | store | false | !errorIgnore | 
+2021-03-18T22:40:41.792Z - [info] Executing:  | click | xpath=//*[@id="accountDetailsNext"]/div/button/div[2] |  | 
+2021-03-18T22:40:41.954Z - [info] Executing:  | end |  |  | 
+2021-03-18T22:40:42.047Z - [info] Executing:  | while_v2 | ${!csvReadStatus} == "OK" |  | 
+2021-03-18T22:40:42.131Z - [info] Executing:  | echo | Inside subroutine: Status = ${!csvReadStatus}, Line = ${!csvReadLineNumber} | blue | 
+2021-03-18T22:40:42.162Z - [echo] Inside subroutine: Status = OK, Line = 4
+2021-03-18T22:40:42.248Z - [info] Executing:  | type | id=firstName | ${!col1} | 
+2021-03-18T22:40:42.459Z - [info] Executing:  | type | id=lastName | ${!col2} | 
+2021-03-18T22:40:42.632Z - [info] Executing:  | type | id=username | ${!col3} | 
+2021-03-18T22:40:42.851Z - [info] Executing:  | type | name=Passwd | ${!col4} | 
+2021-03-18T22:40:43.050Z - [info] Executing:  | type | name=ConfirmPasswd | ${!col4) | 
+2021-03-18T22:40:43.237Z - [info] Executing:  | echo | ${!csvReadLineNumber} | blue | 
+2021-03-18T22:40:43.265Z - [echo] 4
+2021-03-18T22:40:43.304Z - [info] Executing:  | executeScript_Sandbox | return Number(${!csvReadLineNumber})+1 | !csvReadLineNumber | 
+2021-03-18T22:40:43.403Z - [info] Executing:  | echo | ${!csvReadLineNumber} | blue | 
+2021-03-18T22:40:43.433Z - [echo] 5
+2021-03-18T22:40:43.504Z - [info] Executing:  | store | true | !errorIgnore | 
+2021-03-18T22:40:43.578Z - [info] Executing:  | csvRead | user_info.csv |  | 
+2021-03-18T22:40:43.673Z - [error][ignored] end of csv file reached
+2021-03-18T22:40:43.718Z - [info] Executing:  | store | false | !errorIgnore | 
+2021-03-18T22:40:43.794Z - [info] Executing:  | click | xpath=//*[@id="accountDetailsNext"]/div/button/div[2] |  | 
+2021-03-18T22:40:44.005Z - [info] Executing:  | end |  |  | 
+2021-03-18T22:40:44.111Z - [info] Executing:  | while_v2 | ${!csvReadStatus} == "OK" |  | 
+2021-03-18T22:40:44.227Z - [info] Executing:  | open | https://accounts.google.com/signup/v2/webcreateaccount?service=mail&continue=https%3A%2F%2Fmail.google.com%2Fmail&hl=en-GB&dsh=S-1089625264%3A1616102015659256&gmb=exp&biz=false&flowName=GlifWebSignIn&flowEntry=SignUp |  | 
+2021-03-18T22:40:46.483Z - [info] Macro completed (Runtime 12.77s)
+2021-03-18T22:41:05.460Z - [status] Playing macro Create user accounts
+2021-03-18T22:41:05.537Z - [info] Executing:  | open | https://accounts.google.com/signup/v2/webcreateaccount?service=mail&continue=https%3A%2F%2Fmail.google.com%2Fmail&hl=en-GB&dsh=S-1089625264%3A1616102015659256&gmb=exp&biz=false&flowName=GlifWebSignIn&flowEntry=SignUp |  | 
+2021-03-18T22:41:07.743Z - [info] Executing:  | csvRead | user_info.csv |  | 
+2021-03-18T22:41:07.892Z - [info] Executing:  | while_v2 | ${!csvReadStatus} == "OK" |  | 
+2021-03-18T22:41:07.957Z - [info] Executing:  | echo | Inside subroutine: Status = ${!csvReadStatus}, Line = ${!csvReadLineNumber} | blue | 
+2021-03-18T22:41:07.988Z - [echo] Inside subroutine: Status = OK, Line = 1
+2021-03-18T22:41:08.072Z - [info] Executing:  | type | id=firstName | ${!col1} | 
+2021-03-18T22:41:08.263Z - [info] Executing:  | type | id=lastName | ${!col2} | 
+2021-03-18T22:41:08.420Z - [info] Executing:  | type | id=username | ${!col3} | 
+2021-03-18T22:41:08.710Z - [info] Executing:  | type | name=Passwd | ${!col4} | 
+2021-03-18T22:41:08.984Z - [info] Executing:  | type | name=ConfirmPasswd | ${!col4) | 
+2021-03-18T22:41:09.201Z - [info] Executing:  | echo | ${!csvReadLineNumber} | blue | 
+2021-03-18T22:41:09.233Z - [echo] 1
+2021-03-18T22:41:09.281Z - [info] Executing:  | executeScript_Sandbox | return Number(${!csvReadLineNumber})+1 | !csvReadLineNumber | 
+2021-03-18T22:41:09.390Z - [info] Executing:  | echo | ${!csvReadLineNumber} | blue | 
+2021-03-18T22:41:09.434Z - [echo] 2
+2021-03-18T22:41:09.503Z - [info] Executing:  | store | true | !errorIgnore | 
+2021-03-18T22:41:09.589Z - [info] Executing:  | csvRead | user_info.csv |  | 
+2021-03-18T22:41:09.726Z - [info] Executing:  | store | false | !errorIgnore | 
+2021-03-18T22:41:09.810Z - [info] Executing:  | click | xpath=//*[@id="accountDetailsNext"]/div/button/div[2] |  | 
+2021-03-18T22:41:09.984Z - [info] Executing:  | end |  |  | 
+2021-03-18T22:41:10.057Z - [info] Executing:  | while_v2 | ${!csvReadStatus} == "OK" |  | 
+2021-03-18T22:41:10.157Z - [info] Executing:  | echo | Inside subroutine: Status = ${!csvReadStatus}, Line = ${!csvReadLineNumber} | blue | 
+2021-03-18T22:41:10.202Z - [echo] Inside subroutine: Status = OK, Line = 2
+2021-03-18T22:41:10.269Z - [info] Executing:  | type | id=firstName | ${!col1} | 
+2021-03-18T22:41:10.476Z - [info] Executing:  | type | id=lastName | ${!col2} | 
+2021-03-18T22:41:10.731Z - [info] Executing:  | type | id=username | ${!col3} | 
+2021-03-18T22:41:11.037Z - [info] Executing:  | type | name=Passwd | ${!col4} | 
+2021-03-18T22:41:11.367Z - [info] Executing:  | type | name=ConfirmPasswd | ${!col4) | 
+2021-03-18T22:41:11.647Z - [info] Executing:  | echo | ${!csvReadLineNumber} | blue | 
+2021-03-18T22:41:11.691Z - [echo] 2
+2021-03-18T22:41:11.763Z - [info] Executing:  | executeScript_Sandbox | return Number(${!csvReadLineNumber})+1 | !csvReadLineNumber | 
+2021-03-18T22:41:11.878Z - [info] Executing:  | echo | ${!csvReadLineNumber} | blue | 
+2021-03-18T22:41:11.924Z - [echo] 3
+2021-03-18T22:41:11.991Z - [info] Executing:  | store | true | !errorIgnore | 
+2021-03-18T22:41:12.103Z - [info] Executing:  | csvRead | user_info.csv |  | 
+2021-03-18T22:41:12.285Z - [info] Executing:  | store | false | !errorIgnore | 
+2021-03-18T22:41:12.480Z - [info] Executing:  | click | xpath=//*[@id="accountDetailsNext"]/div/button/div[2] |  | 
+2021-03-18T22:41:12.759Z - [info] Executing:  | end |  |  | 
+2021-03-18T22:41:12.859Z - [info] Executing:  | while_v2 | ${!csvReadStatus} == "OK" |  | 
+2021-03-18T22:41:12.958Z - [info] Executing:  | echo | Inside subroutine: Status = ${!csvReadStatus}, Line = ${!csvReadLineNumber} | blue | 
+2021-03-18T22:41:13.010Z - [echo] Inside subroutine: Status = OK, Line = 3
+2021-03-18T22:41:13.077Z - [info] Executing:  | type | id=firstName | ${!col1} | 
+2021-03-18T22:41:13.286Z - [info] Executing:  | type | id=lastName | ${!col2} | 
+2021-03-18T22:41:13.480Z - [info] Executing:  | type | id=username | ${!col3} | 
+2021-03-18T22:41:13.745Z - [info] Executing:  | type | name=Passwd | ${!col4} | 
+2021-03-18T22:41:13.994Z - [info] Executing:  | type | name=ConfirmPasswd | ${!col4) | 
+2021-03-18T22:41:14.236Z - [info] Executing:  | echo | ${!csvReadLineNumber} | blue | 
+2021-03-18T22:41:14.277Z - [echo] 3
+2021-03-18T22:41:14.343Z - [info] Executing:  | executeScript_Sandbox | return Number(${!csvReadLineNumber})+1 | !csvReadLineNumber | 
+2021-03-18T22:41:14.507Z - [info] Executing:  | echo | ${!csvReadLineNumber} | blue | 
+2021-03-18T22:41:14.558Z - [echo] 4
+2021-03-18T22:41:14.632Z - [info] Executing:  | store | true | !errorIgnore | 
+2021-03-18T22:41:14.745Z - [info] Executing:  | csvRead | user_info.csv |  | 
+2021-03-18T22:41:14.911Z - [info] Executing:  | store | false | !errorIgnore | 
+2021-03-18T22:41:15.014Z - [info] Executing:  | click | xpath=//*[@id="accountDetailsNext"]/div/button/div[2] |  | 
+2021-03-18T22:41:15.208Z - [info] Executing:  | end |  |  | 
+2021-03-18T22:41:15.289Z - [info] Executing:  | while_v2 | ${!csvReadStatus} == "OK" |  | 
+2021-03-18T22:41:15.419Z - [info] Executing:  | echo | Inside subroutine: Status = ${!csvReadStatus}, Line = ${!csvReadLineNumber} | blue | 
+2021-03-18T22:41:15.484Z - [echo] Inside subroutine: Status = OK, Line = 4
+2021-03-18T22:41:15.570Z - [info] Executing:  | type | id=firstName | ${!col1} | 
+2021-03-18T22:41:15.860Z - [info] Executing:  | type | id=lastName | ${!col2} | 
+2021-03-18T22:41:16.085Z - [info] Executing:  | type | id=username | ${!col3} | 
+2021-03-18T22:41:16.489Z - [info] Executing:  | type | name=Passwd | ${!col4} | 
+2021-03-18T22:41:16.870Z - [info] Executing:  | type | name=ConfirmPasswd | ${!col4) | 
+2021-03-18T22:41:17.121Z - [info] Executing:  | echo | ${!csvReadLineNumber} | blue | 
+2021-03-18T22:41:17.161Z - [echo] 4
+2021-03-18T22:41:17.229Z - [info] Executing:  | executeScript_Sandbox | return Number(${!csvReadLineNumber})+1 | !csvReadLineNumber | 
+2021-03-18T22:41:17.332Z - [info] Executing:  | echo | ${!csvReadLineNumber} | blue | 
+2021-03-18T22:41:17.377Z - [echo] 5
+2021-03-18T22:41:17.441Z - [info] Executing:  | store | true | !errorIgnore | 
+2021-03-18T22:41:17.541Z - [info] Executing:  | csvRead | user_info.csv |  | 
+2021-03-18T22:41:17.638Z - [error][ignored] end of csv file reached
+2021-03-18T22:41:17.709Z - [info] Executing:  | store | false | !errorIgnore | 
+2021-03-18T22:41:17.794Z - [info] Executing:  | click | xpath=//*[@id="accountDetailsNext"]/div/button/div[2] |  | 
+2021-03-18T22:41:17.994Z - [info] Executing:  | end |  |  | 
+2021-03-18T22:41:18.143Z - [info] Executing:  | while_v2 | ${!csvReadStatus} == "OK" |  | 
+2021-03-18T22:41:18.244Z - [info] Executing:  | open | https://accounts.google.com/signup/v2/webcreateaccount?service=mail&continue=https%3A%2F%2Fmail.google.com%2Fmail&hl=en-GB&dsh=S-1089625264%3A1616102015659256&gmb=exp&biz=false&flowName=GlifWebSignIn&flowEntry=SignUp |  | 
+2021-03-18T22:41:19.794Z - [info] Macro was stopped manually (Runtime 14.27s)
+2021-03-18T22:41:48.739Z - [status] Playing macro Create user accounts
+2021-03-18T22:41:48.844Z - [info] Executing:  | open | https://accounts.google.com/signup/v2/webcreateaccount?service=mail&continue=https%3A%2F%2Fmail.google.com%2Fmail&hl=en-GB&dsh=S-1089625264%3A1616102015659256&gmb=exp&biz=false&flowName=GlifWebSignIn&flowEntry=SignUp |  | 
+2021-03-18T22:41:51.037Z - [info] Executing:  | csvRead | user_info.csv |  | 
+2021-03-18T22:41:51.180Z - [info] Executing:  | while_v2 | ${!csvReadStatus} == "OK" |  | 
+2021-03-18T22:41:51.247Z - [info] Executing:  | echo | Inside subroutine: Status = ${!csvReadStatus}, Line = ${!csvReadLineNumber} | blue | 
+2021-03-18T22:41:51.285Z - [echo] Inside subroutine: Status = OK, Line = 1
+2021-03-18T22:41:51.356Z - [info] Executing:  | type | id=firstName | ${!col1} | 
+2021-03-18T22:41:51.539Z - [info] Executing:  | type | id=lastName | ${!col2} | 
+2021-03-18T22:41:51.712Z - [info] Executing:  | type | id=username | ${!col3} | 
+2021-03-18T22:41:51.931Z - [info] Executing:  | type | name=Passwd | ${!col4} | 
+2021-03-18T22:41:52.161Z - [info] Executing:  | type | name=ConfirmPasswd | ${!col4} | 
+2021-03-18T22:41:52.387Z - [info] Executing:  | echo | ${!csvReadLineNumber} | blue | 
+2021-03-18T22:41:52.432Z - [echo] 1
+2021-03-18T22:41:52.514Z - [info] Executing:  | executeScript_Sandbox | return Number(${!csvReadLineNumber})+1 | !csvReadLineNumber | 
+2021-03-18T22:41:52.624Z - [info] Executing:  | echo | ${!csvReadLineNumber} | blue | 
+2021-03-18T22:41:52.683Z - [echo] 2
+2021-03-18T22:41:52.755Z - [info] Executing:  | store | true | !errorIgnore | 
+2021-03-18T22:41:52.862Z - [info] Executing:  | csvRead | user_info.csv |  | 
+2021-03-18T22:41:53.041Z - [info] Executing:  | store | false | !errorIgnore | 
+2021-03-18T22:41:53.160Z - [info] Executing:  | click | xpath=//*[@id="accountDetailsNext"]/div/button/div[2] |  | 
+2021-03-18T22:41:53.404Z - [info] Executing:  | end |  |  | 
+2021-03-18T22:41:53.539Z - [info] Executing:  | while_v2 | ${!csvReadStatus} == "OK" |  | 
+2021-03-18T22:41:53.687Z - [info] Executing:  | echo | Inside subroutine: Status = ${!csvReadStatus}, Line = ${!csvReadLineNumber} | blue | 
+2021-03-18T22:41:53.758Z - [echo] Inside subroutine: Status = OK, Line = 2
+2021-03-18T22:41:53.853Z - [info] Executing:  | type | id=firstName | ${!col1} | 
+2021-03-18T22:41:54.274Z - [info] Executing:  | type | id=lastName | ${!col2} | 
+2021-03-18T22:41:54.439Z - [info] Executing:  | type | id=username | ${!col3} | 
+2021-03-18T22:41:54.678Z - [info] Executing:  | type | name=Passwd | ${!col4} | 
+2021-03-18T22:41:54.893Z - [info] Executing:  | type | name=ConfirmPasswd | ${!col4} | 
+2021-03-18T22:41:55.114Z - [info] Executing:  | echo | ${!csvReadLineNumber} | blue | 
+2021-03-18T22:41:55.168Z - [echo] 2
+2021-03-18T22:41:55.228Z - [info] Executing:  | executeScript_Sandbox | return Number(${!csvReadLineNumber})+1 | !csvReadLineNumber | 
+2021-03-18T22:41:55.338Z - [info] Executing:  | echo | ${!csvReadLineNumber} | blue | 
+2021-03-18T22:41:55.407Z - [echo] 3
+2021-03-18T22:41:55.496Z - [info] Executing:  | store | true | !errorIgnore | 
+2021-03-18T22:41:55.614Z - [info] Executing:  | csvRead | user_info.csv |  | 
+2021-03-18T22:41:55.808Z - [info] Executing:  | store | false | !errorIgnore | 
+2021-03-18T22:41:55.925Z - [info] Executing:  | click | xpath=//*[@id="accountDetailsNext"]/div/button/div[2] |  | 
+2021-03-18T22:41:56.227Z - [info] Executing:  | end |  |  | 
+2021-03-18T22:41:56.333Z - [info] Executing:  | while_v2 | ${!csvReadStatus} == "OK" |  | 
+2021-03-18T22:41:56.454Z - [info] Executing:  | echo | Inside subroutine: Status = ${!csvReadStatus}, Line = ${!csvReadLineNumber} | blue | 
+2021-03-18T22:41:56.517Z - [echo] Inside subroutine: Status = OK, Line = 3
+2021-03-18T22:41:56.606Z - [info] Executing:  | type | id=firstName | ${!col1} | 
+2021-03-18T22:41:56.829Z - [info] Executing:  | type | id=lastName | ${!col2} | 
+2021-03-18T22:41:57.040Z - [info] Executing:  | type | id=username | ${!col3} | 
+2021-03-18T22:41:57.325Z - [info] Executing:  | type | name=Passwd | ${!col4} | 
+2021-03-18T22:41:57.557Z - [info] Executing:  | type | name=ConfirmPasswd | ${!col4} | 
+2021-03-18T22:41:57.818Z - [info] Executing:  | echo | ${!csvReadLineNumber} | blue | 
+2021-03-18T22:41:57.884Z - [echo] 3
+2021-03-18T22:41:57.966Z - [info] Executing:  | executeScript_Sandbox | return Number(${!csvReadLineNumber})+1 | !csvReadLineNumber | 
+2021-03-18T22:41:58.111Z - [info] Executing:  | echo | ${!csvReadLineNumber} | blue | 
+2021-03-18T22:41:58.182Z - [echo] 4
+2021-03-18T22:41:58.278Z - [info] Executing:  | store | true | !errorIgnore | 
+2021-03-18T22:41:58.426Z - [info] Executing:  | csvRead | user_info.csv |  | 
+2021-03-18T22:41:58.621Z - [info] Executing:  | store | false | !errorIgnore | 
+2021-03-18T22:41:58.726Z - [info] Executing:  | click | xpath=//*[@id="accountDetailsNext"]/div/button/div[2] |  | 
+2021-03-18T22:42:09.001Z - [error] timeout reached when looking for element 'xpath=//*[@id="accountDetailsNext"]/div/button/div[2]'
+2021-03-18T22:42:09.081Z - [info] Macro failed (Runtime 20.26s)
+2021-03-18T22:44:38.759Z - [status] Playing macro Create user accounts
+2021-03-18T22:44:38.882Z - [info] Executing:  | open | https://accounts.google.com/signup/v2/webcreateaccount?service=mail&continue=https%3A%2F%2Fmail.google.com%2Fmail&hl=en-GB&dsh=S-1089625264%3A1616102015659256&gmb=exp&biz=false&flowName=GlifWebSignIn&flowEntry=SignUp |  | 
+2021-03-18T22:44:41.099Z - [info] Executing:  | csvRead | user_info.csv |  | 
+2021-03-18T22:44:41.266Z - [info] Executing:  | while_v2 | ${!csvReadStatus} == "OK" |  | 
+2021-03-18T22:44:41.349Z - [info] Executing:  | echo | Inside subroutine: Status = ${!csvReadStatus}, Line = ${!csvReadLineNumber} | blue | 
+2021-03-18T22:44:41.404Z - [echo] Inside subroutine: Status = OK, Line = 1
+2021-03-18T22:44:41.489Z - [info] Executing:  | type | id=firstName | ${!col1} | 
+2021-03-18T22:44:41.685Z - [info] Executing:  | type | id=lastName | ${!col2} | 
+2021-03-18T22:44:41.903Z - [info] Executing:  | type | id=username | ${!col3} | 
+2021-03-18T22:44:42.191Z - [info] Executing:  | type | name=Passwd | ${!col4} | 
+2021-03-18T22:44:42.421Z - [info] Executing:  | type | name=ConfirmPasswd | ${!col4} | 
+2021-03-18T22:44:42.635Z - [info] Executing:  | echo | ${!csvReadLineNumber} | blue | 
+2021-03-18T22:44:42.690Z - [echo] 1
+2021-03-18T22:44:42.762Z - [info] Executing:  | executeScript_Sandbox | return Number(${!csvReadLineNumber})+1 | !csvReadLineNumber | 
+2021-03-18T22:44:42.879Z - [info] Executing:  | echo | ${!csvReadLineNumber} | blue | 
+2021-03-18T22:44:42.943Z - [echo] 2
+2021-03-18T22:44:43.014Z - [info] Executing:  | store | true | !errorIgnore | 
+2021-03-18T22:44:43.127Z - [info] Executing:  | csvRead | user_info.csv |  | 
+2021-03-18T22:44:43.305Z - [info] Executing:  | store | false | !errorIgnore | 
+2021-03-18T22:44:43.414Z - [info] Executing:  | click | xpath=//*[@id="accountDetailsNext"]/div/button/div[2] |  | 
+2021-03-18T22:44:43.640Z - [info] Executing:  | end |  |  | 
+2021-03-18T22:44:43.740Z - [info] Executing:  | while_v2 | ${!csvReadStatus} == "OK" |  | 
+2021-03-18T22:44:43.891Z - [info] Executing:  | echo | Inside subroutine: Status = ${!csvReadStatus}, Line = ${!csvReadLineNumber} | blue | 
+2021-03-18T22:44:43.962Z - [echo] Inside subroutine: Status = OK, Line = 2
+2021-03-18T22:44:44.057Z - [info] Executing:  | type | id=firstName | ${!col1} | 
+2021-03-18T22:44:44.306Z - [info] Executing:  | type | id=lastName | ${!col2} | 
+2021-03-18T22:44:44.522Z - [info] Executing:  | type | id=username | ${!col3} | 
+2021-03-18T22:44:44.845Z - [info] Executing:  | type | name=Passwd | ${!col4} | 
+2021-03-18T22:44:45.158Z - [info] Executing:  | type | name=ConfirmPasswd | ${!col4} | 
+2021-03-18T22:44:45.474Z - [info] Executing:  | echo | ${!csvReadLineNumber} | blue | 
+2021-03-18T22:44:45.536Z - [echo] 2
+2021-03-18T22:44:45.606Z - [info] Executing:  | executeScript_Sandbox | return Number(${!csvReadLineNumber})+1 | !csvReadLineNumber | 
+2021-03-18T22:44:45.749Z - [info] Executing:  | echo | ${!csvReadLineNumber} | blue | 
+2021-03-18T22:44:45.815Z - [echo] 3
+2021-03-18T22:44:45.905Z - [info] Executing:  | store | true | !errorIgnore | 
+2021-03-18T22:44:46.027Z - [info] Executing:  | csvRead | user_info.csv |  | 
+2021-03-18T22:44:46.230Z - [info] Executing:  | store | false | !errorIgnore | 
+2021-03-18T22:44:46.328Z - [info] Executing:  | click | xpath=//*[@id="accountDetailsNext"]/div/button/div[2] |  | 
+2021-03-18T22:44:56.499Z - [error] timeout reached when looking for element 'xpath=//*[@id="accountDetailsNext"]/div/button/div[2]'
+2021-03-18T22:44:56.576Z - [info] Macro failed (Runtime 17.72s)
+2021-03-18T22:45:04.823Z - [status] Playing macro Create user accounts
+2021-03-18T22:45:04.932Z - [info] Executing:  | open | https://accounts.google.com/signup/v2/webcreateaccount?service=mail&continue=https%3A%2F%2Fmail.google.com%2Fmail&hl=en-GB&dsh=S-1089625264%3A1616102015659256&gmb=exp&biz=false&flowName=GlifWebSignIn&flowEntry=SignUp |  | 
+2021-03-18T22:45:07.131Z - [info] Executing:  | csvRead | user_info.csv |  | 
+2021-03-18T22:45:07.286Z - [info] Executing:  | while_v2 | ${!csvReadStatus} == "OK" |  | 
+2021-03-18T22:45:07.367Z - [info] Executing:  | echo | Inside subroutine: Status = ${!csvReadStatus}, Line = ${!csvReadLineNumber} | blue | 
+2021-03-18T22:45:07.421Z - [echo] Inside subroutine: Status = OK, Line = 1
+2021-03-18T22:45:07.506Z - [info] Executing:  | type | id=firstName | ${!col1} | 
+2021-03-18T22:45:07.706Z - [info] Executing:  | type | id=lastName | ${!col2} | 
+2021-03-18T22:45:07.884Z - [info] Executing:  | type | id=username | ${!col3} | 
+2021-03-18T22:45:08.217Z - [info] Executing:  | type | name=Passwd | ${!col4} | 
+2021-03-18T22:45:08.453Z - [info] Executing:  | type | name=ConfirmPasswd | ${!col4} | 
+2021-03-18T22:45:08.682Z - [info] Executing:  | echo | ${!csvReadLineNumber} | blue | 
+2021-03-18T22:45:08.746Z - [echo] 1
+2021-03-18T22:45:08.807Z - [info] Executing:  | executeScript_Sandbox | return Number(${!csvReadLineNumber})+1 | !csvReadLineNumber | 
+2021-03-18T22:45:08.924Z - [info] Executing:  | echo | ${!csvReadLineNumber} | blue | 
+2021-03-18T22:45:08.984Z - [echo] 2
+2021-03-18T22:45:09.059Z - [info] Executing:  | store | true | !errorIgnore | 
+2021-03-18T22:45:09.191Z - [info] Executing:  | csvRead | user_info.csv |  | 
+2021-03-18T22:45:09.392Z - [info] Executing:  | store | false | !errorIgnore | 
+2021-03-18T22:45:09.523Z - [info] Executing:  | clickAndWait | xpath=//*[@id="accountDetailsNext"]/div/button/div[2] |  | 
+2021-03-18T22:45:21.760Z - [error] 'clickAndWait' failed. No page load event detected after 10 seconds. Try 'click' instead. Error detail: still same ipc secret
+2021-03-18T22:45:21.833Z - [info] Macro failed (Runtime 16.92s)
+2021-03-18T22:45:49.540Z - [status] Playing macro Create user accounts
+2021-03-18T22:45:49.656Z - [info] Executing:  | open | https://accounts.google.com/signup/v2/webcreateaccount?service=mail&continue=https%3A%2F%2Fmail.google.com%2Fmail&hl=en-GB&dsh=S-1089625264%3A1616102015659256&gmb=exp&biz=false&flowName=GlifWebSignIn&flowEntry=SignUp |  | 
+2021-03-18T22:45:51.888Z - [info] Executing:  | csvRead | user_info.csv |  | 
+2021-03-18T22:45:52.045Z - [info] Executing:  | while_v2 | ${!csvReadStatus} == "OK" |  | 
+2021-03-18T22:45:52.130Z - [info] Executing:  | echo | Inside subroutine: Status = ${!csvReadStatus}, Line = ${!csvReadLineNumber} | blue | 
+2021-03-18T22:45:52.183Z - [echo] Inside subroutine: Status = OK, Line = 1
+2021-03-18T22:45:52.273Z - [info] Executing:  | type | id=firstName | ${!col1} | 
+2021-03-18T22:45:52.475Z - [info] Executing:  | type | id=lastName | ${!col2} | 
+2021-03-18T22:45:52.671Z - [info] Executing:  | type | id=username | ${!col3} | 
+2021-03-18T22:45:52.974Z - [info] Executing:  | type | name=Passwd | ${!col4} | 
+2021-03-18T22:45:53.215Z - [info] Executing:  | type | name=ConfirmPasswd | ${!col4} | 
+2021-03-18T22:45:53.446Z - [info] Executing:  | echo | ${!csvReadLineNumber} | blue | 
+2021-03-18T22:45:53.507Z - [echo] 1
+2021-03-18T22:45:53.574Z - [info] Executing:  | executeScript_Sandbox | return Number(${!csvReadLineNumber})+1 | !csvReadLineNumber | 
+2021-03-18T22:45:53.700Z - [info] Executing:  | echo | ${!csvReadLineNumber} | blue | 
+2021-03-18T22:45:53.769Z - [echo] 2
+2021-03-18T22:45:53.847Z - [info] Executing:  | store | true | !errorIgnore | 
+2021-03-18T22:45:53.955Z - [info] Executing:  | csvRead | user_info.csv |  | 
+2021-03-18T22:45:54.125Z - [info] Executing:  | store | false | !errorIgnore | 
+2021-03-18T22:45:54.229Z - [info] Executing:  | click | xpath=//*[@id="accountDetailsNext"]/div/button/div[2] |  | 
+2021-03-18T22:45:54.419Z - [info] Executing:  | open | https://accounts.google.com/signup/v2/webcreateaccount?service=mail&continue=https%3A%2F%2Fmail.google.com%2Fmail&hl=en-GB&dsh=S-1089625264%3A1616102015659256&gmb=exp&biz=false&flowName=GlifWebSignIn&flowEntry=SignUp |  | 
+2021-03-18T22:45:56.671Z - [info] Executing:  | end |  |  | 
+2021-03-18T22:45:56.755Z - [info] Executing:  | while_v2 | ${!csvReadStatus} == "OK" |  | 
+2021-03-18T22:45:56.862Z - [info] Executing:  | echo | Inside subroutine: Status = ${!csvReadStatus}, Line = ${!csvReadLineNumber} | blue | 
+2021-03-18T22:45:56.919Z - [echo] Inside subroutine: Status = OK, Line = 2
+2021-03-18T22:45:56.992Z - [info] Executing:  | type | id=firstName | ${!col1} | 
+2021-03-18T22:45:57.193Z - [info] Executing:  | type | id=lastName | ${!col2} | 
+2021-03-18T22:45:57.388Z - [info] Executing:  | type | id=username | ${!col3} | 
+2021-03-18T22:45:57.693Z - [info] Executing:  | type | name=Passwd | ${!col4} | 
+2021-03-18T22:45:57.934Z - [info] Executing:  | type | name=ConfirmPasswd | ${!col4} | 
+2021-03-18T22:45:58.230Z - [info] Executing:  | echo | ${!csvReadLineNumber} | blue | 
+2021-03-18T22:45:58.289Z - [echo] 2
+2021-03-18T22:45:58.362Z - [info] Executing:  | executeScript_Sandbox | return Number(${!csvReadLineNumber})+1 | !csvReadLineNumber | 
+2021-03-18T22:45:58.498Z - [info] Executing:  | echo | ${!csvReadLineNumber} | blue | 
+2021-03-18T22:45:58.564Z - [echo] 3
+2021-03-18T22:45:58.649Z - [info] Executing:  | store | true | !errorIgnore | 
+2021-03-18T22:45:58.772Z - [info] Executing:  | csvRead | user_info.csv |  | 
+2021-03-18T22:45:58.963Z - [info] Executing:  | store | false | !errorIgnore | 
+2021-03-18T22:45:59.064Z - [info] Executing:  | click | xpath=//*[@id="accountDetailsNext"]/div/button/div[2] |  | 
+2021-03-18T22:45:59.280Z - [info] Executing:  | open | https://accounts.google.com/signup/v2/webcreateaccount?service=mail&continue=https%3A%2F%2Fmail.google.com%2Fmail&hl=en-GB&dsh=S-1089625264%3A1616102015659256&gmb=exp&biz=false&flowName=GlifWebSignIn&flowEntry=SignUp |  | 
+2021-03-18T22:46:01.524Z - [info] Executing:  | end |  |  | 
+2021-03-18T22:46:01.608Z - [info] Executing:  | while_v2 | ${!csvReadStatus} == "OK" |  | 
+2021-03-18T22:46:01.707Z - [info] Executing:  | echo | Inside subroutine: Status = ${!csvReadStatus}, Line = ${!csvReadLineNumber} | blue | 
+2021-03-18T22:46:01.767Z - [echo] Inside subroutine: Status = OK, Line = 3
+2021-03-18T22:46:01.837Z - [info] Executing:  | type | id=firstName | ${!col1} | 
+2021-03-18T22:46:02.037Z - [info] Executing:  | type | id=lastName | ${!col2} | 
+2021-03-18T22:46:02.239Z - [info] Executing:  | type | id=username | ${!col3} | 
+2021-03-18T22:46:02.580Z - [info] Executing:  | type | name=Passwd | ${!col4} | 
+2021-03-18T22:46:02.827Z - [info] Executing:  | type | name=ConfirmPasswd | ${!col4} | 
+2021-03-18T22:46:03.090Z - [info] Executing:  | echo | ${!csvReadLineNumber} | blue | 
+2021-03-18T22:46:03.151Z - [echo] 3
+2021-03-18T22:46:03.246Z - [info] Executing:  | executeScript_Sandbox | return Number(${!csvReadLineNumber})+1 | !csvReadLineNumber | 
+2021-03-18T22:46:03.368Z - [info] Executing:  | echo | ${!csvReadLineNumber} | blue | 
+2021-03-18T22:46:03.432Z - [echo] 4
+2021-03-18T22:46:03.513Z - [info] Executing:  | store | true | !errorIgnore | 
+2021-03-18T22:46:03.649Z - [info] Executing:  | csvRead | user_info.csv |  | 
+2021-03-18T22:46:03.851Z - [info] Executing:  | store | false | !errorIgnore | 
+2021-03-18T22:46:03.974Z - [info] Executing:  | click | xpath=//*[@id="accountDetailsNext"]/div/button/div[2] |  | 
+2021-03-18T22:46:04.190Z - [info] Executing:  | open | https://accounts.google.com/signup/v2/webcreateaccount?service=mail&continue=https%3A%2F%2Fmail.google.com%2Fmail&hl=en-GB&dsh=S-1089625264%3A1616102015659256&gmb=exp&biz=false&flowName=GlifWebSignIn&flowEntry=SignUp |  | 
+2021-03-18T22:46:06.401Z - [info] Executing:  | end |  |  | 
+2021-03-18T22:46:06.483Z - [info] Executing:  | while_v2 | ${!csvReadStatus} == "OK" |  | 
+2021-03-18T22:46:06.587Z - [info] Executing:  | echo | Inside subroutine: Status = ${!csvReadStatus}, Line = ${!csvReadLineNumber} | blue | 
+2021-03-18T22:46:06.646Z - [echo] Inside subroutine: Status = OK, Line = 4
+2021-03-18T22:46:06.717Z - [info] Executing:  | type | id=firstName | ${!col1} | 
+2021-03-18T22:46:06.930Z - [info] Executing:  | type | id=lastName | ${!col2} | 
+2021-03-18T22:46:07.145Z - [info] Executing:  | type | id=username | ${!col3} | 
+2021-03-18T22:46:07.441Z - [info] Executing:  | type | name=Passwd | ${!col4} | 
+2021-03-18T22:46:07.661Z - [info] Executing:  | type | name=ConfirmPasswd | ${!col4} | 
+2021-03-18T22:46:07.890Z - [info] Executing:  | echo | ${!csvReadLineNumber} | blue | 
+2021-03-18T22:46:07.949Z - [echo] 4
+2021-03-18T22:46:08.019Z - [info] Executing:  | executeScript_Sandbox | return Number(${!csvReadLineNumber})+1 | !csvReadLineNumber | 
+2021-03-18T22:46:08.169Z - [info] Executing:  | echo | ${!csvReadLineNumber} | blue | 
+2021-03-18T22:46:08.237Z - [echo] 5
+2021-03-18T22:46:08.322Z - [info] Executing:  | store | true | !errorIgnore | 
+2021-03-18T22:46:08.449Z - [info] Executing:  | csvRead | user_info.csv |  | 
+2021-03-18T22:46:08.570Z - [error][ignored] end of csv file reached
+2021-03-18T22:46:08.647Z - [info] Executing:  | store | false | !errorIgnore | 
+2021-03-18T22:46:08.750Z - [info] Executing:  | click | xpath=//*[@id="accountDetailsNext"]/div/button/div[2] |  | 
+2021-03-18T22:46:08.973Z - [info] Executing:  | open | https://accounts.google.com/signup/v2/webcreateaccount?service=mail&continue=https%3A%2F%2Fmail.google.com%2Fmail&hl=en-GB&dsh=S-1089625264%3A1616102015659256&gmb=exp&biz=false&flowName=GlifWebSignIn&flowEntry=SignUp |  | 
+2021-03-18T22:46:11.216Z - [info] Executing:  | end |  |  | 
+2021-03-18T22:46:11.321Z - [info] Executing:  | while_v2 | ${!csvReadStatus} == "OK" |  | 
+2021-03-18T22:46:11.478Z - [info] Macro completed (Runtime 21.84s)
+2021-03-18T22:46:28.914Z - [status] Playing macro Create user accounts
+2021-03-18T22:46:29.033Z - [info] Executing:  | open | https://accounts.google.com/signup/v2/webcreateaccount?service=mail&continue=https%3A%2F%2Fmail.google.com%2Fmail&hl=en-GB&dsh=S-1089625264%3A1616102015659256&gmb=exp&biz=false&flowName=GlifWebSignIn&flowEntry=SignUp |  | 
+2021-03-18T22:46:31.305Z - [info] Executing:  | csvRead | user_info.csv |  | 
+2021-03-18T22:46:31.475Z - [info] Executing:  | while_v2 | ${!csvReadStatus} == "OK" |  | 
+2021-03-18T22:46:31.563Z - [info] Executing:  | echo | Inside subroutine: Status = ${!csvReadStatus}, Line = ${!csvReadLineNumber} | blue | 
+2021-03-18T22:46:31.619Z - [echo] Inside subroutine: Status = OK, Line = 1
+2021-03-18T22:46:31.694Z - [info] Executing:  | type | id=firstName | ${!col1} | 
+2021-03-18T22:46:31.887Z - [info] Executing:  | type | id=lastName | ${!col2} | 
+2021-03-18T22:46:32.080Z - [info] Executing:  | type | id=username | ${!col3} | 
+2021-03-18T22:46:32.361Z - [info] Executing:  | type | name=Passwd | ${!col4} | 
+2021-03-18T22:46:32.578Z - [info] Executing:  | type | name=ConfirmPasswd | ${!col4} | 
+2021-03-18T22:46:32.811Z - [info] Executing:  | echo | ${!csvReadLineNumber} | blue | 
+2021-03-18T22:46:32.867Z - [echo] 1
+2021-03-18T22:46:32.955Z - [info] Executing:  | executeScript_Sandbox | return Number(${!csvReadLineNumber})+1 | !csvReadLineNumber | 
+2021-03-18T22:46:33.062Z - [info] Executing:  | echo | ${!csvReadLineNumber} | blue | 
+2021-03-18T22:46:33.119Z - [echo] 2
+2021-03-18T22:46:33.195Z - [info] Executing:  | store | true | !errorIgnore | 
+2021-03-18T22:46:33.303Z - [info] Executing:  | csvRead | user_info.csv |  | 
+2021-03-18T22:46:33.469Z - [info] Executing:  | store | false | !errorIgnore | 
+2021-03-18T22:46:33.565Z - [info] Executing:  | click | xpath=//*[@id="accountDetailsNext"]/div/button/div[2] |  | 
+2021-03-18T22:46:33.741Z - [info] Executing:  | pause | 3000 |  | 
+2021-03-18T22:46:36.822Z - [info] Executing:  | open | https://accounts.google.com/signup/v2/webcreateaccount?service=mail&continue=https%3A%2F%2Fmail.google.com%2Fmail&hl=en-GB&dsh=S-1089625264%3A1616102015659256&gmb=exp&biz=false&flowName=GlifWebSignIn&flowEntry=SignUp |  | 
+2021-03-18T22:46:39.058Z - [info] Executing:  | end |  |  | 
+2021-03-18T22:46:39.150Z - [info] Executing:  | while_v2 | ${!csvReadStatus} == "OK" |  | 
+2021-03-18T22:46:39.271Z - [info] Executing:  | echo | Inside subroutine: Status = ${!csvReadStatus}, Line = ${!csvReadLineNumber} | blue | 
+2021-03-18T22:46:39.335Z - [echo] Inside subroutine: Status = OK, Line = 2
+2021-03-18T22:46:39.419Z - [info] Executing:  | type | id=firstName | ${!col1} | 
+2021-03-18T22:46:39.654Z - [info] Executing:  | type | id=lastName | ${!col2} | 
+2021-03-18T22:46:39.875Z - [info] Executing:  | type | id=username | ${!col3} | 
+2021-03-18T22:46:40.253Z - [info] Executing:  | type | name=Passwd | ${!col4} | 
+2021-03-18T22:46:40.514Z - [info] Executing:  | type | name=ConfirmPasswd | ${!col4} | 
+2021-03-18T22:46:40.782Z - [info] Executing:  | echo | ${!csvReadLineNumber} | blue | 
+2021-03-18T22:46:40.841Z - [echo] 2
+2021-03-18T22:46:40.929Z - [info] Executing:  | executeScript_Sandbox | return Number(${!csvReadLineNumber})+1 | !csvReadLineNumber | 
+2021-03-18T22:46:41.045Z - [info] Executing:  | echo | ${!csvReadLineNumber} | blue | 
+2021-03-18T22:46:41.105Z - [echo] 3
+2021-03-18T22:46:41.188Z - [info] Executing:  | store | true | !errorIgnore | 
+2021-03-18T22:46:41.294Z - [info] Executing:  | csvRead | user_info.csv |  | 
+2021-03-18T22:46:41.460Z - [info] Executing:  | store | false | !errorIgnore | 
+2021-03-18T22:46:41.553Z - [info] Executing:  | click | xpath=//*[@id="accountDetailsNext"]/div/button/div[2] |  | 
+2021-03-18T22:46:41.742Z - [info] Executing:  | pause | 3000 |  | 
+2021-03-18T22:46:44.817Z - [info] Executing:  | open | https://accounts.google.com/signup/v2/webcreateaccount?service=mail&continue=https%3A%2F%2Fmail.google.com%2Fmail&hl=en-GB&dsh=S-1089625264%3A1616102015659256&gmb=exp&biz=false&flowName=GlifWebSignIn&flowEntry=SignUp |  | 
+2021-03-18T22:46:47.011Z - [info] Executing:  | end |  |  | 
+2021-03-18T22:46:47.092Z - [info] Executing:  | while_v2 | ${!csvReadStatus} == "OK" |  | 
+2021-03-18T22:46:47.186Z - [info] Executing:  | echo | Inside subroutine: Status = ${!csvReadStatus}, Line = ${!csvReadLineNumber} | blue | 
+2021-03-18T22:46:47.247Z - [echo] Inside subroutine: Status = OK, Line = 3
+2021-03-18T22:46:47.323Z - [info] Executing:  | type | id=firstName | ${!col1} | 
+2021-03-18T22:46:47.517Z - [info] Executing:  | type | id=lastName | ${!col2} | 
+2021-03-18T22:46:47.763Z - [info] Executing:  | type | id=username | ${!col3} | 
+2021-03-18T22:46:48.248Z - [info] Executing:  | type | name=Passwd | ${!col4} | 
+2021-03-18T22:46:54.011Z - [info] Executing:  | type | name=ConfirmPasswd | ${!col4} | 
+2021-03-18T22:46:54.249Z - [info] Executing:  | echo | ${!csvReadLineNumber} | blue | 
+2021-03-18T22:46:54.312Z - [echo] 3
+2021-03-18T22:46:54.396Z - [info] Executing:  | executeScript_Sandbox | return Number(${!csvReadLineNumber})+1 | !csvReadLineNumber | 
+2021-03-18T22:46:54.513Z - [info] Executing:  | echo | ${!csvReadLineNumber} | blue | 
+2021-03-18T22:46:54.564Z - [echo] 4
+2021-03-18T22:46:54.648Z - [info] Executing:  | store | true | !errorIgnore | 
+2021-03-18T22:46:54.772Z - [info] Executing:  | csvRead | user_info.csv |  | 
+2021-03-18T22:46:54.928Z - [info] Executing:  | store | false | !errorIgnore | 
+2021-03-18T22:46:55.027Z - [info] Executing:  | click | xpath=//*[@id="accountDetailsNext"]/div/button/div[2] |  | 
+2021-03-18T22:46:55.225Z - [info] Executing:  | pause | 3000 |  | 
+2021-03-18T22:46:58.306Z - [info] Executing:  | open | https://accounts.google.com/signup/v2/webcreateaccount?service=mail&continue=https%3A%2F%2Fmail.google.com%2Fmail&hl=en-GB&dsh=S-1089625264%3A1616102015659256&gmb=exp&biz=false&flowName=GlifWebSignIn&flowEntry=SignUp |  | 
+2021-03-18T22:47:00.490Z - [info] Executing:  | end |  |  | 
+2021-03-18T22:47:00.578Z - [info] Executing:  | while_v2 | ${!csvReadStatus} == "OK" |  | 
+2021-03-18T22:47:00.694Z - [info] Executing:  | echo | Inside subroutine: Status = ${!csvReadStatus}, Line = ${!csvReadLineNumber} | blue | 
+2021-03-18T22:47:00.742Z - [echo] Inside subroutine: Status = OK, Line = 4
+2021-03-18T22:47:00.806Z - [info] Executing:  | type | id=firstName | ${!col1} | 
+2021-03-18T22:47:01.001Z - [info] Executing:  | type | id=lastName | ${!col2} | 
+2021-03-18T22:47:01.197Z - [info] Executing:  | type | id=username | ${!col3} | 
+2021-03-18T22:47:01.524Z - [info] Executing:  | type | name=Passwd | ${!col4} | 
+2021-03-18T22:47:01.765Z - [info] Executing:  | type | name=ConfirmPasswd | ${!col4} | 
+2021-03-18T22:47:02.020Z - [info] Executing:  | echo | ${!csvReadLineNumber} | blue | 
+2021-03-18T22:47:02.077Z - [echo] 4
+2021-03-18T22:47:02.168Z - [info] Executing:  | executeScript_Sandbox | return Number(${!csvReadLineNumber})+1 | !csvReadLineNumber | 
+2021-03-18T22:47:02.301Z - [info] Executing:  | echo | ${!csvReadLineNumber} | blue | 
+2021-03-18T22:47:02.350Z - [echo] 5
+2021-03-18T22:47:02.445Z - [info] Executing:  | store | true | !errorIgnore | 
+2021-03-18T22:47:02.553Z - [info] Executing:  | csvRead | user_info.csv |  | 
+2021-03-18T22:47:02.653Z - [error][ignored] end of csv file reached
+2021-03-18T22:47:02.730Z - [info] Executing:  | store | false | !errorIgnore | 
+2021-03-18T22:47:02.827Z - [info] Executing:  | click | xpath=//*[@id="accountDetailsNext"]/div/button/div[2] |  | 
+2021-03-18T22:47:03.024Z - [info] Executing:  | pause | 3000 |  | 
+2021-03-18T22:47:06.135Z - [info] Executing:  | open | https://accounts.google.com/signup/v2/webcreateaccount?service=mail&continue=https%3A%2F%2Fmail.google.com%2Fmail&hl=en-GB&dsh=S-1089625264%3A1616102015659256&gmb=exp&biz=false&flowName=GlifWebSignIn&flowEntry=SignUp |  | 
+2021-03-18T22:47:08.329Z - [info] Executing:  | end |  |  | 
+2021-03-18T22:47:08.424Z - [info] Executing:  | while_v2 | ${!csvReadStatus} == "OK" |  | 
+2021-03-18T22:47:08.573Z - [info] Macro completed (Runtime 39.56s)

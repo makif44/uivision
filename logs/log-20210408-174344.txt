@@ -1,0 +1,30 @@
+2021-04-08T17:43:44.440Z - UI.Vision RPA started
+2021-04-08T17:43:47.235Z - [status] Playing macro RPA_Demo/Read_pdf.json
+2021-04-08T17:43:47.288Z - [info] Executing:  | XRun | C:\Users\Administrator.TECHNE\Desktop\My Account - Add Payment Account - confirmation.pdf |  | 
+2021-04-08T17:43:47.501Z - [info] Executing:  | pause | 2000 |  | 
+2021-04-08T17:43:49.553Z - [info] Executing:  | OCRExtract | accountInfo_dpi_120.png | accountInfo | 
+2021-04-08T17:44:01.680Z - [error] Image 'accountInfo_dpi_120.png' (conf. = 0.8) not found
+2021-04-08T17:44:01.715Z - [info] Macro failed (Runtime 14.44s)
+2021-04-08T17:44:14.741Z - [status] Playing macro Read_pdf
+2021-04-08T17:44:14.802Z - [info] Executing:  | OCRExtract | accountInfo_dpi_120.png | accountInfo | 
+2021-04-08T17:44:16.458Z - [error] Image 'accountInfo_dpi_120.png' (conf. = 0.8) not found
+2021-04-08T17:44:16.486Z - [info] Macro failed (Runtime 1.69s)
+2021-04-08T17:44:36.348Z - [status] Playing macro Read_pdf
+2021-04-08T17:44:36.400Z - [info] Executing:  | OCRExtract | accountInfo_dpi_120.png | accountInfo | 
+2021-04-08T17:44:38.034Z - [error] Image 'accountInfo_dpi_120.png' (conf. = 0.8) not found
+2021-04-08T17:44:38.060Z - [info] Macro failed (Runtime 1.67s)
+2021-04-08T17:45:50.271Z - [info] OCR (eng) started (261.7 KB)
+2021-04-08T17:45:54.145Z - [info] OCR result received (3.8s from endpoint 3)
+2021-04-08T17:46:12.722Z - [status] Playing macro Read_pdf
+2021-04-08T17:46:12.794Z - [info] Executing:  | OCRExtract | accountInfo_dpi_120.png | accountInfo | 
+2021-04-08T17:46:14.467Z - [error] Image 'accountInfo_dpi_120.png' (conf. = 0.8) not found
+2021-04-08T17:46:14.509Z - [info] Macro failed (Runtime 1.73s)
+2021-04-08T17:46:36.451Z - [status] Playing macro Read_pdf
+2021-04-08T17:46:36.511Z - [info] Executing:  | OCRExtract | accountInfo_dpi_120.png@0.65 | accountInfo | 
+2021-04-08T17:46:38.173Z - [error] Image 'accountInfo_dpi_120.png' (conf. = 0.65) not found
+2021-04-08T17:46:38.204Z - [info] Macro failed (Runtime 1.70s)
+2021-04-08T17:47:05.391Z - [status] Playing macro Read_pdf
+2021-04-08T17:47:05.447Z - [info] Executing:  | OCRExtract | accountInfo_dpi_120.png@0.65 | accountInfo | 
+2021-04-08T17:47:07.071Z - [error] Image 'accountInfo_dpi_120.png' (conf. = 0.65) not found
+2021-04-08T17:47:07.101Z - [info] Macro failed (Runtime 1.66s)
+2021-04-08T17:47:19.168Z - UI.Vision RPA closing

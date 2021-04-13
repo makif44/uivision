@@ -1,0 +1,106 @@
+{
+  "Name": "Gmail TECHRPA-10-12",
+  "CreationDate": "2021-3-22",
+  "Commands": [
+    {
+      "Command": "store",
+      "Target": "!replayspeed",
+      "Value": "medium"
+    },
+    {
+      "Command": "XRun",
+      "Target": "C:\\Program Files\\Mozilla Firefox\\firefox.exe",
+      "Value": ""
+    },
+    {
+      "Command": "open",
+      "Target": "https://mail.google.com/mail/u/1/#inbox",
+      "Value": ""
+    },
+    {
+      "Command": "comment",
+      "Target": "setWindowSize // 1700x900",
+      "Value": ""
+    },
+    {
+      "Command": "bringBrowserToForeground",
+      "Target": "",
+      "Value": ""
+    },
+    {
+      "Command": "comment",
+      "Target": "XClickRelative // fullSize_dpi_120.png",
+      "Value": ""
+    },
+    {
+      "Command": "click",
+      "Target": "xpath=/html/body",
+      "Value": ""
+    },
+    {
+      "Command": "visualVerify",
+      "Target": "gmailTopic_dpi_120.png",
+      "Value": ""
+    },
+    {
+      "Command": "click",
+      "Target": "linkText=Snoozed",
+      "Value": ""
+    },
+    {
+      "Command": "visualVerify",
+      "Target": "verifySnoozedPage_dpi_120.png",
+      "Value": "in:snoozed "
+    },
+    {
+      "Command": "click",
+      "Target": "linkText=Sent",
+      "Value": ""
+    },
+    {
+      "Command": "visualVerify",
+      "Target": "verifySentPage_dpi_120.png",
+      "Value": "in:sent"
+    },
+    {
+      "Command": "click",
+      "Target": "linkText=Drafts",
+      "Value": ""
+    },
+    {
+      "Command": "visualVerify",
+      "Target": "verifyDraftPage_dpi_120.png",
+      "Value": "draft"
+    },
+    {
+      "Command": "click",
+      "Target": "linkText=Inbox",
+      "Value": ""
+    },
+    {
+      "Command": "XClick",
+      "Target": "firstEmail_dpi_120.png",
+      "Value": ""
+    },
+    {
+      "Command": "click",
+      "Target": "xpath=//*[@id=\":4\"]/div[4]/div/div/div/div/div",
+      "Value": ""
+    },
+    {
+      "Command": "XType",
+      "Target": "${KEY_ALT+KEY_F4}",
+      "Value": ""
+    },
+    {
+      "Command": "comment",
+      "Target": "click // xpath=//*[@id=\":e1\"]/div[5]/div",
+      "Value": ""
+    },
+    {
+      "Command": "",
+      "Target": "",
+      "Value": ""
+    }
+  ]
+}

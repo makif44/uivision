@@ -1,0 +1,2 @@
+2021-03-19T19:18:13.701Z - UI.Vision RPA started
+2021-03-19T19:18:14.769Z - [error] No connection to browser tab

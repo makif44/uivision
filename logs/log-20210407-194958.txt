@@ -1,0 +1,39 @@
+2021-04-07T19:49:58.037Z - UI.Vision RPA started
+2021-04-07T19:49:58.896Z - [status] Playing macro RPA_Demo/Read_pdf.json
+2021-04-07T19:49:58.958Z - [info] Executing:  | XRun | C:\Users\Administrator.TECHNE\Desktop\My Account - Add Payment Account - confirmation.pdf |  | 
+2021-04-07T19:49:59.328Z - [info] Executing:  | pause | 2000 |  | 
+2021-04-07T19:50:00.811Z - [error] No connection to browser tab
+2021-04-07T19:50:01.361Z - [info] Executing:  | OCRExtract | accountInfo_dpi_120.png | accountInfo | 
+2021-04-07T19:50:04.422Z - [info] OCR (eng) started (3.7 KB)
+2021-04-07T19:50:05.158Z - [info] OCR result received (0.7s from endpoint 1)
+2021-04-07T19:50:05.198Z - [info] Executing:  | executeScript_Sandbox | return ${accountInfo}.replace(/[\t\n\r]/gm,''); | accountInfo | 
+2021-04-07T19:50:05.245Z - [info] Executing:  | echo | ${accountInfo} | blue | 
+2021-04-07T19:50:05.254Z - [echo] Xcel Account Number:51-0013351023-6Name on Account:AYSE KAVUKCUOGULLARI
+2021-04-07T19:50:05.288Z - [info] Executing:  | store | ${accountInfo} | !csvLine | 
+2021-04-07T19:50:05.344Z - [info] Executing:  | csvSave | myPDF |  | 
+2021-04-07T19:50:05.558Z - [info] Executing:  | comment | XRun // C:\Program Files\Mozilla Firefox\firefox.exe |  | 
+2021-04-07T19:50:05.583Z - [info] Executing:  | pause | 5000 |  | 
+2021-04-07T19:50:10.630Z - [info] Executing:  | open | https://mail.google.com/mail/u/1/#inbox |  | 
+2021-04-07T19:50:15.118Z - [info] Executing:  | bringBrowserToForeground |  |  | 
+2021-04-07T19:50:15.268Z - [info] Executing:  | XClickRelative | maximize1_dpi_120.png |  | 
+2021-04-07T19:50:17.370Z - [info] Executing:  | XClick | clickNewEmail_dpi_109.png |  | 
+2021-04-07T19:50:20.943Z - [info] Executing:  | XClickRelative | receiver_dpi_120.png |  | 
+2021-04-07T19:50:24.264Z - [info] Executing:  | comment | pause // 2000 |  | 
+2021-04-07T19:50:24.349Z - [info] Executing:  | XType | makifkav44@gmail.com |  | 
+2021-04-07T19:50:24.850Z - [info] Executing:  | XClick | attach_dpi_120.png |  | 
+2021-04-07T19:50:36.560Z - [error] Image 'attach_dpi_120.png' (conf. = 0.8) not found
+2021-04-07T19:50:36.631Z - [info] Macro failed (Runtime 37.69s)
+2021-04-07T19:51:16.431Z - [status] Playing macro RPA_Demo/Read_pdf.json
+2021-04-07T19:51:16.492Z - [info] Executing:  | XRun | C:\Users\Administrator.TECHNE\Desktop\My Account - Add Payment Account - confirmation.pdf |  | 
+2021-04-07T19:51:16.712Z - [info] Executing:  | pause | 2000 |  | 
+2021-04-07T19:51:18.763Z - [info] Executing:  | OCRExtract | accountInfo_dpi_120.png | accountInfo | 
+2021-04-07T19:51:21.938Z - [info] OCR (eng) started (3.7 KB)
+2021-04-07T19:51:22.444Z - [info] OCR result received (0.5s from endpoint 1)
+2021-04-07T19:51:22.489Z - [info] Executing:  | executeScript_Sandbox | return ${accountInfo}.replace(/[\t\n\r]/gm,''); | accountInfo | 
+2021-04-07T19:51:22.539Z - [info] Executing:  | echo | ${accountInfo} | blue | 
+2021-04-07T19:51:22.547Z - [echo] Xcel Account Number:51-0013351023-6Name on Account:AYSE KAVUKCUOGULLARI
+2021-04-07T19:51:22.604Z - [info] Executing:  | store | ${accountInfo} | !csvLine | 
+2021-04-07T19:51:22.672Z - [info] Executing:  | csvSave | myPDF |  | 
+2021-04-07T19:51:22.836Z - [info] Executing:  | comment | XRun // C:\Program Files\Mozilla Firefox\firefox.exe |  | 
+2021-04-07T19:51:22.888Z - [info] Executing:  | pause | 5000 |  | 
+2021-04-07T19:51:27.238Z - UI.Vision RPA closing

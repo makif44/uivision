@@ -1,0 +1,96 @@
+2021-03-19T15:36:47.225Z - UI.Vision RPA started
+2021-03-19T15:36:48.182Z - [error] Invalid tab ID: 1
+2021-03-19T15:37:40.874Z - [status] Playing macro Create_user_accountsTECHRPA-4
+2021-03-19T15:37:40.909Z - [info] Executing:  | open | https://accounts.google.com/signup/v2/webcreateaccount?service=mail&continue=https%3A%2F%2Fmail.google.com%2Fmail&hl=en-GB&dsh=S-1089625264%3A1616102015659256&gmb=exp&biz=false&flowName=GlifWebSignIn&flowEntry=SignUp |  | 
+2021-03-19T15:37:41.044Z - [error] An unexpected error occurred
+2021-03-19T15:37:41.074Z - [info] Macro failed (Runtime 0.17s)
+2021-03-19T15:37:48.767Z - [status] Playing macro Create_user_accountsTECHRPA-4
+2021-03-19T15:37:48.794Z - [info] Executing:  | open | https://accounts.google.com/signup/v2/webcreateaccount?service=mail&continue=https%3A%2F%2Fmail.google.com%2Fmail&hl=en-GB&dsh=S-1089625264%3A1616102015659256&gmb=exp&biz=false&flowName=GlifWebSignIn&flowEntry=SignUp |  | 
+2021-03-19T15:37:48.949Z - [error] An unexpected error occurred
+2021-03-19T15:37:48.978Z - [info] Macro failed (Runtime 0.19s)
+2021-03-19T15:38:08.926Z - [status] Playing macro Create_user_accountsTECHRPA-4
+2021-03-19T15:38:08.965Z - [info] Executing:  | open | https://accounts.google.com/signup/v2/webcreateaccount?service=mail&continue=https%3A%2F%2Fmail.google.com%2Fmail&hl=en-GB&dsh=S-1089625264%3A1616102015659256&gmb=exp&biz=false&flowName=GlifWebSignIn&flowEntry=SignUp |  | 
+2021-03-19T15:38:12.507Z - [info] Executing:  | csvRead | user_info.csv |  | 
+2021-03-19T15:38:12.576Z - [info] Executing:  | while_v2 | ${!csvReadStatus} == "OK" |  | 
+2021-03-19T15:38:12.608Z - [info] Executing:  | echo | Inside subroutine: Status = ${!csvReadStatus}, Line = ${!csvReadLineNumber} | blue | 
+2021-03-19T15:38:12.617Z - [echo] Inside subroutine: Status = OK, Line = 1
+2021-03-19T15:38:12.649Z - [info] Executing:  | type | id=firstName | ${!col1} | 
+2021-03-19T15:38:12.778Z - [info] Executing:  | type | id=lastName | ${!col2} | 
+2021-03-19T15:38:12.870Z - [info] Executing:  | type | id=username | ${!col3} | 
+2021-03-19T15:38:13.065Z - [info] Executing:  | type | name=Passwd | ${!col4} | 
+2021-03-19T15:38:13.204Z - [info] Executing:  | type | name=ConfirmPasswd | ${!col4} | 
+2021-03-19T15:38:13.363Z - [info] Executing:  | echo | ${!csvReadLineNumber} | blue | 
+2021-03-19T15:38:13.371Z - [echo] 1
+2021-03-19T15:38:13.401Z - [info] Executing:  | executeScript_Sandbox | return Number(${!csvReadLineNumber})+1 | !csvReadLineNumber | 
+2021-03-19T15:38:13.444Z - [info] Executing:  | echo | ${!csvReadLineNumber} | blue | 
+2021-03-19T15:38:13.451Z - [echo] 2
+2021-03-19T15:38:13.485Z - [info] Executing:  | store | true | !errorIgnore | 
+2021-03-19T15:38:13.535Z - [info] Executing:  | csvRead | user_info.csv |  | 
+2021-03-19T15:38:13.619Z - [info] Executing:  | store | false | !errorIgnore | 
+2021-03-19T15:38:13.650Z - [info] Executing:  | click | xpath=//*[@id="accountDetailsNext"]/div/button/div[2] |  | 
+2021-03-19T15:38:13.752Z - [info] Executing:  | pause | 3000 |  | 
+2021-03-19T15:38:16.807Z - [info] Executing:  | open | https://accounts.google.com/signup/v2/webcreateaccount?service=mail&continue=https%3A%2F%2Fmail.google.com%2Fmail&hl=en-GB&dsh=S-1089625264%3A1616102015659256&gmb=exp&biz=false&flowName=GlifWebSignIn&flowEntry=SignUp |  | 
+2021-03-19T15:38:18.902Z - [info] Executing:  | end |  |  | 
+2021-03-19T15:38:18.929Z - [info] Executing:  | while_v2 | ${!csvReadStatus} == "OK" |  | 
+2021-03-19T15:38:18.964Z - [info] Executing:  | echo | Inside subroutine: Status = ${!csvReadStatus}, Line = ${!csvReadLineNumber} | blue | 
+2021-03-19T15:38:18.972Z - [echo] Inside subroutine: Status = OK, Line = 2
+2021-03-19T15:38:18.998Z - [info] Executing:  | type | id=firstName | ${!col1} | 
+2021-03-19T15:38:19.126Z - [info] Executing:  | type | id=lastName | ${!col2} | 
+2021-03-19T15:38:19.216Z - [info] Executing:  | type | id=username | ${!col3} | 
+2021-03-19T15:38:19.432Z - [info] Executing:  | type | name=Passwd | ${!col4} | 
+2021-03-19T15:38:19.573Z - [info] Executing:  | type | name=ConfirmPasswd | ${!col4} | 
+2021-03-19T15:38:19.718Z - [info] Executing:  | echo | ${!csvReadLineNumber} | blue | 
+2021-03-19T15:38:19.727Z - [echo] 2
+2021-03-19T15:38:19.754Z - [info] Executing:  | executeScript_Sandbox | return Number(${!csvReadLineNumber})+1 | !csvReadLineNumber | 
+2021-03-19T15:38:19.797Z - [info] Executing:  | echo | ${!csvReadLineNumber} | blue | 
+2021-03-19T15:38:19.807Z - [echo] 3
+2021-03-19T15:38:19.835Z - [info] Executing:  | store | true | !errorIgnore | 
+2021-03-19T15:38:19.890Z - [info] Executing:  | csvRead | user_info.csv |  | 
+2021-03-19T15:38:19.985Z - [info] Executing:  | store | false | !errorIgnore | 
+2021-03-19T15:38:20.015Z - [info] Executing:  | click | xpath=//*[@id="accountDetailsNext"]/div/button/div[2] |  | 
+2021-03-19T15:38:20.108Z - [info] Executing:  | pause | 3000 |  | 
+2021-03-19T15:38:23.141Z - [info] Executing:  | open | https://accounts.google.com/signup/v2/webcreateaccount?service=mail&continue=https%3A%2F%2Fmail.google.com%2Fmail&hl=en-GB&dsh=S-1089625264%3A1616102015659256&gmb=exp&biz=false&flowName=GlifWebSignIn&flowEntry=SignUp |  | 
+2021-03-19T15:38:25.234Z - [info] Executing:  | end |  |  | 
+2021-03-19T15:38:25.261Z - [info] Executing:  | while_v2 | ${!csvReadStatus} == "OK" |  | 
+2021-03-19T15:38:25.294Z - [info] Executing:  | echo | Inside subroutine: Status = ${!csvReadStatus}, Line = ${!csvReadLineNumber} | blue | 
+2021-03-19T15:38:25.303Z - [echo] Inside subroutine: Status = OK, Line = 3
+2021-03-19T15:38:25.332Z - [info] Executing:  | type | id=firstName | ${!col1} | 
+2021-03-19T15:38:25.439Z - [info] Executing:  | type | id=lastName | ${!col2} | 
+2021-03-19T15:38:25.539Z - [info] Executing:  | type | id=username | ${!col3} | 
+2021-03-19T15:38:25.748Z - [info] Executing:  | type | name=Passwd | ${!col4} | 
+2021-03-19T15:38:25.881Z - [info] Executing:  | type | name=ConfirmPasswd | ${!col4} | 
+2021-03-19T15:38:26.033Z - [info] Executing:  | echo | ${!csvReadLineNumber} | blue | 
+2021-03-19T15:38:26.044Z - [echo] 3
+2021-03-19T15:38:26.072Z - [info] Executing:  | executeScript_Sandbox | return Number(${!csvReadLineNumber})+1 | !csvReadLineNumber | 
+2021-03-19T15:38:26.114Z - [info] Executing:  | echo | ${!csvReadLineNumber} | blue | 
+2021-03-19T15:38:26.126Z - [echo] 4
+2021-03-19T15:38:26.158Z - [info] Executing:  | store | true | !errorIgnore | 
+2021-03-19T15:38:26.208Z - [info] Executing:  | csvRead | user_info.csv |  | 
+2021-03-19T15:38:26.310Z - [info] Executing:  | store | false | !errorIgnore | 
+2021-03-19T15:38:26.341Z - [info] Executing:  | click | xpath=//*[@id="accountDetailsNext"]/div/button/div[2] |  | 
+2021-03-19T15:38:26.451Z - [info] Executing:  | pause | 3000 |  | 
+2021-03-19T15:38:29.495Z - [info] Executing:  | open | https://accounts.google.com/signup/v2/webcreateaccount?service=mail&continue=https%3A%2F%2Fmail.google.com%2Fmail&hl=en-GB&dsh=S-1089625264%3A1616102015659256&gmb=exp&biz=false&flowName=GlifWebSignIn&flowEntry=SignUp |  | 
+2021-03-19T15:38:31.621Z - [info] Executing:  | end |  |  | 
+2021-03-19T15:38:31.648Z - [info] Executing:  | while_v2 | ${!csvReadStatus} == "OK" |  | 
+2021-03-19T15:38:31.681Z - [info] Executing:  | echo | Inside subroutine: Status = ${!csvReadStatus}, Line = ${!csvReadLineNumber} | blue | 
+2021-03-19T15:38:31.691Z - [echo] Inside subroutine: Status = OK, Line = 4
+2021-03-19T15:38:31.718Z - [info] Executing:  | type | id=firstName | ${!col1} | 
+2021-03-19T15:38:31.838Z - [info] Executing:  | type | id=lastName | ${!col2} | 
+2021-03-19T15:38:31.937Z - [info] Executing:  | type | id=username | ${!col3} | 
+2021-03-19T15:38:32.151Z - [info] Executing:  | type | name=Passwd | ${!col4} | 
+2021-03-19T15:38:32.283Z - [info] Executing:  | type | name=ConfirmPasswd | ${!col4} | 
+2021-03-19T15:38:32.442Z - [info] Executing:  | echo | ${!csvReadLineNumber} | blue | 
+2021-03-19T15:38:32.453Z - [echo] 4
+2021-03-19T15:38:32.476Z - [info] Executing:  | executeScript_Sandbox | return Number(${!csvReadLineNumber})+1 | !csvReadLineNumber | 
+2021-03-19T15:38:32.521Z - [info] Executing:  | echo | ${!csvReadLineNumber} | blue | 
+2021-03-19T15:38:32.530Z - [echo] 5
+2021-03-19T15:38:32.568Z - [info] Executing:  | store | true | !errorIgnore | 
+2021-03-19T15:38:32.622Z - [info] Executing:  | csvRead | user_info.csv |  | 
+2021-03-19T15:38:32.680Z - [error][ignored] end of csv file reached
+2021-03-19T15:38:32.711Z - [info] Executing:  | store | false | !errorIgnore | 
+2021-03-19T15:38:32.746Z - [info] Executing:  | click | xpath=//*[@id="accountDetailsNext"]/div/button/div[2] |  | 
+2021-03-19T15:38:32.859Z - [info] Executing:  | pause | 3000 |  | 
+2021-03-19T15:38:35.896Z - [info] Executing:  | open | https://accounts.google.com/signup/v2/webcreateaccount?service=mail&continue=https%3A%2F%2Fmail.google.com%2Fmail&hl=en-GB&dsh=S-1089625264%3A1616102015659256&gmb=exp&biz=false&flowName=GlifWebSignIn&flowEntry=SignUp |  | 
+2021-03-19T15:38:37.984Z - [info] Executing:  | end |  |  | 
+2021-03-19T15:38:38.014Z - [info] Executing:  | while_v2 | ${!csvReadStatus} == "OK" |  | 
+2021-03-19T15:38:38.073Z - [info] Macro completed (Runtime 29.12s)

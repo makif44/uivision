@@ -1,0 +1,2 @@
+2021-04-06T15:13:40.501Z - [warning] Invalid value for cmd line arg: "closeBrowser" should be 0, 1, true or false, but now it's 
+2021-04-06T15:13:40.588Z - [error] No connection to browser tab

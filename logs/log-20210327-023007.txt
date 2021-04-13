@@ -1,0 +1,21 @@
+2021-03-27T00:30:07.518Z - UI.Vision RPA started
+2021-03-27T00:42:55.005Z - [status] Playing macro Read from pdf
+2021-03-27T00:42:55.049Z - [info] Executing:  | XRun | C:\Users\Mehmet\Desktop/My Account - Add Payment Account - confirmation.pdf |  | 
+2021-03-27T00:43:02.717Z - [error] Running the process is failed.
+2021-03-27T00:43:02.759Z - [info] Macro failed (Runtime 7.72s)
+2021-03-27T00:44:20.992Z - [status] Playing macro Read from pdf
+2021-03-27T00:44:21.029Z - [info] Executing:  | XRun | C:\Users\makif\Desktop/My Account - Add Payment Account - confirmation.pdf |  | 
+2021-03-27T00:44:21.768Z - [info] Executing:  | pause | 5000 |  | 
+2021-03-27T00:44:27.100Z - [info] Executing:  | OCRExtract | accountInfo_dpi_120.png | accountInfo | 
+2021-03-27T00:44:38.545Z - [error] Image 'accountInfo_dpi_120.png' (conf. = 0.6) not found
+2021-03-27T00:44:38.568Z - [info] Macro failed (Runtime 17.55s)
+2021-03-27T00:44:58.241Z - [status] Playing macro Read from pdf
+2021-03-27T00:44:58.268Z - [info] Executing:  | XRun | C:\Users\makif\Desktop/My Account - Add Payment Account - confirmation.pdf |  | 
+2021-03-27T00:44:58.697Z - [info] Executing:  | pause | 5000 |  | 
+2021-03-27T00:45:04.016Z - [info] Executing:  | OCRExtract | accountInfo_dpi_120.png | accountInfo | 
+2021-03-27T00:45:05.259Z - [error] Invalid tab ID: 2
+2021-03-27T00:45:05.287Z - [info] Macro failed (Runtime 7.03s)
+2021-03-27T00:45:09.624Z - [status] Playing macro Read from pdf
+2021-03-27T00:45:09.650Z - [info] Executing:  | OCRExtract | accountInfo_dpi_120.png | accountInfo | 
+2021-03-27T00:45:10.931Z - [error] Invalid tab ID: 2
+2021-03-27T00:45:10.960Z - [info] Macro failed (Runtime 1.31s)

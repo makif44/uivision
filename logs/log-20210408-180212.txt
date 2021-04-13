@@ -1,0 +1,15 @@
+2021-04-08T18:02:12.792Z - UI.Vision RPA started
+2021-04-08T18:02:15.324Z - [status] Playing macro RPA_Demo/Read_pdf.json
+2021-04-08T18:02:15.378Z - [info] Executing:  | XRun | C:\Users\Administrator.TECHNE\Desktop\My Account - Add Payment Account - confirmation.pdf |  | 
+2021-04-08T18:02:15.581Z - [info] Executing:  | pause | 2000 |  | 
+2021-04-08T18:02:17.644Z - [info] Executing:  | OCRExtract | accountInfo1_dpi_120.png | accountInfo | 
+2021-04-08T18:02:29.531Z - [error] Image 'accountInfo1_dpi_120.png' (conf. = 0.8) not found
+2021-04-08T18:02:29.570Z - [info] Macro failed (Runtime 14.21s)
+2021-04-08T18:05:09.293Z - [status] Playing macro C:\Users\Administrator.TECHNE\Desktop\uivision\macros\RPA_Demo\Create_email.json
+2021-04-08T18:05:09.353Z - [info] Executing:  | open | https://accounts.google.com/signup/v2/webcreateaccount?service=mail&continue=https%3A%2F%2Fmail.google.com%2Fmail&hl=en-GB&dsh=S-1089625264%3A1616102015659256&gmb=exp&biz=false&flowName=GlifWebSignIn&flowEntry=SignUp |  | 
+2021-04-08T18:05:10.951Z - [info] Macro was stopped manually (Runtime 1.61s)
+2021-04-08T18:05:16.108Z - [status] Playing macro C:\Users\Administrator.TECHNE\Desktop\uivision\macros\RPA_Demo\Read_pdf.json
+2021-04-08T18:05:16.157Z - [info] Executing:  | XRun | C:\Users\Administrator.TECHNE\Desktop\My Account - Add Payment Account - confirmation.pdf |  | 
+2021-04-08T18:05:16.298Z - [info] Executing:  | pause | 2000 |  | 
+2021-04-08T18:05:18.331Z - [info] Executing:  | OCRExtract | accountInfo1_dpi_120.png | accountInfo | 
+2021-04-08T18:05:20.383Z - UI.Vision RPA closing

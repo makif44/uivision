@@ -1,0 +1,8 @@
+2021-04-06T15:12:06.096Z - UI.Vision RPA started
+2021-04-06T15:12:08.052Z - [warning] Invalid value for cmd line arg: "closeBrowser" should be 0, 1, true or false, but now it's 
+2021-04-06T15:12:08.455Z - [status] Playing macro RPA_Demo/Read_pdf
+2021-04-06T15:12:08.507Z - [info] Executing:  | XRun | C:\Users\Administrator.TECHNE\Desktop\My Account - Add Payment Account - confirmation.pdf |  | 
+2021-04-06T15:12:08.698Z - [info] Executing:  | pause | 2000 |  | 
+2021-04-06T15:12:10.738Z - [info] Executing:  | OCRExtract | accountInfo_dpi_120.png | accountInfo | 
+2021-04-06T15:12:22.081Z - [error] Image 'accountInfo_dpi_120.png' (conf. = 0.8) not found
+2021-04-06T15:12:22.114Z - [info] Macro failed (Runtime 13.62s)

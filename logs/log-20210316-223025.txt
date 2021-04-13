@@ -1,0 +1,48 @@
+2021-03-16T20:30:25.251Z - UI.Vision RPA started
+2021-03-16T22:19:13.989Z - [status] Playing macro Gmail
+2021-03-16T22:19:14.060Z - [info] Executing:  | comment | XRun // C:\Program Files (x86)\Google\Chrome\Application\chrome.exe |  | 
+2021-03-16T22:19:14.127Z - [info] Executing:  | comment | pause // 5000 |  | 
+2021-03-16T22:19:14.179Z - [info] Executing:  | open | https://mail.google.com/mail/u/1/#inbox |  | 
+2021-03-16T22:19:18.795Z - [info] Executing:  | comment | setWindowSize // 1700x900 |  | 
+2021-03-16T22:19:18.861Z - [info] Executing:  | bringBrowserToForeground |  |  | 
+2021-03-16T22:19:19.147Z - [info] Executing:  | click | xpath=/html/body |  | 
+2021-03-16T22:19:19.371Z - [info] Executing:  | visualVerify | xpath=/html/body |  | 
+2021-03-16T22:19:19.419Z - [error] _e is null
+2021-03-16T22:19:19.469Z - [info] Macro failed (Runtime 5.43s)
+2021-03-16T22:19:40.967Z - [status] Playing macro Gmail
+2021-03-16T22:19:41.032Z - [info] Executing:  | comment | XRun // C:\Program Files (x86)\Google\Chrome\Application\chrome.exe |  | 
+2021-03-16T22:19:41.077Z - [info] Executing:  | comment | pause // 5000 |  | 
+2021-03-16T22:19:41.139Z - [info] Executing:  | open | https://mail.google.com/mail/u/1/#inbox |  | 
+2021-03-16T22:19:44.839Z - [info] Executing:  | comment | setWindowSize // 1700x900 |  | 
+2021-03-16T22:19:44.915Z - [info] Executing:  | bringBrowserToForeground |  |  | 
+2021-03-16T22:19:45.189Z - [info] Executing:  | click | xpath=/html/body |  | 
+2021-03-16T22:19:45.550Z - [info] Executing:  | comment | visualVerify // xpath=/html/body |  | 
+2021-03-16T22:19:45.654Z - [info] Executing:  | click | linkText=Snoozed |  | 
+2021-03-16T22:19:46.083Z - [info] Executing:  | visualVerify | verifySnoozedPage_dpi_120.png | in:snoozed  | 
+2021-03-16T22:19:52.767Z - [info] Executing:  | click | linkText=Sent |  | 
+2021-03-16T22:19:52.970Z - [info] Executing:  | visualVerify | verifySentPage_dpi_120.png | in:sent | 
+2021-03-16T22:19:55.211Z - [info] Executing:  | click | linkText=Drafts |  | 
+2021-03-16T22:19:55.455Z - [info] Executing:  | visualVerify | verifyDraftPage_dpi_120.png | draft | 
+2021-03-16T22:19:56.742Z - [info] Executing:  | click | linkText=Inbox |  | 
+2021-03-16T22:19:57.056Z - [info] Executing:  | click | xpath=(//div[@class="UI"]//tr)[1] |  | 
+2021-03-16T22:20:07.254Z - [error] timeout reached when looking for element 'xpath=(//div[@class="UI"]//tr)[1]'
+2021-03-16T22:20:07.285Z - [info] Macro failed (Runtime 26.27s)
+2021-03-16T22:22:21.081Z - [status] Playing macro Gmail
+2021-03-16T22:22:21.134Z - [info] Executing:  | comment | XRun // C:\Program Files (x86)\Google\Chrome\Application\chrome.exe |  | 
+2021-03-16T22:22:21.176Z - [info] Executing:  | comment | pause // 5000 |  | 
+2021-03-16T22:22:21.231Z - [info] Executing:  | open | https://mail.google.com/mail/u/1/#inbox |  | 
+2021-03-16T22:22:23.901Z - [info] Executing:  | comment | setWindowSize // 1700x900 |  | 
+2021-03-16T22:22:23.971Z - [info] Executing:  | bringBrowserToForeground |  |  | 
+2021-03-16T22:22:24.220Z - [info] Executing:  | click | xpath=/html/body |  | 
+2021-03-16T22:22:25.834Z - [info] Executing:  | comment | visualVerify // xpath=/html/body |  | 
+2021-03-16T22:22:25.919Z - [info] Executing:  | click | linkText=Snoozed |  | 
+2021-03-16T22:22:27.171Z - [info] Executing:  | visualVerify | verifySnoozedPage_dpi_120.png | in:snoozed  | 
+2021-03-16T22:22:32.337Z - [info] Executing:  | click | linkText=Sent |  | 
+2021-03-16T22:22:32.930Z - [info] Executing:  | visualVerify | verifySentPage_dpi_120.png | in:sent | 
+2021-03-16T22:22:36.175Z - [info] Executing:  | click | linkText=Drafts |  | 
+2021-03-16T22:22:36.377Z - [info] Executing:  | visualVerify | verifyDraftPage_dpi_120.png | draft | 
+2021-03-16T22:22:38.947Z - [info] Executing:  | click | linkText=Inbox |  | 
+2021-03-16T22:22:39.315Z - [info] Executing:  | XClick | firstEmail_dpi_120.png |  | 
+2021-03-16T22:22:40.582Z - [info] Executing:  | click | xpath=//*[@id=":4"]/div[4]/div/div/div/div/div |  | 
+2021-03-16T22:22:42.327Z - [info] Executing:  | XType | ${KEY_CTRL+KEY_F4} |  | 
+2021-03-16T22:22:42.709Z - [info] Executing:  | XType | ${KEY_CTRL+KEY_F4} |  | 

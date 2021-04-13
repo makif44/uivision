@@ -1,0 +1,11 @@
+2021-03-16T19:37:28.263Z - [status] Playing macro Gmail
+2021-03-16T19:37:28.318Z - [info] Executing:  | XRun | C:\Program Files (x86)\Google\Chrome\Application\chrome.exe |  | 
+2021-03-16T19:37:28.910Z - [info] Executing:  | comment | pause // 5000 |  | 
+2021-03-16T19:37:29.246Z - [info] Executing:  | open | https://mail.google.com/mail/u/1/#inbox |  | 
+2021-03-16T19:37:31.787Z - [info] Executing:  | comment | setWindowSize // 1700x900 |  | 
+2021-03-16T19:37:32.115Z - [info] Executing:  | bringBrowserToForeground |  |  | 
+2021-03-16T19:37:32.495Z - [info] Executing:  | click | xpath=/html/body |  | 
+2021-03-16T19:37:32.875Z - [info] Executing:  | click | linkText=Snoozed |  | 
+2021-03-16T19:37:42.935Z - [error] timeout reached when looking for element 'linkText=Snoozed'
+2021-03-16T19:37:42.980Z - [info] Macro failed (Runtime 14.67s)
+2021-03-16T19:48:01.854Z - UI.Vision RPA closing

@@ -1,0 +1,59 @@
+2021-03-22T14:21:41.252Z - UI.Vision RPA started
+2021-03-22T14:22:00.990Z - [status] Playing macro WordPad TECHRPA-2
+2021-03-22T14:22:01.111Z - [info] Executing:  | visualSearch | Text_dpi_120.png | TextDocumentNumber | 
+2021-03-22T14:22:03.417Z - [info] Executing:  | echo | ${TextDocumentNumber} files were found |  | 
+2021-03-22T14:22:03.438Z - [echo] 3 files were found
+2021-03-22T14:22:03.542Z - [info] Executing:  | times | ${TextDocumentNumber} |  | 
+2021-03-22T14:22:03.731Z - [info] Executing:  | OCRExtractRelative | WordPad_dpi_120.png@0.60#${!times} | fileName | 
+2021-03-22T14:22:09.363Z - [info] OCR (eng) started (6.2 KB)
+2021-03-22T14:22:10.560Z - [info] OCR result received (1.2s from endpoint 2)
+2021-03-22T14:22:10.700Z - [info] Executing:  | executeScript_Sandbox | return ${fileName}.replace(/( |\n|\r)/gm, ""); | fileName | 
+2021-03-22T14:22:10.817Z - [info] Executing:  | echo | ${fileName} | blue | 
+2021-03-22T14:22:10.838Z - [echo] passwor
+2021-03-22T14:22:10.927Z - [info] Executing:  | store | ${!times} | !csvLine | 
+2021-03-22T14:22:11.038Z - [info] Executing:  | store | ${fileName} | !csvLine | 
+2021-03-22T14:22:11.148Z - [info] Executing:  | csvSave | wordpad file names |  | 
+2021-03-22T14:22:11.396Z - [info] Executing:  | end |  |  | 
+2021-03-22T14:22:11.470Z - [info] Executing:  | times | ${TextDocumentNumber} |  | 
+2021-03-22T14:22:11.577Z - [info] Executing:  | OCRExtractRelative | WordPad_dpi_120.png@0.60#${!times} | fileName | 
+2021-03-22T14:22:17.197Z - [info] OCR (eng) started (1.8 KB)
+2021-03-22T14:22:17.729Z - [info] OCR result received (0.5s from endpoint 2)
+2021-03-22T14:22:17.906Z - [info] Executing:  | executeScript_Sandbox | return ${fileName}.replace(/( |\n|\r)/gm, ""); | fileName | 
+2021-03-22T14:22:18.257Z - [info] Executing:  | echo | ${fileName} | blue | 
+2021-03-22T14:22:18.359Z - [info] Executing:  | store | ${!times} | !csvLine | 
+2021-03-22T14:22:18.463Z - [info] Executing:  | store | ${fileName} | !csvLine | 
+2021-03-22T14:22:18.565Z - [info] Executing:  | csvSave | wordpad file names |  | 
+2021-03-22T14:22:18.766Z - [info] Executing:  | end |  |  | 
+2021-03-22T14:22:18.844Z - [info] Executing:  | times | ${TextDocumentNumber} |  | 
+2021-03-22T14:22:18.963Z - [info] Executing:  | OCRExtractRelative | WordPad_dpi_120.png@0.60#${!times} | fileName | 
+2021-03-22T14:22:24.190Z - [info] OCR (eng) started (1.5 KB)
+2021-03-22T14:22:24.686Z - [info] OCR result received (0.5s from endpoint 2)
+2021-03-22T14:22:24.867Z - [info] Executing:  | executeScript_Sandbox | return ${fileName}.replace(/( |\n|\r)/gm, ""); | fileName | 
+2021-03-22T14:22:25.227Z - [info] Executing:  | echo | ${fileName} | blue | 
+2021-03-22T14:22:25.337Z - [info] Executing:  | store | ${!times} | !csvLine | 
+2021-03-22T14:22:25.445Z - [info] Executing:  | store | ${fileName} | !csvLine | 
+2021-03-22T14:22:25.547Z - [info] Executing:  | csvSave | wordpad file names |  | 
+2021-03-22T14:22:25.782Z - [info] Executing:  | end |  |  | 
+2021-03-22T14:22:25.873Z - [info] Executing:  | times | ${TextDocumentNumber} |  | 
+2021-03-22T14:22:26.062Z - [info] Macro completed (Runtime 24.98s)
+2021-03-22T14:22:56.474Z - [status] Playing macro WordPad TECHRPA-2
+2021-03-22T14:22:56.607Z - [info] Executing:  | OCRExtractRelative | WordPad_dpi_120.png@0.60#${!times} | fileName | 
+2021-03-22T14:22:56.662Z - [error] Internal variable "!TIMES" not supported
+2021-03-22T14:22:56.786Z - [info] Macro failed (Runtime 0.21s)
+2021-03-22T14:23:18.171Z - [status] Playing macro WordPad TECHRPA-2
+2021-03-22T14:23:18.266Z - [info] Executing:  | visualSearch | Text_dpi_120.png | TextDocumentNumber | 
+2021-03-22T14:23:20.076Z - [info] Macro completed (Runtime 1.83s)
+2021-03-22T14:23:39.029Z - [status] Playing macro WordPad TECHRPA-2
+2021-03-22T14:23:39.145Z - [info] Executing:  | OCRExtractRelative | WordPad_dpi_120.png@0.60#${!times} | fileName | 
+2021-03-22T14:23:39.187Z - [error] Internal variable "!TIMES" not supported
+2021-03-22T14:23:39.299Z - [info] Macro failed (Runtime 0.18s)
+2021-03-22T14:23:56.818Z - [status] Playing macro WordPad TECHRPA-2
+2021-03-22T14:23:56.964Z - [info] Executing:  | OCRExtractRelative | WordPad_dpi_120.png | fileName | 
+2021-03-22T14:24:02.453Z - [info] OCR (eng) started (1.8 KB)
+2021-03-22T14:24:03.365Z - [info] OCR result received (0.9s from endpoint 2)
+2021-03-22T14:24:03.515Z - [info] Macro completed (Runtime 6.58s)
+2021-03-22T14:26:07.912Z - [status] Playing macro WordPad TECHRPA-2
+2021-03-22T14:26:08.044Z - [info] Executing:  | OCRExtractRelative | WordPad_dpi_120.png@0.60 | fileName | 
+2021-03-22T14:26:13.387Z - [info] OCR (eng) started (1.8 KB)
+2021-03-22T14:26:14.228Z - [info] OCR result received (0.8s from endpoint 2)
+2021-03-22T14:26:14.495Z - [info] Macro completed (Runtime 6.48s)

@@ -1,0 +1,2 @@
+2021-03-19T15:36:13.115Z - UI.Vision RPA started
+2021-03-19T15:36:14.607Z - [error] No macro found with path 'Create'

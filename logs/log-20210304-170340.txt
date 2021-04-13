@@ -1,0 +1,33 @@
+2021-03-04T18:35:40.115Z - [status] Playing macro DemoComputerVision_Installed_By_XFileAccess
+2021-03-04T18:35:40.167Z - [info] Executing:  | open | https://ocr.space/ |  | 
+2021-03-04T18:35:42.589Z - [info] Executing:  | comment | OCR.space is our own OCR API service, this demo is a test that our QA uses internally, too :-) |  | 
+2021-03-04T18:35:42.931Z - [info] Executing:  | comment | Verify the 3rd party "Share" banner shows |  | 
+2021-03-04T18:35:43.255Z - [info] Executing:  | store | true | !errorignore | 
+2021-03-04T18:35:43.580Z - [info] Executing:  | visualSearch | democv_share_Installed_By_XFileAccess.png@0.50 | matches | 
+2021-03-04T18:35:54.347Z - [info] Executing:  | if | ${matches} == 0 |  | 
+2021-03-04T18:35:54.397Z - [error][ignored] Error in runEval condition of if: Unexpected token '{'
+2021-03-04T18:35:54.730Z - [info] Executing:  | store | false | !errorignore | 
+2021-03-04T18:35:55.052Z - [info] Executing:  | type | id=imageUrl | https://a9t9.com/Content/Images/kantu-chrome-loop.png | 
+2021-03-04T18:35:55.561Z - [info] Executing:  | select | id=ocrLanguage | label=English | 
+2021-03-04T18:35:55.929Z - [info] Executing:  | comment | viewport is default, but we add it here for test. Try "full" to see the differenc | label=English | 
+2021-03-04T18:35:56.261Z - [info] Executing:  | visionLimitSearchArea | viewport |  | 
+2021-03-04T18:35:56.587Z - [info] Executing:  | comment | we could use "click link=Start OCR!" but we use the image of the button instead |  | 
+2021-03-04T18:35:56.916Z - [info] Executing:  | visualAssert | democv_startocr_Installed_By_XFileAccess.png@0.60 |  | 
+2021-03-04T18:36:07.239Z - [error] Image 'democv_startocr_Installed_By_XFileAccess.png' (conf. = 0.6) not found
+2021-03-04T18:36:07.292Z - [info] Macro failed (Runtime 27.14s)
+2021-03-04T21:06:32.227Z - [info] 1 macro imported:
+calculator
+2021-03-04T21:06:47.985Z - [status] Playing macro calculator
+2021-03-04T21:06:48.025Z - [info] Executing:  | open | https://www.cs.tut.fi/~jkorpela/calc.html8 |  | 
+2021-03-04T21:06:50.459Z - [info] Executing:  | click | //body/button[5] |  | 
+2021-03-04T21:07:00.161Z - [info] Executing:  | click | //button[12] |  | 
+2021-03-04T21:07:00.521Z - [info] Executing:  | click | //button[15] |  | 
+2021-03-04T21:07:00.883Z - [info] Executing:  | click | //button[22] |  | 
+2021-03-04T21:07:01.304Z - [info] Macro completed (Runtime 13.29s)
+2021-03-04T21:07:23.945Z - [status] Playing macro calculator
+2021-03-04T21:07:23.982Z - [info] Executing:  | open | https://www.cs.tut.fi/~jkorpela/calc.html8 |  | 
+2021-03-04T21:07:26.387Z - [info] Executing:  | click | //body/button[5] |  | 
+2021-03-04T21:07:26.762Z - [info] Executing:  | click | //button[12] |  | 
+2021-03-04T21:07:27.109Z - [info] Executing:  | click | //button[15] |  | 
+2021-03-04T21:07:27.460Z - [info] Executing:  | click | //button[22] |  | 
+2021-03-04T21:07:27.825Z - [info] Macro completed (Runtime 3.85s)

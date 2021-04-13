@@ -1,0 +1,837 @@
+2021-03-17T12:20:35.001Z - UI.Vision RPA started
+2021-03-17T12:22:14.989Z - [status] Playing macro Calculator TECHRPA-11-13
+2021-03-17T12:22:15.051Z - [info] Executing:  | store | slow | !replayspeed | 
+2021-03-17T12:22:17.092Z - [info] Executing:  | XDesktopAutomation | true |  | 
+2021-03-17T12:22:19.119Z - [info] Executing:  | XRun | C\Windows\System32\cacls.exe |  | 
+2021-03-17T12:22:23.147Z - [error] Running the process is failed.
+2021-03-17T12:22:23.203Z - [info] Macro failed (Runtime 8.17s)
+2021-03-17T12:22:32.032Z - [status] Playing macro Calculator TECHRPA-11-13
+2021-03-17T12:22:32.085Z - [info] Executing:  | store | slow | !replayspeed | 
+2021-03-17T12:22:34.108Z - [info] Executing:  | XDesktopAutomation | true |  | 
+2021-03-17T12:22:36.132Z - [info] Executing:  | XRun | C:\Windows\System32\cacls.exe |  | 
+2021-03-17T12:22:38.368Z - [info] Executing:  | XClick | button8_dpi_120.png |  | 
+2021-03-17T12:22:49.056Z - [error] Image 'button8_dpi_120.png' (conf. = 0.8) not found
+2021-03-17T12:22:49.100Z - [info] Macro failed (Runtime 17.03s)
+2021-03-17T12:24:27.665Z - [status] Playing macro Calculator TECHRPA-11-13
+2021-03-17T12:24:27.720Z - [info] Executing:  | store | slow | !replayspeed | 
+2021-03-17T12:24:29.770Z - [info] Executing:  | XDesktopAutomation | true |  | 
+2021-03-17T12:24:31.801Z - [info] Executing:  | XRunAndWait | C:\Windows\System32\cacls.exe |  | 
+2021-03-17T12:24:32.019Z - [info] App close detected, Exit code=160
+2021-03-17T12:24:34.040Z - [info] Executing:  | XClick | button8_dpi_120.png |  | 
+2021-03-17T12:24:44.699Z - [error] Image 'button8_dpi_120.png' (conf. = 0.8) not found
+2021-03-17T12:24:44.738Z - [info] Macro failed (Runtime 17.03s)
+2021-03-17T12:24:54.543Z - [status] Playing macro Calculator TECHRPA-11-13
+2021-03-17T12:24:54.594Z - [info] Executing:  | store | slow | !replayspeed | 
+2021-03-17T12:24:56.623Z - [info] Executing:  | XDesktopAutomation | true |  | 
+2021-03-17T12:24:58.653Z - [info] Executing:  | XRunAndWait | C:\Windows\System32\cacls |  | 
+2021-03-17T12:24:58.831Z - [info] App close detected, Exit code=160
+2021-03-17T12:25:00.851Z - [info] Executing:  | XClick | button8_dpi_120.png |  | 
+2021-03-17T12:25:11.503Z - [error] Image 'button8_dpi_120.png' (conf. = 0.8) not found
+2021-03-17T12:25:11.591Z - [info] Macro failed (Runtime 17.01s)
+2021-03-17T12:25:22.365Z - [status] Playing macro Calculator TECHRPA-11-13
+2021-03-17T12:25:22.420Z - [info] Executing:  | store | slow | !replayspeed | 
+2021-03-17T12:25:24.453Z - [info] Executing:  | XDesktopAutomation | true |  | 
+2021-03-17T12:25:26.487Z - [info] Executing:  | XRunAndWait | C:\Windows\System32 |  | 
+2021-03-17T12:25:26.598Z - [info] App close detected, Exit code=22544384
+2021-03-17T12:25:28.621Z - [info] Executing:  | XClick | button8_dpi_120.png |  | 
+2021-03-17T12:25:39.340Z - [error] Image 'button8_dpi_120.png' (conf. = 0.8) not found
+2021-03-17T12:25:39.387Z - [info] Macro failed (Runtime 16.98s)
+2021-03-17T12:26:45.692Z - [status] Playing macro Calculator TECHRPA-11-13
+2021-03-17T12:26:45.751Z - [info] Executing:  | store | slow | !replayspeed | 
+2021-03-17T12:26:47.788Z - [info] Executing:  | XDesktopAutomation | true |  | 
+2021-03-17T12:26:49.819Z - [info] Executing:  | XRunAndWait | C:\Windows\System32\calc |  | 
+2021-03-17T12:26:50.310Z - [info] App close detected, Exit code=0
+2021-03-17T12:26:52.359Z - [info] Executing:  | XClick | button8_dpi_120.png |  | 
+2021-03-17T12:26:55.426Z - [info] Executing:  | XClick | plusButton_dpi_120.png |  | 
+2021-03-17T12:26:58.477Z - [info] Executing:  | XClick | button9_dpi_120.png |  | 
+2021-03-17T12:27:01.492Z - [info] Executing:  | XClick | equalButton_dpi_120.png |  | 
+2021-03-17T12:27:04.524Z - [info] Executing:  | verifyText |  |  | 
+2021-03-17T12:27:14.593Z - [error] timeout reached when looking for element ''
+2021-03-17T12:27:14.627Z - [info] Macro failed (Runtime 28.89s)
+2021-03-17T12:38:01.348Z - [status] Playing macro Calculator TECHRPA-11-13
+2021-03-17T12:38:01.417Z - [info] Executing:  | store | slow | !replayspeed | 
+2021-03-17T12:38:03.454Z - [info] Executing:  | XDesktopAutomation | true |  | 
+2021-03-17T12:38:05.485Z - [info] Executing:  | XRunAndWait | C:\Windows\System32\calc |  | 
+2021-03-17T12:38:05.861Z - [info] App close detected, Exit code=0
+2021-03-17T12:38:07.885Z - [info] Executing:  | XClick | button8_dpi_120.png |  | 
+2021-03-17T12:38:10.885Z - [info] Executing:  | XClick | plusButton_dpi_120.png |  | 
+2021-03-17T12:38:13.900Z - [info] Executing:  | XClick | button9_dpi_120.png |  | 
+2021-03-17T12:38:16.876Z - [info] Executing:  | XClick | equalButton_dpi_120.png |  | 
+2021-03-17T12:38:19.889Z - [info] Executing:  | OCRExtract | calResult_dpi_120.png | result | 
+2021-03-17T12:38:33.375Z - [info] OCR (eng) started (2.1 KB)
+2021-03-17T12:38:35.352Z - [info] OCR result received (2.0s from endpoint 3)
+2021-03-17T12:38:37.405Z - [info] Executing:  | if_v2 | ${result}==17 |  | 
+2021-03-17T12:38:39.431Z - [info] Executing:  | throwError |  |  | 
+2021-03-17T12:38:39.447Z - [error] 
+2021-03-17T12:38:39.487Z - [info] Macro failed (Runtime 38.09s)
+2021-03-17T12:38:44.069Z - [status] Playing macro Calculator TECHRPA-11-13
+2021-03-17T12:38:44.114Z - [info] Executing:  | store | slow | !replayspeed | 
+2021-03-17T12:38:46.144Z - [info] Executing:  | XDesktopAutomation | true |  | 
+2021-03-17T12:38:48.173Z - [info] Executing:  | XRunAndWait | C:\Windows\System32\calc |  | 
+2021-03-17T12:38:48.751Z - [info] App close detected, Exit code=0
+2021-03-17T12:38:50.771Z - [info] Executing:  | XClick | button8_dpi_120.png |  | 
+2021-03-17T12:38:53.736Z - [info] Executing:  | XClick | plusButton_dpi_120.png |  | 
+2021-03-17T12:38:57.019Z - [info] Executing:  | XClick | button9_dpi_120.png |  | 
+2021-03-17T12:39:00.010Z - [info] Executing:  | XClick | equalButton_dpi_120.png |  | 
+2021-03-17T12:39:03.185Z - [info] Executing:  | OCRExtract | calResult_dpi_120.png | result | 
+2021-03-17T12:39:12.440Z - [info] OCR (eng) started (4.5 KB)
+2021-03-17T12:39:13.436Z - [info] OCR result received (1.0s from endpoint 1)
+2021-03-17T12:39:15.540Z - [info] Executing:  | if_v2 | ${result}==17 |  | 
+2021-03-17T12:39:17.573Z - [info] Executing:  | throwError |  |  | 
+2021-03-17T12:39:17.591Z - [error] 
+2021-03-17T12:39:17.633Z - [info] Macro failed (Runtime 33.53s)
+2021-03-17T12:39:59.337Z - [info] OCR (eng) started (442.4 KB)
+2021-03-17T12:40:05.717Z - [info] OCR result received (6.4s from endpoint 2)
+2021-03-17T12:41:41.427Z - [status] Playing macro Calculator TECHRPA-11-13
+2021-03-17T12:41:41.487Z - [info] Executing:  | store | slow | !replayspeed | 
+2021-03-17T12:41:43.520Z - [info] Executing:  | XDesktopAutomation | true |  | 
+2021-03-17T12:41:45.554Z - [info] Executing:  | XRunAndWait | C:\Windows\System32\calc |  | 
+2021-03-17T12:41:46.170Z - [info] App close detected, Exit code=0
+2021-03-17T12:41:48.211Z - [info] Executing:  | XClick | button8_dpi_120.png |  | 
+2021-03-17T12:41:51.200Z - [info] Executing:  | XClick | plusButton_dpi_120.png |  | 
+2021-03-17T12:41:54.363Z - [info] Executing:  | XClick | button9_dpi_120.png |  | 
+2021-03-17T12:41:57.382Z - [info] Executing:  | XClick | equalButton_dpi_120.png |  | 
+2021-03-17T12:42:00.532Z - [info] Executing:  | visualAssert | calResult_dpi_120.png | result | 
+2021-03-17T12:42:03.238Z - [info] Macro completed (Runtime 21.77s)
+2021-03-17T12:42:39.227Z - [status] Playing macro Calculator TECHRPA-11-13
+2021-03-17T12:42:39.281Z - [info] Executing:  | store | slow | !replayspeed | 
+2021-03-17T12:42:41.322Z - [info] Executing:  | XDesktopAutomation | true |  | 
+2021-03-17T12:42:43.360Z - [info] Executing:  | XRunAndWait | C:\Windows\System32\calc |  | 
+2021-03-17T12:42:43.925Z - [info] App close detected, Exit code=0
+2021-03-17T12:42:45.953Z - [info] Executing:  | XClick | button8_dpi_120.png |  | 
+2021-03-17T12:42:48.969Z - [info] Executing:  | XClick | plusButton_dpi_120.png |  | 
+2021-03-17T12:42:52.147Z - [info] Executing:  | XClick | button9_dpi_120.png |  | 
+2021-03-17T12:42:55.107Z - [info] Executing:  | XClick | equalButton_dpi_120.png |  | 
+2021-03-17T12:42:58.258Z - [info] Executing:  | visualAssert | calResult_dpi_120.png | result | 
+2021-03-17T12:43:01.260Z - [info] Macro completed (Runtime 21.99s)
+2021-03-17T12:43:11.914Z - [status] Playing macro Calculator TECHRPA-11-13
+2021-03-17T12:43:11.970Z - [info] Executing:  | store | slow | !replayspeed | 
+2021-03-17T12:43:14.020Z - [info] Executing:  | XDesktopAutomation | true |  | 
+2021-03-17T12:43:16.061Z - [info] Executing:  | XRunAndWait | C:\Windows\System32\calc |  | 
+2021-03-17T12:43:16.630Z - [info] App close detected, Exit code=0
+2021-03-17T12:43:18.659Z - [info] Executing:  | XClick | button8_dpi_120.png |  | 
+2021-03-17T12:43:21.654Z - [info] Executing:  | XClick | plusButton_dpi_120.png |  | 
+2021-03-17T12:43:24.840Z - [info] Executing:  | XClick | button9_dpi_120.png |  | 
+2021-03-17T12:43:27.897Z - [info] Executing:  | XClick | equalButton_dpi_120.png |  | 
+2021-03-17T12:43:31.054Z - [info] Executing:  | visualAssert | calResult_dpi_120.png | result | 
+2021-03-17T12:43:41.892Z - [error] Image 'calResult_dpi_120.png' (conf. = 0.8) not found
+2021-03-17T12:43:41.936Z - [info] Macro failed (Runtime 29.98s)
+2021-03-17T12:45:30.050Z - [status] Playing macro Calculator TECHRPA-11-13
+2021-03-17T12:45:30.117Z - [info] Executing:  | store | slow | !replayspeed | 
+2021-03-17T12:45:32.157Z - [info] Executing:  | XDesktopAutomation | true |  | 
+2021-03-17T12:45:34.198Z - [info] Executing:  | XRunAndWait | C:\Windows\System32\calc |  | 
+2021-03-17T12:45:34.798Z - [info] App close detected, Exit code=0
+2021-03-17T12:45:36.849Z - [info] Executing:  | XClick | button8_dpi_120.png |  | 
+2021-03-17T12:45:40.272Z - [info] Executing:  | XClick | plusButton_dpi_120.png |  | 
+2021-03-17T12:45:43.707Z - [info] Executing:  | XClick | button9_dpi_120.png |  | 
+2021-03-17T12:45:47.062Z - [info] Executing:  | XClick | equalButton_dpi_120.png |  | 
+2021-03-17T12:45:50.480Z - [info] Executing:  | visualAssert | calResult_dpi_120.png | result | 
+2021-03-17T12:46:01.524Z - [error] Image 'calResult_dpi_120.png' (conf. = 0.8) not found
+2021-03-17T12:46:01.580Z - [info] Macro failed (Runtime 31.48s)
+2021-03-17T12:46:09.739Z - [status] Playing macro Calculator TECHRPA-11-13
+2021-03-17T12:46:09.804Z - [info] Executing:  | comment | store // slow | !replayspeed | 
+2021-03-17T12:46:09.857Z - [info] Executing:  | XDesktopAutomation | true |  | 
+2021-03-17T12:46:09.926Z - [info] Executing:  | XRunAndWait | C:\Windows\System32\calc |  | 
+2021-03-17T12:46:10.336Z - [info] App close detected, Exit code=0
+2021-03-17T12:46:10.429Z - [info] Executing:  | XClick | button8_dpi_120.png |  | 
+2021-03-17T12:46:13.435Z - [info] Executing:  | XClick | plusButton_dpi_120.png |  | 
+2021-03-17T12:46:15.068Z - [info] Executing:  | XClick | button9_dpi_120.png |  | 
+2021-03-17T12:46:16.417Z - [info] Executing:  | XClick | equalButton_dpi_120.png |  | 
+2021-03-17T12:46:18.183Z - [info] Executing:  | visualAssert | calResult_dpi_120.png | result | 
+2021-03-17T12:46:19.219Z - [info] Macro completed (Runtime 9.43s)
+2021-03-17T12:48:29.979Z - [status] Playing macro Calculator TECHRPA-11-13
+2021-03-17T12:48:30.046Z - [info] Executing:  | comment | store // slow | !replayspeed | 
+2021-03-17T12:48:30.106Z - [info] Executing:  | XDesktopAutomation | true |  | 
+2021-03-17T12:48:30.183Z - [info] Executing:  | XRunAndWait | C:\Windows\System32\calc |  | 
+2021-03-17T12:48:30.867Z - [info] App close detected, Exit code=0
+2021-03-17T12:48:30.925Z - [info] Executing:  | XClick | button8_dpi_120.png |  | 
+2021-03-17T12:48:34.103Z - [info] Executing:  | XClick | plusButton_dpi_120.png |  | 
+2021-03-17T12:48:35.927Z - [info] Executing:  | XClick | button9_dpi_120.png |  | 
+2021-03-17T12:48:37.317Z - [info] Executing:  | XClick | equalButton_dpi_120.png |  | 
+2021-03-17T12:48:38.997Z - [info] Executing:  | visualAssert | calResult_dpi_120.png | result | 
+2021-03-17T12:48:40.162Z - [info] Executing:  | XType | ${KEY_CTRL+KEY_F4} |  | 
+2021-03-17T12:48:40.695Z - [info] Macro completed (Runtime 10.67s)
+2021-03-17T12:49:38.656Z - [status] Playing macro Calculator TECHRPA-11-13
+2021-03-17T12:49:38.739Z - [info] Executing:  | XClickRelative |  |  | 
+2021-03-17T12:49:38.813Z - [error] XClick: invalid target, ''
+2021-03-17T12:49:38.873Z - [info] Macro failed (Runtime 0.15s)
+2021-03-17T12:50:13.811Z - [status] Playing macro Calculator TECHRPA-11-13
+2021-03-17T12:50:13.892Z - [info] Executing:  | XClickRelative | closeCal_dpi_120.png |  | 
+2021-03-17T12:50:14.242Z - [error] Cannot find green and/or pink boxes
+2021-03-17T12:50:14.309Z - [info] Macro failed (Runtime 0.44s)
+2021-03-17T12:51:11.178Z - [status] Playing macro Calculator TECHRPA-11-13
+2021-03-17T12:51:11.262Z - [info] Executing:  | comment | store // slow | !replayspeed | 
+2021-03-17T12:51:11.322Z - [info] Executing:  | XDesktopAutomation | true |  | 
+2021-03-17T12:51:11.397Z - [info] Executing:  | XRunAndWait | C:\Windows\System32\calc |  | 
+2021-03-17T12:51:12.080Z - [info] App close detected, Exit code=0
+2021-03-17T12:51:12.138Z - [info] Executing:  | XClick | button8_dpi_120.png |  | 
+2021-03-17T12:51:15.318Z - [info] Executing:  | XClick | plusButton_dpi_120.png |  | 
+2021-03-17T12:51:17.127Z - [info] Executing:  | XClick | button9_dpi_120.png |  | 
+2021-03-17T12:51:18.692Z - [info] Executing:  | XClick | equalButton_dpi_120.png |  | 
+2021-03-17T12:51:20.468Z - [info] Executing:  | visualAssert | calResult_dpi_120.png | result | 
+2021-03-17T12:51:21.528Z - [info] Executing:  | XClickRelative | closeCal_dpi_120.png |  | 
+2021-03-17T12:51:23.446Z - [info] Macro completed (Runtime 12.21s)
+2021-03-17T12:51:44.467Z - [status] Playing macro Calculator TECHRPA-11-13
+2021-03-17T12:51:44.532Z - [info] Executing:  | comment | store // slow | !replayspeed | 
+2021-03-17T12:51:44.588Z - [info] Executing:  | XDesktopAutomation | true |  | 
+2021-03-17T12:51:44.665Z - [info] Executing:  | XRun | C:\Windows\System32\calc |  | 
+2021-03-17T12:51:45.026Z - [info] Executing:  | XClick | button8_dpi_120.png |  | 
+2021-03-17T12:51:48.212Z - [info] Executing:  | XClick | plusButton_dpi_120.png |  | 
+2021-03-17T12:51:50.013Z - [info] Executing:  | XClick | button9_dpi_120.png |  | 
+2021-03-17T12:51:51.681Z - [info] Executing:  | XClick | equalButton_dpi_120.png |  | 
+2021-03-17T12:51:53.508Z - [info] Executing:  | visualAssert | calResult_dpi_120.png | result | 
+2021-03-17T12:51:54.807Z - [info] Executing:  | XClickRelative | closeCal_dpi_120.png |  | 
+2021-03-17T12:51:56.755Z - [info] Macro completed (Runtime 12.24s)
+2021-03-17T12:56:26.266Z - [status] Playing macro Gmail TECHRPA-10-12
+2021-03-17T12:56:26.331Z - [info] Executing:  | XRun | C:\Program Files\Mozilla Firefox\firefox.exe |  | 
+2021-03-17T12:56:26.544Z - [info] Executing:  | open | https://mail.google.com/mail/u/1/#inbox |  | 
+2021-03-17T12:56:26.734Z - [error] An unexpected error occurred
+2021-03-17T12:56:26.801Z - [info] Macro failed (Runtime 0.49s)
+2021-03-17T12:57:24.947Z - [status] Playing macro Gmail TECHRPA-10-12
+2021-03-17T12:57:25.001Z - [info] Executing:  | store | !replayspeed | medium | 
+2021-03-17T12:57:25.055Z - [info] Executing:  | XRun | C:\Program Files\Mozilla Firefox\firefox.exe |  | 
+2021-03-17T12:57:25.251Z - [info] Executing:  | open | https://mail.google.com/mail/u/1/#inbox |  | 
+2021-03-17T12:57:29.615Z - [info] Executing:  | comment | setWindowSize // 1700x900 |  | 
+2021-03-17T12:57:29.709Z - [info] Executing:  | bringBrowserToForeground |  |  | 
+2021-03-17T12:57:29.969Z - [info] Executing:  | XClickRelative | fullSize_dpi_120.png |  | 
+2021-03-17T12:57:31.451Z - [info] Executing:  | click | xpath=/html/body |  | 
+2021-03-17T12:57:31.884Z - [error] Error #101: UI.Vision RPA is not connected to a browser tab
+2021-03-17T12:57:31.955Z - [info] Macro failed (Runtime 6.97s)
+2021-03-17T12:57:41.545Z - [status] Playing macro Gmail TECHRPA-10-12
+2021-03-17T12:57:41.596Z - [info] Executing:  | store | !replayspeed | medium | 
+2021-03-17T12:57:41.659Z - [info] Executing:  | XRun | C:\Program Files\Mozilla Firefox\firefox.exe |  | 
+2021-03-17T12:57:41.774Z - [info] Executing:  | open | https://mail.google.com/mail/u/1/#inbox |  | 
+2021-03-17T12:57:45.379Z - [info] Executing:  | comment | setWindowSize // 1700x900 |  | 
+2021-03-17T12:57:45.440Z - [info] Executing:  | bringBrowserToForeground |  |  | 
+2021-03-17T12:57:45.616Z - [info] Executing:  | XClickRelative | fullSize_dpi_120.png |  | 
+2021-03-17T12:57:47.862Z - [info] Executing:  | click | xpath=/html/body |  | 
+2021-03-17T12:57:48.390Z - [info] Executing:  | visualVerify | gmailTopic_dpi_120.png |  | 
+2021-03-17T12:57:59.688Z - [error][ignored] Image 'gmailTopic_dpi_120.png' (conf. = 0.8) not found
+2021-03-17T12:57:59.742Z - [info] Executing:  | click | linkText=Snoozed |  | 
+2021-03-17T12:57:59.948Z - [info] Executing:  | visualVerify | verifySnoozedPage_dpi_120.png | in:snoozed  | 
+2021-03-17T12:58:02.032Z - [info] Executing:  | click | linkText=Sent |  | 
+2021-03-17T12:58:02.239Z - [info] Executing:  | visualVerify | verifySentPage_dpi_120.png | in:sent | 
+2021-03-17T12:58:04.736Z - [info] Executing:  | click | linkText=Drafts |  | 
+2021-03-17T12:58:05.052Z - [info] Executing:  | visualVerify | verifyDraftPage_dpi_120.png | draft | 
+2021-03-17T12:58:06.720Z - [info] Executing:  | click | linkText=Inbox |  | 
+2021-03-17T12:58:07.146Z - [info] Executing:  | XClick | firstEmail_dpi_120.png |  | 
+2021-03-17T12:58:08.237Z - [info] Executing:  | click | xpath=//*[@id=":4"]/div[4]/div/div/div/div/div |  | 
+2021-03-17T12:58:08.761Z - [info] Executing:  | comment | XType // ${KEY_CTRL+KEY_F4} |  | 
+2021-03-17T12:58:08.857Z - [info] Executing:  | comment | XType // ${KEY_CTRL+KEY_F4} |  | 
+2021-03-17T12:58:08.994Z - [info] Executing:  | comment | click // xpath=//*[@id=":e1"]/div[5]/div |  | 
+2021-03-17T12:58:09.174Z - [info] Macro completed (Runtime 27.59s)
+2021-03-17T12:59:07.772Z - [status] Playing macro Gmail TECHRPA-10-12
+2021-03-17T12:59:07.838Z - [info] Executing:  | store | !replayspeed | medium | 
+2021-03-17T12:59:07.902Z - [info] Executing:  | XRun | C:\Program Files\Mozilla Firefox\firefox.exe |  | 
+2021-03-17T12:59:08.096Z - [info] Executing:  | open | https://mail.google.com/mail/u/1/#inbox |  | 
+2021-03-17T12:59:11.889Z - [info] Executing:  | comment | setWindowSize // 1700x900 |  | 
+2021-03-17T12:59:11.970Z - [info] Executing:  | bringBrowserToForeground |  |  | 
+2021-03-17T12:59:12.175Z - [info] Executing:  | XClickRelative | fullSize_dpi_120.png |  | 
+2021-03-17T12:59:14.142Z - [info] Executing:  | click | xpath=/html/body |  | 
+2021-03-17T12:59:14.659Z - [info] Executing:  | visualVerify | gmailTopic_dpi_120.png |  | 
+2021-03-17T12:59:24.765Z - [info] Executing:  | click | linkText=Snoozed |  | 
+2021-03-17T12:59:25.067Z - [info] Executing:  | visualVerify | verifySnoozedPage_dpi_120.png | in:snoozed  | 
+2021-03-17T12:59:26.905Z - [info] Executing:  | click | linkText=Sent |  | 
+2021-03-17T12:59:27.089Z - [info] Executing:  | visualVerify | verifySentPage_dpi_120.png | in:sent | 
+2021-03-17T12:59:28.637Z - [info] Executing:  | click | linkText=Drafts |  | 
+2021-03-17T12:59:29.079Z - [info] Executing:  | visualVerify | verifyDraftPage_dpi_120.png | draft | 
+2021-03-17T12:59:30.680Z - [info] Executing:  | click | linkText=Inbox |  | 
+2021-03-17T12:59:31.055Z - [info] Executing:  | XClick | firstEmail_dpi_120.png |  | 
+2021-03-17T12:59:33.514Z - [info] Executing:  | click | xpath=//*[@id=":4"]/div[4]/div/div/div/div/div |  | 
+2021-03-17T12:59:33.990Z - [info] Executing:  | comment | XType // ${KEY_CTRL+KEY_F4} |  | 
+2021-03-17T12:59:34.087Z - [info] Executing:  | comment | XType // ${KEY_CTRL+KEY_F4} |  | 
+2021-03-17T12:59:34.269Z - [info] Executing:  | comment | click // xpath=//*[@id=":e1"]/div[5]/div |  | 
+2021-03-17T12:59:34.434Z - [info] Macro completed (Runtime 26.61s)
+2021-03-17T13:00:43.549Z - [status] Playing macro Gmail TECHRPA-10-12
+2021-03-17T13:00:43.624Z - [info] Executing:  | store | !replayspeed | medium | 
+2021-03-17T13:00:43.685Z - [info] Executing:  | XRun | C:\Program Files\Mozilla Firefox\firefox.exe |  | 
+2021-03-17T13:00:43.836Z - [info] Executing:  | open | https://mail.google.com/mail/u/1/#inbox |  | 
+2021-03-17T13:00:47.495Z - [info] Executing:  | comment | setWindowSize // 1700x900 |  | 
+2021-03-17T13:00:47.572Z - [info] Executing:  | bringBrowserToForeground |  |  | 
+2021-03-17T13:00:47.726Z - [info] Executing:  | XClickRelative | fullSize_dpi_120.png |  | 
+2021-03-17T13:00:49.744Z - [info] Executing:  | click | xpath=/html/body |  | 
+2021-03-17T13:00:50.442Z - [info] Executing:  | visualVerify | gmailTopic_dpi_120.png |  | 
+2021-03-17T13:00:51.379Z - [info] Executing:  | click | linkText=Snoozed |  | 
+2021-03-17T13:00:51.767Z - [info] Executing:  | visualVerify | verifySnoozedPage_dpi_120.png | in:snoozed  | 
+2021-03-17T13:00:54.307Z - [info] Executing:  | click | linkText=Sent |  | 
+2021-03-17T13:00:54.678Z - [info] Executing:  | visualVerify | verifySentPage_dpi_120.png | in:sent | 
+2021-03-17T13:00:56.408Z - [info] Executing:  | click | linkText=Drafts |  | 
+2021-03-17T13:00:56.623Z - [info] Executing:  | visualVerify | verifyDraftPage_dpi_120.png | draft | 
+2021-03-17T13:00:58.052Z - [info] Executing:  | click | linkText=Inbox |  | 
+2021-03-17T13:00:58.321Z - [info] Executing:  | XClick | firstEmail_dpi_120.png |  | 
+2021-03-17T13:00:59.381Z - [info] Executing:  | click | xpath=//*[@id=":4"]/div[4]/div/div/div/div/div |  | 
+2021-03-17T13:00:59.900Z - [info] Executing:  | XType | ${KEY_CTRL+KEY_F4} |  | 
+2021-03-17T13:01:00.410Z - [info] Executing:  | XType | ${KEY_CTRL+KEY_F4} |  | 
+2021-03-17T13:01:01.068Z - [info] Executing:  | comment | click // xpath=//*[@id=":e1"]/div[5]/div |  | 
+2021-03-17T13:01:01.172Z - [info] Macro completed (Runtime 17.57s)
+2021-03-17T13:40:13.385Z - [status] Playing macro WordPad TECHRPA-2
+2021-03-17T13:40:13.456Z - [info] Executing:  | XClick | alhw0f_dpi_120.png |  | 
+2021-03-17T13:40:15.057Z - [info] Macro completed (Runtime 1.62s)
+2021-03-17T13:41:22.032Z - [status] Playing macro WordPad TECHRPA-2
+2021-03-17T13:41:22.100Z - [info] Executing:  | XClick | alhw0f_dpi_120.png | #doubleclick | 
+2021-03-17T13:41:23.901Z - [info] Macro completed (Runtime 1.82s)
+2021-03-17T13:43:51.197Z - [status] Playing macro WordPad TECHRPA-2
+2021-03-17T13:43:51.276Z - [info] Executing:  | XClick | alhw0f_dpi_120.png | #doubleclick | 
+2021-03-17T13:44:00.146Z - [info] Executing:  | XType | ${KEY_CTRL+KEY_A} |  | 
+2021-03-17T13:44:00.613Z - [info] Macro completed (Runtime 9.35s)
+2021-03-17T13:52:01.911Z - [status] Playing macro WordPad TECHRPA-2
+2021-03-17T13:52:01.974Z - [info] Executing:  | OCRExtractRelative | wordPads_dpi_120.png | #doubleclick | 
+2021-03-17T13:52:03.289Z - [error] Cannot find green and/or pink boxes
+2021-03-17T13:52:03.329Z - [info] Macro failed (Runtime 1.38s)
+2021-03-17T13:54:30.668Z - [status] Playing macro WordPad TECHRPA-2
+2021-03-17T13:54:30.731Z - [info] Executing:  | OCRExtractRelative | wordPads_dpi_120.png | #doubleclick | 
+2021-03-17T13:54:34.618Z - [info] OCR (eng) started (5.4 KB)
+2021-03-17T13:54:35.666Z - [info] OCR result received (1.0s from endpoint 1)
+2021-03-17T13:54:35.705Z - [error] Invalid variable name '#doubleclick'. A variable name can only contain alpha-numeric characters and underscores (A-z, 0-9, and _ )
+2021-03-17T13:54:35.763Z - [info] Macro failed (Runtime 5.05s)
+2021-03-17T13:55:37.868Z - [status] Playing macro WordPad TECHRPA-2
+2021-03-17T13:55:37.942Z - [info] Executing:  | OCRExtractRelative | wordPads_dpi_120.png | fileName | 
+2021-03-17T13:55:41.753Z - [info] OCR (eng) started (5.4 KB)
+2021-03-17T13:55:42.295Z - [info] OCR result received (0.5s from endpoint 1)
+2021-03-17T13:55:42.399Z - [info] Executing:  | comment | XType // ${KEY_CTRL+KEY_A} |  | 
+2021-03-17T13:55:42.472Z - [info] Executing:  | echo | file name is ${fileName} |  | 
+2021-03-17T13:55:42.495Z - [echo] file name is Ul.ViSiöffRPA
+2021-03-17T13:55:42.599Z - [info] Macro completed (Runtime 4.67s)
+2021-03-17T13:56:49.190Z - [status] Playing macro WordPad TECHRPA-2
+2021-03-17T13:56:49.275Z - [info] Executing:  | OCRExtractRelative | wordPads_dpi_120.png | fileName | 
+2021-03-17T13:56:53.130Z - [info] OCR (eng) started (5.4 KB)
+2021-03-17T13:56:53.628Z - [info] OCR result received (0.5s from endpoint 1)
+2021-03-17T13:56:53.723Z - [info] Executing:  | comment | XType // ${KEY_CTRL+KEY_A} |  | 
+2021-03-17T13:56:53.821Z - [info] Executing:  | echo | file name is ${fileName} |  | 
+2021-03-17T13:56:53.856Z - [echo] file name is Ul.ViSiöffRPA
+2021-03-17T13:56:53.970Z - [info] Macro completed (Runtime 4.72s)
+2021-03-17T13:58:48.761Z - [status] Playing macro WordPad TECHRPA-2
+2021-03-17T13:58:48.850Z - [info] Executing:  | XClick | Text_dpi_120.png | fileName | 
+2021-03-17T13:58:48.938Z - [error] XClick: invalid value, 'fileName'
+2021-03-17T13:58:49.001Z - [info] Macro failed (Runtime 0.17s)
+2021-03-17T13:59:08.193Z - [status] Playing macro WordPad TECHRPA-2
+2021-03-17T13:59:08.285Z - [info] Executing:  | XClick | Text_dpi_120.png |  | 
+2021-03-17T13:59:09.625Z - [info] Executing:  | comment | XType // ${KEY_CTRL+KEY_A} |  | 
+2021-03-17T13:59:09.686Z - [info] Executing:  | echo | file name is ${fileName} |  | 
+2021-03-17T13:59:09.729Z - [error] variable "FILENAME" is not defined
+2021-03-17T13:59:09.778Z - [info] Macro failed (Runtime 1.52s)
+2021-03-17T13:59:35.350Z - [status] Playing macro WordPad TECHRPA-2
+2021-03-17T13:59:35.428Z - [info] Executing:  | XClick | Text_dpi_120.png | #doubleclick | 
+2021-03-17T13:59:36.916Z - [info] Executing:  | comment | XType // ${KEY_CTRL+KEY_A} |  | 
+2021-03-17T13:59:37.223Z - [info] Macro completed (Runtime 1.82s)
+2021-03-17T14:43:09.858Z - [status] Playing macro Gmail TECHRPA-10-12
+2021-03-17T14:43:09.945Z - [info] Executing:  | store | !replayspeed | medium | 
+2021-03-17T14:43:10.055Z - [info] Executing:  | XRun | C:\Program Files\Mozilla Firefox\firefox.exe |  | 
+2021-03-17T14:43:10.471Z - [info] Executing:  | open | https://mail.google.com/mail/u/1/#inbox |  | 
+2021-03-17T14:43:14.593Z - [info] Executing:  | comment | setWindowSize // 1700x900 |  | 
+2021-03-17T14:43:14.689Z - [info] Executing:  | bringBrowserToForeground |  |  | 
+2021-03-17T14:43:14.935Z - [info] Executing:  | XClickRelative | fullSize_dpi_120.png |  | 
+2021-03-17T14:43:16.411Z - [info] Executing:  | click | xpath=/html/body |  | 
+2021-03-17T14:43:16.927Z - [info] Executing:  | visualVerify | gmailTopic_dpi_120.png |  | 
+2021-03-17T14:43:18.060Z - [info] Executing:  | click | linkText=Snoozed |  | 
+2021-03-17T14:43:18.673Z - [info] Executing:  | visualVerify | verifySnoozedPage_dpi_120.png | in:snoozed  | 
+2021-03-17T14:43:22.329Z - [info] Executing:  | click | linkText=Sent |  | 
+2021-03-17T14:43:22.573Z - [info] Executing:  | visualVerify | verifySentPage_dpi_120.png | in:sent | 
+2021-03-17T14:43:24.806Z - [info] Executing:  | click | linkText=Drafts |  | 
+2021-03-17T14:43:25.228Z - [info] Executing:  | visualVerify | verifyDraftPage_dpi_120.png | draft | 
+2021-03-17T14:43:26.734Z - [info] Executing:  | click | linkText=Inbox |  | 
+2021-03-17T14:43:27.077Z - [info] Executing:  | XClick | firstEmail_dpi_120.png |  | 
+2021-03-17T14:43:28.185Z - [info] Executing:  | click | xpath=//*[@id=":4"]/div[4]/div/div/div/div/div |  | 
+2021-03-17T14:43:28.738Z - [info] Executing:  | XType | ${KEY_ALT+KEY_F4} |  | 
+2021-03-17T14:43:29.269Z - [info] Executing:  | comment | click // xpath=//*[@id=":e1"]/div[5]/div |  | 
+2021-03-17T14:43:29.459Z - [info] Macro completed (Runtime 19.53s)
+2021-03-17T14:44:20.714Z - [status] Playing macro Gmail TECHRPA-10-12
+2021-03-17T14:44:20.801Z - [info] Executing:  | store | !replayspeed | medium | 
+2021-03-17T14:44:20.873Z - [info] Executing:  | XRun | C:\Program Files\Mozilla Firefox\firefox.exe |  | 
+2021-03-17T14:44:21.089Z - [info] Executing:  | open | https://mail.google.com/mail/u/1/#inbox |  | 
+2021-03-17T14:44:24.749Z - [info] Executing:  | comment | setWindowSize // 1700x900 |  | 
+2021-03-17T14:44:24.843Z - [info] Executing:  | bringBrowserToForeground |  |  | 
+2021-03-17T14:44:25.034Z - [info] Executing:  | XClickRelative | fullSize_dpi_120.png |  | 
+2021-03-17T14:44:26.468Z - [info] Executing:  | click | xpath=/html/body |  | 
+2021-03-17T14:44:27.086Z - [info] Executing:  | visualVerify | gmailTopic_dpi_120.png |  | 
+2021-03-17T14:44:28.077Z - [info] Executing:  | click | linkText=Snoozed |  | 
+2021-03-17T14:44:28.715Z - [info] Executing:  | visualVerify | verifySnoozedPage_dpi_120.png | in:snoozed  | 
+2021-03-17T14:44:32.150Z - [info] Executing:  | click | linkText=Sent |  | 
+2021-03-17T14:44:32.482Z - [info] Executing:  | visualVerify | verifySentPage_dpi_120.png | in:sent | 
+2021-03-17T14:44:34.110Z - [info] Executing:  | click | linkText=Drafts |  | 
+2021-03-17T14:44:34.377Z - [info] Executing:  | visualVerify | verifyDraftPage_dpi_120.png | draft | 
+2021-03-17T14:44:35.824Z - [info] Executing:  | click | linkText=Inbox |  | 
+2021-03-17T14:44:36.133Z - [info] Executing:  | XClick | firstEmail_dpi_120.png |  | 
+2021-03-17T14:44:37.191Z - [info] Executing:  | click | xpath=//*[@id=":4"]/div[4]/div/div/div/div/div |  | 
+2021-03-17T14:44:37.668Z - [info] Executing:  | XType | ${KEY_ALT+KEY_F4} |  | 
+2021-03-17T14:44:38.177Z - [info] Executing:  | comment | click // xpath=//*[@id=":e1"]/div[5]/div |  | 
+2021-03-17T14:44:38.430Z - [info] Macro completed (Runtime 17.65s)
+2021-03-17T14:45:56.030Z - [status] Playing macro Calculator TECHRPA-11-13
+2021-03-17T14:45:56.122Z - [info] Executing:  | comment | store // slow | !replayspeed | 
+2021-03-17T14:45:56.202Z - [info] Executing:  | XDesktopAutomation | true |  | 
+2021-03-17T14:45:56.333Z - [info] Executing:  | XRun | C:\Windows\System32\calc |  | 
+2021-03-17T14:45:56.559Z - [info] Executing:  | XClick | button8_dpi_120.png |  | 
+2021-03-17T14:45:58.922Z - [info] Executing:  | XClick | plusButton_dpi_120.png |  | 
+2021-03-17T14:46:00.234Z - [info] Executing:  | XClick | button9_dpi_120.png |  | 
+2021-03-17T14:46:01.346Z - [info] Executing:  | XClick | equalButton_dpi_120.png |  | 
+2021-03-17T14:46:02.707Z - [info] Executing:  | visualAssert | calResult_dpi_120.png | result | 
+2021-03-17T14:46:03.527Z - [info] Executing:  | comment | XClickRelative // closeCal_dpi_120.png |  | 
+2021-03-17T14:46:03.651Z - [info] Executing:  | XType | ${KEY_ALT+KEY_F4} |  | 
+2021-03-17T14:46:04.184Z - [info] Macro completed (Runtime 8.08s)
+2021-03-17T14:57:06.966Z - [status] Playing macro WordPad TECHRPA-2
+2021-03-17T14:57:07.049Z - [info] Executing:  | visualSearch | Text_dpi_120.png | #doubleclick | 
+2021-03-17T14:57:17.851Z - [error] Invalid variable name '#doubleclick'. A variable name can only contain alpha-numeric characters and underscores (A-z, 0-9, and _ )
+2021-03-17T14:57:17.910Z - [info] Macro failed (Runtime 10.88s)
+2021-03-17T14:58:59.016Z - [status] Playing macro WordPad TECHRPA-2
+2021-03-17T14:58:59.126Z - [info] Executing:  | visualSearch | Text_dpi_120.png | TextDocumentNumber | 
+2021-03-17T14:59:00.301Z - [info] Executing:  | echo | ${TextDocumentNumber} files were found |  | 
+2021-03-17T14:59:00.352Z - [echo] 2 files were found
+2021-03-17T14:59:00.441Z - [info] Executing:  | comment | visualSearch //  |  | 
+2021-03-17T14:59:00.571Z - [info] Macro completed (Runtime 1.47s)
+2021-03-17T14:59:19.394Z - [status] Playing macro WordPad TECHRPA-2
+2021-03-17T14:59:19.503Z - [info] Executing:  | visualSearch | Text_dpi_120.png | TextDocumentNumber | 
+2021-03-17T14:59:20.605Z - [info] Executing:  | echo | ${TextDocumentNumber} files were found |  | 
+2021-03-17T14:59:20.651Z - [echo] 3 files were found
+2021-03-17T14:59:20.749Z - [info] Executing:  | comment | visualSearch //  |  | 
+2021-03-17T14:59:20.890Z - [info] Macro completed (Runtime 1.41s)
+2021-03-17T15:03:23.584Z - [status] Playing macro WordPad TECHRPA-2
+2021-03-17T15:03:23.652Z - [info] Executing:  | visualSearch | Text_dpi_120.png | TextDocumentNumber | 
+2021-03-17T15:03:24.879Z - [info] Executing:  | echo | ${TextDocumentNumber} files were found |  | 
+2021-03-17T15:03:24.903Z - [echo] 3 files were found
+2021-03-17T15:03:24.976Z - [info] Executing:  | comment | visualSearch //  |  | 
+2021-03-17T15:03:25.089Z - [info] Macro completed (Runtime 1.45s)
+2021-03-17T15:03:33.795Z - [status] Playing macro WordPad TECHRPA-2
+2021-03-17T15:03:33.835Z - [info] Executing:  | visualSearch | Text_dpi_120.png | TextDocumentNumber | 
+2021-03-17T15:03:35.001Z - [info] Executing:  | echo | ${TextDocumentNumber} files were found |  | 
+2021-03-17T15:03:35.009Z - [echo] 3 files were found
+2021-03-17T15:03:35.050Z - [info] Executing:  | comment | visualSearch //  |  | 
+2021-03-17T15:03:35.164Z - [info] Macro completed (Runtime 1.34s)
+2021-03-17T15:05:33.168Z - [status] Playing macro WordPad TECHRPA-2
+2021-03-17T15:05:33.222Z - [info] Executing:  | visualSearch | Text_dpi_120.png | TextDocumentNumber | 
+2021-03-17T15:05:34.354Z - [info] Executing:  | echo | ${TextDocumentNumber} files were found |  | 
+2021-03-17T15:05:34.363Z - [echo] 3 files were found
+2021-03-17T15:05:34.405Z - [info] Executing:  | times | ${TextDocumentNumber} |  | 
+2021-03-17T15:05:34.501Z - [info] Executing:  | XClick | Text_dpi_120.png@#${!times} |  | 
+2021-03-17T15:05:34.545Z - [error] XClick: invalid target, 'Text_dpi_120.png@#1'
+2021-03-17T15:05:34.583Z - [info] Macro failed (Runtime 1.37s)
+2021-03-17T20:19:53.902Z - [status] Playing macro Gmail TECHRPA-10-12
+2021-03-17T20:19:54.074Z - [info] Executing:  | store | !replayspeed | medium | 
+2021-03-17T20:19:54.208Z - [info] Executing:  | XRun | C:\Program Files\Mozilla Firefox\firefox.exe |  | 
+2021-03-17T20:19:54.938Z - [info] Executing:  | open | https://mail.google.com/mail/u/1/#inbox |  | 
+2021-03-17T20:20:03.286Z - [info] Executing:  | comment | setWindowSize // 1700x900 |  | 
+2021-03-17T20:20:03.415Z - [info] Executing:  | bringBrowserToForeground |  |  | 
+2021-03-17T20:20:03.747Z - [info] Executing:  | XClickRelative | fullSize_dpi_120.png |  | 
+2021-03-17T20:20:07.851Z - [info] Executing:  | click | xpath=/html/body |  | 
+2021-03-17T20:20:09.362Z - [info] Executing:  | visualVerify | gmailTopic_dpi_120.png |  | 
+2021-03-17T20:20:21.414Z - [error][ignored] Image 'gmailTopic_dpi_120.png' (conf. = 0.8) not found
+2021-03-17T20:20:21.520Z - [info] Executing:  | click | linkText=Snoozed |  | 
+2021-03-17T20:20:22.137Z - [info] Executing:  | visualVerify | verifySnoozedPage_dpi_120.png | in:snoozed  | 
+2021-03-17T20:20:25.744Z - [info] Executing:  | click | linkText=Sent |  | 
+2021-03-17T20:20:26.025Z - [info] Executing:  | visualVerify | verifySentPage_dpi_120.png | in:sent | 
+2021-03-17T20:20:28.722Z - [info] Executing:  | click | linkText=Drafts |  | 
+2021-03-17T20:20:29.356Z - [info] Executing:  | visualVerify | verifyDraftPage_dpi_120.png | draft | 
+2021-03-17T20:20:32.365Z - [info] Executing:  | click | linkText=Inbox |  | 
+2021-03-17T20:20:33.203Z - [info] Executing:  | XClick | firstEmail_dpi_120.png |  | 
+2021-03-17T20:20:35.116Z - [info] Executing:  | click | xpath=//*[@id=":4"]/div[4]/div/div/div/div/div |  | 
+2021-03-17T20:20:36.303Z - [info] Executing:  | XType | ${KEY_ALT+KEY_F4} |  | 
+2021-03-17T20:20:36.802Z - [info] Executing:  | comment | click // xpath=//*[@id=":e1"]/div[5]/div |  | 
+2021-03-17T20:20:37.090Z - [info] Macro completed (Runtime 43.06s)
+2021-03-17T20:21:57.476Z - [status] Playing macro Gmail TECHRPA-10-12
+2021-03-17T20:21:57.658Z - [info] Executing:  | visualVerify | gmailTopic_dpi_120.png |  | 
+2021-03-17T20:21:59.206Z - [error] Image 'gmailTopic_dpi_120.png' (conf. = 0.8) not found
+2021-03-17T20:21:59.307Z - [info] Macro failed (Runtime 1.72s)
+2021-03-17T20:22:22.825Z - [status] Playing macro Gmail TECHRPA-10-12
+2021-03-17T20:22:23.365Z - [info] Executing:  | visualVerify | gmailTopic_dpi_120.png |  | 
+2021-03-17T20:22:25.234Z - [error] Image 'gmailTopic_dpi_120.png' (conf. = 0.8) not found
+2021-03-17T20:22:25.346Z - [info] Macro failed (Runtime 2.11s)
+2021-03-17T20:22:41.349Z - [status] Playing macro Gmail TECHRPA-10-12
+2021-03-17T20:22:41.596Z - [info] Executing:  | visualVerify | gmailTopic_dpi_120.png |  | 
+2021-03-17T20:22:42.963Z - [error] Image 'gmailTopic_dpi_120.png' (conf. = 0.8) not found
+2021-03-17T20:22:43.059Z - [info] Macro failed (Runtime 1.51s)
+2021-03-17T20:23:27.475Z - [status] Playing macro Gmail TECHRPA-10-12
+2021-03-17T20:23:27.758Z - [info] Executing:  | visualVerify | gmailTopic_dpi_120.png |  | 
+2021-03-17T20:23:29.335Z - [error] Image 'gmailTopic_dpi_120.png' (conf. = 0.8) not found
+2021-03-17T20:23:29.440Z - [info] Macro failed (Runtime 1.73s)
+2021-03-17T20:24:10.951Z - [status] Playing macro Gmail TECHRPA-10-12
+2021-03-17T20:24:11.185Z - [info] Executing:  | visualVerify | gmailTopic_dpi_120.png |  | 
+2021-03-17T20:24:13.053Z - [error] Image 'gmailTopic_dpi_120.png' (conf. = 0.8) not found
+2021-03-17T20:24:13.139Z - [info] Macro failed (Runtime 2.02s)
+2021-03-17T20:24:55.066Z - [status] Playing macro Gmail TECHRPA-10-12
+2021-03-17T20:24:55.541Z - [info] Executing:  | visualVerify | gmailTopic_dpi_120.png |  | 
+2021-03-17T20:24:57.343Z - [error] Image 'gmailTopic_dpi_120.png' (conf. = 0.8) not found
+2021-03-17T20:24:57.425Z - [info] Macro failed (Runtime 1.96s)
+2021-03-17T20:27:10.255Z - [status] Playing macro Calculator TECHRPA-11-13
+2021-03-17T20:27:10.387Z - [info] Executing:  | comment | store // slow | !replayspeed | 
+2021-03-17T20:27:10.483Z - [info] Executing:  | XDesktopAutomation | true |  | 
+2021-03-17T20:27:10.646Z - [info] Executing:  | XRun | C:\Windows\System32\calc |  | 
+2021-03-17T20:27:10.957Z - [info] Executing:  | XClick | button8_dpi_120.png |  | 
+2021-03-17T20:27:16.335Z - [info] Executing:  | XClick | plusButton_dpi_120.png |  | 
+2021-03-17T20:27:19.377Z - [info] Executing:  | XClick | button9_dpi_120.png |  | 
+2021-03-17T20:27:22.170Z - [info] Executing:  | XClick | equalButton_dpi_120.png |  | 
+2021-03-17T20:27:25.254Z - [info] Executing:  | visualAssert | calResult_dpi_120.png | result | 
+2021-03-17T20:27:27.574Z - [info] Executing:  | comment | XClickRelative // closeCal_dpi_120.png |  | 
+2021-03-17T20:27:27.753Z - [info] Executing:  | XType | ${KEY_ALT+KEY_F4} |  | 
+2021-03-17T20:27:28.939Z - [info] Macro completed (Runtime 18.59s)
+2021-03-17T20:30:37.045Z - [status] Playing macro WordPad TECHRPA-2
+2021-03-17T20:30:37.206Z - [info] Executing:  | visualSearch | Text_dpi_120.png | TextDocumentNumber | 
+2021-03-17T20:30:39.192Z - [info] Executing:  | echo | ${TextDocumentNumber} files were found |  | 
+2021-03-17T20:30:39.221Z - [echo] 3 files were found
+2021-03-17T20:30:39.339Z - [info] Executing:  | times | ${TextDocumentNumber} |  | 
+2021-03-17T20:30:39.586Z - [info] Executing:  | XClick | Text_dpi_120.png@#${!times} |  | 
+2021-03-17T20:30:39.689Z - [error] XClick: invalid target, 'Text_dpi_120.png@#1'
+2021-03-17T20:30:39.818Z - [info] Macro failed (Runtime 2.66s)
+2021-03-18T00:17:24.517Z - [status] Playing macro WordPad TECHRPA-2
+2021-03-18T00:17:24.656Z - [info] Executing:  | visualSearch | Text_dpi_120.png | TextDocumentNumber | 
+2021-03-18T00:17:26.563Z - [info] Executing:  | echo | ${TextDocumentNumber} files were found |  | 
+2021-03-18T00:17:26.595Z - [echo] 2 files were found
+2021-03-18T00:17:26.799Z - [info] Executing:  | times | ${TextDocumentNumber} |  | 
+2021-03-18T00:17:27.024Z - [info] Executing:  | XClick | Text_dpi_120.png@#${!times} |  | 
+2021-03-18T00:17:27.317Z - [error] XClick: invalid target, 'Text_dpi_120.png@#1'
+2021-03-18T00:17:27.402Z - [info] Macro failed (Runtime 2.77s)
+2021-03-18T00:17:38.798Z - [status] Playing macro WordPad TECHRPA-2
+2021-03-18T00:17:38.934Z - [info] Executing:  | visualSearch | Text_dpi_120.png | TextDocumentNumber | 
+2021-03-18T00:17:40.927Z - [info] Executing:  | echo | ${TextDocumentNumber} files were found |  | 
+2021-03-18T00:17:40.953Z - [echo] 3 files were found
+2021-03-18T00:17:41.093Z - [info] Executing:  | times | ${TextDocumentNumber} |  | 
+2021-03-18T00:17:41.245Z - [info] Executing:  | XClick | Text_dpi_120.png@#${!times} |  | 
+2021-03-18T00:17:41.435Z - [error] XClick: invalid target, 'Text_dpi_120.png@#1'
+2021-03-18T00:17:41.516Z - [info] Macro failed (Runtime 2.62s)
+2021-03-18T00:18:05.161Z - [status] Playing macro WordPad TECHRPA-2
+2021-03-18T00:18:05.305Z - [info] Executing:  | visualSearch | Text_dpi_120.png | TextDocumentNumber | 
+2021-03-18T00:18:07.067Z - [info] Executing:  | echo | ${TextDocumentNumber} files were found |  | 
+2021-03-18T00:18:07.092Z - [echo] 3 files were found
+2021-03-18T00:18:07.229Z - [info] Executing:  | times | ${TextDocumentNumber} |  | 
+2021-03-18T00:18:07.366Z - [info] Executing:  | XClick | Text_dpi_120.png@0.86#${!times} |  | 
+2021-03-18T00:18:10.032Z - [info] Executing:  | XType | ${KEY_ALT+KEY_F4} |  | 
+2021-03-18T00:18:10.638Z - [info] Executing:  | end |  |  | 
+2021-03-18T00:18:10.787Z - [info] Executing:  | times | ${TextDocumentNumber} |  | 
+2021-03-18T00:18:10.982Z - [info] Executing:  | XClick | Text_dpi_120.png@0.86#${!times} |  | 
+2021-03-18T00:18:13.293Z - [info] Executing:  | XType | ${KEY_ALT+KEY_F4} |  | 
+2021-03-18T00:18:14.150Z - [info] Executing:  | end |  |  | 
+2021-03-18T00:18:14.302Z - [info] Executing:  | times | ${TextDocumentNumber} |  | 
+2021-03-18T00:18:14.459Z - [info] Executing:  | XClick | Text_dpi_120.png@0.86#${!times} |  | 
+2021-03-18T00:18:16.009Z - [error] Found 2 matches, but you are looking for #3
+2021-03-18T00:18:16.109Z - [info] Macro failed (Runtime 10.84s)
+2021-03-18T00:18:41.573Z - [status] Playing macro WordPad TECHRPA-2
+2021-03-18T00:18:41.718Z - [info] Executing:  | visualSearch | Text_dpi_120.png | TextDocumentNumber | 
+2021-03-18T00:18:43.711Z - [info] Executing:  | echo | ${TextDocumentNumber} files were found |  | 
+2021-03-18T00:18:43.743Z - [echo] 3 files were found
+2021-03-18T00:18:43.904Z - [info] Executing:  | times | ${TextDocumentNumber} |  | 
+2021-03-18T00:18:44.042Z - [info] Executing:  | XClick | Text_dpi_120.png@0.86#${!times} | #doubleclick | 
+2021-03-18T00:18:46.461Z - [info] Executing:  | XType | ${KEY_ALT+KEY_F4} |  | 
+2021-03-18T00:18:47.332Z - [info] Executing:  | end |  |  | 
+2021-03-18T00:18:47.470Z - [info] Executing:  | times | ${TextDocumentNumber} |  | 
+2021-03-18T00:18:47.654Z - [info] Executing:  | XClick | Text_dpi_120.png@0.86#${!times} | #doubleclick | 
+2021-03-18T00:18:50.001Z - [info] Executing:  | XType | ${KEY_ALT+KEY_F4} |  | 
+2021-03-18T00:18:50.956Z - [info] Executing:  | end |  |  | 
+2021-03-18T00:18:51.106Z - [info] Executing:  | times | ${TextDocumentNumber} |  | 
+2021-03-18T00:18:51.261Z - [info] Executing:  | XClick | Text_dpi_120.png@0.86#${!times} | #doubleclick | 
+2021-03-18T00:18:52.842Z - [error] Found 2 matches, but you are looking for #3
+2021-03-18T00:18:52.954Z - [info] Macro failed (Runtime 11.26s)
+2021-03-18T00:19:17.234Z - [status] Playing macro WordPad TECHRPA-2
+2021-03-18T00:19:17.375Z - [info] Executing:  | visualSearch | Text_dpi_120.png | TextDocumentNumber | 
+2021-03-18T00:19:19.172Z - [info] Executing:  | echo | ${TextDocumentNumber} files were found |  | 
+2021-03-18T00:19:19.209Z - [echo] 1 files were found
+2021-03-18T00:19:19.389Z - [info] Executing:  | times | ${TextDocumentNumber} |  | 
+2021-03-18T00:19:19.542Z - [info] Executing:  | XClick | Text_dpi_120.png@0.86#${!times} | #doubleclick | 
+2021-03-18T00:19:21.706Z - [info] Executing:  | XType | ${KEY_ALT+KEY_F4} |  | 
+2021-03-18T00:19:22.384Z - [info] Executing:  | end |  |  | 
+2021-03-18T00:19:22.525Z - [info] Executing:  | times | ${TextDocumentNumber} |  | 
+2021-03-18T00:19:22.757Z - [info] Macro completed (Runtime 5.41s)
+2021-03-18T00:20:22.186Z - [status] Playing macro WordPad TECHRPA-2
+2021-03-18T00:20:22.365Z - [info] Executing:  | visualSearch | Text_dpi_120.png | TextDocumentNumber | 
+2021-03-18T00:20:35.078Z - [info] Executing:  | echo | ${TextDocumentNumber} files were found |  | 
+2021-03-18T00:20:35.122Z - [echo] 0 files were found
+2021-03-18T00:20:35.576Z - [info] Executing:  | times | ${TextDocumentNumber} |  | 
+2021-03-18T00:20:35.939Z - [info] Macro completed (Runtime 13.61s)
+2021-03-18T00:20:40.653Z - [status] Playing macro WordPad TECHRPA-2
+2021-03-18T00:20:40.834Z - [info] Executing:  | visualSearch | Text_dpi_120.png | TextDocumentNumber | 
+2021-03-18T00:20:53.237Z - [info] Executing:  | echo | ${TextDocumentNumber} files were found |  | 
+2021-03-18T00:20:53.282Z - [echo] 0 files were found
+2021-03-18T00:20:53.648Z - [info] Executing:  | times | ${TextDocumentNumber} |  | 
+2021-03-18T00:20:53.880Z - [info] Macro completed (Runtime 13.08s)
+2021-03-18T00:22:02.799Z - [status] Playing macro WordPad TECHRPA-2
+2021-03-18T00:22:02.931Z - [info] Executing:  | visualSearch | Text_dpi_120.png | TextDocumentNumber | 
+2021-03-18T00:22:15.566Z - [info] Executing:  | echo | ${TextDocumentNumber} files were found |  | 
+2021-03-18T00:22:15.608Z - [echo] 0 files were found
+2021-03-18T00:22:15.750Z - [info] Executing:  | times | ${TextDocumentNumber} |  | 
+2021-03-18T00:22:15.953Z - [info] Macro completed (Runtime 13.05s)
+2021-03-18T00:22:32.340Z - [status] Playing macro WordPad TECHRPA-2
+2021-03-18T00:22:32.497Z - [info] Executing:  | visualSearch | Text_dpi_120.png | TextDocumentNumber | 
+2021-03-18T00:22:34.086Z - [info] Executing:  | echo | ${TextDocumentNumber} files were found |  | 
+2021-03-18T00:22:34.131Z - [echo] 2 files were found
+2021-03-18T00:22:34.335Z - [info] Executing:  | times | ${TextDocumentNumber} |  | 
+2021-03-18T00:22:34.507Z - [info] Executing:  | XClick | Text_dpi_120.png@#${!times} | #doubleclick | 
+2021-03-18T00:22:34.692Z - [error] XClick: invalid target, 'Text_dpi_120.png@#1'
+2021-03-18T00:22:34.821Z - [info] Macro failed (Runtime 2.35s)
+2021-03-18T00:22:50.678Z - [status] Playing macro WordPad TECHRPA-2
+2021-03-18T00:22:50.884Z - [info] Executing:  | visualSearch | Text_dpi_120.png | TextDocumentNumber | 
+2021-03-18T00:22:52.678Z - [info] Executing:  | echo | ${TextDocumentNumber} files were found |  | 
+2021-03-18T00:22:52.724Z - [echo] 2 files were found
+2021-03-18T00:22:52.922Z - [info] Executing:  | times | ${TextDocumentNumber} |  | 
+2021-03-18T00:22:53.083Z - [info] Executing:  | XClick | Text_dpi_120.png#${!times} | #doubleclick | 
+2021-03-18T00:22:55.572Z - [info] Executing:  | XType | ${KEY_ALT+KEY_F4} |  | 
+2021-03-18T00:22:56.500Z - [info] Executing:  | end |  |  | 
+2021-03-18T00:22:56.638Z - [info] Executing:  | times | ${TextDocumentNumber} |  | 
+2021-03-18T00:22:56.772Z - [info] Executing:  | XClick | Text_dpi_120.png#${!times} | #doubleclick | 
+2021-03-18T00:22:58.857Z - [info] Executing:  | XType | ${KEY_ALT+KEY_F4} |  | 
+2021-03-18T00:22:59.871Z - [info] Executing:  | end |  |  | 
+2021-03-18T00:23:00.026Z - [info] Executing:  | times | ${TextDocumentNumber} |  | 
+2021-03-18T00:23:00.241Z - [info] Macro completed (Runtime 9.41s)
+2021-03-18T00:23:12.162Z - [status] Playing macro WordPad TECHRPA-2
+2021-03-18T00:23:12.261Z - [info] Executing:  | visualSearch | Text_dpi_120.png | TextDocumentNumber | 
+2021-03-18T00:23:13.785Z - [info] Executing:  | echo | ${TextDocumentNumber} files were found |  | 
+2021-03-18T00:23:13.802Z - [echo] 2 files were found
+2021-03-18T00:23:13.918Z - [info] Executing:  | times | ${TextDocumentNumber} |  | 
+2021-03-18T00:23:14.040Z - [info] Executing:  | XClick | Text_dpi_120.png#${!times} | #doubleclick | 
+2021-03-18T00:23:16.402Z - [info] Executing:  | XType | ${KEY_ALT+KEY_F4} |  | 
+2021-03-18T00:23:17.166Z - [info] Executing:  | end |  |  | 
+2021-03-18T00:23:17.286Z - [info] Executing:  | times | ${TextDocumentNumber} |  | 
+2021-03-18T00:23:17.454Z - [info] Executing:  | XClick | Text_dpi_120.png#${!times} | #doubleclick | 
+2021-03-18T00:23:19.623Z - [info] Executing:  | XType | ${KEY_ALT+KEY_F4} |  | 
+2021-03-18T00:23:20.525Z - [info] Executing:  | end |  |  | 
+2021-03-18T00:23:20.664Z - [info] Executing:  | times | ${TextDocumentNumber} |  | 
+2021-03-18T00:23:20.856Z - [info] Macro completed (Runtime 8.62s)
+2021-03-18T00:29:13.759Z - [status] Playing macro WordPad TECHRPA-2
+2021-03-18T00:29:13.891Z - [info] Executing:  | visualSearch | Text_dpi_120.png | TextDocumentNumber | 
+2021-03-18T00:29:15.557Z - [info] Executing:  | echo | ${TextDocumentNumber} files were found |  | 
+2021-03-18T00:29:15.576Z - [echo] 2 files were found
+2021-03-18T00:29:15.738Z - [info] Executing:  | times | ${TextDocumentNumber} |  | 
+2021-03-18T00:29:15.849Z - [info] Executing:  | XClick | Text_dpi_120.png@0.8#${!times} | #doubleclick | 
+2021-03-18T00:29:18.041Z - [info] Executing:  | XType | ${KEY_ALT+KEY_F4} |  | 
+2021-03-18T00:29:18.841Z - [info] Executing:  | end |  |  | 
+2021-03-18T00:29:18.978Z - [info] Executing:  | times | ${TextDocumentNumber} |  | 
+2021-03-18T00:29:19.132Z - [info] Executing:  | XClick | Text_dpi_120.png@0.8#${!times} | #doubleclick | 
+2021-03-18T00:29:21.792Z - [info] Executing:  | XType | ${KEY_ALT+KEY_F4} |  | 
+2021-03-18T00:29:22.684Z - [info] Executing:  | end |  |  | 
+2021-03-18T00:29:22.836Z - [info] Executing:  | times | ${TextDocumentNumber} |  | 
+2021-03-18T00:29:23.058Z - [info] Macro completed (Runtime 9.20s)
+2021-03-18T00:29:42.589Z - [status] Playing macro WordPad TECHRPA-2
+2021-03-18T00:29:42.733Z - [info] Executing:  | visualSearch | Text_dpi_120.png | TextDocumentNumber | 
+2021-03-18T00:29:44.446Z - [info] Executing:  | echo | ${TextDocumentNumber} files were found |  | 
+2021-03-18T00:29:44.462Z - [echo] 3 files were found
+2021-03-18T00:29:44.569Z - [info] Executing:  | times | ${TextDocumentNumber} |  | 
+2021-03-18T00:29:44.754Z - [info] Executing:  | XClick | Text_dpi_120.png@0.8#${!times} | #doubleclick | 
+2021-03-18T00:29:47.040Z - [info] Executing:  | XType | ${KEY_ALT+KEY_F4} |  | 
+2021-03-18T00:29:47.989Z - [info] Executing:  | end |  |  | 
+2021-03-18T00:29:48.120Z - [info] Executing:  | times | ${TextDocumentNumber} |  | 
+2021-03-18T00:29:48.268Z - [info] Executing:  | XClick | Text_dpi_120.png@0.8#${!times} | #doubleclick | 
+2021-03-18T00:29:49.604Z - [error] Found 1 match, but you are looking for #2
+2021-03-18T00:29:49.679Z - [info] Macro failed (Runtime 6.97s)
+2021-03-18T00:30:30.853Z - [status] Playing macro WordPad TECHRPA-2
+2021-03-18T00:30:31.018Z - [info] Executing:  | visualSearch | Text_dpi_120.png | TextDocumentNumber | 
+2021-03-18T00:30:32.829Z - [info] Macro completed (Runtime 1.84s)
+2021-03-18T00:31:22.627Z - [status] Playing macro WordPad TECHRPA-2
+2021-03-18T00:31:22.795Z - [info] Executing:  | visualSearch | Text_dpi_120.png | TextDocumentNumber | 
+2021-03-18T00:31:24.530Z - [info] Executing:  | echo | ${TextDocumentNumber} files were found |  | 
+2021-03-18T00:31:24.579Z - [echo] 3 files were found
+2021-03-18T00:31:24.732Z - [info] Executing:  | times | ${TextDocumentNumber} |  | 
+2021-03-18T00:31:24.868Z - [info] Executing:  | XClick | Text_dpi_120.png@0.76#${!times} | #doubleclick | 
+2021-03-18T00:31:27.234Z - [info] Executing:  | XType | ${KEY_ALT+KEY_F4} |  | 
+2021-03-18T00:31:28.217Z - [info] Executing:  | end |  |  | 
+2021-03-18T00:31:28.349Z - [info] Executing:  | times | ${TextDocumentNumber} |  | 
+2021-03-18T00:31:28.478Z - [info] Executing:  | XClick | Text_dpi_120.png@0.76#${!times} | #doubleclick | 
+2021-03-18T00:31:29.852Z - [error] Found 1 match, but you are looking for #2
+2021-03-18T00:31:29.939Z - [info] Macro failed (Runtime 7.18s)
+2021-03-18T00:31:41.053Z - [status] Playing macro WordPad TECHRPA-2
+2021-03-18T00:31:41.226Z - [info] Executing:  | visualSearch | Text_dpi_120.png | TextDocumentNumber | 
+2021-03-18T00:31:42.966Z - [info] Executing:  | echo | ${TextDocumentNumber} files were found |  | 
+2021-03-18T00:31:42.996Z - [echo] 3 files were found
+2021-03-18T00:31:43.174Z - [info] Executing:  | times | ${TextDocumentNumber} |  | 
+2021-03-18T00:31:43.321Z - [info] Executing:  | XClick | Text_dpi_120.png@0.75#${!times} | #doubleclick | 
+2021-03-18T00:31:45.514Z - [info] Executing:  | XType | ${KEY_ALT+KEY_F4} |  | 
+2021-03-18T00:31:46.291Z - [info] Executing:  | end |  |  | 
+2021-03-18T00:31:46.437Z - [info] Executing:  | times | ${TextDocumentNumber} |  | 
+2021-03-18T00:31:46.584Z - [info] Executing:  | XClick | Text_dpi_120.png@0.75#${!times} | #doubleclick | 
+2021-03-18T00:31:48.888Z - [info] Executing:  | XType | ${KEY_ALT+KEY_F4} |  | 
+2021-03-18T00:31:49.892Z - [info] Executing:  | end |  |  | 
+2021-03-18T00:31:50.052Z - [info] Executing:  | times | ${TextDocumentNumber} |  | 
+2021-03-18T00:31:50.230Z - [info] Executing:  | XClick | Text_dpi_120.png@0.75#${!times} | #doubleclick | 
+2021-03-18T00:31:51.782Z - [error] Found 2 matches, but you are looking for #3
+2021-03-18T00:31:51.929Z - [info] Macro failed (Runtime 10.75s)
+2021-03-18T00:32:06.474Z - [status] Playing macro WordPad TECHRPA-2
+2021-03-18T00:32:06.626Z - [info] Executing:  | visualSearch | Text_dpi_120.png | TextDocumentNumber | 
+2021-03-18T00:32:08.185Z - [info] Executing:  | echo | ${TextDocumentNumber} files were found |  | 
+2021-03-18T00:32:08.214Z - [echo] 2 files were found
+2021-03-18T00:32:08.423Z - [info] Executing:  | times | ${TextDocumentNumber} |  | 
+2021-03-18T00:32:08.559Z - [info] Executing:  | XClick | Text_dpi_120.png@0.75#${!times} | #doubleclick | 
+2021-03-18T00:32:10.973Z - [info] Executing:  | XType | ${KEY_ALT+KEY_F4} |  | 
+2021-03-18T00:32:11.926Z - [info] Executing:  | end |  |  | 
+2021-03-18T00:32:12.067Z - [info] Executing:  | times | ${TextDocumentNumber} |  | 
+2021-03-18T00:32:12.207Z - [info] Executing:  | XClick | Text_dpi_120.png@0.75#${!times} | #doubleclick | 
+2021-03-18T00:32:14.150Z - [info] Executing:  | XType | ${KEY_ALT+KEY_F4} |  | 
+2021-03-18T00:32:14.943Z - [info] Executing:  | end |  |  | 
+2021-03-18T00:32:15.084Z - [info] Executing:  | times | ${TextDocumentNumber} |  | 
+2021-03-18T00:32:15.352Z - [info] Macro completed (Runtime 8.76s)
+2021-03-18T00:32:30.431Z - [status] Playing macro WordPad TECHRPA-2
+2021-03-18T00:32:30.570Z - [info] Executing:  | XClick | Text_dpi_120.png@0.75#${!times} | #doubleclick | 
+2021-03-18T00:32:30.638Z - [error] Internal variable "!TIMES" not supported
+2021-03-18T00:32:30.778Z - [info] Macro failed (Runtime 0.24s)
+2021-03-18T00:32:44.416Z - [status] Playing macro WordPad TECHRPA-2
+2021-03-18T00:32:44.602Z - [info] Executing:  | XClick | Text_dpi_120.png@0.75#${!times} | #doubleclick | 
+2021-03-18T00:32:44.698Z - [error] Internal variable "!TIMES" not supported
+2021-03-18T00:32:44.815Z - [info] Macro failed (Runtime 0.26s)
+2021-03-18T00:33:09.631Z - [status] Playing macro WordPad TECHRPA-2
+2021-03-18T00:33:09.780Z - [info] Executing:  | XClick | Text_dpi_120.png@0.75#${!times} | #doubleclick | 
+2021-03-18T00:33:09.848Z - [error] Internal variable "!TIMES" not supported
+2021-03-18T00:33:09.979Z - [info] Macro failed (Runtime 0.23s)
+2021-03-18T00:33:23.860Z - [status] Playing macro WordPad TECHRPA-2
+2021-03-18T00:33:24.042Z - [info] Executing:  | XClick | Text_dpi_120.png | #doubleclick | 
+2021-03-18T00:33:26.573Z - [info] Macro completed (Runtime 2.58s)
+2021-03-18T00:34:23.032Z - [status] Playing macro WordPad TECHRPA-2
+2021-03-18T00:34:23.329Z - [info] Executing:  | XClick | Text_dpi_120.png | #doubleclick | 
+2021-03-18T00:34:25.763Z - [info] Macro completed (Runtime 2.48s)
+2021-03-18T00:35:07.343Z - [status] Playing macro WordPad TECHRPA-2
+2021-03-18T00:35:07.516Z - [info] Executing:  | visualSearch | Text_dpi_120.png | TextDocumentNumber | 
+2021-03-18T00:35:09.147Z - [info] Executing:  | echo | ${TextDocumentNumber} files were found |  | 
+2021-03-18T00:35:09.190Z - [echo] 4 files were found
+2021-03-18T00:35:09.373Z - [info] Executing:  | times | ${TextDocumentNumber} |  | 
+2021-03-18T00:35:09.525Z - [info] Executing:  | XClick | Text_dpi_120.png | #doubleclick | 
+2021-03-18T00:35:11.821Z - [info] Executing:  | XType | ${KEY_ALT+KEY_F4} |  | 
+2021-03-18T00:35:12.691Z - [info] Executing:  | end |  |  | 
+2021-03-18T00:35:12.822Z - [info] Executing:  | times | ${TextDocumentNumber} |  | 
+2021-03-18T00:35:13.010Z - [info] Executing:  | XClick | Text_dpi_120.png | #doubleclick | 
+2021-03-18T00:35:15.141Z - [info] Executing:  | XType | ${KEY_ALT+KEY_F4} |  | 
+2021-03-18T00:35:15.971Z - [info] Executing:  | end |  |  | 
+2021-03-18T00:35:16.153Z - [info] Executing:  | times | ${TextDocumentNumber} |  | 
+2021-03-18T00:35:16.330Z - [info] Executing:  | XClick | Text_dpi_120.png | #doubleclick | 
+2021-03-18T00:35:18.635Z - [info] Executing:  | XType | ${KEY_ALT+KEY_F4} |  | 
+2021-03-18T00:35:19.526Z - [info] Executing:  | end |  |  | 
+2021-03-18T00:35:19.679Z - [info] Executing:  | times | ${TextDocumentNumber} |  | 
+2021-03-18T00:35:19.829Z - [info] Executing:  | XClick | Text_dpi_120.png | #doubleclick | 
+2021-03-18T00:35:21.809Z - [info] Executing:  | XType | ${KEY_ALT+KEY_F4} |  | 
+2021-03-18T00:35:22.613Z - [info] Executing:  | end |  |  | 
+2021-03-18T00:35:22.836Z - [info] Executing:  | times | ${TextDocumentNumber} |  | 
+2021-03-18T00:35:23.049Z - [info] Macro completed (Runtime 15.56s)
+2021-03-18T00:35:32.897Z - [status] Playing macro WordPad TECHRPA-2
+2021-03-18T00:35:33.092Z - [info] Executing:  | visualSearch | Text_dpi_120.png | TextDocumentNumber | 
+2021-03-18T00:35:34.707Z - [info] Executing:  | echo | ${TextDocumentNumber} files were found |  | 
+2021-03-18T00:35:34.749Z - [echo] 2 files were found
+2021-03-18T00:35:34.973Z - [info] Executing:  | times | ${TextDocumentNumber} |  | 
+2021-03-18T00:35:35.192Z - [info] Executing:  | XClick | Text_dpi_120.png | #doubleclick | 
+2021-03-18T00:35:37.386Z - [info] Executing:  | XType | ${KEY_ALT+KEY_F4} |  | 
+2021-03-18T00:35:38.104Z - [info] Executing:  | end |  |  | 
+2021-03-18T00:35:38.245Z - [info] Executing:  | times | ${TextDocumentNumber} |  | 
+2021-03-18T00:35:38.422Z - [info] Executing:  | XClick | Text_dpi_120.png | #doubleclick | 
+2021-03-18T00:35:40.457Z - [info] Executing:  | XType | ${KEY_ALT+KEY_F4} |  | 
+2021-03-18T00:35:41.419Z - [info] Executing:  | end |  |  | 
+2021-03-18T00:35:41.550Z - [info] Executing:  | times | ${TextDocumentNumber} |  | 
+2021-03-18T00:35:41.761Z - [info] Macro completed (Runtime 8.71s)
+2021-03-18T00:36:08.344Z - [status] Playing macro WordPad TECHRPA-2
+2021-03-18T00:36:08.504Z - [info] Executing:  | visualSearch | Text_dpi_120.png | TextDocumentNumber | 
+2021-03-18T00:36:10.267Z - [info] Executing:  | echo | ${TextDocumentNumber} files were found |  | 
+2021-03-18T00:36:10.316Z - [echo] 2 files were found
+2021-03-18T00:36:10.489Z - [info] Executing:  | times | ${TextDocumentNumber} |  | 
+2021-03-18T00:36:10.667Z - [info] Executing:  | XClick | Text_dpi_120.png@0.7#${!times} | #doubleclick | 
+2021-03-18T00:36:12.832Z - [info] Executing:  | XType | ${KEY_ALT+KEY_F4} |  | 
+2021-03-18T00:36:13.716Z - [info] Executing:  | end |  |  | 
+2021-03-18T00:36:13.858Z - [info] Executing:  | times | ${TextDocumentNumber} |  | 
+2021-03-18T00:36:14.028Z - [info] Executing:  | XClick | Text_dpi_120.png@0.7#${!times} | #doubleclick | 
+2021-03-18T00:36:16.056Z - [info] Executing:  | XType | ${KEY_ALT+KEY_F4} |  | 
+2021-03-18T00:36:17.079Z - [info] Executing:  | end |  |  | 
+2021-03-18T00:36:17.250Z - [info] Executing:  | times | ${TextDocumentNumber} |  | 
+2021-03-18T00:36:17.472Z - [info] Macro completed (Runtime 9.00s)
+2021-03-18T00:36:38.721Z - [status] Playing macro WordPad TECHRPA-2
+2021-03-18T00:36:38.953Z - [info] Executing:  | XClick | Text_dpi_120.png#${!times} | #doubleclick | 
+2021-03-18T00:36:39.040Z - [error] Internal variable "!TIMES" not supported
+2021-03-18T00:36:39.167Z - [info] Macro failed (Runtime 0.28s)
+2021-03-18T00:37:37.109Z - [status] Playing macro WordPad TECHRPA-2
+2021-03-18T00:37:37.283Z - [info] Executing:  | visualSearch | Text_dpi_120.png | TextDocumentNumber | 
+2021-03-18T00:37:39.001Z - [info] Executing:  | echo | ${TextDocumentNumber} files were found |  | 
+2021-03-18T00:37:39.070Z - [echo] 3 files were found
+2021-03-18T00:37:39.259Z - [info] Executing:  | times | ${TextDocumentNumber} |  | 
+2021-03-18T00:37:39.486Z - [info] Executing:  | XClick | Text_dpi_120.png#${!times} | #doubleclick | 
+2021-03-18T00:37:41.711Z - [info] Executing:  | XType | ${KEY_ALT+KEY_F4} |  | 
+2021-03-18T00:37:42.723Z - [info] Executing:  | end |  |  | 
+2021-03-18T00:37:42.858Z - [info] Executing:  | times | ${TextDocumentNumber} |  | 
+2021-03-18T00:37:43.038Z - [info] Executing:  | XClick | Text_dpi_120.png#${!times} | #doubleclick | 
+2021-03-18T00:37:44.999Z - [info] Executing:  | XType | ${KEY_ALT+KEY_F4} |  | 
+2021-03-18T00:37:45.790Z - [info] Executing:  | end |  |  | 
+2021-03-18T00:37:45.947Z - [info] Executing:  | times | ${TextDocumentNumber} |  | 
+2021-03-18T00:37:46.180Z - [info] Executing:  | XClick | Text_dpi_120.png#${!times} | #doubleclick | 
+2021-03-18T00:37:47.644Z - [error] Found 1 match, but you are looking for #3
+2021-03-18T00:37:47.771Z - [info] Macro failed (Runtime 10.52s)
+2021-03-18T00:37:59.838Z - [status] Playing macro WordPad TECHRPA-2
+2021-03-18T00:38:00.003Z - [info] Executing:  | visualSearch | Text_dpi_120.png | TextDocumentNumber | 
+2021-03-18T00:38:01.568Z - [info] Executing:  | echo | ${TextDocumentNumber} files were found |  | 
+2021-03-18T00:38:01.611Z - [echo] 3 files were found
+2021-03-18T00:38:01.711Z - [info] Executing:  | times | ${TextDocumentNumber} |  | 
+2021-03-18T00:38:01.992Z - [info] Executing:  | XClick | Text_dpi_120.png#${!times} | #doubleclick | 
+2021-03-18T00:38:04.332Z - [info] Executing:  | XType | ${KEY_ALT+KEY_F4} |  | 
+2021-03-18T00:38:05.279Z - [info] Executing:  | end |  |  | 
+2021-03-18T00:38:05.411Z - [info] Executing:  | times | ${TextDocumentNumber} |  | 
+2021-03-18T00:38:05.584Z - [info] Executing:  | XClick | Text_dpi_120.png#${!times} | #doubleclick | 
+2021-03-18T00:38:07.739Z - [info] Executing:  | XType | ${KEY_ALT+KEY_F4} |  | 
+2021-03-18T00:38:08.739Z - [info] Executing:  | end |  |  | 
+2021-03-18T00:38:08.882Z - [info] Executing:  | times | ${TextDocumentNumber} |  | 
+2021-03-18T00:38:09.050Z - [info] Executing:  | XClick | Text_dpi_120.png#${!times} | #doubleclick | 
+2021-03-18T00:38:11.039Z - [info] Executing:  | XType | ${KEY_ALT+KEY_F4} |  | 
+2021-03-18T00:38:11.848Z - [info] Executing:  | end |  |  | 
+2021-03-18T00:38:12.008Z - [info] Executing:  | times | ${TextDocumentNumber} |  | 
+2021-03-18T00:38:12.287Z - [info] Macro completed (Runtime 12.31s)
+2021-03-18T01:43:56.625Z - [status] Playing macro WordPad TECHRPA-2
+2021-03-18T01:43:56.797Z - [info] Executing:  | visualSearch | Text_dpi_120.png | TextDocumentNumber | 
+2021-03-18T01:43:58.563Z - [info] Executing:  | echo | ${TextDocumentNumber} files were found |  | 
+2021-03-18T01:43:58.608Z - [echo] 3 files were found
+2021-03-18T01:43:58.818Z - [info] Executing:  | times | ${TextDocumentNumber} |  | 
+2021-03-18T01:43:59.055Z - [info] Executing:  | XClick | Text_dpi_120.png#${!times} | #doubleclick | 
+2021-03-18T01:44:01.319Z - [info] Executing:  | XType | ${KEY_ALT+KEY_F4} |  | 
+2021-03-18T01:44:02.239Z - [info] Executing:  | end |  |  | 
+2021-03-18T01:44:02.402Z - [info] Executing:  | times | ${TextDocumentNumber} |  | 
+2021-03-18T01:44:02.594Z - [info] Executing:  | XClick | Text_dpi_120.png#${!times} | #doubleclick | 
+2021-03-18T01:44:04.299Z - [error] Found 1 match, but you are looking for #2
+2021-03-18T01:44:04.400Z - [info] Macro failed (Runtime 7.65s)
+2021-03-18T01:44:29.233Z - [status] Playing macro WordPad TECHRPA-2
+2021-03-18T01:44:29.410Z - [info] Executing:  | visualSearch | Text_dpi_120.png | TextDocumentNumber | 
+2021-03-18T01:44:31.123Z - [info] Executing:  | echo | ${TextDocumentNumber} files were found |  | 
+2021-03-18T01:44:31.162Z - [echo] 3 files were found
+2021-03-18T01:44:31.353Z - [info] Executing:  | times | ${TextDocumentNumber} |  | 
+2021-03-18T01:44:31.529Z - [info] Executing:  | XClick | Text_dpi_120.png#${!times} | #doubleclick | 
+2021-03-18T01:44:33.812Z - [info] Executing:  | XType | ${KEY_ALT+KEY_F4} |  | 
+2021-03-18T01:44:34.526Z - [info] Executing:  | end |  |  | 
+2021-03-18T01:44:34.661Z - [info] Executing:  | times | ${TextDocumentNumber} |  | 
+2021-03-18T01:44:34.837Z - [info] Executing:  | XClick | Text_dpi_120.png#${!times} | #doubleclick | 
+2021-03-18T01:44:36.833Z - [info] Executing:  | XType | ${KEY_ALT+KEY_F4} |  | 
+2021-03-18T01:44:37.551Z - [info] Executing:  | end |  |  | 
+2021-03-18T01:44:37.678Z - [info] Executing:  | times | ${TextDocumentNumber} |  | 
+2021-03-18T01:44:37.889Z - [info] Executing:  | XClick | Text_dpi_120.png#${!times} | #doubleclick | 
+2021-03-18T01:44:39.944Z - [info] Executing:  | XType | ${KEY_ALT+KEY_F4} |  | 
+2021-03-18T01:44:40.655Z - [info] Executing:  | end |  |  | 
+2021-03-18T01:44:40.783Z - [info] Executing:  | times | ${TextDocumentNumber} |  | 
+2021-03-18T01:44:41.089Z - [info] Macro completed (Runtime 11.71s)
+2021-03-18T01:47:03.530Z - [status] Playing macro Gmail TECHRPA-10-12
+2021-03-18T01:47:03.694Z - [info] Executing:  | store | !replayspeed | medium | 
+2021-03-18T01:47:03.841Z - [info] Executing:  | XRun | C:\Program Files\Mozilla Firefox\firefox.exe |  | 
+2021-03-18T01:47:04.498Z - [info] Executing:  | open | https://mail.google.com/mail/u/1/#inbox |  | 
+2021-03-18T01:47:22.456Z - [info] Executing:  | comment | setWindowSize // 1700x900 |  | 
+2021-03-18T01:47:22.578Z - [info] Executing:  | bringBrowserToForeground |  |  | 
+2021-03-18T01:47:23.053Z - [info] Executing:  | XClickRelative | fullSize_dpi_120.png |  | 
+2021-03-18T01:47:24.684Z - [info] Executing:  | click | xpath=/html/body |  | 
+2021-03-18T01:47:26.046Z - [info] Executing:  | visualVerify | gmailTopic_dpi_120.png |  | 
+2021-03-18T01:47:38.677Z - [error][ignored] Image 'gmailTopic_dpi_120.png' (conf. = 0.5) not found
+2021-03-18T01:47:38.878Z - [info] Executing:  | click | linkText=Snoozed |  | 
+2021-03-18T01:47:39.467Z - [info] Executing:  | visualVerify | verifySnoozedPage_dpi_120.png | in:snoozed  | 
+2021-03-18T01:47:42.606Z - [info] Executing:  | click | linkText=Sent |  | 
+2021-03-18T01:47:43.352Z - [info] Executing:  | visualVerify | verifySentPage_dpi_120.png | in:sent | 
+2021-03-18T01:47:45.790Z - [info] Executing:  | click | linkText=Drafts |  | 
+2021-03-18T01:47:46.240Z - [info] Executing:  | visualVerify | verifyDraftPage_dpi_120.png | draft | 
+2021-03-18T01:47:48.835Z - [info] Executing:  | click | linkText=Inbox |  | 
+2021-03-18T01:47:49.615Z - [info] Executing:  | XClick | firstEmail_dpi_120.png |  | 
+2021-03-18T01:47:52.383Z - [info] Executing:  | click | xpath=//*[@id=":4"]/div[4]/div/div/div/div/div |  | 
+2021-03-18T01:47:53.421Z - [info] Executing:  | XType | ${KEY_ALT+KEY_F4} |  | 
+2021-03-18T01:47:54.030Z - [info] Executing:  | comment | click // xpath=//*[@id=":e1"]/div[5]/div |  | 
+2021-03-18T01:47:54.369Z - [info] Macro completed (Runtime 50.71s)
+2021-03-18T01:49:15.387Z - [status] Playing macro Gmail TECHRPA-10-12
+2021-03-18T01:49:15.578Z - [info] Executing:  | visualVerify | gmailTopic_dpi_120.png |  | 
+2021-03-18T01:49:16.888Z - [info] Macro completed (Runtime 1.34s)
+2021-03-18T01:49:51.655Z - [status] Playing macro Gmail TECHRPA-10-12
+2021-03-18T01:49:51.854Z - [info] Executing:  | store | !replayspeed | medium | 
+2021-03-18T01:49:51.995Z - [info] Executing:  | XRun | C:\Program Files\Mozilla Firefox\firefox.exe |  | 
+2021-03-18T01:49:52.524Z - [info] Executing:  | open | https://mail.google.com/mail/u/1/#inbox |  | 
+2021-03-18T01:49:58.417Z - [info] Executing:  | comment | setWindowSize // 1700x900 |  | 
+2021-03-18T01:49:58.644Z - [info] Executing:  | bringBrowserToForeground |  |  | 
+2021-03-18T01:49:59.151Z - [info] Executing:  | XClickRelative | fullSize_dpi_120.png |  | 
+2021-03-18T01:50:02.464Z - [info] Executing:  | click | xpath=/html/body |  | 
+2021-03-18T01:50:03.461Z - [info] Executing:  | visualVerify | gmailTopic_dpi_120.png |  | 
+2021-03-18T01:50:04.926Z - [info] Executing:  | click | linkText=Snoozed |  | 
+2021-03-18T01:50:05.900Z - [info] Executing:  | visualVerify | verifySnoozedPage_dpi_120.png | in:snoozed  | 
+2021-03-18T01:50:08.138Z - [info] Executing:  | click | linkText=Sent |  | 
+2021-03-18T01:50:09.014Z - [info] Executing:  | visualVerify | verifySentPage_dpi_120.png | in:sent | 
+2021-03-18T01:50:11.231Z - [info] Executing:  | click | linkText=Drafts |  | 
+2021-03-18T01:50:11.966Z - [info] Executing:  | visualVerify | verifyDraftPage_dpi_120.png | draft | 
+2021-03-18T01:50:14.300Z - [info] Executing:  | click | linkText=Inbox |  | 
+2021-03-18T01:50:15.221Z - [info] Executing:  | XClick | firstEmail_dpi_120.png |  | 
+2021-03-18T01:50:17.894Z - [info] Executing:  | click | xpath=//*[@id=":4"]/div[4]/div/div/div/div/div |  | 
+2021-03-18T01:50:18.669Z - [info] Executing:  | XType | ${KEY_ALT+KEY_F4} |  | 
+2021-03-18T01:50:19.348Z - [info] Executing:  | comment | click // xpath=//*[@id=":e1"]/div[5]/div |  | 
+2021-03-18T01:50:19.714Z - [info] Macro completed (Runtime 27.90s)
